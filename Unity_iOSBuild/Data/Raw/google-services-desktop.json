@@ -1,0 +1,31 @@
+{
+  "project_info": {
+    "project_number": "520560135054",
+    "project_id": "roulettegame2-26cfb",
+    "storage_bucket": "roulettegame2-26cfb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:520560135054:ios:24c64b4701fc80b31bf2df",
+        "android_client_info": {
+          "package_name": "triggers.edge.game"
+        }
+      },
+      "api_key": [
+        {
+          "current_key": "AIzaSyBkNpYTgcy3hVvcYxtrjlPaBCDDhy8OifQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 0
+        },
+        "appinvite_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

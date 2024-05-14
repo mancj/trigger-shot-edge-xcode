@@ -1,0 +1,107 @@
+﻿#include "pch-c.h"
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+
+#include "codegen/il2cpp-codegen-metadata.h"
+
+
+
+
+
+extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_m34FD6C2C4D92AA246896126DBAF7B00809FDB2FE (void);
+extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_m536581A8D0278DE940D30E0655C14A8AD5D9E5ED (void);
+extern void UnityMainThreadDispatcher_Update_m0CC41B750D76D39FB17F52C2B936051E560E01E2 (void);
+extern void UnityMainThreadDispatcher_Enqueue_m4E55D91E98DA972D057DB3D04E503A35FEC6C932 (void);
+extern void UnityMainThreadDispatcher_Enqueue_m15F2D68AEAD12595D7FEABC1CB1ECD6DE1D5D0C6 (void);
+extern void UnityMainThreadDispatcher_EnqueueAsync_m4FDB623A092736D146E37DD98AA336CC0A944710 (void);
+extern void UnityMainThreadDispatcher_ActionWrapper_m24028A31307510B3268D971CDB00FD93ECB569C8 (void);
+extern void UnityMainThreadDispatcher_Exists_m010CEFF4DD6CF8ED6FA41FCFFB250A6002546AA2 (void);
+extern void UnityMainThreadDispatcher_Instance_m82E3F52B8B8CEFBCF1EFFC9852BB6B18D74AD997 (void);
+extern void UnityMainThreadDispatcher_Awake_mB799A7B778691CB39DD473A15AC42F7587AF2D97 (void);
+extern void UnityMainThreadDispatcher__ctor_mCD8E11CAC47A3B188588E78030990BE0C8ADD98E (void);
+extern void UnityMainThreadDispatcher__cctor_m43DE3D7E37A4E087B19A7770919E34477D093CD8 (void);
+extern void U3CU3Ec__DisplayClass2_0__ctor_m0FB9712294C7E92C0392CF1E7A0B9C829488B802 (void);
+extern void U3CU3Ec__DisplayClass2_0_U3CEnqueueU3Eb__0_m422AB72A7025DE7077E32F6648710AAA4FD0DC5C (void);
+extern void U3CU3Ec__DisplayClass4_0__ctor_m4E7E91FFC2E60718740717CC78061B9DCC177FAC (void);
+extern void U3CU3Ec__DisplayClass4_0_U3CEnqueueAsyncU3Eg__WrappedActionU7C0_m0CF68DDCD85A120A21B01762718C8E94649A6DCC (void);
+extern void U3CActionWrapperU3Ed__5__ctor_m0DB49F41C73DEE88607C374BA11B9DD8B1C95F3A (void);
+extern void U3CActionWrapperU3Ed__5_System_IDisposable_Dispose_mFD278C40D008C70DBB45A630A21723EC3E184BB2 (void);
+extern void U3CActionWrapperU3Ed__5_MoveNext_m92C64C0D2406A1A99DD744A287D2A0EE1F68E185 (void);
+extern void U3CActionWrapperU3Ed__5_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m7A6E310B27C45BEFD07F4FD4256C5F18EE819232 (void);
+extern void U3CActionWrapperU3Ed__5_System_Collections_IEnumerator_Reset_m71C8C9592F814E11C707CDB244E18FB22E854FDC (void);
+extern void U3CActionWrapperU3Ed__5_System_Collections_IEnumerator_get_Current_m864212EF3D630551990A9114A987D9E2FD7746F4 (void);
+static Il2CppMethodPointer s_methodPointers[22] = 
+{
+	UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_m34FD6C2C4D92AA246896126DBAF7B00809FDB2FE,
+	UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_m536581A8D0278DE940D30E0655C14A8AD5D9E5ED,
+	UnityMainThreadDispatcher_Update_m0CC41B750D76D39FB17F52C2B936051E560E01E2,
+	UnityMainThreadDispatcher_Enqueue_m4E55D91E98DA972D057DB3D04E503A35FEC6C932,
+	UnityMainThreadDispatcher_Enqueue_m15F2D68AEAD12595D7FEABC1CB1ECD6DE1D5D0C6,
+	UnityMainThreadDispatcher_EnqueueAsync_m4FDB623A092736D146E37DD98AA336CC0A944710,
+	UnityMainThreadDispatcher_ActionWrapper_m24028A31307510B3268D971CDB00FD93ECB569C8,
+	UnityMainThreadDispatcher_Exists_m010CEFF4DD6CF8ED6FA41FCFFB250A6002546AA2,
+	UnityMainThreadDispatcher_Instance_m82E3F52B8B8CEFBCF1EFFC9852BB6B18D74AD997,
+	UnityMainThreadDispatcher_Awake_mB799A7B778691CB39DD473A15AC42F7587AF2D97,
+	UnityMainThreadDispatcher__ctor_mCD8E11CAC47A3B188588E78030990BE0C8ADD98E,
+	UnityMainThreadDispatcher__cctor_m43DE3D7E37A4E087B19A7770919E34477D093CD8,
+	U3CU3Ec__DisplayClass2_0__ctor_m0FB9712294C7E92C0392CF1E7A0B9C829488B802,
+	U3CU3Ec__DisplayClass2_0_U3CEnqueueU3Eb__0_m422AB72A7025DE7077E32F6648710AAA4FD0DC5C,
+	U3CU3Ec__DisplayClass4_0__ctor_m4E7E91FFC2E60718740717CC78061B9DCC177FAC,
+	U3CU3Ec__DisplayClass4_0_U3CEnqueueAsyncU3Eg__WrappedActionU7C0_m0CF68DDCD85A120A21B01762718C8E94649A6DCC,
+	U3CActionWrapperU3Ed__5__ctor_m0DB49F41C73DEE88607C374BA11B9DD8B1C95F3A,
+	U3CActionWrapperU3Ed__5_System_IDisposable_Dispose_mFD278C40D008C70DBB45A630A21723EC3E184BB2,
+	U3CActionWrapperU3Ed__5_MoveNext_m92C64C0D2406A1A99DD744A287D2A0EE1F68E185,
+	U3CActionWrapperU3Ed__5_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m7A6E310B27C45BEFD07F4FD4256C5F18EE819232,
+	U3CActionWrapperU3Ed__5_System_Collections_IEnumerator_Reset_m71C8C9592F814E11C707CDB244E18FB22E854FDC,
+	U3CActionWrapperU3Ed__5_System_Collections_IEnumerator_get_Current_m864212EF3D630551990A9114A987D9E2FD7746F4,
+};
+static const int32_t s_InvokerIndices[22] = 
+{
+	10067,
+	6674,
+	6674,
+	5369,
+	5369,
+	4759,
+	4759,
+	9983,
+	10014,
+	6674,
+	6674,
+	10054,
+	6674,
+	6674,
+	6674,
+	6674,
+	5338,
+	6674,
+	6447,
+	6556,
+	6674,
+	6556,
+};
+IL2CPP_EXTERN_C const Il2CppCodeGenModule g_PimDeWitte_UnityMainThreadDispatcher_CodeGenModule;
+const Il2CppCodeGenModule g_PimDeWitte_UnityMainThreadDispatcher_CodeGenModule = 
+{
+	"PimDeWitte.UnityMainThreadDispatcher.dll",
+	22,
+	s_methodPointers,
+	0,
+	NULL,
+	s_InvokerIndices,
+	0,
+	NULL,
+	0,
+	NULL,
+	0,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+};
