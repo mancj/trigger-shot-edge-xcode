@@ -1,0 +1,11 @@
+framework module BidMachineStoreKit {
+  umbrella header "BidMachineStoreKit.h"
+
+  export *
+  module * { export * }
+}
+
+module BidMachineStoreKit.Swift {
+  header "BidMachineStoreKit-Swift.h"
+  requires objc
+}

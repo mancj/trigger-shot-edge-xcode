@@ -1,0 +1,73 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)
+// swift-module-flags: -target arm64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name BidMachineStoreKit
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+@_exported import BidMachineStoreKit
+import BidMachineUtilsKit
+import Foundation
+import StoreKit
+import Swift
+import UIKit
+import _Concurrency
+import _StringProcessing
+public enum StoreKitFidelityType : Swift.UInt64 {
+  case view
+  case click
+  public init?(rawValue: Swift.UInt64)
+  public typealias RawValue = Swift.UInt64
+  public var rawValue: Swift.UInt64 {
+    get
+  }
+}
+public protocol StoreKitFidelityModelProtocol {
+  var fidelity: BidMachineStoreKit.StoreKitFidelityType { get }
+  var signature: Swift.String { get }
+  var nonce: Foundation.UUID { get }
+  var timestamp: Swift.Double { get }
+}
+public protocol StoreKitModelProtocol {
+  var sourceAppStoreItemIdentifier: Swift.UInt? { get }
+  var advertisedAppStoreItemIdentifier: Swift.UInt { get }
+  var adNetworkIdentifier: Swift.String? { get }
+  var adCampaignIdentifier: Swift.UInt? { get }
+  var sourceIdentifier: Swift.UInt? { get }
+  var productPageIdentifier: Foundation.UUID? { get }
+  var nonce: Foundation.UUID? { get }
+  var timestamp: Swift.Double? { get }
+  var signature: Swift.String? { get }
+  var version: Swift.String? { get }
+  var fidelities: [any BidMachineStoreKit.StoreKitFidelityModelProtocol] { get }
+}
+public protocol BidMachineStoreControllerDelegate : AnyObject {
+  func didPresentModalView(_ controller: BidMachineStoreKit.BidMachineStoreController, _ result: Swift.Result<Swift.String, BidMachineUtilsKit.BidMachineError>)
+  func didLeaveApplication(_ controller: BidMachineStoreKit.BidMachineStoreController, _ result: Swift.Result<Swift.String, BidMachineUtilsKit.BidMachineError>)
+  func didPrepareToPresent(_ controller: BidMachineStoreKit.BidMachineStoreController, _ result: Swift.Result<Swift.String, BidMachineUtilsKit.BidMachineError>)
+  func didTrackClick(_ controller: BidMachineStoreKit.BidMachineStoreController, _ result: Swift.Result<Swift.String, BidMachineUtilsKit.BidMachineError>)
+  func didSendTracker(_ controller: BidMachineStoreKit.BidMachineStoreController, _ result: Swift.Result<Swift.String, BidMachineUtilsKit.BidMachineError>)
+  func didPresentOverlay(_ controller: BidMachineStoreKit.BidMachineStoreController, _ result: Swift.Result<Swift.String, BidMachineUtilsKit.BidMachineError>)
+  func didDismissModalView(_ controller: BidMachineStoreKit.BidMachineStoreController)
+  func didDismissOverlay(_ controller: BidMachineStoreKit.BidMachineStoreController)
+}
+public class BidMachineStoreController {
+  weak public var delegate: (any BidMachineStoreKit.BidMachineStoreControllerDelegate)?
+  public init(_ configuration: (any BidMachineStoreKit.StoreKitModelProtocol)?)
+  @objc deinit
+}
+extension BidMachineStoreKit.BidMachineStoreController {
+  public var isBusy: Swift.Bool {
+    get
+  }
+  public var controller: UIKit.UIViewController? {
+    get
+    set
+  }
+  public func prepare(_ extraLink: Swift.String? = nil)
+  public func present(_ extraLink: Swift.String? = nil, _ shouldNotify: Swift.Bool)
+  public func showOverlay()
+  public func hideOverlay()
+  public func startImpression()
+  public func endImpression()
+}
+extension BidMachineStoreKit.StoreKitFidelityType : Swift.Equatable {}
+extension BidMachineStoreKit.StoreKitFidelityType : Swift.Hashable {}
+extension BidMachineStoreKit.StoreKitFidelityType : Swift.RawRepresentable {}

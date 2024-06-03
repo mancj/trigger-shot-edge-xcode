@@ -1,0 +1,139 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)
+// swift-module-flags: -target x86_64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name BidMachineRenderingKit
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+@_exported import BidMachineRenderingKit
+import BidMachineStoreKit
+import BidMachineUtilsKit
+import BidMachineVideoKit
+import BidMachineWebKit
+import Foundation
+import Swift
+import UIKit
+import UIKit.UIView
+import WebKit
+import _Concurrency
+import _StringProcessing
+public protocol RenderingFeatureValue : Swift.CustomStringConvertible, Swift.Equatable {
+}
+extension Swift.Bool : BidMachineRenderingKit.RenderingFeatureValue {
+}
+extension Swift.Double : BidMachineRenderingKit.RenderingFeatureValue {
+}
+extension Swift.String : BidMachineRenderingKit.RenderingFeatureValue {
+}
+extension Swift.Int : BidMachineRenderingKit.RenderingFeatureValue {
+}
+extension Swift.UInt : BidMachineRenderingKit.RenderingFeatureValue {
+}
+extension BidMachineRenderingKit.RenderingFeature.Console : BidMachineRenderingKit.RenderingFeatureValue {
+  public var description: Swift.String {
+    get
+  }
+}
+extension BidMachineRenderingKit.RenderingFeature.Threshold : BidMachineRenderingKit.RenderingFeatureValue {
+  public var description: Swift.String {
+    get
+  }
+}
+extension BidMachineRenderingKit.RenderingFeature.CacheType : BidMachineRenderingKit.RenderingFeatureValue {
+  public var description: Swift.String {
+    get
+  }
+}
+public let BidMachineRenderingVersion: Swift.String
+public protocol BidMachineRenderingLoadingDelegate : AnyObject {
+  func didLoad(_ rendering: any BidMachineRenderingKit.BidMachineRendering, _ error: BidMachineUtilsKit.BidMachineError?)
+  func didExpired(_ rendering: any BidMachineRenderingKit.BidMachineRendering, _ error: BidMachineUtilsKit.BidMachineError)
+}
+public protocol BidMachineRenderingPresentingDelegate : AnyObject {
+  func didPresent(_ rendering: any BidMachineRenderingKit.BidMachineRendering, _ error: BidMachineUtilsKit.BidMachineError?)
+  func didImpression(_ rendering: any BidMachineRenderingKit.BidMachineRendering, _ error: BidMachineUtilsKit.BidMachineError?)
+  func didDismiss(_ rendering: any BidMachineRenderingKit.BidMachineRendering)
+  func willPresentScreen(_ rendering: any BidMachineRenderingKit.BidMachineRendering, _ error: BidMachineUtilsKit.BidMachineError?)
+  func didDismissScreen(_ rendering: any BidMachineRenderingKit.BidMachineRendering)
+  func didUserInteraction(_ rendering: any BidMachineRenderingKit.BidMachineRendering)
+  func didPresentPartialScreen(_ rendering: any BidMachineRenderingKit.BidMachineRendering, _ error: BidMachineUtilsKit.BidMachineError?)
+  func didDismissPartialScreen(_ rendering: any BidMachineRenderingKit.BidMachineRendering)
+}
+public protocol BidMachineRendering : AnyObject {
+  func invalidate()
+  func load(_ delegate: (any BidMachineRenderingKit.BidMachineRenderingLoadingDelegate)?)
+  func presentFullscreen(_ controller: UIKit.UIViewController, _ delegate: (any BidMachineRenderingKit.BidMachineRenderingPresentingDelegate)?)
+  func presentBanner(_ container: UIKit.UIView, _ controller: UIKit.UIViewController, _ delegate: (any BidMachineRenderingKit.BidMachineRenderingPresentingDelegate)?)
+}
+public protocol RenderingFeatureService {
+  associatedtype TMatch : BidMachineRenderingKit.RenderingFeatureValue
+  associatedtype TValue : BidMachineRenderingKit.RenderingFeatureValue
+  func value(_ match: Self.TMatch) -> Self.TValue?
+  func notify(_ match: Self.TMatch, _ description: Swift.String)
+}
+@_hasMissingDesignatedInitializers final public class RenderingFeatureManager {
+  public static let shared: BidMachineRenderingKit.RenderingFeatureManager
+  final public func register<T>(_ service: T, _ feature: BidMachineRenderingKit.RenderingFeature) where T : BidMachineRenderingKit.RenderingFeatureService
+  final public func invalidate(_ feature: BidMachineRenderingKit.RenderingFeature? = nil)
+  @objc deinit
+}
+public class BidMachineRenderingProvider {
+  public init(_ configuration: [Swift.String : Any])
+  @objc deinit
+}
+extension BidMachineRenderingKit.BidMachineRenderingProvider {
+  public func rendering() throws -> any BidMachineRenderingKit.BidMachineRendering
+}
+public enum RenderingFeature : Swift.String {
+  case console
+  case threshold
+  case phaseBackground
+  case componentBackground
+  case cacheType
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+extension BidMachineRenderingKit.RenderingFeature {
+  public enum Console : Swift.String {
+    case info
+    case input
+    case output
+    case error
+    case warning
+    case callback
+    case mraidLog
+    public init?(rawValue: Swift.String)
+    public typealias RawValue = Swift.String
+    public var rawValue: Swift.String {
+      get
+    }
+  }
+  public enum Threshold : Swift.String {
+    case partial
+    case stream
+    public init?(rawValue: Swift.String)
+    public typealias RawValue = Swift.String
+    public var rawValue: Swift.String {
+      get
+    }
+  }
+  public enum CacheType : Swift.String {
+    case fullLoad
+    case partialLoad
+    case streamLoad
+    public init?(rawValue: Swift.String)
+    public typealias RawValue = Swift.String
+    public var rawValue: Swift.String {
+      get
+    }
+  }
+}
+extension BidMachineRenderingKit.RenderingFeature.Console : Swift.Hashable {}
+extension BidMachineRenderingKit.RenderingFeature.Console : Swift.RawRepresentable {}
+extension BidMachineRenderingKit.RenderingFeature.Threshold : Swift.Hashable {}
+extension BidMachineRenderingKit.RenderingFeature.Threshold : Swift.RawRepresentable {}
+extension BidMachineRenderingKit.RenderingFeature.CacheType : Swift.Hashable {}
+extension BidMachineRenderingKit.RenderingFeature.CacheType : Swift.RawRepresentable {}
+extension BidMachineRenderingKit.RenderingFeature : Swift.Equatable {}
+extension BidMachineRenderingKit.RenderingFeature : Swift.Hashable {}
+extension BidMachineRenderingKit.RenderingFeature : Swift.RawRepresentable {}

@@ -1,0 +1,24 @@
+CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES
+CLANG_CXX_LANGUAGE_STANDARD = gnu++11
+CLANG_CXX_LIBRARY = libc++
+CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO
+COMPILER_INDEX_STORE_ENABLE = NO
+CONFIGURATION_BUILD_DIR = ${PODS_CONFIGURATION_BUILD_DIR}/BURelyFoundation_Global
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/BURelyFoundation_Global/Frameworks/SDK/BURelyFoundationGlobalAFN" "${PODS_ROOT}/BURelyFoundation_Global/Frameworks/SDK/BURelyFoundationGlobalAPM" "${PODS_ROOT}/BURelyFoundation_Global/Frameworks/SDK/BURelyFoundationGlobalFoundation" "${PODS_ROOT}/BURelyFoundation_Global/Frameworks/SDK/BURelyFoundationGlobalGecko" "${PODS_ROOT}/BURelyFoundation_Global/Frameworks/SDK/BURelyFoundationGlobalHeader" "${PODS_ROOT}/BURelyFoundation_Global/Frameworks/SDK/BURelyFoundationGlobalNETWork" "${PODS_ROOT}/BURelyFoundation_Global/Frameworks/SDK/BURelyFoundationGlobalSDWebImage" "${PODS_ROOT}/BURelyFoundation_Global/Frameworks/SDK/BURelyFoundationGlobalYYModel" "${PODS_ROOT}/BURelyFoundation_Global/Frameworks/SDK/BURelyFoundationGlobalZFPlayer" "${PODS_ROOT}/BURelyFoundation_Global/Frameworks/SDK/BURelyFoundationGlobalZip"
+GCC_OPTIMIZATION_LEVEL[config=Debug][sdk=*][arch=*] = 0
+GCC_OPTIMIZATION_LEVEL[config=Release][sdk=*][arch=*] = z
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1 $(inherited) HAVE_INTTYPES_H HAVE_PKCRYPT HAVE_STDINT_H HAVE_WZAES HAVE_ZLIB
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Private" "${PODS_ROOT}/Headers/Private/BURelyFoundation_Global" "${PODS_ROOT}/Headers/Public" "${PODS_XCFRAMEWORKS_BUILD_DIR}/BURelyFoundation_Global/AFNetworking/Headers" "${PODS_XCFRAMEWORKS_BUILD_DIR}/BURelyFoundation_Global/APM/Headers" "${PODS_XCFRAMEWORKS_BUILD_DIR}/BURelyFoundation_Global/Foundation/Headers" "${PODS_XCFRAMEWORKS_BUILD_DIR}/BURelyFoundation_Global/Gecko/Headers" "${PODS_XCFRAMEWORKS_BUILD_DIR}/BURelyFoundation_Global/Header/Headers" "${PODS_XCFRAMEWORKS_BUILD_DIR}/BURelyFoundation_Global/NETWork/Headers" "${PODS_XCFRAMEWORKS_BUILD_DIR}/BURelyFoundation_Global/SDWebImage/Headers" "${PODS_XCFRAMEWORKS_BUILD_DIR}/BURelyFoundation_Global/YYModel/Headers" "${PODS_XCFRAMEWORKS_BUILD_DIR}/BURelyFoundation_Global/ZFPlayer/Headers" "${PODS_XCFRAMEWORKS_BUILD_DIR}/BURelyFoundation_Global/Zip/Headers" $(SDKROOT)/usr/include/libxml2
+LLVM_LTO[config=Debug][sdk=*][arch=*] = NO
+LLVM_LTO[config=Release][sdk=*][arch=*] = NO
+OTHER_CPLUSPLUSFLAGS = -fno-c++-static-destructors -fno-unwind-tables -fno-asynchronous-unwind-tables $(inherited)
+OTHER_LDFLAGS = $(inherited) -ObjC
+PODS_BUILD_DIR = ${BUILD_DIR}
+PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_DEVELOPMENT_LANGUAGE = ${DEVELOPMENT_LANGUAGE}
+PODS_ROOT = ${SRCROOT}
+PODS_TARGET_SRCROOT = ${PODS_ROOT}/BURelyFoundation_Global
+PODS_XCFRAMEWORKS_BUILD_DIR = $(PODS_CONFIGURATION_BUILD_DIR)/XCFrameworkIntermediates
+PRODUCT_BUNDLE_IDENTIFIER = org.cocoapods.${PRODUCT_NAME:rfc1034identifier}
+SKIP_INSTALL = YES
+USE_RECURSIVE_SCRIPT_INPUTS_IN_SCRIPT_PHASES = YES

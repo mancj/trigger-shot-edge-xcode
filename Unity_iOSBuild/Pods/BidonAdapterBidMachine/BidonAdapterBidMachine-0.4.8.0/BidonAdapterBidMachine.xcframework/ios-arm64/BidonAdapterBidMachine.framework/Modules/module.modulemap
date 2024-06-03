@@ -1,0 +1,11 @@
+framework module BidonAdapterBidMachine {
+  umbrella header "BidonAdapterBidMachine.h"
+
+  export *
+  module * { export * }
+}
+
+module BidonAdapterBidMachine.Swift {
+  header "BidonAdapterBidMachine-Swift.h"
+  requires objc
+}

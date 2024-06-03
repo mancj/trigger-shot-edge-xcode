@@ -1,0 +1,11 @@
+framework module BidonAdapterMetaAudienceNetwork {
+  umbrella header "BidonAdapterMetaAudienceNetwork.h"
+
+  export *
+  module * { export * }
+}
+
+module BidonAdapterMetaAudienceNetwork.Swift {
+  header "BidonAdapterMetaAudienceNetwork-Swift.h"
+  requires objc
+}

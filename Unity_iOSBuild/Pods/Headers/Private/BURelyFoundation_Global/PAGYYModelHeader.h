@@ -1,0 +1,1 @@
+../../../BURelyFoundation_Global/Frameworks/SDK/BURelyFoundationGlobalYYModel/BURelyFoundationGlobalYYModel.xcframework/ios-arm64_x86_64-simulator/Headers/PAGYYModelHeader.h

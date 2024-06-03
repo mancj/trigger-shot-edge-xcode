@@ -1,0 +1,1484 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BidonAdapterAppLovin",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Bidon",
+        "printedName": "Bidon",
+        "declKind": "Import",
+        "moduleName": "BidonAdapterAppLovin"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BidonAdapterAppLovin",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Bidon",
+        "printedName": "Bidon",
+        "declKind": "Import",
+        "moduleName": "BidonAdapterAppLovin"
+      },
+      {
+        "kind": "Import",
+        "name": "AppLovinSDK",
+        "printedName": "AppLovinSDK",
+        "declKind": "Import",
+        "moduleName": "BidonAdapterAppLovin"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BidonAdapterAppLovin",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Bidon",
+        "printedName": "Bidon",
+        "declKind": "Import",
+        "moduleName": "BidonAdapterAppLovin"
+      },
+      {
+        "kind": "Import",
+        "name": "AppLovinSDK",
+        "printedName": "AppLovinSDK",
+        "declKind": "Import",
+        "moduleName": "BidonAdapterAppLovin"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "BidonAdapterAppLovin"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BidonAdapterAppLovin",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Bidon",
+        "printedName": "Bidon",
+        "declKind": "Import",
+        "moduleName": "BidonAdapterAppLovin"
+      },
+      {
+        "kind": "Import",
+        "name": "AppLovinSDK",
+        "printedName": "AppLovinSDK",
+        "declKind": "Import",
+        "moduleName": "BidonAdapterAppLovin"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "BidonAdapterAppLovin"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BidonAdapterAppLovin",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AppLovinSDK",
+        "printedName": "AppLovinSDK",
+        "declKind": "Import",
+        "moduleName": "BidonAdapterAppLovin"
+      },
+      {
+        "kind": "Import",
+        "name": "Bidon",
+        "printedName": "Bidon",
+        "declKind": "Import",
+        "moduleName": "BidonAdapterAppLovin"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BidonAdapterAppLovin",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Bidon",
+        "printedName": "Bidon",
+        "declKind": "Import",
+        "moduleName": "BidonAdapterAppLovin"
+      },
+      {
+        "kind": "Import",
+        "name": "AppLovinSDK",
+        "printedName": "AppLovinSDK",
+        "declKind": "Import",
+        "moduleName": "BidonAdapterAppLovin"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "BidonAdapterAppLovin"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BidonAdapterAppLovin",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AppLovinSDK",
+        "printedName": "AppLovinSDK",
+        "declKind": "Import",
+        "moduleName": "BidonAdapterAppLovin"
+      },
+      {
+        "kind": "Import",
+        "name": "AdSupport",
+        "printedName": "AdSupport",
+        "declKind": "Import",
+        "moduleName": "BidonAdapterAppLovin"
+      },
+      {
+        "kind": "Import",
+        "name": "Bidon",
+        "printedName": "Bidon",
+        "declKind": "Import",
+        "moduleName": "BidonAdapterAppLovin"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AppLovinDemandSourceAdapter",
+        "printedName": "AppLovinDemandSourceAdapter",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "identifier",
+            "printedName": "identifier",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@BidonAdapterAppLovin@objc(cs)AppLovinDemandSourceAdapter(cpy)identifier",
+            "mangledName": "$s20BidonAdapterAppLovin0cd12DemandSourceB0C10identifierSSvpZ",
+            "moduleName": "BidonAdapterAppLovin",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@BidonAdapterAppLovin@objc(cs)AppLovinDemandSourceAdapter(cm)identifier",
+                "mangledName": "$s20BidonAdapterAppLovin0cd12DemandSourceB0C10identifierSSvgZ",
+                "moduleName": "BidonAdapterAppLovin",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "identifier",
+            "printedName": "identifier",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20BidonAdapterAppLovin0cd12DemandSourceB0C10identifierSSvp",
+            "mangledName": "$s20BidonAdapterAppLovin0cd12DemandSourceB0C10identifierSSvp",
+            "moduleName": "BidonAdapterAppLovin",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20BidonAdapterAppLovin0cd12DemandSourceB0C10identifierSSvg",
+                "mangledName": "$s20BidonAdapterAppLovin0cd12DemandSourceB0C10identifierSSvg",
+                "moduleName": "BidonAdapterAppLovin",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "name",
+            "printedName": "name",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20BidonAdapterAppLovin0cd12DemandSourceB0C4nameSSvp",
+            "mangledName": "$s20BidonAdapterAppLovin0cd12DemandSourceB0C4nameSSvp",
+            "moduleName": "BidonAdapterAppLovin",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20BidonAdapterAppLovin0cd12DemandSourceB0C4nameSSvg",
+                "mangledName": "$s20BidonAdapterAppLovin0cd12DemandSourceB0C4nameSSvg",
+                "moduleName": "BidonAdapterAppLovin",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "adapterVersion",
+            "printedName": "adapterVersion",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20BidonAdapterAppLovin0cd12DemandSourceB0C14adapterVersionSSvp",
+            "mangledName": "$s20BidonAdapterAppLovin0cd12DemandSourceB0C14adapterVersionSSvp",
+            "moduleName": "BidonAdapterAppLovin",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20BidonAdapterAppLovin0cd12DemandSourceB0C14adapterVersionSSvg",
+                "mangledName": "$s20BidonAdapterAppLovin0cd12DemandSourceB0C14adapterVersionSSvg",
+                "moduleName": "BidonAdapterAppLovin",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "sdkVersion",
+            "printedName": "sdkVersion",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20BidonAdapterAppLovin0cd12DemandSourceB0C10sdkVersionSSvp",
+            "mangledName": "$s20BidonAdapterAppLovin0cd12DemandSourceB0C10sdkVersionSSvp",
+            "moduleName": "BidonAdapterAppLovin",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20BidonAdapterAppLovin0cd12DemandSourceB0C10sdkVersionSSvg",
+                "mangledName": "$s20BidonAdapterAppLovin0cd12DemandSourceB0C10sdkVersionSSvg",
+                "moduleName": "BidonAdapterAppLovin",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "directInterstitialDemandProvider",
+            "printedName": "directInterstitialDemandProvider()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ProtocolComposition",
+                "printedName": "Bidon.DirectDemandProvider & Bidon.InterstitialDemandProvider"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20BidonAdapterAppLovin0cd12DemandSourceB0C018directInterstitialE8Provider0A006DirecteI0_AE0heI0pyKF",
+            "mangledName": "$s20BidonAdapterAppLovin0cd12DemandSourceB0C018directInterstitialE8Provider0A006DirecteI0_AE0heI0pyKF",
+            "moduleName": "BidonAdapterAppLovin",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "directRewardedAdDemandProvider",
+            "printedName": "directRewardedAdDemandProvider()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ProtocolComposition",
+                "printedName": "Bidon.DirectDemandProvider & Bidon.RewardedAdDemandProvider"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20BidonAdapterAppLovin0cd12DemandSourceB0C016directRewardedAdE8Provider0A006DirecteJ0_AE0hieJ0pyKF",
+            "mangledName": "$s20BidonAdapterAppLovin0cd12DemandSourceB0C016directRewardedAdE8Provider0A006DirecteJ0_AE0hieJ0pyKF",
+            "moduleName": "BidonAdapterAppLovin",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "directAdViewDemandProvider",
+            "printedName": "directAdViewDemandProvider(context:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ProtocolComposition",
+                "printedName": "Bidon.AdViewDemandProvider & Bidon.DirectDemandProvider"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AdViewContext",
+                "printedName": "Bidon.AdViewContext",
+                "usr": "s:5Bidon13AdViewContextV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20BidonAdapterAppLovin0cd12DemandSourceB0C012directAdViewE8Provider7context0A00hieJ0_AF06DirecteJ0pAF0hI7ContextV_tKF",
+            "mangledName": "$s20BidonAdapterAppLovin0cd12DemandSourceB0C012directAdViewE8Provider7context0A00hieJ0_AF06DirecteJ0pAF0hI7ContextV_tKF",
+            "moduleName": "BidonAdapterAppLovin",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AppLovinDemandSourceAdapter",
+                "printedName": "BidonAdapterAppLovin.AppLovinDemandSourceAdapter",
+                "usr": "c:@M@BidonAdapterAppLovin@objc(cs)AppLovinDemandSourceAdapter"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@BidonAdapterAppLovin@objc(cs)AppLovinDemandSourceAdapter(im)init",
+            "mangledName": "$s20BidonAdapterAppLovin0cd12DemandSourceB0CACycfc",
+            "moduleName": "BidonAdapterAppLovin",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "Parameters",
+            "printedName": "Parameters",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "sdkKey",
+                "printedName": "sdkKey",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:20BidonAdapterAppLovin0cd12DemandSourceB0C10ParametersV6sdkKeySSvp",
+                "mangledName": "$s20BidonAdapterAppLovin0cd12DemandSourceB0C10ParametersV6sdkKeySSvp",
+                "moduleName": "BidonAdapterAppLovin",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:20BidonAdapterAppLovin0cd12DemandSourceB0C10ParametersV6sdkKeySSvg",
+                    "mangledName": "$s20BidonAdapterAppLovin0cd12DemandSourceB0C10ParametersV6sdkKeySSvg",
+                    "moduleName": "BidonAdapterAppLovin",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Set",
+                    "printedName": "Set()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:20BidonAdapterAppLovin0cd12DemandSourceB0C10ParametersV6sdkKeySSvs",
+                    "mangledName": "$s20BidonAdapterAppLovin0cd12DemandSourceB0C10ParametersV6sdkKeySSvs",
+                    "moduleName": "BidonAdapterAppLovin",
+                    "implicit": true,
+                    "accessorKind": "set"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Modify",
+                    "printedName": "Modify()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:20BidonAdapterAppLovin0cd12DemandSourceB0C10ParametersV6sdkKeySSvM",
+                    "mangledName": "$s20BidonAdapterAppLovin0cd12DemandSourceB0C10ParametersV6sdkKeySSvM",
+                    "moduleName": "BidonAdapterAppLovin",
+                    "implicit": true,
+                    "accessorKind": "_modify"
+                  }
+                ]
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(from:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Parameters",
+                    "printedName": "BidonAdapterAppLovin.AppLovinDemandSourceAdapter.Parameters",
+                    "usr": "s:20BidonAdapterAppLovin0cd12DemandSourceB0C10ParametersV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Decoder",
+                    "printedName": "Swift.Decoder",
+                    "usr": "s:s7DecoderP"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:20BidonAdapterAppLovin0cd12DemandSourceB0C10ParametersV4fromAEs7Decoder_p_tKcfc",
+                "mangledName": "$s20BidonAdapterAppLovin0cd12DemandSourceB0C10ParametersV4fromAEs7Decoder_p_tKcfc",
+                "moduleName": "BidonAdapterAppLovin",
+                "implicit": true,
+                "throwing": true,
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Function",
+                "name": "encode",
+                "printedName": "encode(to:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Encoder",
+                    "printedName": "Swift.Encoder",
+                    "usr": "s:s7EncoderP"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:20BidonAdapterAppLovin0cd12DemandSourceB0C10ParametersV6encode2toys7Encoder_p_tKF",
+                "mangledName": "$s20BidonAdapterAppLovin0cd12DemandSourceB0C10ParametersV6encode2toys7Encoder_p_tKF",
+                "moduleName": "BidonAdapterAppLovin",
+                "implicit": true,
+                "throwing": true,
+                "funcSelfKind": "NonMutating"
+              }
+            ],
+            "declKind": "Struct",
+            "usr": "s:20BidonAdapterAppLovin0cd12DemandSourceB0C10ParametersV",
+            "mangledName": "$s20BidonAdapterAppLovin0cd12DemandSourceB0C10ParametersV",
+            "moduleName": "BidonAdapterAppLovin",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Decodable",
+                "printedName": "Decodable",
+                "usr": "s:Se",
+                "mangledName": "$sSe"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Encodable",
+                "printedName": "Encodable",
+                "usr": "s:SE",
+                "mangledName": "$sSE"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isInitialized",
+            "printedName": "isInitialized",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20BidonAdapterAppLovin0cd12DemandSourceB0C13isInitializedSbvp",
+            "mangledName": "$s20BidonAdapterAppLovin0cd12DemandSourceB0C13isInitializedSbvp",
+            "moduleName": "BidonAdapterAppLovin",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20BidonAdapterAppLovin0cd12DemandSourceB0C13isInitializedSbvg",
+                "mangledName": "$s20BidonAdapterAppLovin0cd12DemandSourceB0C13isInitializedSbvg",
+                "moduleName": "BidonAdapterAppLovin",
+                "declAttributes": [
+                  "Final"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "initialize",
+            "printedName": "initialize(parameters:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Parameters",
+                "printedName": "BidonAdapterAppLovin.AppLovinDemandSourceAdapter.Parameters",
+                "usr": "s:20BidonAdapterAppLovin0cd12DemandSourceB0C10ParametersV"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Bidon.SdkError?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Bidon.SdkError?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SdkError",
+                        "printedName": "Bidon.SdkError",
+                        "usr": "s:5Bidon8SdkErrorO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20BidonAdapterAppLovin0cd12DemandSourceB0C10initialize10parameters10completionyAC10ParametersV_y0A08SdkErrorOSgctF",
+            "mangledName": "$s20BidonAdapterAppLovin0cd12DemandSourceB0C10initialize10parameters10completionyAC10ParametersV_y0A08SdkErrorOSgctF",
+            "moduleName": "BidonAdapterAppLovin",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@BidonAdapterAppLovin@objc(cs)AppLovinDemandSourceAdapter",
+        "mangledName": "$s20BidonAdapterAppLovin0cd12DemandSourceB0C",
+        "moduleName": "BidonAdapterAppLovin",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "DirectInterstitialDemandSourceAdapter",
+            "printedName": "DirectInterstitialDemandSourceAdapter",
+            "usr": "s:5Bidon37DirectInterstitialDemandSourceAdapterP",
+            "mangledName": "$s5Bidon37DirectInterstitialDemandSourceAdapterP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "DirectRewardedAdDemandSourceAdapter",
+            "printedName": "DirectRewardedAdDemandSourceAdapter",
+            "usr": "s:5Bidon35DirectRewardedAdDemandSourceAdapterP",
+            "mangledName": "$s5Bidon35DirectRewardedAdDemandSourceAdapterP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "DirectAdViewDemandSourceAdapter",
+            "printedName": "DirectAdViewDemandSourceAdapter",
+            "usr": "s:5Bidon31DirectAdViewDemandSourceAdapterP",
+            "mangledName": "$s5Bidon31DirectAdViewDemandSourceAdapterP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Adapter",
+            "printedName": "Adapter",
+            "usr": "s:5Bidon7AdapterP",
+            "mangledName": "$s5Bidon7AdapterP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ParameterizedInitializableAdapter",
+            "printedName": "ParameterizedInitializableAdapter",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Parameters",
+                "printedName": "Parameters",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Parameters",
+                    "printedName": "BidonAdapterAppLovin.AppLovinDemandSourceAdapter.Parameters",
+                    "usr": "s:20BidonAdapterAppLovin0cd12DemandSourceB0C10ParametersV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:5Bidon33ParameterizedInitializableAdapterP",
+            "mangledName": "$s5Bidon33ParameterizedInitializableAdapterP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "InitializableAdapter",
+            "printedName": "InitializableAdapter",
+            "usr": "s:5Bidon20InitializableAdapterP",
+            "mangledName": "$s5Bidon20InitializableAdapterP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ALAdView",
+        "printedName": "ALAdView",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "isAdaptive",
+            "printedName": "isAdaptive",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:So8ALAdViewC20BidonAdapterAppLovinE10isAdaptiveSbvp",
+            "mangledName": "$sSo8ALAdViewC20BidonAdapterAppLovinE10isAdaptiveSbvp",
+            "moduleName": "BidonAdapterAppLovin",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:So8ALAdViewC20BidonAdapterAppLovinE10isAdaptiveSbvg",
+                "mangledName": "$sSo8ALAdViewC20BidonAdapterAppLovinE10isAdaptiveSbvg",
+                "moduleName": "BidonAdapterAppLovin",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:objc(cs)ALAdView",
+        "moduleName": "AppLovinSDK",
+        "isOpen": true,
+        "objc_name": "ALAdView",
+        "declAttributes": [
+          "Custom",
+          "ObjC",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)UIView",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIView",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "AdViewContainer",
+            "printedName": "AdViewContainer",
+            "usr": "s:5Bidon15AdViewContainerP",
+            "mangledName": "$s5Bidon15AdViewContainerP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ALAd",
+        "printedName": "ALAd",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "id",
+            "printedName": "id",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@CM@BidonAdapterAppLovin@@objc(cs)ALAd(py)id",
+            "mangledName": "$sSo4ALAdC20BidonAdapterAppLovinE2idSSvp",
+            "moduleName": "BidonAdapterAppLovin",
+            "objc_name": "id",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@BidonAdapterAppLovin@@objc(cs)ALAd(im)id",
+                "mangledName": "$sSo4ALAdC20BidonAdapterAppLovinE2idSSvg",
+                "moduleName": "BidonAdapterAppLovin",
+                "objc_name": "id",
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "networkName",
+            "printedName": "networkName",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@CM@BidonAdapterAppLovin@@objc(cs)ALAd(py)networkName",
+            "mangledName": "$sSo4ALAdC20BidonAdapterAppLovinE11networkNameSSvp",
+            "moduleName": "BidonAdapterAppLovin",
+            "objc_name": "networkName",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@BidonAdapterAppLovin@@objc(cs)ALAd(im)networkName",
+                "mangledName": "$sSo4ALAdC20BidonAdapterAppLovinE11networkNameSSvg",
+                "moduleName": "BidonAdapterAppLovin",
+                "objc_name": "networkName",
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "dsp",
+            "printedName": "dsp",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@CM@BidonAdapterAppLovin@@objc(cs)ALAd(py)dsp",
+            "mangledName": "$sSo4ALAdC20BidonAdapterAppLovinE3dspSSSgvp",
+            "moduleName": "BidonAdapterAppLovin",
+            "objc_name": "dsp",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@BidonAdapterAppLovin@@objc(cs)ALAd(im)dsp",
+                "mangledName": "$sSo4ALAdC20BidonAdapterAppLovinE3dspSSSgvg",
+                "moduleName": "BidonAdapterAppLovin",
+                "objc_name": "dsp",
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:objc(cs)ALAd",
+        "moduleName": "AppLovinSDK",
+        "isOpen": true,
+        "objc_name": "ALAd",
+        "declAttributes": [
+          "ObjC",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "DemandAd",
+            "printedName": "DemandAd",
+            "usr": "c:@M@Bidon@objc(pl)DemandAd",
+            "mangledName": "$s5Bidon8DemandAdP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/evgeniagrigorovic\/Desktop\/Project\/bidon-sdk-ios\/Adapters\/BidonAdapterAppLovin\/Wrappers\/AppLovinRewardWrapper.swift",
+      "kind": "StringLiteral",
+      "offset": 330,
+      "length": 10,
+      "value": "\"currency\""
+    },
+    {
+      "filePath": "\/Users\/evgeniagrigorovic\/Desktop\/Project\/bidon-sdk-ios\/Adapters\/BidonAdapterAppLovin\/Wrappers\/AppLovinRewardWrapper.swift",
+      "kind": "StringLiteral",
+      "offset": 357,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/evgeniagrigorovic\/Desktop\/Project\/bidon-sdk-ios\/Adapters\/BidonAdapterAppLovin\/Wrappers\/AppLovinRewardWrapper.swift",
+      "kind": "StringLiteral",
+      "offset": 391,
+      "length": 8,
+      "value": "\"amount\""
+    },
+    {
+      "filePath": "\/Users\/evgeniagrigorovic\/Desktop\/Project\/bidon-sdk-ios\/Adapters\/BidonAdapterAppLovin\/Providers\/AppLovinAdViewDemandProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 201,
+      "length": 28,
+      "value": "\"BidonAdapterAppLovin.AppLovinAdViewDemandProvider\""
+    },
+    {
+      "filePath": "\/Users\/evgeniagrigorovic\/Desktop\/Project\/bidon-sdk-ios\/Adapters\/BidonAdapterAppLovin\/Providers\/AppLovinAdViewDemandProvider.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3518,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/evgeniagrigorovic\/Desktop\/Project\/bidon-sdk-ios\/Adapters\/BidonAdapterAppLovin\/Providers\/AppLovinInterstitialDemandProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 207,
+      "length": 34,
+      "value": "\"BidonAdapterAppLovin.AppLovinInterstitialDemandProvider\""
+    },
+    {
+      "filePath": "\/Users\/evgeniagrigorovic\/Desktop\/Project\/bidon-sdk-ios\/Adapters\/BidonAdapterAppLovin\/Providers\/AppLovinRewardedDemandProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 262,
+      "length": 14,
+      "value": "\"BidonAdapterAppLovin.AdLoadDelegate\""
+    },
+    {
+      "filePath": "\/Users\/evgeniagrigorovic\/Desktop\/Project\/bidon-sdk-ios\/Adapters\/BidonAdapterAppLovin\/Providers\/AppLovinRewardedDemandProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 852,
+      "length": 16,
+      "value": "\"BidonAdapterAppLovin.AdRewardDelegate\""
+    },
+    {
+      "filePath": "\/Users\/evgeniagrigorovic\/Desktop\/Project\/bidon-sdk-ios\/Adapters\/BidonAdapterAppLovin\/Providers\/AppLovinRewardedDemandProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 203,
+      "length": 30,
+      "value": "\"BidonAdapterAppLovin.AppLovinRewardedDemandProvider\""
+    },
+    {
+      "filePath": "\/Users\/evgeniagrigorovic\/Desktop\/Project\/bidon-sdk-ios\/Adapters\/BidonAdapterAppLovin\/AppLovinDemandSourceAdapter.swift",
+      "kind": "StringLiteral",
+      "offset": 463,
+      "length": 10,
+      "value": "\"applovin\""
+    },
+    {
+      "filePath": "\/Users\/evgeniagrigorovic\/Desktop\/Project\/bidon-sdk-ios\/Adapters\/BidonAdapterAppLovin\/AppLovinDemandSourceAdapter.swift",
+      "kind": "StringLiteral",
+      "offset": 584,
+      "length": 10,
+      "value": "\"AppLovin\""
+    },
+    {
+      "filePath": "\/Users\/evgeniagrigorovic\/Desktop\/Project\/bidon-sdk-ios\/Adapters\/BidonAdapterAppLovin\/AppLovinDemandSourceAdapter.swift",
+      "kind": "StringLiteral",
+      "offset": 635,
+      "length": 3,
+      "value": "\"0\""
+    },
+    {
+      "filePath": "\/Users\/evgeniagrigorovic\/Desktop\/Project\/bidon-sdk-ios\/Adapters\/BidonAdapterAppLovin\/AppLovinDemandSourceAdapter.swift",
+      "kind": "StringLiteral",
+      "offset": 953,
+      "length": 37,
+      "value": "\"AppLovin SDK is not initialized yet\""
+    },
+    {
+      "filePath": "\/Users\/evgeniagrigorovic\/Desktop\/Project\/bidon-sdk-ios\/Adapters\/BidonAdapterAppLovin\/AppLovinDemandSourceAdapter.swift",
+      "kind": "StringLiteral",
+      "offset": 1244,
+      "length": 37,
+      "value": "\"AppLovin SDK is not initialized yet\""
+    },
+    {
+      "filePath": "\/Users\/evgeniagrigorovic\/Desktop\/Project\/bidon-sdk-ios\/Adapters\/BidonAdapterAppLovin\/AppLovinDemandSourceAdapter.swift",
+      "kind": "StringLiteral",
+      "offset": 1545,
+      "length": 37,
+      "value": "\"AppLovin SDK is not initialized yet\""
+    },
+    {
+      "filePath": "\/Users\/evgeniagrigorovic\/Desktop\/Project\/bidon-sdk-ios\/Adapters\/BidonAdapterAppLovin\/AppLovinDemandSourceAdapter.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1919,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/evgeniagrigorovic\/Desktop\/Project\/bidon-sdk-ios\/Adapters\/BidonAdapterAppLovin\/AppLovinDemandSourceAdapter.swift",
+      "kind": "Array",
+      "offset": 2281,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/evgeniagrigorovic\/Desktop\/Project\/bidon-sdk-ios\/Adapters\/BidonAdapterAppLovin\/AppLovinDemandSourceAdapter.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2432,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/evgeniagrigorovic\/Desktop\/Project\/bidon-sdk-ios\/Adapters\/BidonAdapterAppLovin\/AppLovinDemandSourceAdapter.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2509,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/evgeniagrigorovic\/Desktop\/Project\/bidon-sdk-ios\/Adapters\/BidonAdapterAppLovin\/AppLovinDemandSourceAdapter.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2704,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/evgeniagrigorovic\/Desktop\/Project\/bidon-sdk-ios\/Adapters\/BidonAdapterAppLovin\/AppLovinDemandSourceAdapter.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2780,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/evgeniagrigorovic\/Desktop\/Project\/bidon-sdk-ios\/Adapters\/BidonAdapterAppLovin\/AppLovinDemandSourceAdapter.swift",
+      "kind": "StringLiteral",
+      "offset": 3008,
+      "length": 54,
+      "value": "\"Unable create sdk with sdk key: \""
+    },
+    {
+      "filePath": "\/Users\/evgeniagrigorovic\/Desktop\/Project\/bidon-sdk-ios\/Adapters\/BidonAdapterAppLovin\/AppLovinDemandSourceAdapter.swift",
+      "kind": "StringLiteral",
+      "offset": 3061,
+      "length": 2,
+      "value": "\"\""
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+framework module BidMachineVideoKit {
+  umbrella header "BidMachineVideoKit.h"
+
+  export *
+  module * { export * }
+}
+
+module BidMachineVideoKit.Swift {
+  header "BidMachineVideoKit-Swift.h"
+  requires objc
+}

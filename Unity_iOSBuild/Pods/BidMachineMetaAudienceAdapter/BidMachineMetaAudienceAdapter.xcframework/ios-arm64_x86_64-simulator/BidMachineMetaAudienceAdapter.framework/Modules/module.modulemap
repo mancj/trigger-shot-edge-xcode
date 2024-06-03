@@ -1,0 +1,11 @@
+framework module BidMachineMetaAudienceAdapter {
+  umbrella header "BidMachineMetaAudienceAdapter.h"
+
+  export *
+  module * { export * }
+}
+
+module BidMachineMetaAudienceAdapter.Swift {
+  header "BidMachineMetaAudienceAdapter-Swift.h"
+  requires objc
+}

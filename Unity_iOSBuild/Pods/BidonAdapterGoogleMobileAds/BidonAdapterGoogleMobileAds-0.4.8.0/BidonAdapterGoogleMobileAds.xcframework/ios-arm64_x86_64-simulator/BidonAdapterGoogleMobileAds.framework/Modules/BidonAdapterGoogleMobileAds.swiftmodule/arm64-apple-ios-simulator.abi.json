@@ -1,0 +1,1907 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BidonAdapterGoogleMobileAds",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "GoogleMobileAds",
+        "printedName": "GoogleMobileAds",
+        "declKind": "Import",
+        "moduleName": "BidonAdapterGoogleMobileAds"
+      },
+      {
+        "kind": "Import",
+        "name": "Bidon",
+        "printedName": "Bidon",
+        "declKind": "Import",
+        "moduleName": "BidonAdapterGoogleMobileAds"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "GoogleMobileAdsDemandSourceAdapter",
+        "printedName": "GoogleMobileAdsDemandSourceAdapter",
+        "children": [
+          {
+            "kind": "TypeDecl",
+            "name": "ServerData",
+            "printedName": "ServerData",
+            "children": [
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(from:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ServerData",
+                    "printedName": "BidonAdapterGoogleMobileAds.GoogleMobileAdsDemandSourceAdapter.ServerData",
+                    "usr": "s:27BidonAdapterGoogleMobileAds0cde12DemandSourceB0C10ServerDataV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Decoder",
+                    "printedName": "Swift.Decoder",
+                    "usr": "s:s7DecoderP"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:27BidonAdapterGoogleMobileAds0cde12DemandSourceB0C10ServerDataV4fromAEs7Decoder_p_tKcfc",
+                "mangledName": "$s27BidonAdapterGoogleMobileAds0cde12DemandSourceB0C10ServerDataV4fromAEs7Decoder_p_tKcfc",
+                "moduleName": "BidonAdapterGoogleMobileAds",
+                "implicit": true,
+                "throwing": true,
+                "init_kind": "Designated"
+              }
+            ],
+            "declKind": "Struct",
+            "usr": "s:27BidonAdapterGoogleMobileAds0cde12DemandSourceB0C10ServerDataV",
+            "mangledName": "$s27BidonAdapterGoogleMobileAds0cde12DemandSourceB0C10ServerDataV",
+            "moduleName": "BidonAdapterGoogleMobileAds",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Decodable",
+                "printedName": "Decodable",
+                "usr": "s:Se",
+                "mangledName": "$sSe"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "identifier",
+            "printedName": "identifier",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@BidonAdapterGoogleMobileAds@objc(cs)GoogleMobileAdsDemandSourceAdapter(cpy)identifier",
+            "mangledName": "$s27BidonAdapterGoogleMobileAds0cde12DemandSourceB0C10identifierSSvpZ",
+            "moduleName": "BidonAdapterGoogleMobileAds",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@BidonAdapterGoogleMobileAds@objc(cs)GoogleMobileAdsDemandSourceAdapter(cm)identifier",
+                "mangledName": "$s27BidonAdapterGoogleMobileAds0cde12DemandSourceB0C10identifierSSvgZ",
+                "moduleName": "BidonAdapterGoogleMobileAds",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "identifier",
+            "printedName": "identifier",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:27BidonAdapterGoogleMobileAds0cde12DemandSourceB0C10identifierSSvp",
+            "mangledName": "$s27BidonAdapterGoogleMobileAds0cde12DemandSourceB0C10identifierSSvp",
+            "moduleName": "BidonAdapterGoogleMobileAds",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:27BidonAdapterGoogleMobileAds0cde12DemandSourceB0C10identifierSSvg",
+                "mangledName": "$s27BidonAdapterGoogleMobileAds0cde12DemandSourceB0C10identifierSSvg",
+                "moduleName": "BidonAdapterGoogleMobileAds",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "name",
+            "printedName": "name",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:27BidonAdapterGoogleMobileAds0cde12DemandSourceB0C4nameSSvp",
+            "mangledName": "$s27BidonAdapterGoogleMobileAds0cde12DemandSourceB0C4nameSSvp",
+            "moduleName": "BidonAdapterGoogleMobileAds",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:27BidonAdapterGoogleMobileAds0cde12DemandSourceB0C4nameSSvg",
+                "mangledName": "$s27BidonAdapterGoogleMobileAds0cde12DemandSourceB0C4nameSSvg",
+                "moduleName": "BidonAdapterGoogleMobileAds",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "adapterVersion",
+            "printedName": "adapterVersion",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:27BidonAdapterGoogleMobileAds0cde12DemandSourceB0C14adapterVersionSSvp",
+            "mangledName": "$s27BidonAdapterGoogleMobileAds0cde12DemandSourceB0C14adapterVersionSSvp",
+            "moduleName": "BidonAdapterGoogleMobileAds",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:27BidonAdapterGoogleMobileAds0cde12DemandSourceB0C14adapterVersionSSvg",
+                "mangledName": "$s27BidonAdapterGoogleMobileAds0cde12DemandSourceB0C14adapterVersionSSvg",
+                "moduleName": "BidonAdapterGoogleMobileAds",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "sdkVersion",
+            "printedName": "sdkVersion",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:27BidonAdapterGoogleMobileAds0cde12DemandSourceB0C10sdkVersionSSvp",
+            "mangledName": "$s27BidonAdapterGoogleMobileAds0cde12DemandSourceB0C10sdkVersionSSvp",
+            "moduleName": "BidonAdapterGoogleMobileAds",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:27BidonAdapterGoogleMobileAds0cde12DemandSourceB0C10sdkVersionSSvg",
+                "mangledName": "$s27BidonAdapterGoogleMobileAds0cde12DemandSourceB0C10sdkVersionSSvg",
+                "moduleName": "BidonAdapterGoogleMobileAds",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isInitialized",
+            "printedName": "isInitialized",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:27BidonAdapterGoogleMobileAds0cde12DemandSourceB0C13isInitializedSbvp",
+            "mangledName": "$s27BidonAdapterGoogleMobileAds0cde12DemandSourceB0C13isInitializedSbvp",
+            "moduleName": "BidonAdapterGoogleMobileAds",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "SetterAccess"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:27BidonAdapterGoogleMobileAds0cde12DemandSourceB0C13isInitializedSbvg",
+                "mangledName": "$s27BidonAdapterGoogleMobileAds0cde12DemandSourceB0C13isInitializedSbvg",
+                "moduleName": "BidonAdapterGoogleMobileAds",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "directInterstitialDemandProvider",
+            "printedName": "directInterstitialDemandProvider()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ProtocolComposition",
+                "printedName": "Bidon.DirectDemandProvider & Bidon.InterstitialDemandProvider"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:27BidonAdapterGoogleMobileAds0cde12DemandSourceB0C018directInterstitialF8Provider0A006DirectfJ0_AE0ifJ0pyKF",
+            "mangledName": "$s27BidonAdapterGoogleMobileAds0cde12DemandSourceB0C018directInterstitialF8Provider0A006DirectfJ0_AE0ifJ0pyKF",
+            "moduleName": "BidonAdapterGoogleMobileAds",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "directRewardedAdDemandProvider",
+            "printedName": "directRewardedAdDemandProvider()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ProtocolComposition",
+                "printedName": "Bidon.DirectDemandProvider & Bidon.RewardedAdDemandProvider"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:27BidonAdapterGoogleMobileAds0cde12DemandSourceB0C016directRewardedAdF8Provider0A006DirectfK0_AE0ijfK0pyKF",
+            "mangledName": "$s27BidonAdapterGoogleMobileAds0cde12DemandSourceB0C016directRewardedAdF8Provider0A006DirectfK0_AE0ijfK0pyKF",
+            "moduleName": "BidonAdapterGoogleMobileAds",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "directAdViewDemandProvider",
+            "printedName": "directAdViewDemandProvider(context:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ProtocolComposition",
+                "printedName": "Bidon.AdViewDemandProvider & Bidon.DirectDemandProvider"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AdViewContext",
+                "printedName": "Bidon.AdViewContext",
+                "usr": "s:5Bidon13AdViewContextV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:27BidonAdapterGoogleMobileAds0cde12DemandSourceB0C012directAdViewF8Provider7context0A00ijfK0_AF06DirectfK0pAF0iJ7ContextV_tKF",
+            "mangledName": "$s27BidonAdapterGoogleMobileAds0cde12DemandSourceB0C012directAdViewF8Provider7context0A00ijfK0_AF06DirectfK0pAF0iJ7ContextV_tKF",
+            "moduleName": "BidonAdapterGoogleMobileAds",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "biddingInterstitialDemandProvider",
+            "printedName": "biddingInterstitialDemandProvider()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ProtocolComposition",
+                "printedName": "Bidon.BiddingDemandProvider & Bidon.InterstitialDemandProvider"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:27BidonAdapterGoogleMobileAds0cde12DemandSourceB0C019biddingInterstitialF8Provider0A007BiddingfJ0_AE0ifJ0pyKF",
+            "mangledName": "$s27BidonAdapterGoogleMobileAds0cde12DemandSourceB0C019biddingInterstitialF8Provider0A007BiddingfJ0_AE0ifJ0pyKF",
+            "moduleName": "BidonAdapterGoogleMobileAds",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "biddingRewardedAdDemandProvider",
+            "printedName": "biddingRewardedAdDemandProvider()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ProtocolComposition",
+                "printedName": "Bidon.BiddingDemandProvider & Bidon.RewardedAdDemandProvider"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:27BidonAdapterGoogleMobileAds0cde12DemandSourceB0C017biddingRewardedAdF8Provider0A007BiddingfK0_AE0ijfK0pyKF",
+            "mangledName": "$s27BidonAdapterGoogleMobileAds0cde12DemandSourceB0C017biddingRewardedAdF8Provider0A007BiddingfK0_AE0ijfK0pyKF",
+            "moduleName": "BidonAdapterGoogleMobileAds",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "biddingAdViewDemandProvider",
+            "printedName": "biddingAdViewDemandProvider(context:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ProtocolComposition",
+                "printedName": "Bidon.AdViewDemandProvider & Bidon.BiddingDemandProvider"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AdViewContext",
+                "printedName": "Bidon.AdViewContext",
+                "usr": "s:5Bidon13AdViewContextV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:27BidonAdapterGoogleMobileAds0cde12DemandSourceB0C013biddingAdViewF8Provider7context0A00ijfK0_AF07BiddingfK0pAF0iJ7ContextV_tKF",
+            "mangledName": "$s27BidonAdapterGoogleMobileAds0cde12DemandSourceB0C013biddingAdViewF8Provider7context0A00ijfK0_AF07BiddingfK0pAF0iJ7ContextV_tKF",
+            "moduleName": "BidonAdapterGoogleMobileAds",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GoogleMobileAdsDemandSourceAdapter",
+                "printedName": "BidonAdapterGoogleMobileAds.GoogleMobileAdsDemandSourceAdapter",
+                "usr": "c:@M@BidonAdapterGoogleMobileAds@objc(cs)GoogleMobileAdsDemandSourceAdapter"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@BidonAdapterGoogleMobileAds@objc(cs)GoogleMobileAdsDemandSourceAdapter(im)init",
+            "mangledName": "$s27BidonAdapterGoogleMobileAds0cde12DemandSourceB0CACycfc",
+            "moduleName": "BidonAdapterGoogleMobileAds",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "initialize",
+            "printedName": "initialize(parameters:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ServerData",
+                "printedName": "BidonAdapterGoogleMobileAds.GoogleMobileAdsDemandSourceAdapter.ServerData",
+                "usr": "s:27BidonAdapterGoogleMobileAds0cde12DemandSourceB0C10ServerDataV"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Bidon.SdkError?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Bidon.SdkError?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SdkError",
+                        "printedName": "Bidon.SdkError",
+                        "usr": "s:5Bidon8SdkErrorO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:27BidonAdapterGoogleMobileAds0cde12DemandSourceB0C10initialize10parameters10completionyAC10ServerDataV_y0A08SdkErrorOSgctF",
+            "mangledName": "$s27BidonAdapterGoogleMobileAds0cde12DemandSourceB0C10initialize10parameters10completionyAC10ServerDataV_y0A08SdkErrorOSgctF",
+            "moduleName": "BidonAdapterGoogleMobileAds",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@BidonAdapterGoogleMobileAds@objc(cs)GoogleMobileAdsDemandSourceAdapter",
+        "mangledName": "$s27BidonAdapterGoogleMobileAds0cde12DemandSourceB0C",
+        "moduleName": "BidonAdapterGoogleMobileAds",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Adapter",
+            "printedName": "Adapter",
+            "usr": "s:5Bidon7AdapterP",
+            "mangledName": "$s5Bidon7AdapterP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "DirectInterstitialDemandSourceAdapter",
+            "printedName": "DirectInterstitialDemandSourceAdapter",
+            "usr": "s:5Bidon37DirectInterstitialDemandSourceAdapterP",
+            "mangledName": "$s5Bidon37DirectInterstitialDemandSourceAdapterP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "DirectRewardedAdDemandSourceAdapter",
+            "printedName": "DirectRewardedAdDemandSourceAdapter",
+            "usr": "s:5Bidon35DirectRewardedAdDemandSourceAdapterP",
+            "mangledName": "$s5Bidon35DirectRewardedAdDemandSourceAdapterP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "DirectAdViewDemandSourceAdapter",
+            "printedName": "DirectAdViewDemandSourceAdapter",
+            "usr": "s:5Bidon31DirectAdViewDemandSourceAdapterP",
+            "mangledName": "$s5Bidon31DirectAdViewDemandSourceAdapterP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BiddingInterstitialDemandSourceAdapter",
+            "printedName": "BiddingInterstitialDemandSourceAdapter",
+            "usr": "s:5Bidon38BiddingInterstitialDemandSourceAdapterP",
+            "mangledName": "$s5Bidon38BiddingInterstitialDemandSourceAdapterP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BiddingAdViewDemandSourceAdapter",
+            "printedName": "BiddingAdViewDemandSourceAdapter",
+            "usr": "s:5Bidon32BiddingAdViewDemandSourceAdapterP",
+            "mangledName": "$s5Bidon32BiddingAdViewDemandSourceAdapterP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BiddingRewardedAdDemandSourceAdapter",
+            "printedName": "BiddingRewardedAdDemandSourceAdapter",
+            "usr": "s:5Bidon36BiddingRewardedAdDemandSourceAdapterP",
+            "mangledName": "$s5Bidon36BiddingRewardedAdDemandSourceAdapterP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ParameterizedInitializableAdapter",
+            "printedName": "ParameterizedInitializableAdapter",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Parameters",
+                "printedName": "Parameters",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ServerData",
+                    "printedName": "BidonAdapterGoogleMobileAds.GoogleMobileAdsDemandSourceAdapter.ServerData",
+                    "usr": "s:27BidonAdapterGoogleMobileAds0cde12DemandSourceB0C10ServerDataV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:5Bidon33ParameterizedInitializableAdapterP",
+            "mangledName": "$s5Bidon33ParameterizedInitializableAdapterP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "InitializableAdapter",
+            "printedName": "InitializableAdapter",
+            "usr": "s:5Bidon20InitializableAdapterP",
+            "mangledName": "$s5Bidon20InitializableAdapterP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BidonAdapterGoogleMobileAds",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Bidon",
+        "printedName": "Bidon",
+        "declKind": "Import",
+        "moduleName": "BidonAdapterGoogleMobileAds"
+      },
+      {
+        "kind": "Import",
+        "name": "GoogleMobileAds",
+        "printedName": "GoogleMobileAds",
+        "declKind": "Import",
+        "moduleName": "BidonAdapterGoogleMobileAds"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "BidonAdapterGoogleMobileAds"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BidonAdapterGoogleMobileAds",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Bidon",
+        "printedName": "Bidon",
+        "declKind": "Import",
+        "moduleName": "BidonAdapterGoogleMobileAds"
+      },
+      {
+        "kind": "Import",
+        "name": "GoogleMobileAds",
+        "printedName": "GoogleMobileAds",
+        "declKind": "Import",
+        "moduleName": "BidonAdapterGoogleMobileAds"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "BidonAdapterGoogleMobileAds"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BidonAdapterGoogleMobileAds",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "GoogleMobileAds",
+        "printedName": "GoogleMobileAds",
+        "declKind": "Import",
+        "moduleName": "BidonAdapterGoogleMobileAds"
+      },
+      {
+        "kind": "Import",
+        "name": "Bidon",
+        "printedName": "Bidon",
+        "declKind": "Import",
+        "moduleName": "BidonAdapterGoogleMobileAds"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BidonAdapterGoogleMobileAds",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Bidon",
+        "printedName": "Bidon",
+        "declKind": "Import",
+        "moduleName": "BidonAdapterGoogleMobileAds"
+      },
+      {
+        "kind": "Import",
+        "name": "GoogleMobileAds",
+        "printedName": "GoogleMobileAds",
+        "declKind": "Import",
+        "moduleName": "BidonAdapterGoogleMobileAds"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BidonAdapterGoogleMobileAds",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "GoogleMobileAds",
+        "printedName": "GoogleMobileAds",
+        "declKind": "Import",
+        "moduleName": "BidonAdapterGoogleMobileAds"
+      },
+      {
+        "kind": "Import",
+        "name": "Bidon",
+        "printedName": "Bidon",
+        "declKind": "Import",
+        "moduleName": "BidonAdapterGoogleMobileAds"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BidonAdapterGoogleMobileAds",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "GoogleMobileAds",
+        "printedName": "GoogleMobileAds",
+        "declKind": "Import",
+        "moduleName": "BidonAdapterGoogleMobileAds"
+      },
+      {
+        "kind": "Import",
+        "name": "Bidon",
+        "printedName": "Bidon",
+        "declKind": "Import",
+        "moduleName": "BidonAdapterGoogleMobileAds"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BidonAdapterGoogleMobileAds",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Bidon",
+        "printedName": "Bidon",
+        "declKind": "Import",
+        "moduleName": "BidonAdapterGoogleMobileAds"
+      },
+      {
+        "kind": "Import",
+        "name": "GoogleMobileAds",
+        "printedName": "GoogleMobileAds",
+        "declKind": "Import",
+        "moduleName": "BidonAdapterGoogleMobileAds"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BidonAdapterGoogleMobileAds",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "BidonAdapterGoogleMobileAds"
+      },
+      {
+        "kind": "Import",
+        "name": "GoogleMobileAds",
+        "printedName": "GoogleMobileAds",
+        "declKind": "Import",
+        "moduleName": "BidonAdapterGoogleMobileAds"
+      },
+      {
+        "kind": "Import",
+        "name": "Bidon",
+        "printedName": "Bidon",
+        "declKind": "Import",
+        "moduleName": "BidonAdapterGoogleMobileAds"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BidonAdapterGoogleMobileAds",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Bidon",
+        "printedName": "Bidon",
+        "declKind": "Import",
+        "moduleName": "BidonAdapterGoogleMobileAds"
+      },
+      {
+        "kind": "Import",
+        "name": "GoogleMobileAds",
+        "printedName": "GoogleMobileAds",
+        "declKind": "Import",
+        "moduleName": "BidonAdapterGoogleMobileAds"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "BidonAdapterGoogleMobileAds"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "GADBannerView",
+        "printedName": "GADBannerView",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "isAdaptive",
+            "printedName": "isAdaptive",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:So13GADBannerViewC27BidonAdapterGoogleMobileAdsE10isAdaptiveSbvp",
+            "mangledName": "$sSo13GADBannerViewC27BidonAdapterGoogleMobileAdsE10isAdaptiveSbvp",
+            "moduleName": "BidonAdapterGoogleMobileAds",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:So13GADBannerViewC27BidonAdapterGoogleMobileAdsE10isAdaptiveSbvg",
+                "mangledName": "$sSo13GADBannerViewC27BidonAdapterGoogleMobileAdsE10isAdaptiveSbvg",
+                "moduleName": "BidonAdapterGoogleMobileAds",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "id",
+            "printedName": "id",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@CM@BidonAdapterGoogleMobileAds@@objc(cs)GADBannerView(py)id",
+            "mangledName": "$sSo13GADBannerViewC27BidonAdapterGoogleMobileAdsE2idSSvp",
+            "moduleName": "BidonAdapterGoogleMobileAds",
+            "objc_name": "id",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@BidonAdapterGoogleMobileAds@@objc(cs)GADBannerView(im)id",
+                "mangledName": "$sSo13GADBannerViewC27BidonAdapterGoogleMobileAdsE2idSSvg",
+                "moduleName": "BidonAdapterGoogleMobileAds",
+                "objc_name": "id",
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "dsp",
+            "printedName": "dsp",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@CM@BidonAdapterGoogleMobileAds@@objc(cs)GADBannerView(py)dsp",
+            "mangledName": "$sSo13GADBannerViewC27BidonAdapterGoogleMobileAdsE3dspSSSgvp",
+            "moduleName": "BidonAdapterGoogleMobileAds",
+            "objc_name": "dsp",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@BidonAdapterGoogleMobileAds@@objc(cs)GADBannerView(im)dsp",
+                "mangledName": "$sSo13GADBannerViewC27BidonAdapterGoogleMobileAdsE3dspSSSgvg",
+                "moduleName": "BidonAdapterGoogleMobileAds",
+                "objc_name": "dsp",
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "networkName",
+            "printedName": "networkName",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@CM@BidonAdapterGoogleMobileAds@@objc(cs)GADBannerView(py)networkName",
+            "mangledName": "$sSo13GADBannerViewC27BidonAdapterGoogleMobileAdsE11networkNameSSvp",
+            "moduleName": "BidonAdapterGoogleMobileAds",
+            "objc_name": "networkName",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@BidonAdapterGoogleMobileAds@@objc(cs)GADBannerView(im)networkName",
+                "mangledName": "$sSo13GADBannerViewC27BidonAdapterGoogleMobileAdsE11networkNameSSvg",
+                "moduleName": "BidonAdapterGoogleMobileAds",
+                "objc_name": "networkName",
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:objc(cs)GADBannerView",
+        "moduleName": "GoogleMobileAds",
+        "isOpen": true,
+        "objc_name": "GADBannerView",
+        "declAttributes": [
+          "Custom",
+          "ObjC",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)UIView",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIView",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "AdViewContainer",
+            "printedName": "AdViewContainer",
+            "usr": "s:5Bidon15AdViewContainerP",
+            "mangledName": "$s5Bidon15AdViewContainerP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "DemandAd",
+            "printedName": "DemandAd",
+            "usr": "c:@M@Bidon@objc(pl)DemandAd",
+            "mangledName": "$s5Bidon8DemandAdP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "GADInterstitialAd",
+        "printedName": "GADInterstitialAd",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "id",
+            "printedName": "id",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@CM@BidonAdapterGoogleMobileAds@@objc(cs)GADInterstitialAd(py)id",
+            "mangledName": "$sSo17GADInterstitialAdC27BidonAdapterGoogleMobileAdsE2idSSvp",
+            "moduleName": "BidonAdapterGoogleMobileAds",
+            "objc_name": "id",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@BidonAdapterGoogleMobileAds@@objc(cs)GADInterstitialAd(im)id",
+                "mangledName": "$sSo17GADInterstitialAdC27BidonAdapterGoogleMobileAdsE2idSSvg",
+                "moduleName": "BidonAdapterGoogleMobileAds",
+                "objc_name": "id",
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "dsp",
+            "printedName": "dsp",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@CM@BidonAdapterGoogleMobileAds@@objc(cs)GADInterstitialAd(py)dsp",
+            "mangledName": "$sSo17GADInterstitialAdC27BidonAdapterGoogleMobileAdsE3dspSSSgvp",
+            "moduleName": "BidonAdapterGoogleMobileAds",
+            "objc_name": "dsp",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@BidonAdapterGoogleMobileAds@@objc(cs)GADInterstitialAd(im)dsp",
+                "mangledName": "$sSo17GADInterstitialAdC27BidonAdapterGoogleMobileAdsE3dspSSSgvg",
+                "moduleName": "BidonAdapterGoogleMobileAds",
+                "objc_name": "dsp",
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "networkName",
+            "printedName": "networkName",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@CM@BidonAdapterGoogleMobileAds@@objc(cs)GADInterstitialAd(py)networkName",
+            "mangledName": "$sSo17GADInterstitialAdC27BidonAdapterGoogleMobileAdsE11networkNameSSvp",
+            "moduleName": "BidonAdapterGoogleMobileAds",
+            "objc_name": "networkName",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@BidonAdapterGoogleMobileAds@@objc(cs)GADInterstitialAd(im)networkName",
+                "mangledName": "$sSo17GADInterstitialAdC27BidonAdapterGoogleMobileAdsE11networkNameSSvg",
+                "moduleName": "BidonAdapterGoogleMobileAds",
+                "objc_name": "networkName",
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:objc(cs)GADInterstitialAd",
+        "moduleName": "GoogleMobileAds",
+        "isOpen": true,
+        "objc_name": "GADInterstitialAd",
+        "declAttributes": [
+          "ObjC",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "DemandAd",
+            "printedName": "DemandAd",
+            "usr": "c:@M@Bidon@objc(pl)DemandAd",
+            "mangledName": "$s5Bidon8DemandAdP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "GADRewardedAd",
+        "printedName": "GADRewardedAd",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "id",
+            "printedName": "id",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@CM@BidonAdapterGoogleMobileAds@@objc(cs)GADRewardedAd(py)id",
+            "mangledName": "$sSo13GADRewardedAdC27BidonAdapterGoogleMobileAdsE2idSSvp",
+            "moduleName": "BidonAdapterGoogleMobileAds",
+            "objc_name": "id",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@BidonAdapterGoogleMobileAds@@objc(cs)GADRewardedAd(im)id",
+                "mangledName": "$sSo13GADRewardedAdC27BidonAdapterGoogleMobileAdsE2idSSvg",
+                "moduleName": "BidonAdapterGoogleMobileAds",
+                "objc_name": "id",
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "dsp",
+            "printedName": "dsp",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@CM@BidonAdapterGoogleMobileAds@@objc(cs)GADRewardedAd(py)dsp",
+            "mangledName": "$sSo13GADRewardedAdC27BidonAdapterGoogleMobileAdsE3dspSSSgvp",
+            "moduleName": "BidonAdapterGoogleMobileAds",
+            "objc_name": "dsp",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@BidonAdapterGoogleMobileAds@@objc(cs)GADRewardedAd(im)dsp",
+                "mangledName": "$sSo13GADRewardedAdC27BidonAdapterGoogleMobileAdsE3dspSSSgvg",
+                "moduleName": "BidonAdapterGoogleMobileAds",
+                "objc_name": "dsp",
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "networkName",
+            "printedName": "networkName",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@CM@BidonAdapterGoogleMobileAds@@objc(cs)GADRewardedAd(py)networkName",
+            "mangledName": "$sSo13GADRewardedAdC27BidonAdapterGoogleMobileAdsE11networkNameSSvp",
+            "moduleName": "BidonAdapterGoogleMobileAds",
+            "objc_name": "networkName",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@BidonAdapterGoogleMobileAds@@objc(cs)GADRewardedAd(im)networkName",
+                "mangledName": "$sSo13GADRewardedAdC27BidonAdapterGoogleMobileAdsE11networkNameSSvg",
+                "moduleName": "BidonAdapterGoogleMobileAds",
+                "objc_name": "networkName",
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:objc(cs)GADRewardedAd",
+        "moduleName": "GoogleMobileAds",
+        "isOpen": true,
+        "objc_name": "GADRewardedAd",
+        "declAttributes": [
+          "ObjC",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "DemandAd",
+            "printedName": "DemandAd",
+            "usr": "c:@M@Bidon@objc(pl)DemandAd",
+            "mangledName": "$s5Bidon8DemandAdP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/evgeniagrigorovic\/Desktop\/Project\/bidon-sdk-ios\/Adapters\/BidonAdapterGoogleMobileAds\/GoogleMobileAdsDemandSourceAdapter.swift",
+      "kind": "StringLiteral",
+      "offset": 693,
+      "length": 7,
+      "value": "\"admob\""
+    },
+    {
+      "filePath": "\/Users\/evgeniagrigorovic\/Desktop\/Project\/bidon-sdk-ios\/Adapters\/BidonAdapterGoogleMobileAds\/GoogleMobileAdsDemandSourceAdapter.swift",
+      "kind": "StringLiteral",
+      "offset": 818,
+      "length": 19,
+      "value": "\"Google Mobile Ads\""
+    },
+    {
+      "filePath": "\/Users\/evgeniagrigorovic\/Desktop\/Project\/bidon-sdk-ios\/Adapters\/BidonAdapterGoogleMobileAds\/GoogleMobileAdsDemandSourceAdapter.swift",
+      "kind": "StringLiteral",
+      "offset": 878,
+      "length": 3,
+      "value": "\"0\""
+    },
+    {
+      "filePath": "\/Users\/evgeniagrigorovic\/Desktop\/Project\/bidon-sdk-ios\/Adapters\/BidonAdapterGoogleMobileAds\/GoogleMobileAdsDemandSourceAdapter.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1178,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/evgeniagrigorovic\/Desktop\/Project\/bidon-sdk-ios\/Adapters\/BidonAdapterGoogleMobileAds\/GoogleMobileAdsDemandSourceAdapter.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2983,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/evgeniagrigorovic\/Desktop\/Project\/bidon-sdk-ios\/Adapters\/BidonAdapterGoogleMobileAds\/Providers\/GoogleMobileAdsBannerDemandProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 205,
+      "length": 35,
+      "value": "\"BidonAdapterGoogleMobileAds.GoogleMobileAdsBannerDemandProvider\""
+    },
+    {
+      "filePath": "\/Users\/evgeniagrigorovic\/Desktop\/Project\/bidon-sdk-ios\/Adapters\/BidonAdapterGoogleMobileAds\/Providers\/GoogleMobileAdsBannerDemandProvider.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2590,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/evgeniagrigorovic\/Desktop\/Project\/bidon-sdk-ios\/Adapters\/BidonAdapterGoogleMobileAds\/Providers\/GoogleMobileAdsBannerDemandProvider.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2861,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/evgeniagrigorovic\/Desktop\/Project\/bidon-sdk-ios\/Adapters\/BidonAdapterGoogleMobileAds\/Wrappers\/GADRequest+Builder.swift",
+      "kind": "Dictionary",
+      "offset": 275,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/evgeniagrigorovic\/Desktop\/Project\/bidon-sdk-ios\/Adapters\/BidonAdapterGoogleMobileAds\/Wrappers\/GADRequest+Builder.swift",
+      "kind": "StringLiteral",
+      "offset": 731,
+      "length": 5,
+      "value": "\"npa\""
+    },
+    {
+      "filePath": "\/Users\/evgeniagrigorovic\/Desktop\/Project\/bidon-sdk-ios\/Adapters\/BidonAdapterGoogleMobileAds\/Wrappers\/GADRequest+Builder.swift",
+      "kind": "StringLiteral",
+      "offset": 740,
+      "length": 3,
+      "value": "\"1\""
+    },
+    {
+      "filePath": "\/Users\/evgeniagrigorovic\/Desktop\/Project\/bidon-sdk-ios\/Adapters\/BidonAdapterGoogleMobileAds\/Wrappers\/GADRequest+Builder.swift",
+      "kind": "StringLiteral",
+      "offset": 985,
+      "length": 21,
+      "value": "\"IABUSPrivacy_String\""
+    },
+    {
+      "filePath": "\/Users\/evgeniagrigorovic\/Desktop\/Project\/bidon-sdk-ios\/Adapters\/BidonAdapterGoogleMobileAds\/Wrappers\/GADRequest+Builder.swift",
+      "kind": "StringLiteral",
+      "offset": 1546,
+      "length": 17,
+      "value": "\"query_info_type\""
+    },
+    {
+      "filePath": "\/Users\/evgeniagrigorovic\/Desktop\/Project\/bidon-sdk-ios\/Adapters\/BidonAdapterGoogleMobileAds\/Providers\/GoogleMobileAdsBaseDemandProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 808,
+      "length": 40,
+      "value": "\"Base demand provider can't load any ad\""
+    },
+    {
+      "filePath": "\/Users\/evgeniagrigorovic\/Desktop\/Project\/bidon-sdk-ios\/Adapters\/BidonAdapterGoogleMobileAds\/Providers\/GoogleMobileAdsBaseDemandProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 202,
+      "length": 33,
+      "value": "\"BidonAdapterGoogleMobileAds.GoogleMobileAdsBaseDemandProvider\""
+    }
+  ]
+}

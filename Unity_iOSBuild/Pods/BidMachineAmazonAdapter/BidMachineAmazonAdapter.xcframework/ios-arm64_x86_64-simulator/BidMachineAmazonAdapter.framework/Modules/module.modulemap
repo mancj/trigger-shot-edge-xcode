@@ -1,0 +1,11 @@
+framework module BidMachineAmazonAdapter {
+  umbrella header "BidMachineAmazonAdapter.h"
+
+  export *
+  module * { export * }
+}
+
+module BidMachineAmazonAdapter.Swift {
+  header "BidMachineAmazonAdapter-Swift.h"
+  requires objc
+}

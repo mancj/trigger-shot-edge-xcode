@@ -1,0 +1,11 @@
+framework module BidonAdapterVungle {
+  umbrella header "BidonAdapterVungle.h"
+
+  export *
+  module * { export * }
+}
+
+module BidonAdapterVungle.Swift {
+  header "BidonAdapterVungle-Swift.h"
+  requires objc
+}

@@ -1,0 +1,1067 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BidonAdapterInMobi",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Bidon",
+        "printedName": "Bidon",
+        "declKind": "Import",
+        "moduleName": "BidonAdapterInMobi"
+      },
+      {
+        "kind": "Import",
+        "name": "InMobiSDK",
+        "printedName": "InMobiSDK",
+        "declKind": "Import",
+        "moduleName": "BidonAdapterInMobi"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "InMobiDemandSourceAdapter",
+        "printedName": "InMobiDemandSourceAdapter",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "identifier",
+            "printedName": "identifier",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@BidonAdapterInMobi@objc(cs)InMobiDemandSourceAdapter(cpy)identifier",
+            "mangledName": "$s18BidonAdapterInMobi0cd12DemandSourceB0C10identifierSSvpZ",
+            "moduleName": "BidonAdapterInMobi",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@BidonAdapterInMobi@objc(cs)InMobiDemandSourceAdapter(cm)identifier",
+                "mangledName": "$s18BidonAdapterInMobi0cd12DemandSourceB0C10identifierSSvgZ",
+                "moduleName": "BidonAdapterInMobi",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "identifier",
+            "printedName": "identifier",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18BidonAdapterInMobi0cd12DemandSourceB0C10identifierSSvp",
+            "mangledName": "$s18BidonAdapterInMobi0cd12DemandSourceB0C10identifierSSvp",
+            "moduleName": "BidonAdapterInMobi",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18BidonAdapterInMobi0cd12DemandSourceB0C10identifierSSvg",
+                "mangledName": "$s18BidonAdapterInMobi0cd12DemandSourceB0C10identifierSSvg",
+                "moduleName": "BidonAdapterInMobi",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "name",
+            "printedName": "name",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18BidonAdapterInMobi0cd12DemandSourceB0C4nameSSvp",
+            "mangledName": "$s18BidonAdapterInMobi0cd12DemandSourceB0C4nameSSvp",
+            "moduleName": "BidonAdapterInMobi",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18BidonAdapterInMobi0cd12DemandSourceB0C4nameSSvg",
+                "mangledName": "$s18BidonAdapterInMobi0cd12DemandSourceB0C4nameSSvg",
+                "moduleName": "BidonAdapterInMobi",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "adapterVersion",
+            "printedName": "adapterVersion",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18BidonAdapterInMobi0cd12DemandSourceB0C14adapterVersionSSvp",
+            "mangledName": "$s18BidonAdapterInMobi0cd12DemandSourceB0C14adapterVersionSSvp",
+            "moduleName": "BidonAdapterInMobi",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18BidonAdapterInMobi0cd12DemandSourceB0C14adapterVersionSSvg",
+                "mangledName": "$s18BidonAdapterInMobi0cd12DemandSourceB0C14adapterVersionSSvg",
+                "moduleName": "BidonAdapterInMobi",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "sdkVersion",
+            "printedName": "sdkVersion",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18BidonAdapterInMobi0cd12DemandSourceB0C10sdkVersionSSvp",
+            "mangledName": "$s18BidonAdapterInMobi0cd12DemandSourceB0C10sdkVersionSSvp",
+            "moduleName": "BidonAdapterInMobi",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18BidonAdapterInMobi0cd12DemandSourceB0C10sdkVersionSSvg",
+                "mangledName": "$s18BidonAdapterInMobi0cd12DemandSourceB0C10sdkVersionSSvg",
+                "moduleName": "BidonAdapterInMobi",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isInitialized",
+            "printedName": "isInitialized",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18BidonAdapterInMobi0cd12DemandSourceB0C13isInitializedSbvp",
+            "mangledName": "$s18BidonAdapterInMobi0cd12DemandSourceB0C13isInitializedSbvp",
+            "moduleName": "BidonAdapterInMobi",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "SetterAccess"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18BidonAdapterInMobi0cd12DemandSourceB0C13isInitializedSbvg",
+                "mangledName": "$s18BidonAdapterInMobi0cd12DemandSourceB0C13isInitializedSbvg",
+                "moduleName": "BidonAdapterInMobi",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "directInterstitialDemandProvider",
+            "printedName": "directInterstitialDemandProvider()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ProtocolComposition",
+                "printedName": "Bidon.DirectDemandProvider & Bidon.InterstitialDemandProvider"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18BidonAdapterInMobi0cd12DemandSourceB0C018directInterstitialE8Provider0A006DirecteI0_AE0heI0pyKF",
+            "mangledName": "$s18BidonAdapterInMobi0cd12DemandSourceB0C018directInterstitialE8Provider0A006DirecteI0_AE0heI0pyKF",
+            "moduleName": "BidonAdapterInMobi",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "directRewardedAdDemandProvider",
+            "printedName": "directRewardedAdDemandProvider()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ProtocolComposition",
+                "printedName": "Bidon.DirectDemandProvider & Bidon.RewardedAdDemandProvider"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18BidonAdapterInMobi0cd12DemandSourceB0C016directRewardedAdE8Provider0A006DirecteJ0_AE0hieJ0pyKF",
+            "mangledName": "$s18BidonAdapterInMobi0cd12DemandSourceB0C016directRewardedAdE8Provider0A006DirecteJ0_AE0hieJ0pyKF",
+            "moduleName": "BidonAdapterInMobi",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "directAdViewDemandProvider",
+            "printedName": "directAdViewDemandProvider(context:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ProtocolComposition",
+                "printedName": "Bidon.AdViewDemandProvider & Bidon.DirectDemandProvider"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AdViewContext",
+                "printedName": "Bidon.AdViewContext",
+                "usr": "s:5Bidon13AdViewContextV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18BidonAdapterInMobi0cd12DemandSourceB0C012directAdViewE8Provider7context0A00hieJ0_AF06DirecteJ0pAF0hI7ContextV_tKF",
+            "mangledName": "$s18BidonAdapterInMobi0cd12DemandSourceB0C012directAdViewE8Provider7context0A00hieJ0_AF06DirecteJ0pAF0hI7ContextV_tKF",
+            "moduleName": "BidonAdapterInMobi",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "InMobiDemandSourceAdapter",
+                "printedName": "BidonAdapterInMobi.InMobiDemandSourceAdapter",
+                "usr": "c:@M@BidonAdapterInMobi@objc(cs)InMobiDemandSourceAdapter"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@BidonAdapterInMobi@objc(cs)InMobiDemandSourceAdapter(im)init",
+            "mangledName": "$s18BidonAdapterInMobi0cd12DemandSourceB0CACycfc",
+            "moduleName": "BidonAdapterInMobi",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "Parameters",
+            "printedName": "Parameters",
+            "children": [
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(from:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Parameters",
+                    "printedName": "BidonAdapterInMobi.InMobiDemandSourceAdapter.Parameters",
+                    "usr": "s:18BidonAdapterInMobi0cd12DemandSourceB0C10ParametersV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Decoder",
+                    "printedName": "Swift.Decoder",
+                    "usr": "s:s7DecoderP"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:18BidonAdapterInMobi0cd12DemandSourceB0C10ParametersV4fromAEs7Decoder_p_tKcfc",
+                "mangledName": "$s18BidonAdapterInMobi0cd12DemandSourceB0C10ParametersV4fromAEs7Decoder_p_tKcfc",
+                "moduleName": "BidonAdapterInMobi",
+                "implicit": true,
+                "throwing": true,
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Function",
+                "name": "encode",
+                "printedName": "encode(to:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Encoder",
+                    "printedName": "Swift.Encoder",
+                    "usr": "s:s7EncoderP"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:18BidonAdapterInMobi0cd12DemandSourceB0C10ParametersV6encode2toys7Encoder_p_tKF",
+                "mangledName": "$s18BidonAdapterInMobi0cd12DemandSourceB0C10ParametersV6encode2toys7Encoder_p_tKF",
+                "moduleName": "BidonAdapterInMobi",
+                "implicit": true,
+                "throwing": true,
+                "funcSelfKind": "NonMutating"
+              }
+            ],
+            "declKind": "Struct",
+            "usr": "s:18BidonAdapterInMobi0cd12DemandSourceB0C10ParametersV",
+            "mangledName": "$s18BidonAdapterInMobi0cd12DemandSourceB0C10ParametersV",
+            "moduleName": "BidonAdapterInMobi",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Decodable",
+                "printedName": "Decodable",
+                "usr": "s:Se",
+                "mangledName": "$sSe"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Encodable",
+                "printedName": "Encodable",
+                "usr": "s:SE",
+                "mangledName": "$sSE"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "initialize",
+            "printedName": "initialize(parameters:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Parameters",
+                "printedName": "BidonAdapterInMobi.InMobiDemandSourceAdapter.Parameters",
+                "usr": "s:18BidonAdapterInMobi0cd12DemandSourceB0C10ParametersV"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Bidon.SdkError?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Bidon.SdkError?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SdkError",
+                        "printedName": "Bidon.SdkError",
+                        "usr": "s:5Bidon8SdkErrorO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18BidonAdapterInMobi0cd12DemandSourceB0C10initialize10parameters10completionyAC10ParametersV_y0A08SdkErrorOSgctF",
+            "mangledName": "$s18BidonAdapterInMobi0cd12DemandSourceB0C10initialize10parameters10completionyAC10ParametersV_y0A08SdkErrorOSgctF",
+            "moduleName": "BidonAdapterInMobi",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@BidonAdapterInMobi@objc(cs)InMobiDemandSourceAdapter",
+        "mangledName": "$s18BidonAdapterInMobi0cd12DemandSourceB0C",
+        "moduleName": "BidonAdapterInMobi",
+        "declAttributes": [
+          "AccessControl",
+          "Final",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Adapter",
+            "printedName": "Adapter",
+            "usr": "s:5Bidon7AdapterP",
+            "mangledName": "$s5Bidon7AdapterP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "DirectInterstitialDemandSourceAdapter",
+            "printedName": "DirectInterstitialDemandSourceAdapter",
+            "usr": "s:5Bidon37DirectInterstitialDemandSourceAdapterP",
+            "mangledName": "$s5Bidon37DirectInterstitialDemandSourceAdapterP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "DirectRewardedAdDemandSourceAdapter",
+            "printedName": "DirectRewardedAdDemandSourceAdapter",
+            "usr": "s:5Bidon35DirectRewardedAdDemandSourceAdapterP",
+            "mangledName": "$s5Bidon35DirectRewardedAdDemandSourceAdapterP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "DirectAdViewDemandSourceAdapter",
+            "printedName": "DirectAdViewDemandSourceAdapter",
+            "usr": "s:5Bidon31DirectAdViewDemandSourceAdapterP",
+            "mangledName": "$s5Bidon31DirectAdViewDemandSourceAdapterP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ParameterizedInitializableAdapter",
+            "printedName": "ParameterizedInitializableAdapter",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Parameters",
+                "printedName": "Parameters",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Parameters",
+                    "printedName": "BidonAdapterInMobi.InMobiDemandSourceAdapter.Parameters",
+                    "usr": "s:18BidonAdapterInMobi0cd12DemandSourceB0C10ParametersV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:5Bidon33ParameterizedInitializableAdapterP",
+            "mangledName": "$s5Bidon33ParameterizedInitializableAdapterP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "InitializableAdapter",
+            "printedName": "InitializableAdapter",
+            "usr": "s:5Bidon20InitializableAdapterP",
+            "mangledName": "$s5Bidon20InitializableAdapterP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BidonAdapterInMobi",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "BidonAdapterInMobi"
+      },
+      {
+        "kind": "Import",
+        "name": "Bidon",
+        "printedName": "Bidon",
+        "declKind": "Import",
+        "moduleName": "BidonAdapterInMobi"
+      },
+      {
+        "kind": "Import",
+        "name": "InMobiSDK",
+        "printedName": "InMobiSDK",
+        "declKind": "Import",
+        "moduleName": "BidonAdapterInMobi"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BidonAdapterInMobi",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "InMobiSDK",
+        "printedName": "InMobiSDK",
+        "declKind": "Import",
+        "moduleName": "BidonAdapterInMobi"
+      },
+      {
+        "kind": "Import",
+        "name": "Bidon",
+        "printedName": "Bidon",
+        "declKind": "Import",
+        "moduleName": "BidonAdapterInMobi"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BidonAdapterInMobi",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "InMobiSDK",
+        "printedName": "InMobiSDK",
+        "declKind": "Import",
+        "moduleName": "BidonAdapterInMobi"
+      },
+      {
+        "kind": "Import",
+        "name": "Bidon",
+        "printedName": "Bidon",
+        "declKind": "Import",
+        "moduleName": "BidonAdapterInMobi"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "IMInterstitial",
+        "printedName": "IMInterstitial",
+        "declKind": "Class",
+        "usr": "c:@M@InMobiSDK@objc(cs)IMInterstitial",
+        "mangledName": "$s9InMobiSDK14IMInterstitialC",
+        "moduleName": "InMobiSDK",
+        "declAttributes": [
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "isExternal": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "IMBanner",
+        "printedName": "IMBanner",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "isAdaptive",
+            "printedName": "isAdaptive",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9InMobiSDK8IMBannerC012BidonAdapteraB0E10isAdaptiveSbvp",
+            "mangledName": "$s9InMobiSDK8IMBannerC012BidonAdapteraB0E10isAdaptiveSbvp",
+            "moduleName": "BidonAdapterInMobi",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9InMobiSDK8IMBannerC012BidonAdapteraB0E10isAdaptiveSbvg",
+                "mangledName": "$s9InMobiSDK8IMBannerC012BidonAdapteraB0E10isAdaptiveSbvg",
+                "moduleName": "BidonAdapterInMobi",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@InMobiSDK@objc(cs)IMBanner",
+        "mangledName": "$s9InMobiSDK8IMBannerC",
+        "moduleName": "InMobiSDK",
+        "declAttributes": [
+          "Custom",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UIView",
+        "isExternal": true,
+        "hasMissingDesignatedInitializers": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIView",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "AdViewContainer",
+            "printedName": "AdViewContainer",
+            "usr": "s:5Bidon15AdViewContainerP",
+            "mangledName": "$s5Bidon15AdViewContainerP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/evgeniagrigorovic\/Desktop\/Project\/bidon-sdk-ios\/Adapters\/BidonAdapterInMobi\/InMobiDemandSourceAdapter.swift",
+      "kind": "StringLiteral",
+      "offset": 450,
+      "length": 8,
+      "value": "\"inmobi\""
+    },
+    {
+      "filePath": "\/Users\/evgeniagrigorovic\/Desktop\/Project\/bidon-sdk-ios\/Adapters\/BidonAdapterInMobi\/InMobiDemandSourceAdapter.swift",
+      "kind": "StringLiteral",
+      "offset": 567,
+      "length": 8,
+      "value": "\"InMobi\""
+    },
+    {
+      "filePath": "\/Users\/evgeniagrigorovic\/Desktop\/Project\/bidon-sdk-ios\/Adapters\/BidonAdapterInMobi\/InMobiDemandSourceAdapter.swift",
+      "kind": "StringLiteral",
+      "offset": 616,
+      "length": 3,
+      "value": "\"0\""
+    },
+    {
+      "filePath": "\/Users\/evgeniagrigorovic\/Desktop\/Project\/bidon-sdk-ios\/Adapters\/BidonAdapterInMobi\/InMobiDemandSourceAdapter.swift",
+      "kind": "BooleanLiteral",
+      "offset": 730,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/evgeniagrigorovic\/Desktop\/Project\/bidon-sdk-ios\/Adapters\/BidonAdapterInMobi\/InMobiDemandSourceAdapter.swift",
+      "kind": "Dictionary",
+      "offset": 1670,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/evgeniagrigorovic\/Desktop\/Project\/bidon-sdk-ios\/Adapters\/BidonAdapterInMobi\/InMobiDemandSourceAdapter.swift",
+      "kind": "StringLiteral",
+      "offset": 1830,
+      "length": 6,
+      "value": "\"true\""
+    },
+    {
+      "filePath": "\/Users\/evgeniagrigorovic\/Desktop\/Project\/bidon-sdk-ios\/Adapters\/BidonAdapterInMobi\/InMobiDemandSourceAdapter.swift",
+      "kind": "StringLiteral",
+      "offset": 1936,
+      "length": 7,
+      "value": "\"false\""
+    },
+    {
+      "filePath": "\/Users\/evgeniagrigorovic\/Desktop\/Project\/bidon-sdk-ios\/Adapters\/BidonAdapterInMobi\/Providers\/InMobiAdViewDemandProvider.swift",
+      "kind": "BooleanLiteral",
+      "offset": 283,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/evgeniagrigorovic\/Desktop\/Project\/bidon-sdk-ios\/Adapters\/BidonAdapterInMobi\/Providers\/InMobiAdViewDemandProvider.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1348,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/evgeniagrigorovic\/Desktop\/Project\/bidon-sdk-ios\/Adapters\/BidonAdapterInMobi\/Providers\/InMobiAdViewDemandProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 311,
+      "length": 26,
+      "value": "\"BidonAdapterInMobi.InMobiAdViewDemandProvider\""
+    },
+    {
+      "filePath": "\/Users\/evgeniagrigorovic\/Desktop\/Project\/bidon-sdk-ios\/Adapters\/BidonAdapterInMobi\/Wrappers\/InMobiDemandAd.swift",
+      "kind": "StringLiteral",
+      "offset": 579,
+      "length": 10,
+      "value": "\"bidValue\""
+    },
+    {
+      "filePath": "\/Users\/evgeniagrigorovic\/Desktop\/Project\/bidon-sdk-ios\/Adapters\/BidonAdapterInMobi\/Wrappers\/InMobiDemandAd.swift",
+      "kind": "StringLiteral",
+      "offset": 765,
+      "length": 14,
+      "value": "\"adSourceName\""
+    },
+    {
+      "filePath": "\/Users\/evgeniagrigorovic\/Desktop\/Project\/bidon-sdk-ios\/Adapters\/BidonAdapterInMobi\/Wrappers\/InMobiDemandAd.swift",
+      "kind": "StringLiteral",
+      "offset": 270,
+      "length": 14,
+      "value": "\"BidonAdapterInMobi.InMobiDemandAd\""
+    }
+  ]
+}

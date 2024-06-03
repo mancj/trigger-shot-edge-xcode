@@ -1,0 +1,11 @@
+framework module BidonAdapterAppLovin {
+  umbrella header "BidonAdapterAppLovin.h"
+
+  export *
+  module * { export * }
+}
+
+module BidonAdapterAppLovin.Swift {
+  header "BidonAdapterAppLovin-Swift.h"
+  requires objc
+}

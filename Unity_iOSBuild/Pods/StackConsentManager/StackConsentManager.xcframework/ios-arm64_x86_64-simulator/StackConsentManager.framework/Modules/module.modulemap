@@ -1,0 +1,4 @@
+framework module StackConsentManager {
+  header "StackConsentManager-Swift.h"
+  requires objc
+}

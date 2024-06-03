@@ -1,0 +1,1 @@
+../../../BURelyFoundation_Global/Frameworks/SDK/BURelyFoundationGlobalHeader/BURelyFoundationGlobalHeader.xcframework/ios-arm64_x86_64-simulator/Headers/BURelyFoundation_Global.h

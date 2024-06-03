@@ -1,0 +1,11 @@
+framework module BidonAdapterMintegral {
+  umbrella header "BidonAdapterMintegral.h"
+
+  export *
+  module * { export * }
+}
+
+module BidonAdapterMintegral.Swift {
+  header "BidonAdapterMintegral-Swift.h"
+  requires objc
+}

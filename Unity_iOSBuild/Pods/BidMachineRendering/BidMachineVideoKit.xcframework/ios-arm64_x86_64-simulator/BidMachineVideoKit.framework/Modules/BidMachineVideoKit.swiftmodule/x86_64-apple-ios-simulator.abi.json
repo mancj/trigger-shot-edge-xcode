@@ -1,0 +1,1369 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "BidMachineVideoKit"
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "BidMachineVideoKit"
+      },
+      {
+        "kind": "Import",
+        "name": "BidMachineUtilsKit",
+        "printedName": "BidMachineUtilsKit",
+        "declKind": "Import",
+        "moduleName": "BidMachineVideoKit"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "BidMachineVideoKit"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BidMachineVideoKit"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit.UIImage",
+        "printedName": "UIKit.UIImage",
+        "declKind": "Import",
+        "moduleName": "BidMachineVideoKit"
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "BidMachineVideoKit"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BidMachineVideoKit"
+      },
+      {
+        "kind": "Import",
+        "name": "BidMachineUtilsKit",
+        "printedName": "BidMachineUtilsKit",
+        "declKind": "Import",
+        "moduleName": "BidMachineVideoKit"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BidMachineVideoKit"
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "BidMachineVideoKit"
+      },
+      {
+        "kind": "Import",
+        "name": "BidMachineUtilsKit",
+        "printedName": "BidMachineUtilsKit",
+        "declKind": "Import",
+        "moduleName": "BidMachineVideoKit"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BidMachineVideoKit"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "BidMachineVideoKit"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BidMachineVideoKit"
+      },
+      {
+        "kind": "Import",
+        "name": "BidMachineUtilsKit",
+        "printedName": "BidMachineUtilsKit",
+        "declKind": "Import",
+        "moduleName": "BidMachineVideoKit"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BidMachineVideoControllerDelegate",
+        "printedName": "BidMachineVideoControllerDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "videoController",
+            "printedName": "videoController(_:didLoadLoad:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "BidMachineVideoController",
+                "printedName": "BidMachineVideoKit.BidMachineVideoController",
+                "usr": "s:18BidMachineVideoKit0abC10ControllerC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "BidMachineUtilsKit.BidMachineError?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BidMachineError",
+                    "printedName": "BidMachineUtilsKit.BidMachineError",
+                    "usr": "s:18BidMachineUtilsKit0aB5ErrorV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18BidMachineVideoKit0abC18ControllerDelegateP05videoE0_07didLoadI0yAA0abcE0C_0ab5UtilsD00aB5ErrorVSgtF",
+            "mangledName": "$s18BidMachineVideoKit0abC18ControllerDelegateP05videoE0_07didLoadI0yAA0abcE0C_0ab5UtilsD00aB5ErrorVSgtF",
+            "moduleName": "BidMachineVideoKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : BidMachineVideoKit.BidMachineVideoControllerDelegate>",
+            "sugared_genericSig": "<Self where Self : BidMachineVideoKit.BidMachineVideoControllerDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "videoController",
+            "printedName": "videoController(_:controllerIsPlaying:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "BidMachineVideoController",
+                "printedName": "BidMachineVideoKit.BidMachineVideoController",
+                "usr": "s:18BidMachineVideoKit0abC10ControllerC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18BidMachineVideoKit0abC18ControllerDelegateP05videoE0_19controllerIsPlayingyAA0abcE0C_SbtF",
+            "mangledName": "$s18BidMachineVideoKit0abC18ControllerDelegateP05videoE0_19controllerIsPlayingyAA0abcE0C_SbtF",
+            "moduleName": "BidMachineVideoKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : BidMachineVideoKit.BidMachineVideoControllerDelegate>",
+            "sugared_genericSig": "<Self where Self : BidMachineVideoKit.BidMachineVideoControllerDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "videoController",
+            "printedName": "videoController(_:controllerDidStartPlaying:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "BidMachineVideoController",
+                "printedName": "BidMachineVideoKit.BidMachineVideoController",
+                "usr": "s:18BidMachineVideoKit0abC10ControllerC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "BidMachineUtilsKit.BidMachineError?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BidMachineError",
+                    "printedName": "BidMachineUtilsKit.BidMachineError",
+                    "usr": "s:18BidMachineUtilsKit0aB5ErrorV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18BidMachineVideoKit0abC18ControllerDelegateP05videoE0_25controllerDidStartPlayingyAA0abcE0C_0ab5UtilsD00aB5ErrorVSgtF",
+            "mangledName": "$s18BidMachineVideoKit0abC18ControllerDelegateP05videoE0_25controllerDidStartPlayingyAA0abcE0C_0ab5UtilsD00aB5ErrorVSgtF",
+            "moduleName": "BidMachineVideoKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : BidMachineVideoKit.BidMachineVideoControllerDelegate>",
+            "sugared_genericSig": "<Self where Self : BidMachineVideoKit.BidMachineVideoControllerDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "videoController",
+            "printedName": "videoController(_:controllerDidFinishPlaying:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "BidMachineVideoController",
+                "printedName": "BidMachineVideoKit.BidMachineVideoController",
+                "usr": "s:18BidMachineVideoKit0abC10ControllerC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "BidMachineUtilsKit.BidMachineError?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BidMachineError",
+                    "printedName": "BidMachineUtilsKit.BidMachineError",
+                    "usr": "s:18BidMachineUtilsKit0aB5ErrorV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18BidMachineVideoKit0abC18ControllerDelegateP05videoE0_26controllerDidFinishPlayingyAA0abcE0C_0ab5UtilsD00aB5ErrorVSgtF",
+            "mangledName": "$s18BidMachineVideoKit0abC18ControllerDelegateP05videoE0_26controllerDidFinishPlayingyAA0abcE0C_0ab5UtilsD00aB5ErrorVSgtF",
+            "moduleName": "BidMachineVideoKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : BidMachineVideoKit.BidMachineVideoControllerDelegate>",
+            "sugared_genericSig": "<Self where Self : BidMachineVideoKit.BidMachineVideoControllerDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "videoController",
+            "printedName": "videoController(_:controllerIsMuted:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "BidMachineVideoController",
+                "printedName": "BidMachineVideoKit.BidMachineVideoController",
+                "usr": "s:18BidMachineVideoKit0abC10ControllerC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18BidMachineVideoKit0abC18ControllerDelegateP05videoE0_17controllerIsMutedyAA0abcE0C_SbtF",
+            "mangledName": "$s18BidMachineVideoKit0abC18ControllerDelegateP05videoE0_17controllerIsMutedyAA0abcE0C_SbtF",
+            "moduleName": "BidMachineVideoKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : BidMachineVideoKit.BidMachineVideoControllerDelegate>",
+            "sugared_genericSig": "<Self where Self : BidMachineVideoKit.BidMachineVideoControllerDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "videoController",
+            "printedName": "videoController(_:controllerTimeDidChange:totalTime:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "BidMachineVideoController",
+                "printedName": "BidMachineVideoKit.BidMachineVideoController",
+                "usr": "s:18BidMachineVideoKit0abC10ControllerC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18BidMachineVideoKit0abC18ControllerDelegateP05videoE0_23controllerTimeDidChange05totalI0yAA0abcE0C_S2dtF",
+            "mangledName": "$s18BidMachineVideoKit0abC18ControllerDelegateP05videoE0_23controllerTimeDidChange05totalI0yAA0abcE0C_S2dtF",
+            "moduleName": "BidMachineVideoKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : BidMachineVideoKit.BidMachineVideoControllerDelegate>",
+            "sugared_genericSig": "<Self where Self : BidMachineVideoKit.BidMachineVideoControllerDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:18BidMachineVideoKit0abC18ControllerDelegateP",
+        "mangledName": "$s18BidMachineVideoKit0abC18ControllerDelegateP",
+        "moduleName": "BidMachineVideoKit",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BidMachineVideoController",
+        "printedName": "BidMachineVideoController",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "delegate",
+            "printedName": "delegate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WeakStorage",
+                "printedName": "BidMachineVideoKit.BidMachineVideoControllerDelegate?"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18BidMachineVideoKit0abC10ControllerC8delegateAA0abcE8Delegate_pSgvp",
+            "mangledName": "$s18BidMachineVideoKit0abC10ControllerC8delegateAA0abcE8Delegate_pSgvp",
+            "moduleName": "BidMachineVideoKit",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "ReferenceOwnership",
+              "AccessControl"
+            ],
+            "ownership": 1,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "BidMachineVideoKit.BidMachineVideoControllerDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BidMachineVideoControllerDelegate",
+                        "printedName": "BidMachineVideoKit.BidMachineVideoControllerDelegate",
+                        "usr": "s:18BidMachineVideoKit0abC18ControllerDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18BidMachineVideoKit0abC10ControllerC8delegateAA0abcE8Delegate_pSgvg",
+                "mangledName": "$s18BidMachineVideoKit0abC10ControllerC8delegateAA0abcE8Delegate_pSgvg",
+                "moduleName": "BidMachineVideoKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "BidMachineVideoKit.BidMachineVideoControllerDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BidMachineVideoControllerDelegate",
+                        "printedName": "BidMachineVideoKit.BidMachineVideoControllerDelegate",
+                        "usr": "s:18BidMachineVideoKit0abC18ControllerDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18BidMachineVideoKit0abC10ControllerC8delegateAA0abcE8Delegate_pSgvs",
+                "mangledName": "$s18BidMachineVideoKit0abC10ControllerC8delegateAA0abcE8Delegate_pSgvs",
+                "moduleName": "BidMachineVideoKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18BidMachineVideoKit0abC10ControllerC8delegateAA0abcE8Delegate_pSgvM",
+                "mangledName": "$s18BidMachineVideoKit0abC10ControllerC8delegateAA0abcE8Delegate_pSgvM",
+                "moduleName": "BidMachineVideoKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "BidMachineVideoController",
+                "printedName": "BidMachineVideoKit.BidMachineVideoController",
+                "usr": "s:18BidMachineVideoKit0abC10ControllerC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ProtocolComposition",
+                "printedName": "Any"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:18BidMachineVideoKit0abC10ControllerCyACypcfc",
+            "mangledName": "$s18BidMachineVideoKit0abC10ControllerCyACypcfc",
+            "moduleName": "BidMachineVideoKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "container",
+            "printedName": "container",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIView",
+                "printedName": "UIKit.UIView",
+                "usr": "c:objc(cs)UIView"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18BidMachineVideoKit0abC10ControllerC9containerSo6UIViewCvp",
+            "mangledName": "$s18BidMachineVideoKit0abC10ControllerC9containerSo6UIViewCvp",
+            "moduleName": "BidMachineVideoKit",
+            "declAttributes": [
+              "Final"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIView",
+                    "printedName": "UIKit.UIView",
+                    "usr": "c:objc(cs)UIView"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18BidMachineVideoKit0abC10ControllerC9containerSo6UIViewCvg",
+                "mangledName": "$s18BidMachineVideoKit0abC10ControllerC9containerSo6UIViewCvg",
+                "moduleName": "BidMachineVideoKit",
+                "declAttributes": [
+                  "Final"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "player",
+            "printedName": "player",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "VideoPlayerProtocol",
+                "printedName": "BidMachineVideoKit.VideoPlayerProtocol",
+                "usr": "s:18BidMachineVideoKit0C14PlayerProtocolP"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18BidMachineVideoKit0abC10ControllerC6playerAA0C14PlayerProtocol_pvp",
+            "mangledName": "$s18BidMachineVideoKit0abC10ControllerC6playerAA0C14PlayerProtocol_pvp",
+            "moduleName": "BidMachineVideoKit",
+            "declAttributes": [
+              "Final"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VideoPlayerProtocol",
+                    "printedName": "BidMachineVideoKit.VideoPlayerProtocol",
+                    "usr": "s:18BidMachineVideoKit0C14PlayerProtocolP"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18BidMachineVideoKit0abC10ControllerC6playerAA0C14PlayerProtocol_pvg",
+                "mangledName": "$s18BidMachineVideoKit0abC10ControllerC6playerAA0C14PlayerProtocol_pvg",
+                "moduleName": "BidMachineVideoKit",
+                "declAttributes": [
+                  "Final"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "loadAd",
+            "printedName": "loadAd(adm:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18BidMachineVideoKit0abC10ControllerC6loadAd3admySS_tF",
+            "mangledName": "$s18BidMachineVideoKit0abC10ControllerC6loadAd3admySS_tF",
+            "moduleName": "BidMachineVideoKit",
+            "declAttributes": [
+              "Final"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:18BidMachineVideoKit0abC10ControllerC",
+        "mangledName": "$s18BidMachineVideoKit0abC10ControllerC",
+        "moduleName": "BidMachineVideoKit",
+        "declAttributes": [
+          "Final",
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "BidMachineVideoKit"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BidMachineVideoKit"
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "BidMachineVideoKit"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BidMachineVideoKit"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BidMachineVideoKit"
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "BidMachineVideoKit"
+      },
+      {
+        "kind": "Import",
+        "name": "BidMachineUtilsKit",
+        "printedName": "BidMachineUtilsKit",
+        "declKind": "Import",
+        "moduleName": "BidMachineVideoKit"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "BidMachineVideoKit"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BidMachineVideoKit"
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "BidMachineVideoKit"
+      },
+      {
+        "kind": "Import",
+        "name": "BidMachineUtilsKit",
+        "printedName": "BidMachineUtilsKit",
+        "declKind": "Import",
+        "moduleName": "BidMachineVideoKit"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "BidMachineVideoKit"
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "BidMachineVideoKit"
+      },
+      {
+        "kind": "Import",
+        "name": "BidMachineUtilsKit",
+        "printedName": "BidMachineUtilsKit",
+        "declKind": "Import",
+        "moduleName": "BidMachineVideoKit"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "VideoPlayerProtocol",
+        "printedName": "VideoPlayerProtocol",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "install",
+            "printedName": "install()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18BidMachineVideoKit0C14PlayerProtocolP7installyyF",
+            "mangledName": "$s18BidMachineVideoKit0C14PlayerProtocolP7installyyF",
+            "moduleName": "BidMachineVideoKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : BidMachineVideoKit.VideoPlayerProtocol>",
+            "sugared_genericSig": "<Self where Self : BidMachineVideoKit.VideoPlayerProtocol>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "uninstall",
+            "printedName": "uninstall()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18BidMachineVideoKit0C14PlayerProtocolP9uninstallyyF",
+            "mangledName": "$s18BidMachineVideoKit0C14PlayerProtocolP9uninstallyyF",
+            "moduleName": "BidMachineVideoKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : BidMachineVideoKit.VideoPlayerProtocol>",
+            "sugared_genericSig": "<Self where Self : BidMachineVideoKit.VideoPlayerProtocol>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "invalidate",
+            "printedName": "invalidate()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18BidMachineVideoKit0C14PlayerProtocolP10invalidateyyF",
+            "mangledName": "$s18BidMachineVideoKit0C14PlayerProtocolP10invalidateyyF",
+            "moduleName": "BidMachineVideoKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : BidMachineVideoKit.VideoPlayerProtocol>",
+            "sugared_genericSig": "<Self where Self : BidMachineVideoKit.VideoPlayerProtocol>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "play",
+            "printedName": "play()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18BidMachineVideoKit0C14PlayerProtocolP4playyyF",
+            "mangledName": "$s18BidMachineVideoKit0C14PlayerProtocolP4playyyF",
+            "moduleName": "BidMachineVideoKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : BidMachineVideoKit.VideoPlayerProtocol>",
+            "sugared_genericSig": "<Self where Self : BidMachineVideoKit.VideoPlayerProtocol>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "pause",
+            "printedName": "pause()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18BidMachineVideoKit0C14PlayerProtocolP5pauseyyF",
+            "mangledName": "$s18BidMachineVideoKit0C14PlayerProtocolP5pauseyyF",
+            "moduleName": "BidMachineVideoKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : BidMachineVideoKit.VideoPlayerProtocol>",
+            "sugared_genericSig": "<Self where Self : BidMachineVideoKit.VideoPlayerProtocol>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "repeat",
+            "printedName": "repeat()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18BidMachineVideoKit0C14PlayerProtocolP6repeatyyF",
+            "mangledName": "$s18BidMachineVideoKit0C14PlayerProtocolP6repeatyyF",
+            "moduleName": "BidMachineVideoKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : BidMachineVideoKit.VideoPlayerProtocol>",
+            "sugared_genericSig": "<Self where Self : BidMachineVideoKit.VideoPlayerProtocol>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "isMuted",
+            "printedName": "isMuted",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18BidMachineVideoKit0C14PlayerProtocolP7isMutedSbvp",
+            "mangledName": "$s18BidMachineVideoKit0C14PlayerProtocolP7isMutedSbvp",
+            "moduleName": "BidMachineVideoKit",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18BidMachineVideoKit0C14PlayerProtocolP7isMutedSbvg",
+                "mangledName": "$s18BidMachineVideoKit0C14PlayerProtocolP7isMutedSbvg",
+                "moduleName": "BidMachineVideoKit",
+                "genericSig": "<τ_0_0 where τ_0_0 : BidMachineVideoKit.VideoPlayerProtocol>",
+                "sugared_genericSig": "<Self where Self : BidMachineVideoKit.VideoPlayerProtocol>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18BidMachineVideoKit0C14PlayerProtocolP7isMutedSbvs",
+                "mangledName": "$s18BidMachineVideoKit0C14PlayerProtocolP7isMutedSbvs",
+                "moduleName": "BidMachineVideoKit",
+                "genericSig": "<τ_0_0 where τ_0_0 : BidMachineVideoKit.VideoPlayerProtocol>",
+                "sugared_genericSig": "<Self where Self : BidMachineVideoKit.VideoPlayerProtocol>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18BidMachineVideoKit0C14PlayerProtocolP7isMutedSbvM",
+                "mangledName": "$s18BidMachineVideoKit0C14PlayerProtocolP7isMutedSbvM",
+                "moduleName": "BidMachineVideoKit",
+                "genericSig": "<τ_0_0 where τ_0_0 : BidMachineVideoKit.VideoPlayerProtocol>",
+                "sugared_genericSig": "<Self where Self : BidMachineVideoKit.VideoPlayerProtocol>",
+                "protocolReq": true,
+                "implicit": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "duration",
+            "printedName": "duration",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18BidMachineVideoKit0C14PlayerProtocolP8durationSdvp",
+            "mangledName": "$s18BidMachineVideoKit0C14PlayerProtocolP8durationSdvp",
+            "moduleName": "BidMachineVideoKit",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18BidMachineVideoKit0C14PlayerProtocolP8durationSdvg",
+                "mangledName": "$s18BidMachineVideoKit0C14PlayerProtocolP8durationSdvg",
+                "moduleName": "BidMachineVideoKit",
+                "genericSig": "<τ_0_0 where τ_0_0 : BidMachineVideoKit.VideoPlayerProtocol>",
+                "sugared_genericSig": "<Self where Self : BidMachineVideoKit.VideoPlayerProtocol>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "currentTime",
+            "printedName": "currentTime",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18BidMachineVideoKit0C14PlayerProtocolP11currentTimeSdvp",
+            "mangledName": "$s18BidMachineVideoKit0C14PlayerProtocolP11currentTimeSdvp",
+            "moduleName": "BidMachineVideoKit",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18BidMachineVideoKit0C14PlayerProtocolP11currentTimeSdvg",
+                "mangledName": "$s18BidMachineVideoKit0C14PlayerProtocolP11currentTimeSdvg",
+                "moduleName": "BidMachineVideoKit",
+                "genericSig": "<τ_0_0 where τ_0_0 : BidMachineVideoKit.VideoPlayerProtocol>",
+                "sugared_genericSig": "<Self where Self : BidMachineVideoKit.VideoPlayerProtocol>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:18BidMachineVideoKit0C14PlayerProtocolP",
+        "mangledName": "$s18BidMachineVideoKit0C14PlayerProtocolP",
+        "moduleName": "BidMachineVideoKit",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/assassin\/Desktop\/release2.5\/BidMachine-iOS-Rendering\/BidMachineVideoKit\/BidMachineVideoKit\/VideoContainer.swift",
+      "kind": "StringLiteral",
+      "offset": 704,
+      "length": 39,
+      "value": "\"init(coder:) has not been implemented\""
+    },
+    {
+      "filePath": "\/Users\/assassin\/Desktop\/release2.5\/BidMachine-iOS-Rendering\/BidMachineVideoKit\/BidMachineVideoKit\/VideoContainer.swift",
+      "kind": "StringLiteral",
+      "offset": 72,
+      "length": 14,
+      "value": "\"BidMachineVideoKit.VideoContainer\""
+    },
+    {
+      "filePath": "\/Users\/assassin\/Desktop\/release2.5\/BidMachine-iOS-Rendering\/BidMachineVideoKit\/BidMachineVideoKit\/VideoContainer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1574,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/assassin\/Desktop\/release2.5\/BidMachine-iOS-Rendering\/BidMachineVideoKit\/BidMachineVideoKit\/VideoThumbnailGenerator.swift",
+      "kind": "FloatLiteral",
+      "offset": 743,
+      "length": 3,
+      "value": "2.0"
+    },
+    {
+      "filePath": "\/Users\/assassin\/Desktop\/release2.5\/BidMachine-iOS-Rendering\/BidMachineVideoKit\/BidMachineVideoKit\/VideoPlayerLoadingService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 494,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/assassin\/Desktop\/release2.5\/BidMachine-iOS-Rendering\/BidMachineVideoKit\/BidMachineVideoKit\/VideoPlayerLoadingService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 530,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/assassin\/Desktop\/release2.5\/BidMachine-iOS-Rendering\/BidMachineVideoKit\/BidMachineVideoKit\/VideoPlayerLoadingService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 566,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/assassin\/Desktop\/release2.5\/BidMachine-iOS-Rendering\/BidMachineVideoKit\/BidMachineVideoKit\/VideoPlayerLoadingService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 602,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/assassin\/Desktop\/release2.5\/BidMachine-iOS-Rendering\/BidMachineVideoKit\/BidMachineVideoKit\/VideoPlayerStatusService.swift",
+      "kind": "FloatLiteral",
+      "offset": 658,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/assassin\/Desktop\/release2.5\/BidMachine-iOS-Rendering\/BidMachineVideoKit\/BidMachineVideoKit\/VideoPlayerStatusService.swift",
+      "kind": "FloatLiteral",
+      "offset": 716,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/assassin\/Desktop\/release2.5\/BidMachine-iOS-Rendering\/BidMachineVideoKit\/BidMachineVideoKit\/VideoPlayerStatusService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 761,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/assassin\/Desktop\/release2.5\/BidMachine-iOS-Rendering\/BidMachineVideoKit\/BidMachineVideoKit\/VideoPlayerStatusService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 803,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/assassin\/Desktop\/release2.5\/BidMachine-iOS-Rendering\/BidMachineVideoKit\/BidMachineVideoKit\/VideoPlayerStatusService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 845,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/assassin\/Desktop\/release2.5\/BidMachine-iOS-Rendering\/BidMachineVideoKit\/BidMachineVideoKit\/VideoPlayerStatusService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 890,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/assassin\/Desktop\/release2.5\/BidMachine-iOS-Rendering\/BidMachineVideoKit\/BidMachineVideoKit\/VideoPlayerStatusService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1008,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/assassin\/Desktop\/release2.5\/BidMachine-iOS-Rendering\/BidMachineVideoKit\/BidMachineVideoKit\/VideoPlayerStatusService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1353,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/assassin\/Desktop\/release2.5\/BidMachine-iOS-Rendering\/BidMachineVideoKit\/BidMachineVideoKit\/VideoPlayerStatusService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1881,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/assassin\/Desktop\/release2.5\/BidMachine-iOS-Rendering\/BidMachineVideoKit\/BidMachineVideoKit\/VideoPlayerStatusService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2006,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/assassin\/Desktop\/release2.5\/BidMachine-iOS-Rendering\/BidMachineVideoKit\/BidMachineVideoKit\/VideoPlayerStatusService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2171,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/assassin\/Desktop\/release2.5\/BidMachine-iOS-Rendering\/BidMachineVideoKit\/BidMachineVideoKit\/VideoPlayerStatusService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2428,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/assassin\/Desktop\/release2.5\/BidMachine-iOS-Rendering\/BidMachineVideoKit\/BidMachineVideoKit\/VideoPlayerStatusService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3060,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/assassin\/Desktop\/release2.5\/BidMachine-iOS-Rendering\/BidMachineVideoKit\/BidMachineVideoKit\/VideoPlayerStatusService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3344,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/assassin\/Desktop\/release2.5\/BidMachine-iOS-Rendering\/BidMachineVideoKit\/BidMachineVideoKit\/VideoPlayerStatusService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3392,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/assassin\/Desktop\/release2.5\/BidMachine-iOS-Rendering\/BidMachineVideoKit\/BidMachineVideoKit\/VideoPlayerObserverController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 566,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/assassin\/Desktop\/release2.5\/BidMachine-iOS-Rendering\/BidMachineVideoKit\/BidMachineVideoKit\/VideoPlayerObserverController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 609,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/assassin\/Desktop\/release2.5\/BidMachine-iOS-Rendering\/BidMachineVideoKit\/BidMachineVideoKit\/VideoPlayerObserverController.swift",
+      "kind": "StringLiteral",
+      "offset": 1980,
+      "length": 19,
+      "value": "\"timeControlStatus\""
+    },
+    {
+      "filePath": "\/Users\/assassin\/Desktop\/release2.5\/BidMachine-iOS-Rendering\/BidMachineVideoKit\/BidMachineVideoKit\/VideoPlayerObserverController.swift",
+      "kind": "StringLiteral",
+      "offset": 2169,
+      "length": 19,
+      "value": "\"timeControlStatus\""
+    },
+    {
+      "filePath": "\/Users\/assassin\/Desktop\/release2.5\/BidMachine-iOS-Rendering\/BidMachineVideoKit\/BidMachineVideoKit\/VideoPlayerObserverController.swift",
+      "kind": "FloatLiteral",
+      "offset": 2375,
+      "length": 5,
+      "value": "0.015"
+    },
+    {
+      "filePath": "\/Users\/assassin\/Desktop\/release2.5\/BidMachine-iOS-Rendering\/BidMachineVideoKit\/BidMachineVideoKit\/VideoPlayerObserverController.swift",
+      "kind": "StringLiteral",
+      "offset": 6389,
+      "length": 8,
+      "value": "\"status\""
+    },
+    {
+      "filePath": "\/Users\/assassin\/Desktop\/release2.5\/BidMachine-iOS-Rendering\/BidMachineVideoKit\/BidMachineVideoKit\/VideoPlayerObserverController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6631,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/assassin\/Desktop\/release2.5\/BidMachine-iOS-Rendering\/BidMachineVideoKit\/BidMachineVideoKit\/VideoPlayerObserverController.swift",
+      "kind": "StringLiteral",
+      "offset": 6685,
+      "length": 8,
+      "value": "\"status\""
+    },
+    {
+      "filePath": "\/Users\/assassin\/Desktop\/release2.5\/BidMachine-iOS-Rendering\/BidMachineVideoKit\/BidMachineVideoKit\/VideoPlayerAsset.swift",
+      "kind": "StringLiteral",
+      "offset": 362,
+      "length": 18,
+      "value": "\"VideoPlayerAsset\""
+    },
+    {
+      "filePath": "\/Users\/assassin\/Desktop\/release2.5\/BidMachine-iOS-Rendering\/BidMachineVideoKit\/BidMachineVideoKit\/VideoPlayerAsset.swift",
+      "kind": "StringLiteral",
+      "offset": 846,
+      "length": 17,
+      "value": "\"Fail data cache\""
+    },
+    {
+      "filePath": "\/Users\/assassin\/Desktop\/release2.5\/BidMachine-iOS-Rendering\/BidMachineVideoKit\/BidMachineVideoKit\/VideoPlayerAsset.swift",
+      "kind": "StringLiteral",
+      "offset": 1140,
+      "length": 23,
+      "value": "\"Cached file not found\""
+    },
+    {
+      "filePath": "\/Users\/assassin\/Desktop\/release2.5\/BidMachine-iOS-Rendering\/BidMachineVideoKit\/BidMachineVideoKit\/VideoPlayerAsset.swift",
+      "kind": "Array",
+      "offset": 1446,
+      "length": 24,
+      "value": "[\"playable\", \"duration\"]"
+    },
+    {
+      "filePath": "\/Users\/assassin\/Desktop\/release2.5\/BidMachine-iOS-Rendering\/BidMachineVideoKit\/BidMachineVideoKit\/VideoPlayerAsset.swift",
+      "kind": "StringLiteral",
+      "offset": 1671,
+      "length": 10,
+      "value": "\"playable\""
+    },
+    {
+      "filePath": "\/Users\/assassin\/Desktop\/release2.5\/BidMachine-iOS-Rendering\/BidMachineVideoKit\/BidMachineVideoKit\/VideoPlayerAsset.swift",
+      "kind": "StringLiteral",
+      "offset": 2005,
+      "length": 33,
+      "value": "\"Asset playable status == failed\""
+    },
+    {
+      "filePath": "\/Users\/assassin\/Desktop\/release2.5\/BidMachine-iOS-Rendering\/BidMachineVideoKit\/BidMachineVideoKit\/VideoPlayerAsset.swift",
+      "kind": "StringLiteral",
+      "offset": 2247,
+      "length": 35,
+      "value": "\"Asset playable status == canceled\""
+    },
+    {
+      "filePath": "\/Users\/assassin\/Desktop\/release2.5\/BidMachine-iOS-Rendering\/BidMachineVideoKit\/BidMachineVideoKit\/VideoPlayerAsset.swift",
+      "kind": "StringLiteral",
+      "offset": 2483,
+      "length": 32,
+      "value": "\"Asset playable status == other\""
+    },
+    {
+      "filePath": "\/Users\/assassin\/Desktop\/release2.5\/BidMachine-iOS-Rendering\/BidMachineVideoKit\/BidMachineVideoKit\/VideoManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1027,
+      "length": 14,
+      "value": "\"VideoManager\""
+    },
+    {
+      "filePath": "\/Users\/assassin\/Desktop\/release2.5\/BidMachine-iOS-Rendering\/BidMachineVideoKit\/BidMachineVideoKit\/VideoManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1070,
+      "length": 29,
+      "value": "\"Video adm is not url string\""
+    },
+    {
+      "filePath": "\/Users\/assassin\/Desktop\/release2.5\/BidMachine-iOS-Rendering\/BidMachineVideoKit\/BidMachineVideoKit\/VideoPlayer.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1867,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/assassin\/Desktop\/release2.5\/BidMachine-iOS-Rendering\/BidMachineVideoKit\/BidMachineVideoKit\/VideoPlayer.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2374,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/assassin\/Desktop\/release2.5\/BidMachine-iOS-Rendering\/BidMachineVideoKit\/BidMachineVideoKit\/VideoPlayer.swift",
+      "kind": "StringLiteral",
+      "offset": 5630,
+      "length": 13,
+      "value": "\"VideoPlayer\""
+    },
+    {
+      "filePath": "\/Users\/assassin\/Desktop\/release2.5\/BidMachine-iOS-Rendering\/BidMachineVideoKit\/BidMachineVideoKit\/VideoPlayer.swift",
+      "kind": "StringLiteral",
+      "offset": 5698,
+      "length": 20,
+      "value": "\"Asset fail to play\""
+    }
+  ]
+}

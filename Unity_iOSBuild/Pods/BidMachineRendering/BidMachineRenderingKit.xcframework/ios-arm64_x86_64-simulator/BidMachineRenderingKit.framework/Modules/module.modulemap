@@ -1,0 +1,11 @@
+framework module BidMachineRenderingKit {
+  umbrella header "BidMachineRenderingKit.h"
+
+  export *
+  module * { export * }
+}
+
+module BidMachineRenderingKit.Swift {
+  header "BidMachineRenderingKit-Swift.h"
+  requires objc
+}

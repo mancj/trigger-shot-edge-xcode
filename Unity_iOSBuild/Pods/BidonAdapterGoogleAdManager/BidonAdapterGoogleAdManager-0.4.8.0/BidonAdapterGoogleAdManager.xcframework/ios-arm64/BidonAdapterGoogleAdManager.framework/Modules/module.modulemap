@@ -1,0 +1,11 @@
+framework module BidonAdapterGoogleAdManager {
+  umbrella header "BidonAdapterGoogleAdManager.h"
+
+  export *
+  module * { export * }
+}
+
+module BidonAdapterGoogleAdManager.Swift {
+  header "BidonAdapterGoogleAdManager-Swift.h"
+  requires objc
+}

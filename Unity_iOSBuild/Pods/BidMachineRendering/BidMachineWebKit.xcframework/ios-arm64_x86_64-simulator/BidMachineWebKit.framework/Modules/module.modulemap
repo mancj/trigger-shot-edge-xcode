@@ -1,0 +1,11 @@
+framework module BidMachineWebKit {
+  umbrella header "BidMachineWebKit.h"
+
+  export *
+  module * { export * }
+}
+
+module BidMachineWebKit.Swift {
+  header "BidMachineWebKit-Swift.h"
+  requires objc
+}

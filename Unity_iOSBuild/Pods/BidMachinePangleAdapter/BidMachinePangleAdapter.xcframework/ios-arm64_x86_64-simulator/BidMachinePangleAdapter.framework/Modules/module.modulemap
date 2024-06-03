@@ -1,0 +1,11 @@
+framework module BidMachinePangleAdapter {
+  umbrella header "BidMachinePangleAdapter.h"
+
+  export *
+  module * { export * }
+}
+
+module BidMachinePangleAdapter.Swift {
+  header "BidMachinePangleAdapter-Swift.h"
+  requires objc
+}

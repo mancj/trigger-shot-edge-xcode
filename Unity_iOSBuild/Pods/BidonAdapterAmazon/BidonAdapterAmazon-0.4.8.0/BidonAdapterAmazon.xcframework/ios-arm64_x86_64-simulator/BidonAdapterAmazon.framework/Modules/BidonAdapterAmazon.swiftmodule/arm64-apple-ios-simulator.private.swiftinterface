@@ -1,0 +1,46 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.8 (swiftlang-5.8.0.124.2 clang-1403.0.22.11.100)
+// swift-module-flags: -target arm64-apple-ios11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name BidonAdapterAmazon
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import Bidon
+@_exported import BidonAdapterAmazon
+import DTBiOSSDK
+import Foundation
+import Swift
+import _Concurrency
+import _StringProcessing
+@_inheritsConvenienceInitializers @objc final public class AmazonDemandSourceAdapter : ObjectiveC.NSObject {
+  final public let identifier: Swift.String
+  final public let name: Swift.String
+  final public let adapterVersion: Swift.String
+  final public let sdkVersion: Swift.String
+  final public func biddingInterstitialDemandProvider() throws -> Bidon.AnyBiddingInterstitialDemandProvider
+  final public func biddingAdViewDemandProvider(context: Bidon.AdViewContext) throws -> Bidon.AnyBiddingAdViewDemandProvider
+  final public func biddingRewardedAdDemandProvider() throws -> Bidon.AnyBiddingRewardedAdDemandProvider
+  @objc override dynamic public init()
+  @objc deinit
+}
+extension BidonAdapterAmazon.AmazonDemandSourceAdapter : Bidon.ParameterizedInitializableAdapter {
+  public struct Parameters : Swift.Codable {
+    public func encode(to encoder: any Swift.Encoder) throws
+    public init(from decoder: any Swift.Decoder) throws
+  }
+  final public var isInitialized: Swift.Bool {
+    get
+  }
+  final public func initialize(parameters: BidonAdapterAmazon.AmazonDemandSourceAdapter.Parameters, completion: @escaping (Bidon.SdkError?) -> Swift.Void)
+}
+extension DTBiOSSDK.DTBAdDispatcher : Bidon.DemandAd {
+  @objc dynamic public var id: Swift.String {
+    @objc get
+  }
+  @objc dynamic public var networkName: Swift.String {
+    @objc get
+  }
+  @objc dynamic public var dsp: Swift.String? {
+    @objc get
+  }
+}
+extension BidonAdapterAmazon.AmazonDemandSourceAdapter : Bidon.BiddingAdViewDemandSourceAdapter {}
+extension BidonAdapterAmazon.AmazonDemandSourceAdapter : Bidon.BiddingInterstitialDemandSourceAdapter {}
+extension BidonAdapterAmazon.AmazonDemandSourceAdapter : Bidon.BiddingRewardedAdDemandSourceAdapter {}

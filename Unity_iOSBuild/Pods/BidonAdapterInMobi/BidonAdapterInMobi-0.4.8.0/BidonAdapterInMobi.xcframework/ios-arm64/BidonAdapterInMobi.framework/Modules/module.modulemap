@@ -1,0 +1,11 @@
+framework module BidonAdapterInMobi {
+  umbrella header "BidonAdapterInMobi.h"
+
+  export *
+  module * { export * }
+}
+
+module BidonAdapterInMobi.Swift {
+  header "BidonAdapterInMobi-Swift.h"
+  requires objc
+}

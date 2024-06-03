@@ -1,0 +1,11 @@
+framework module BidonAdapterDTExchange {
+  umbrella header "BidonAdapterDTExchange.h"
+
+  export *
+  module * { export * }
+}
+
+module BidonAdapterDTExchange.Swift {
+  header "BidonAdapterDTExchange-Swift.h"
+  requires objc
+}
