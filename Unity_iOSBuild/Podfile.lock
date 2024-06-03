@@ -663,6 +663,7 @@ SPEC REPOS:
     - APDVungleAdapter
     - APDYandexAdapter
     - Appodeal
+    - BidMachine
     - BidMachineAmazonAdapter
     - BidMachineMetaAudienceAdapter
     - BidMachineMintegralAdapter
@@ -791,7 +792,7 @@ SPEC CHECKSUMS:
   Appodeal: 88cc3790f727b1bdc581e8217f3019d94c037fb7
   AppsFlyer-AdRevenue: a38170b0b59f74cd07c7a9b91ee026f147b5c968
   AppsFlyerFramework: 39efd4d2523ca9e3234805aea0c6b3c3a4a387d1
-  BidMachine: e8ee7ae1c80d3a2c4abeced647d96918ec5b2a9e
+  BidMachine: 0b8db210548335b06633a9435d0d20166e9fa206
   BidMachineAmazonAdapter: c00a220afe35bd0d45474205cee2ee31735d003a
   BidMachineMetaAudienceAdapter: 42431d929af223384ccd3ec74a877364b0c8548b
   BidMachineMintegralAdapter: 93f3b62bc12d2d90019c2f9c2a1401c10e9f7792
@@ -853,6 +854,6 @@ SPEC CHECKSUMS:
   YandexMobileAds: 3d7708df615f92815a3acedf9869da46d0b4d65e
   YandexMobileMetrica: f5368ee93f286c793d73b58da00929babfc897c1
 
-PODFILE CHECKSUM: 69366cbddbea9b393e507163e40add80c74399e5
+PODFILE CHECKSUM: 56a012e92b6fc64230589d8195e07086e3cdcb12
 
 COCOAPODS: 1.15.2

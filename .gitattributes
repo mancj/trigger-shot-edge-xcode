@@ -6,3 +6,10 @@
 .git/lfs/objects/af/68/af68e753935840fe0edbb9bbd06dcfe9770ef44502cc5867d9d5ac6dbe036592 filter=lfs diff=lfs merge=lfs -text
 .git/lfs/objects/84/7f/847f7e9ea2d5faaf59a0a8524005e1f9c5a86d3809fd51fbe154ea3a7efa1f30 filter=lfs diff=lfs merge=lfs -text
 .git/lfs/objects/2e/c3/2ec383b855c3e1911601575aca86528b4090812020a868c07610f2dced581de6 filter=lfs diff=lfs merge=lfs -text
+Unity_iOSBuild/Libraries/libiPhone-lib.a filter=lfs diff=lfs merge=lfs -text
+Unity_iOSBuild/Pods/YandexMobileAds/static/YandexMobileAds.xcframework/ios-arm64_i386_x86_64-simulator/YandexMobileAds.framework/YandexMobileAds filter=lfs diff=lfs merge=lfs -text
+Unity_iOSBuild/Pods/YandexMobileAds/static/YandexMobileAds.xcframework/ios-arm64_armv7/YandexMobileAds.framework/YandexMobileAds filter=lfs diff=lfs merge=lfs -text
+Unity_iOSBuild/Pods/Ads-Global/SDK/PAGAdSDK.xcframework/ios-arm64_x86_64-simulator/PAGAdSDK.framework/Versions/A/PAGAdSDK filter=lfs diff=lfs merge=lfs -text
+Unity_iOSBuild/Pods/Ads-Global/SDK/PAGAdSDK.xcframework/ios-arm64/PAGAdSDK.framework/Versions/A/PAGAdSDK filter=lfs diff=lfs merge=lfs -text
+Unity_iOSBuild/Pods/Ads-Global/SDK/BURelyAdSDK.xcframework/ios-arm64_x86_64-simulator/BURelyAdSDK.framework/Versions/A/BURelyAdSDK filter=lfs diff=lfs merge=lfs -text
+Unity_iOSBuild/Pods/Ads-Global/SDK/BURelyAdSDK.xcframework/ios-arm64/BURelyAdSDK.framework/Versions/A/BURelyAdSDK filter=lfs diff=lfs merge=lfs -text

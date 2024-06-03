@@ -2,6 +2,8 @@ CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO
 CONFIGURATION_BUILD_DIR = ${PODS_CONFIGURATION_BUILD_DIR}/StackConsentManager
 FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/GoogleUserMessagingPlatform/Frameworks/Release" "${PODS_ROOT}/StackConsentManager" "${PODS_XCFRAMEWORKS_BUILD_DIR}/GoogleUserMessagingPlatform" "${PODS_XCFRAMEWORKS_BUILD_DIR}/StackConsentManager"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+LIBRARY_SEARCH_PATHS = $(inherited) "${TOOLCHAIN_DIR}/usr/lib/swift/${PLATFORM_NAME}" /usr/lib/swift
+OTHER_LDFLAGS = $(inherited) -l"z" -framework "AdSupport" -framework "WebKit" -weak_framework "AdSupport"
 OTHER_SWIFT_FLAGS = $(inherited) -D COCOAPODS
 PODS_BUILD_DIR = ${BUILD_DIR}
 PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
