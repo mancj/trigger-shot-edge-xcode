@@ -1,0 +1,8 @@
+.git/objects/pack/pack-1744930386dbecfeadb6a2374c7f0019f6009b3f.pack filter=lfs diff=lfs merge=lfs -text
+.git/lfs/objects/d6/e3/d6e367e43c2495f014938a754151d1fbdc7609783542e8164e9c17401f1d8fee filter=lfs diff=lfs merge=lfs -text
+.git/lfs/objects/27/61/27614e1b72b96dd7833d38376230968f8de492866b31d7117de0597f47e436b0 filter=lfs diff=lfs merge=lfs -text
+.git/lfs/objects/7c/51/7c51d27c39780e6b527bdebb03a8a9fe2d6a673e0b07539848178e7bcbb54083 filter=lfs diff=lfs merge=lfs -text
+.git/lfs/objects/b1/2f/b12f755d5ea624f9b553ab5a8a240fac66ef14eec88f7da5ea60ee6db242adaa filter=lfs diff=lfs merge=lfs -text
+.git/lfs/objects/af/68/af68e753935840fe0edbb9bbd06dcfe9770ef44502cc5867d9d5ac6dbe036592 filter=lfs diff=lfs merge=lfs -text
+.git/lfs/objects/84/7f/847f7e9ea2d5faaf59a0a8524005e1f9c5a86d3809fd51fbe154ea3a7efa1f30 filter=lfs diff=lfs merge=lfs -text
+.git/lfs/objects/2e/c3/2ec383b855c3e1911601575aca86528b4090812020a868c07610f2dced581de6 filter=lfs diff=lfs merge=lfs -text
