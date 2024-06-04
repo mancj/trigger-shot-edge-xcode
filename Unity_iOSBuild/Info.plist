@@ -997,5 +997,16 @@
 	<true/>
 	<key>Unity_LoadingActivityIndicatorStyle</key>
 	<integer>-1</integer>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleURLName</key>
+			<string></string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>paybonus15</string>
+			</array>
+		</dict>
+	</array>
 </dict>
 </plist>
