@@ -598,6 +598,7 @@ IL2CPP_EXTERN_C String_t* _stringLiteral4F4024CBEDABD1E3D8B86FE0C2D6AA13B16ACEDB
 IL2CPP_EXTERN_C String_t* _stringLiteral513605D23439F2ECC491910448B110DADF75A4F4;
 IL2CPP_EXTERN_C String_t* _stringLiteral53251E978A97328BD370BCC6D646BA434A9AAF1D;
 IL2CPP_EXTERN_C String_t* _stringLiteral548E367E8E300356AC8BFCAE42282EAA4E472E21;
+IL2CPP_EXTERN_C String_t* _stringLiteral54FFCD7E7E9BFB00BD28D10D7353BC083C760AFF;
 IL2CPP_EXTERN_C String_t* _stringLiteral572F3D989436E4A024F756B0A0F78EDE4D3A34F6;
 IL2CPP_EXTERN_C String_t* _stringLiteral579A1F7B4DB6264330FF446FF7B9482323F3BA3D;
 IL2CPP_EXTERN_C String_t* _stringLiteral581D31BF39BD470905D197F7522150D0AE9F397C;
@@ -16930,38 +16931,53 @@ IL_004f:
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdsManager_PauseGame_m74AC0676D5BE48E25DA2455BD1C0244A519B082F (AdsManager_t8898E37FAF33E302619C63B503C5533D90AC5395* __this, bool ___0_pause, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
 	{
-		bool L_0 = __this->___pauseAutomatically;
-		if (L_0)
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral54FFCD7E7E9BFB00BD28D10D7353BC083C760AFF);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		bool L_0 = ___0_pause;
+		bool L_1 = L_0;
+		RuntimeObject* L_2 = Box(Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_il2cpp_TypeInfo_var, &L_1);
+		String_t* L_3;
+		L_3 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(_stringLiteral54FFCD7E7E9BFB00BD28D10D7353BC083C760AFF, L_2, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_3, NULL);
+		bool L_4 = __this->___pauseAutomatically;
+		if (L_4)
 		{
-			goto IL_0009;
+			goto IL_001e;
 		}
 	}
 	{
 		return;
 	}
 
-IL_0009:
+IL_001e:
 	{
-		bool L_1 = ___0_pause;
-		if (!L_1)
+		bool L_5 = ___0_pause;
+		if (!L_5)
 		{
-			goto IL_0028;
+			goto IL_003d;
 		}
 	}
 	{
-		float L_2;
-		L_2 = Time_get_timeScale_m1F45A413D4EEA08B1E0988022512C137F6C1E616(NULL);
-		__this->___savedTimeScale = L_2;
+		float L_6;
+		L_6 = Time_get_timeScale_m1F45A413D4EEA08B1E0988022512C137F6C1E616(NULL);
+		__this->___savedTimeScale = L_6;
 		Time_set_timeScale_mEF84EE4B2376A458387648079B426B267862D331((0.0f), NULL);
 		AudioListener_set_pause_m4D52C9FFC6B10B0F281329FA0FB3CE2C64894F33((bool)1, NULL);
 		return;
 	}
 
-IL_0028:
+IL_003d:
 	{
-		float L_3 = __this->___savedTimeScale;
-		Time_set_timeScale_mEF84EE4B2376A458387648079B426B267862D331(L_3, NULL);
+		float L_7 = __this->___savedTimeScale;
+		Time_set_timeScale_mEF84EE4B2376A458387648079B426B267862D331(L_7, NULL);
 		AudioListener_set_pause_m4D52C9FFC6B10B0F281329FA0FB3CE2C64894F33((bool)0, NULL);
 		return;
 	}
