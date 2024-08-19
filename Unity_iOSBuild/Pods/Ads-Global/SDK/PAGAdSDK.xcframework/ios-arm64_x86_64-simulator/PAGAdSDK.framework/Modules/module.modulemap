@@ -1,6 +1,0 @@
-framework module PAGAdSDK {
-  umbrella header "PAGAdSDK.h"
-
-  export *
-  module * { export * }
-}

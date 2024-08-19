@@ -1,6 +1,0 @@
-framework module AdjustPurchase {
-  umbrella header "AdjustPurchase.h"
-
-  export *
-  module * { export * }
-}
