@@ -30,7 +30,7 @@
 #elif PLATFORM_TVOS
 #include "UnityViewControllerBase+tvOS.h"
 #elif PLATFORM_VISIONOS
-#include "UnityViewControllerBase+visionos.h"
+#include "UnityViewControllerBase+visionOS.h"
 #endif
 
 // this should be used to create view controller that plays nicely with unity and account for player settings

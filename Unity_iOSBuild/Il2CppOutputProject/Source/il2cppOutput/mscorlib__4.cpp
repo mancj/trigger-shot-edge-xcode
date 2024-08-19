@@ -474,53 +474,6 @@ struct CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0_marshaled_com
 	CultureData_tEEFDCF4ECA1BBF6C0C8C94EB3541657245598F9D_marshaled_com* ___m_cultureData;
 	int32_t ___m_isInherited;
 };
-struct DateTimeFormatInfo_t0457520F9FA7B5C8EAAEB3AD50413B6AEEB7458A  : public RuntimeObject
-{
-	CultureData_tEEFDCF4ECA1BBF6C0C8C94EB3541657245598F9D* ____cultureData;
-	String_t* ____name;
-	String_t* ____langName;
-	CompareInfo_t1B1A6AC3486B570C76ABA52149C9BD4CD82F9E57* ____compareInfo;
-	CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0* ____cultureInfo;
-	String_t* ___amDesignator;
-	String_t* ___pmDesignator;
-	String_t* ___dateSeparator;
-	String_t* ___generalShortTimePattern;
-	String_t* ___generalLongTimePattern;
-	String_t* ___timeSeparator;
-	String_t* ___monthDayPattern;
-	String_t* ___dateTimeOffsetPattern;
-	Calendar_t0A117CC7532A54C17188C2EFEA1F79DB20DF3A3B* ___calendar;
-	int32_t ___firstDayOfWeek;
-	int32_t ___calendarWeekRule;
-	String_t* ___fullDateTimePattern;
-	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___abbreviatedDayNames;
-	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___m_superShortDayNames;
-	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___dayNames;
-	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___abbreviatedMonthNames;
-	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___monthNames;
-	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___genitiveMonthNames;
-	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___m_genitiveAbbreviatedMonthNames;
-	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___leapYearMonthNames;
-	String_t* ___longDatePattern;
-	String_t* ___shortDatePattern;
-	String_t* ___yearMonthPattern;
-	String_t* ___longTimePattern;
-	String_t* ___shortTimePattern;
-	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___allYearMonthPatterns;
-	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___allShortDatePatterns;
-	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___allLongDatePatterns;
-	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___allShortTimePatterns;
-	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___allLongTimePatterns;
-	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___m_eraNames;
-	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___m_abbrevEraNames;
-	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___m_abbrevEnglishEraNames;
-	CalendarIdU5BU5D_t559EDBF1B819A695624BE9004EAA4FFA38B65CDA* ___optionalCalendars;
-	bool ____isReadOnly;
-	int32_t ___formatFlags;
-	String_t* ____fullTimeSpanPositivePattern;
-	String_t* ____fullTimeSpanNegativePattern;
-	TokenHashValueU5BU5D_t3F8794937D04BA380989A813F33418CED58E80B9* ____dtfiTokenHash;
-};
 struct DateTimeParse_t4FB3E2A513F1775F6B2EC5C0762DC7CA2E647045  : public RuntimeObject
 {
 };
@@ -531,11 +484,6 @@ struct ExceptionDispatchInfo_tD7AF19E75FEC22F4A8329FD1E9EDF96615CB2757  : public
 };
 struct GlobalizationMode_t8C0DD244B8C6347DE7AB7AE83B10911D2EB7582A  : public RuntimeObject
 {
-};
-struct LazyHelper_t1784351780B2D1AC002869BB3C7A35AA64762602  : public RuntimeObject
-{
-	int32_t ___U3CStateU3Ek__BackingField;
-	ExceptionDispatchInfo_tD7AF19E75FEC22F4A8329FD1E9EDF96615CB2757* ____exceptionDispatch;
 };
 struct Marvin_t0342A28B10725C354B3E96D240FF68C4D7A0D242  : public RuntimeObject
 {
@@ -645,48 +593,6 @@ struct DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D
 {
 	uint64_t ____dateData;
 };
-struct DateTimeRawInfo_tEAC42047935006C924842337850170E9AEA0AB03 
-{
-	int32_t* ___num;
-	int32_t ___numCount;
-	int32_t ___month;
-	int32_t ___year;
-	int32_t ___dayOfWeek;
-	int32_t ___era;
-	int32_t ___timeMark;
-	double ___fraction;
-	bool ___hasSameDateAndTimeSeparators;
-};
-struct DateTimeRawInfo_tEAC42047935006C924842337850170E9AEA0AB03_marshaled_pinvoke
-{
-	int32_t* ___num;
-	int32_t ___numCount;
-	int32_t ___month;
-	int32_t ___year;
-	int32_t ___dayOfWeek;
-	int32_t ___era;
-	int32_t ___timeMark;
-	double ___fraction;
-	int32_t ___hasSameDateAndTimeSeparators;
-};
-struct DateTimeRawInfo_tEAC42047935006C924842337850170E9AEA0AB03_marshaled_com
-{
-	int32_t* ___num;
-	int32_t ___numCount;
-	int32_t ___month;
-	int32_t ___year;
-	int32_t ___dayOfWeek;
-	int32_t ___era;
-	int32_t ___timeMark;
-	double ___fraction;
-	int32_t ___hasSameDateAndTimeSeparators;
-};
-struct DateTimeToken_t39E2670CBE0C34AB5AE9852D1A5785F1C6B0A9B4 
-{
-	int32_t ___dtt;
-	int32_t ___suffix;
-	int32_t ___num;
-};
 struct Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F 
 {
 	union
@@ -755,6 +661,15 @@ struct Double_tE150EF3D1D43DEE85D533810AB4C742307EEDE5F
 {
 	double ___m_value;
 };
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2  : public ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F
+{
+};
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_marshaled_pinvoke
+{
+};
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_marshaled_com
+{
+};
 struct Guid_t 
 {
 	int32_t ____a;
@@ -799,42 +714,6 @@ struct IntPtr_t
 struct NonSerializedAttribute_t3E57D1A7E7F31DE192694AB4C8927BAE7D1BE177  : public Attribute_tFDA8EFEFB0711976D22474794576DAF28F7440AA
 {
 };
-struct ParsingInfo_t1717753431089DD2385D3739360CF85BDB410F89 
-{
-	Calendar_t0A117CC7532A54C17188C2EFEA1F79DB20DF3A3B* ___calendar;
-	int32_t ___dayOfWeek;
-	int32_t ___timeMark;
-	bool ___fUseHour12;
-	bool ___fUseTwoDigitYear;
-	bool ___fAllowInnerWhite;
-	bool ___fAllowTrailingWhite;
-	bool ___fCustomNumberParser;
-	MatchNumberDelegate_t099FBFD09058FE2C73C1CBA7A89A3A70EB294E23* ___parseNumberDelegate;
-};
-struct ParsingInfo_t1717753431089DD2385D3739360CF85BDB410F89_marshaled_pinvoke
-{
-	Calendar_t0A117CC7532A54C17188C2EFEA1F79DB20DF3A3B* ___calendar;
-	int32_t ___dayOfWeek;
-	int32_t ___timeMark;
-	int32_t ___fUseHour12;
-	int32_t ___fUseTwoDigitYear;
-	int32_t ___fAllowInnerWhite;
-	int32_t ___fAllowTrailingWhite;
-	int32_t ___fCustomNumberParser;
-	Il2CppMethodPointer ___parseNumberDelegate;
-};
-struct ParsingInfo_t1717753431089DD2385D3739360CF85BDB410F89_marshaled_com
-{
-	Calendar_t0A117CC7532A54C17188C2EFEA1F79DB20DF3A3B* ___calendar;
-	int32_t ___dayOfWeek;
-	int32_t ___timeMark;
-	int32_t ___fUseHour12;
-	int32_t ___fUseTwoDigitYear;
-	int32_t ___fAllowInnerWhite;
-	int32_t ___fAllowTrailingWhite;
-	int32_t ___fCustomNumberParser;
-	Il2CppMethodPointer ___parseNumberDelegate;
-};
 struct SByte_tFEFFEF5D2FEBF5207950AE6FAC150FC53B668DB5 
 {
 	int8_t ___m_value;
@@ -842,21 +721,6 @@ struct SByte_tFEFFEF5D2FEBF5207950AE6FAC150FC53B668DB5
 struct Single_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C 
 {
 	float ___m_value;
-};
-struct StreamingContext_t56760522A751890146EE45F82F866B55B7E33677 
-{
-	RuntimeObject* ___m_additionalContext;
-	int32_t ___m_state;
-};
-struct StreamingContext_t56760522A751890146EE45F82F866B55B7E33677_marshaled_pinvoke
-{
-	Il2CppIUnknown* ___m_additionalContext;
-	int32_t ___m_state;
-};
-struct StreamingContext_t56760522A751890146EE45F82F866B55B7E33677_marshaled_com
-{
-	Il2CppIUnknown* ___m_additionalContext;
-	int32_t ___m_state;
 };
 struct TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A 
 {
@@ -905,6 +769,18 @@ struct ByReference_1_t7BA5A6CA164F770BC688F21C5978D368716465F5
 struct ByReference_1_tDDF129F0BC02430629D5CD253C681112F166BAD4 
 {
 	intptr_t ____value;
+};
+struct CompareOptions_tE5E7275E1FCBD5F8F3B53CC0038A11CABE120B00 
+{
+	int32_t ___value__;
+};
+struct DTSubStringType_t4DE771F45FDC82704745E307FBAEEDC66B952318 
+{
+	int32_t ___value__;
+};
+struct DateTimeFormatFlags_tB7CDDA8D7A3A0B2B9F64DB7704671F07FCE88FDC 
+{
+	int32_t ___value__;
 };
 struct Delegate_t  : public RuntimeObject
 {
@@ -1011,6 +887,34 @@ struct Exception_t_marshaled_com
 	Il2CppSafeArray* ___native_trace_ips;
 	int32_t ___caught_in_unmanaged;
 };
+struct ExceptionArgument_t60E7F8D9DE5362CBE9365893983C30302D83B778 
+{
+	int32_t ___value__;
+};
+struct LazyState_tD222157674F8A23EC9AD86F87E6705D17F22F70D 
+{
+	int32_t ___value__;
+};
+struct LazyThreadSafetyMode_tDE3AEB8DBBF3C991FDD672F72ACA60FA324755D1 
+{
+	int32_t ___value__;
+};
+struct MidpointRounding_tD36CC4DADEF14C2D917E671961CEF65DB159DC30 
+{
+	int32_t ___value__;
+};
+struct NumberStyles_t567C6CBC2A2B5B5A2C43B2855D158949984A810C 
+{
+	int32_t ___value__;
+};
+struct ParseFailureKind_tB1D640DCD04E9EF83FE97F5D1B7A428710BB9C03 
+{
+	int32_t ___value__;
+};
+struct ParseFlags_tBBA53127C62E87967B778C02A44DBEEFB08B4057 
+{
+	int32_t ___value__;
+};
 struct RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 
 {
 	intptr_t ___value;
@@ -1018,6 +922,14 @@ struct RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5
 struct RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B 
 {
 	intptr_t ___value;
+};
+struct StreamingContextStates_t5EE358E619B251608A9327618C7BFE8638FC33C1 
+{
+	int32_t ___value__;
+};
+struct StringComparison_tE14A55CCFA001A5AC85D754179BF2888F45CC94D 
+{
+	int32_t ___value__;
 };
 struct TextInfo_tD3BAFCFD77418851E7D5CB8D2588F47019E414B4  : public RuntimeObject
 {
@@ -1031,6 +943,14 @@ struct TextInfo_tD3BAFCFD77418851E7D5CB8D2588F47019E414B4  : public RuntimeObjec
 	int32_t ___m_nDataItem;
 	bool ___m_useUserOverride;
 	int32_t ___m_win32LangID;
+};
+struct TokenType_tFEF2C0C88ED336E8E442A81590A0C9FB5C362AF1 
+{
+	int32_t ___value__;
+};
+struct TypeCode_tBEF9BE86C8BCF5A6B82F3381219738D27804EF79 
+{
+	int32_t ___value__;
 };
 struct RawData_t37CAF2D3F74B7723974ED7CEEE9B297D8FA64ED0  : public RuntimeObject
 {
@@ -1050,35 +970,29 @@ struct RawData_t37CAF2D3F74B7723974ED7CEEE9B297D8FA64ED0_marshaled_com
 	intptr_t ___Count;
 	uint8_t ___Data;
 };
-struct GuidResult_t5B70D46D3C631BD00631FF6D700371C1E9C7AC79 
+struct DS_t4210ADFA858C9858D9B59DDB281DAAEA614E4CC9 
 {
-	Guid_t ____parsedGuid;
-	int32_t ____throwStyle;
-	int32_t ____failure;
-	String_t* ____failureMessageID;
-	RuntimeObject* ____failureMessageFormatArgument;
-	String_t* ____failureArgumentName;
-	Exception_t* ____innerException;
+	int32_t ___value__;
 };
-struct GuidResult_t5B70D46D3C631BD00631FF6D700371C1E9C7AC79_marshaled_pinvoke
+struct DTT_tF6E28023B1F18A1BD5F8ECCC95FFADD73E2B2609 
 {
-	Guid_t ____parsedGuid;
-	int32_t ____throwStyle;
-	int32_t ____failure;
-	char* ____failureMessageID;
-	Il2CppIUnknown* ____failureMessageFormatArgument;
-	char* ____failureArgumentName;
-	Exception_t_marshaled_pinvoke* ____innerException;
+	int32_t ___value__;
 };
-struct GuidResult_t5B70D46D3C631BD00631FF6D700371C1E9C7AC79_marshaled_com
+struct TM_t50A790136390ECED3528819935E28B98DBD4BCCF 
 {
-	Guid_t ____parsedGuid;
-	int32_t ____throwStyle;
-	int32_t ____failure;
-	Il2CppChar* ____failureMessageID;
-	Il2CppIUnknown* ____failureMessageFormatArgument;
-	Il2CppChar* ____failureArgumentName;
-	Exception_t_marshaled_com* ____innerException;
+	int32_t ___value__;
+};
+struct GuidParseThrowStyle_tC43639E880DA4E673887F036F8AF058CB0CD7607 
+{
+	int32_t ___value__;
+};
+struct GuidStyles_tA5E84D8946B641F25E891557158D0B1D03CFC124 
+{
+	int32_t ___value__;
+};
+struct ParseFailureKind_tCA3A4FEE02BFE41966CB58DC0E2D36C63EA7E0DB 
+{
+	int32_t ___value__;
 };
 #pragma pack(push, tp, 1)
 struct NumberBuffer_tE874ADE8F26E879B88784939C623CCEEF30C7643 
@@ -1115,8 +1029,102 @@ struct Span_1_t3C5DB525B005B1AC5A1F3BDD528900C5C7C7D316
 	ByReference_1_tDDF129F0BC02430629D5CD253C681112F166BAD4 ____pointer;
 	int32_t ____length;
 };
+struct DateTimeFormatInfo_t0457520F9FA7B5C8EAAEB3AD50413B6AEEB7458A  : public RuntimeObject
+{
+	CultureData_tEEFDCF4ECA1BBF6C0C8C94EB3541657245598F9D* ____cultureData;
+	String_t* ____name;
+	String_t* ____langName;
+	CompareInfo_t1B1A6AC3486B570C76ABA52149C9BD4CD82F9E57* ____compareInfo;
+	CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0* ____cultureInfo;
+	String_t* ___amDesignator;
+	String_t* ___pmDesignator;
+	String_t* ___dateSeparator;
+	String_t* ___generalShortTimePattern;
+	String_t* ___generalLongTimePattern;
+	String_t* ___timeSeparator;
+	String_t* ___monthDayPattern;
+	String_t* ___dateTimeOffsetPattern;
+	Calendar_t0A117CC7532A54C17188C2EFEA1F79DB20DF3A3B* ___calendar;
+	int32_t ___firstDayOfWeek;
+	int32_t ___calendarWeekRule;
+	String_t* ___fullDateTimePattern;
+	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___abbreviatedDayNames;
+	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___m_superShortDayNames;
+	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___dayNames;
+	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___abbreviatedMonthNames;
+	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___monthNames;
+	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___genitiveMonthNames;
+	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___m_genitiveAbbreviatedMonthNames;
+	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___leapYearMonthNames;
+	String_t* ___longDatePattern;
+	String_t* ___shortDatePattern;
+	String_t* ___yearMonthPattern;
+	String_t* ___longTimePattern;
+	String_t* ___shortTimePattern;
+	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___allYearMonthPatterns;
+	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___allShortDatePatterns;
+	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___allLongDatePatterns;
+	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___allShortTimePatterns;
+	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___allLongTimePatterns;
+	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___m_eraNames;
+	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___m_abbrevEraNames;
+	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___m_abbrevEnglishEraNames;
+	CalendarIdU5BU5D_t559EDBF1B819A695624BE9004EAA4FFA38B65CDA* ___optionalCalendars;
+	bool ____isReadOnly;
+	int32_t ___formatFlags;
+	String_t* ____fullTimeSpanPositivePattern;
+	String_t* ____fullTimeSpanNegativePattern;
+	TokenHashValueU5BU5D_t3F8794937D04BA380989A813F33418CED58E80B9* ____dtfiTokenHash;
+};
+struct DateTimeRawInfo_tEAC42047935006C924842337850170E9AEA0AB03 
+{
+	int32_t* ___num;
+	int32_t ___numCount;
+	int32_t ___month;
+	int32_t ___year;
+	int32_t ___dayOfWeek;
+	int32_t ___era;
+	int32_t ___timeMark;
+	double ___fraction;
+	bool ___hasSameDateAndTimeSeparators;
+};
+struct DateTimeRawInfo_tEAC42047935006C924842337850170E9AEA0AB03_marshaled_pinvoke
+{
+	int32_t* ___num;
+	int32_t ___numCount;
+	int32_t ___month;
+	int32_t ___year;
+	int32_t ___dayOfWeek;
+	int32_t ___era;
+	int32_t ___timeMark;
+	double ___fraction;
+	int32_t ___hasSameDateAndTimeSeparators;
+};
+struct DateTimeRawInfo_tEAC42047935006C924842337850170E9AEA0AB03_marshaled_com
+{
+	int32_t* ___num;
+	int32_t ___numCount;
+	int32_t ___month;
+	int32_t ___year;
+	int32_t ___dayOfWeek;
+	int32_t ___era;
+	int32_t ___timeMark;
+	double ___fraction;
+	int32_t ___hasSameDateAndTimeSeparators;
+};
+struct DateTimeToken_t39E2670CBE0C34AB5AE9852D1A5785F1C6B0A9B4 
+{
+	int32_t ___dtt;
+	int32_t ___suffix;
+	int32_t ___num;
+};
 struct InvalidTimeZoneException_tAF2832EB9825C2AF85B06F1AB69AD1FEE54F99AD  : public Exception_t
 {
+};
+struct LazyHelper_t1784351780B2D1AC002869BB3C7A35AA64762602  : public RuntimeObject
+{
+	int32_t ___U3CStateU3Ek__BackingField;
+	ExceptionDispatchInfo_tD7AF19E75FEC22F4A8329FD1E9EDF96615CB2757* ____exceptionDispatch;
 };
 struct MulticastDelegate_t  : public Delegate_t
 {
@@ -1130,12 +1138,93 @@ struct MulticastDelegate_t_marshaled_com : public Delegate_t_marshaled_com
 {
 	Delegate_t_marshaled_com** ___delegates;
 };
+struct ParsingInfo_t1717753431089DD2385D3739360CF85BDB410F89 
+{
+	Calendar_t0A117CC7532A54C17188C2EFEA1F79DB20DF3A3B* ___calendar;
+	int32_t ___dayOfWeek;
+	int32_t ___timeMark;
+	bool ___fUseHour12;
+	bool ___fUseTwoDigitYear;
+	bool ___fAllowInnerWhite;
+	bool ___fAllowTrailingWhite;
+	bool ___fCustomNumberParser;
+	MatchNumberDelegate_t099FBFD09058FE2C73C1CBA7A89A3A70EB294E23* ___parseNumberDelegate;
+};
+struct ParsingInfo_t1717753431089DD2385D3739360CF85BDB410F89_marshaled_pinvoke
+{
+	Calendar_t0A117CC7532A54C17188C2EFEA1F79DB20DF3A3B* ___calendar;
+	int32_t ___dayOfWeek;
+	int32_t ___timeMark;
+	int32_t ___fUseHour12;
+	int32_t ___fUseTwoDigitYear;
+	int32_t ___fAllowInnerWhite;
+	int32_t ___fAllowTrailingWhite;
+	int32_t ___fCustomNumberParser;
+	Il2CppMethodPointer ___parseNumberDelegate;
+};
+struct ParsingInfo_t1717753431089DD2385D3739360CF85BDB410F89_marshaled_com
+{
+	Calendar_t0A117CC7532A54C17188C2EFEA1F79DB20DF3A3B* ___calendar;
+	int32_t ___dayOfWeek;
+	int32_t ___timeMark;
+	int32_t ___fUseHour12;
+	int32_t ___fUseTwoDigitYear;
+	int32_t ___fAllowInnerWhite;
+	int32_t ___fAllowTrailingWhite;
+	int32_t ___fCustomNumberParser;
+	Il2CppMethodPointer ___parseNumberDelegate;
+};
+struct StreamingContext_t56760522A751890146EE45F82F866B55B7E33677 
+{
+	RuntimeObject* ___m_additionalContext;
+	int32_t ___m_state;
+};
+struct StreamingContext_t56760522A751890146EE45F82F866B55B7E33677_marshaled_pinvoke
+{
+	Il2CppIUnknown* ___m_additionalContext;
+	int32_t ___m_state;
+};
+struct StreamingContext_t56760522A751890146EE45F82F866B55B7E33677_marshaled_com
+{
+	Il2CppIUnknown* ___m_additionalContext;
+	int32_t ___m_state;
+};
 struct SystemException_tCC48D868298F4C0705279823E34B00F4FBDB7295  : public Exception_t
 {
 };
 struct Type_t  : public MemberInfo_t
 {
 	RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B ____impl;
+};
+struct GuidResult_t5B70D46D3C631BD00631FF6D700371C1E9C7AC79 
+{
+	Guid_t ____parsedGuid;
+	int32_t ____throwStyle;
+	int32_t ____failure;
+	String_t* ____failureMessageID;
+	RuntimeObject* ____failureMessageFormatArgument;
+	String_t* ____failureArgumentName;
+	Exception_t* ____innerException;
+};
+struct GuidResult_t5B70D46D3C631BD00631FF6D700371C1E9C7AC79_marshaled_pinvoke
+{
+	Guid_t ____parsedGuid;
+	int32_t ____throwStyle;
+	int32_t ____failure;
+	char* ____failureMessageID;
+	Il2CppIUnknown* ____failureMessageFormatArgument;
+	char* ____failureArgumentName;
+	Exception_t_marshaled_pinvoke* ____innerException;
+};
+struct GuidResult_t5B70D46D3C631BD00631FF6D700371C1E9C7AC79_marshaled_com
+{
+	Guid_t ____parsedGuid;
+	int32_t ____throwStyle;
+	int32_t ____failure;
+	Il2CppChar* ____failureMessageID;
+	Il2CppIUnknown* ____failureMessageFormatArgument;
+	Il2CppChar* ____failureArgumentName;
+	Exception_t_marshaled_com* ____innerException;
 };
 struct ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263  : public SystemException_tCC48D868298F4C0705279823E34B00F4FBDB7295
 {
@@ -1334,13 +1423,6 @@ struct CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0_StaticFields
 	CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0* ___s_UserPreferredCultureInfoInAppX;
 	bool ___IsTaiwanSku;
 };
-struct DateTimeFormatInfo_t0457520F9FA7B5C8EAAEB3AD50413B6AEEB7458A_StaticFields
-{
-	DateTimeFormatInfo_t0457520F9FA7B5C8EAAEB3AD50413B6AEEB7458A* ___s_invariantInfo;
-	CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* ___s_monthSpaces;
-	DateTimeFormatInfo_t0457520F9FA7B5C8EAAEB3AD50413B6AEEB7458A* ___s_jajpDTFI;
-	DateTimeFormatInfo_t0457520F9FA7B5C8EAAEB3AD50413B6AEEB7458A* ___s_zhtwDTFI;
-};
 struct DateTimeParse_t4FB3E2A513F1775F6B2EC5C0762DC7CA2E647045_StaticFields
 {
 	MatchNumberDelegate_t099FBFD09058FE2C73C1CBA7A89A3A70EB294E23* ___m_hebrewNumberParser;
@@ -1349,14 +1431,6 @@ struct DateTimeParse_t4FB3E2A513F1775F6B2EC5C0762DC7CA2E647045_StaticFields
 struct GlobalizationMode_t8C0DD244B8C6347DE7AB7AE83B10911D2EB7582A_StaticFields
 {
 	bool ___U3CInvariantU3Ek__BackingField;
-};
-struct LazyHelper_t1784351780B2D1AC002869BB3C7A35AA64762602_StaticFields
-{
-	LazyHelper_t1784351780B2D1AC002869BB3C7A35AA64762602* ___NoneViaConstructor;
-	LazyHelper_t1784351780B2D1AC002869BB3C7A35AA64762602* ___NoneViaFactory;
-	LazyHelper_t1784351780B2D1AC002869BB3C7A35AA64762602* ___PublicationOnlyViaConstructor;
-	LazyHelper_t1784351780B2D1AC002869BB3C7A35AA64762602* ___PublicationOnlyViaFactory;
-	LazyHelper_t1784351780B2D1AC002869BB3C7A35AA64762602* ___PublicationOnlyWaitForOtherThreadToPublish;
 };
 struct Marvin_t0342A28B10725C354B3E96D240FF68C4D7A0D242_StaticFields
 {
@@ -1443,6 +1517,21 @@ struct Exception_t_StaticFields
 struct TextInfo_tD3BAFCFD77418851E7D5CB8D2588F47019E414B4_StaticFields
 {
 	TextInfo_tD3BAFCFD77418851E7D5CB8D2588F47019E414B4* ___s_Invariant;
+};
+struct DateTimeFormatInfo_t0457520F9FA7B5C8EAAEB3AD50413B6AEEB7458A_StaticFields
+{
+	DateTimeFormatInfo_t0457520F9FA7B5C8EAAEB3AD50413B6AEEB7458A* ___s_invariantInfo;
+	CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* ___s_monthSpaces;
+	DateTimeFormatInfo_t0457520F9FA7B5C8EAAEB3AD50413B6AEEB7458A* ___s_jajpDTFI;
+	DateTimeFormatInfo_t0457520F9FA7B5C8EAAEB3AD50413B6AEEB7458A* ___s_zhtwDTFI;
+};
+struct LazyHelper_t1784351780B2D1AC002869BB3C7A35AA64762602_StaticFields
+{
+	LazyHelper_t1784351780B2D1AC002869BB3C7A35AA64762602* ___NoneViaConstructor;
+	LazyHelper_t1784351780B2D1AC002869BB3C7A35AA64762602* ___NoneViaFactory;
+	LazyHelper_t1784351780B2D1AC002869BB3C7A35AA64762602* ___PublicationOnlyViaConstructor;
+	LazyHelper_t1784351780B2D1AC002869BB3C7A35AA64762602* ___PublicationOnlyViaFactory;
+	LazyHelper_t1784351780B2D1AC002869BB3C7A35AA64762602* ___PublicationOnlyWaitForOtherThreadToPublish;
 };
 struct Type_t_StaticFields
 {
@@ -2457,6 +2546,30 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MatchNumberDelegate_Invoke_m5B60C560B134
 	typedef bool (*FunctionPointerType) (RuntimeObject*, __DTString_t732683AF9A8EEC82B66C136920240C4033EF0637*, int32_t, int32_t*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_str, ___1_digitLen, ___2_result, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
@@ -4440,6 +4553,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void __DTString__cctor_mEBC8B7366305AD3CE5B24
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Il2CppChar DTSubString_get_Item_m1F52F78057FA33F0CB350659CF94DC678C4725B6 (DTSubString_tE3D3286EE2D813E13B011BBE80C26010CFBCFE70* __this, int32_t ___0_relativeIndex, const RuntimeMethod* method) 
 {
 	{
@@ -4615,6 +4736,22 @@ IL2CPP_EXTERN_C  int32_t DateTimeRawInfo_GetNumber_mD3A995185B82D464237FF9B32561
 	_returnValue = DateTimeRawInfo_GetNumber_mD3A995185B82D464237FF9B32561AD8FE9DA9BA1(_thisAdjusted, ___0_index, method);
 	return _returnValue;
 }
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
@@ -4806,6 +4943,14 @@ IL2CPP_EXTERN_C  void ParsingInfo_Init_m9A009DDE21A06FC19AE6FA3068AD1A8D31985E0F
 	_thisAdjusted = reinterpret_cast<ParsingInfo_t1717753431089DD2385D3739360CF85BDB410F89*>(__this + _offset);
 	ParsingInfo_Init_m9A009DDE21A06FC19AE6FA3068AD1A8D31985E0F(_thisAdjusted, method);
 }
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
@@ -9010,6 +9155,30 @@ IL2CPP_EXTERN_C  bool Guid_System_ISpanFormattable_TryFormat_mAA4B1A160D805A87D0
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 
 
 IL2CPP_EXTERN_C void GuidResult_t5B70D46D3C631BD00631FF6D700371C1E9C7AC79_marshal_pinvoke(const GuidResult_t5B70D46D3C631BD00631FF6D700371C1E9C7AC79& unmarshaled, GuidResult_t5B70D46D3C631BD00631FF6D700371C1E9C7AC79_marshaled_pinvoke& marshaled)
@@ -12881,6 +13050,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InvalidTimeZoneException__ctor_mD9BA68B7
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t LazyHelper_get_State_m8EE9669E6DC61CC32EC9B8C29B006D83009971CD (LazyHelper_t1784351780B2D1AC002869BB3C7A35AA64762602* __this, const RuntimeMethod* method) 
 {
 	{
@@ -15407,6 +15584,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MethodAccessException__ctor_m56B9C89B7A0
 		return;
 	}
 }
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif

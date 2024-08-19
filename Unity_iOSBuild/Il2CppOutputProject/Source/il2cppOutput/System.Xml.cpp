@@ -201,6 +201,7 @@ struct MonoTODOAttribute_t301B9A928EF36FA9E10FBD86E46BE7A4CD25417A;
 struct NameTable_t0164DCE377A0A6E712CF54BE4CE5DA58A5537B46;
 struct NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A;
 struct NumberFormatInfo_t8E26808B202927FEBF9064FCFEEA4D6E076E6472;
+struct OverflowException_t6F6AD8CACE20C37F701C05B373A215C4802FAB0C;
 struct SafeSerializationManager_tCBB85B95DFD1634237140CD892E82D06ECB3F5E6;
 struct SecureStringHasher_t4052E73C966E6FE65426B19F4AF48AB9869F614E;
 struct SemaphoreSlim_t0D5CB5685D9BFA5BF95CEC6E7395490F933E8DB2;
@@ -774,74 +775,12 @@ struct XmlNamespaceManager_t95431ADE7A94108629DFF894819FB1A9709D810F  : public R
 	String_t* ___xml;
 	String_t* ___xmlNs;
 };
-struct XmlParserContext_t843976A0319F7334808DCCAAA4F36EAB41A92F3B  : public RuntimeObject
-{
-	XmlNameTable_tBDBAACFF3DB40A8E6AF3BDC11F0FF166CF11ABB8* ____nt;
-	XmlNamespaceManager_t95431ADE7A94108629DFF894819FB1A9709D810F* ____nsMgr;
-	String_t* ____docTypeName;
-	String_t* ____pubId;
-	String_t* ____sysId;
-	String_t* ____internalSubset;
-	String_t* ____xmlLang;
-	int32_t ____xmlSpace;
-	String_t* ____baseURI;
-	Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095* ____encoding;
-};
 struct XmlReader_t4C709DEF5F01606ECB60B638F1BD6F6E0A9116FD  : public RuntimeObject
 {
-};
-struct XmlReaderSettings_t8D51BA3ED2A013EE1F44525C9861326CAFB44AEA  : public RuntimeObject
-{
-	bool ___useAsync;
-	XmlNameTable_tBDBAACFF3DB40A8E6AF3BDC11F0FF166CF11ABB8* ___nameTable;
-	XmlResolver_tE25A33DFCB87A939D11BC8543970F6857AEC3DCF* ___xmlResolver;
-	int32_t ___lineNumberOffset;
-	int32_t ___linePositionOffset;
-	int32_t ___conformanceLevel;
-	bool ___checkCharacters;
-	int64_t ___maxCharactersInDocument;
-	int64_t ___maxCharactersFromEntities;
-	bool ___ignoreWhitespace;
-	bool ___ignorePIs;
-	bool ___ignoreComments;
-	int32_t ___dtdProcessing;
-	int32_t ___validationType;
-	int32_t ___validationFlags;
-	XmlSchemaSet_t048A12CE7D00EF330EF32A388B69A240899F88D1* ___schemas;
-	ValidationEventHandler_t400B20AD482B62613818392D3E5588426332560A* ___valEventHandler;
-	bool ___closeInput;
-	bool ___isReadOnly;
-	bool ___U3CIsXmlResolverSetU3Ek__BackingField;
 };
 struct XmlWriter_tCBC8D0C4891828A0A384C68D0414337F20E1A17F  : public RuntimeObject
 {
 	CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* ___writeNodeBuffer;
-};
-struct XmlWriterSettings_t4C33BC8989A2AF592E88EAE69930915E6D960674  : public RuntimeObject
-{
-	bool ___useAsync;
-	Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095* ___encoding;
-	bool ___omitXmlDecl;
-	int32_t ___newLineHandling;
-	String_t* ___newLineChars;
-	int32_t ___indent;
-	String_t* ___indentChars;
-	bool ___newLineOnAttributes;
-	bool ___closeOutput;
-	int32_t ___namespaceHandling;
-	int32_t ___conformanceLevel;
-	bool ___checkCharacters;
-	bool ___writeEndDocumentOnClose;
-	int32_t ___outputMethod;
-	List_1_t43EC7C138A17FAAD7120408F039923082A70301A* ___cdataSections;
-	bool ___doNotEscapeUriAttributes;
-	bool ___mergeCDataSections;
-	String_t* ___mediaType;
-	String_t* ___docTypeSystem;
-	String_t* ___docTypePublic;
-	int32_t ___standalone;
-	bool ___autoXmlDecl;
-	bool ___isReadOnly;
 };
 struct NamespaceDecl_t0B5D3E28F9E6733D3ADBBE7CAF3FA4DD11787D49  : public RuntimeObject
 {
@@ -1237,10 +1176,34 @@ struct ParsingState_tF0FABA16483FCC2DB710460D11CD79D35C4E2886_marshaled_com
 	int32_t ___eolNormalized;
 	int32_t ___entityResolvedManually;
 };
+struct AttributeProperties_tC54D85781EE1CC9EBDFCCFAAE8CD995F5C3D7C46 
+{
+	uint32_t ___value__;
+};
+struct BinXmlToken_t0E37DCD9A997520567E13D742ABCEF49659453E8 
+{
+	int32_t ___value__;
+};
+struct ConformanceLevel_t90FE5650C4EA88985ED92E858B142605B5645E0A 
+{
+	int32_t ___value__;
+};
 struct DateTimeOffset_t4EE701FE2F386D6F932FAC9B11E4B74A5B30F0A4 
 {
 	DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D ____dateTime;
 	int16_t ____offsetMinutes;
+};
+struct DtdProcessing_tC6A3C44E1448F35C5AD9755CCABF13537327A871 
+{
+	int32_t ___value__;
+};
+struct ElementProperties_t4E8E922B73BC72070A1C71FAC564B4318CC286B2 
+{
+	uint32_t ___value__;
+};
+struct EntityHandling_t13EA84821678B8FC70DDC4143059C59853ED180E 
+{
+	int32_t ___value__;
 };
 struct Exception_t  : public RuntimeObject
 {
@@ -1299,6 +1262,18 @@ struct Exception_t_marshaled_com
 	Il2CppSafeArray* ___native_trace_ips;
 	int32_t ___caught_in_unmanaged;
 };
+struct ExceptionType_t59E7D22CBFECCF0813D4C424384DDCD3FC74D95D 
+{
+	int32_t ___value__;
+};
+struct NamespaceHandling_t0DD5BBAE6E5AD2765848D1809C3DEF5311629CBB 
+{
+	int32_t ___value__;
+};
+struct NewLineHandling_t8DFACC664E91AFFE9731BAC651A1243ABE8AC704 
+{
+	int32_t ___value__;
+};
 struct ReadState_t1D77BBA83B1B8C9A73F295AA02C60CF3E3E43960 
 {
 	int32_t ___value__;
@@ -1310,6 +1285,108 @@ struct RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5
 struct RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B 
 {
 	intptr_t ___value;
+};
+struct StringComparison_tE14A55CCFA001A5AC85D754179BF2888F45CC94D 
+{
+	int32_t ___value__;
+};
+struct TriState_tA38A5344A2F2845F64B00B527E97CC16CC746D22 
+{
+	int32_t ___value__;
+};
+struct ValidationType_t5866D5C0E60B27B092AB080025B9538AC97B4815 
+{
+	int32_t ___value__;
+};
+struct WhitespaceHandling_t3ABF1FE238493409F6E2E4A408E72849A910B5D6 
+{
+	int32_t ___value__;
+};
+struct XmlNamespaceScope_t9EB2A1CEC55CBA30A4612AD7EAAAF4106B96AD01 
+{
+	int32_t ___value__;
+};
+struct XmlNodeType_tCA25567E42A464038FDA6BA318EC0A9627B4CB95 
+{
+	int32_t ___value__;
+};
+struct XmlOutputMethod_tC9C5ED49E0965D5963F0BBDC6E399FF6EC42369B 
+{
+	int32_t ___value__;
+};
+struct XmlSchemaValidationFlags_t7ACA21306EF62E9BCE1196DA6D9258452BEE8EBF 
+{
+	int32_t ___value__;
+};
+struct XmlSpace_t6A78E68D9618EE5EFEA37E875ED46B88B03DB357 
+{
+	int32_t ___value__;
+};
+struct XmlStandalone_tCE6BFF49F0B3421841A2996F963DB5281DD57441 
+{
+	int32_t ___value__;
+};
+struct XmlTextEncoder_tACD13BCC8237E0710F82A7703FAF7D09FCDF0C40  : public RuntimeObject
+{
+	TextWriter_tA9E5461506CF806E17B6BBBF2119359DEDA3F0F3* ___textWriter;
+	bool ___inAttribute;
+	Il2CppChar ___quoteChar;
+	StringBuilder_t* ___attrValue;
+	bool ___cacheAttrValue;
+	XmlCharType_t7C471894C8862126737E800F5A14AACBD14FCBC3 ___xmlCharType;
+};
+struct AttrInfo_tE531B225E6B37BA755A3F7B0DE8FCC6D3AB453AE 
+{
+	QName_tA3E1CB09850DEF9376C068A29697FEDB0F82C156 ___name;
+	String_t* ___val;
+	int32_t ___contentPos;
+	int32_t ___hashCode;
+	int32_t ___prevHash;
+};
+struct AttrInfo_tE531B225E6B37BA755A3F7B0DE8FCC6D3AB453AE_marshaled_pinvoke
+{
+	QName_tA3E1CB09850DEF9376C068A29697FEDB0F82C156_marshaled_pinvoke ___name;
+	char* ___val;
+	int32_t ___contentPos;
+	int32_t ___hashCode;
+	int32_t ___prevHash;
+};
+struct AttrInfo_tE531B225E6B37BA755A3F7B0DE8FCC6D3AB453AE_marshaled_com
+{
+	QName_tA3E1CB09850DEF9376C068A29697FEDB0F82C156_marshaled_com ___name;
+	Il2CppChar* ___val;
+	int32_t ___contentPos;
+	int32_t ___hashCode;
+	int32_t ___prevHash;
+};
+struct NestedBinXml_tD04A5F6B7E2EC9CEA75A974F184707131FFF6EF8  : public RuntimeObject
+{
+	SymbolTables_tBFFFF1A52BAAB8C6D52F8B28AB963DC625ECB177 ___symbolTables;
+	int32_t ___docState;
+	NestedBinXml_tD04A5F6B7E2EC9CEA75A974F184707131FFF6EF8* ___next;
+};
+struct ScanState_t32B320DF25CF9A16F044154223C05D6D52D47A58 
+{
+	int32_t ___value__;
+};
+struct IncrementalReadState_tE59C8525766041037D84E0FCFD0DD90E26F45612 
+{
+	int32_t ___value__;
+};
+struct ParsingFunction_t212AA00387401B819A5C119AC2DFC96BB0265667 
+{
+	int32_t ___value__;
+};
+struct ParsingMode_t4ACC4D68C98E6EB46779404DCA70331F5FE13776 
+{
+	int32_t ___value__;
+};
+struct SystemException_tCC48D868298F4C0705279823E34B00F4FBDB7295  : public Exception_t
+{
+};
+struct Type_t  : public MemberInfo_t
+{
+	RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B ____impl;
 };
 struct XmlEncodedRawTextWriter_t555452A93F2FEFE35034BD8B5D65E979E729E1D4  : public XmlRawWriter_t030FA78C87BA4AA20BBC4507D0EEFAFD5AF3712B
 {
@@ -1345,6 +1422,42 @@ struct XmlEncodedRawTextWriter_t555452A93F2FEFE35034BD8B5D65E979E729E1D4  : publ
 	int32_t ___outputMethod;
 	bool ___autoXmlDeclaration;
 	bool ___mergeCDataSections;
+};
+struct XmlParserContext_t843976A0319F7334808DCCAAA4F36EAB41A92F3B  : public RuntimeObject
+{
+	XmlNameTable_tBDBAACFF3DB40A8E6AF3BDC11F0FF166CF11ABB8* ____nt;
+	XmlNamespaceManager_t95431ADE7A94108629DFF894819FB1A9709D810F* ____nsMgr;
+	String_t* ____docTypeName;
+	String_t* ____pubId;
+	String_t* ____sysId;
+	String_t* ____internalSubset;
+	String_t* ____xmlLang;
+	int32_t ____xmlSpace;
+	String_t* ____baseURI;
+	Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095* ____encoding;
+};
+struct XmlReaderSettings_t8D51BA3ED2A013EE1F44525C9861326CAFB44AEA  : public RuntimeObject
+{
+	bool ___useAsync;
+	XmlNameTable_tBDBAACFF3DB40A8E6AF3BDC11F0FF166CF11ABB8* ___nameTable;
+	XmlResolver_tE25A33DFCB87A939D11BC8543970F6857AEC3DCF* ___xmlResolver;
+	int32_t ___lineNumberOffset;
+	int32_t ___linePositionOffset;
+	int32_t ___conformanceLevel;
+	bool ___checkCharacters;
+	int64_t ___maxCharactersInDocument;
+	int64_t ___maxCharactersFromEntities;
+	bool ___ignoreWhitespace;
+	bool ___ignorePIs;
+	bool ___ignoreComments;
+	int32_t ___dtdProcessing;
+	int32_t ___validationType;
+	int32_t ___validationFlags;
+	XmlSchemaSet_t048A12CE7D00EF330EF32A388B69A240899F88D1* ___schemas;
+	ValidationEventHandler_t400B20AD482B62613818392D3E5588426332560A* ___valEventHandler;
+	bool ___closeInput;
+	bool ___isReadOnly;
+	bool ___U3CIsXmlResolverSetU3Ek__BackingField;
 };
 struct XmlSqlBinaryReader_tDB2171373279BA92E7F7298C2EFE11B8C11117E8  : public XmlReader_t4C709DEF5F01606ECB60B638F1BD6F6E0A9116FD
 {
@@ -1397,15 +1510,6 @@ struct XmlSqlBinaryReader_tDB2171373279BA92E7F7298C2EFE11B8C11117E8  : public Xm
 	XmlCharType_t7C471894C8862126737E800F5A14AACBD14FCBC3 ___xmlCharType;
 	Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095* ___unicode;
 	uint8_t ___version;
-};
-struct XmlTextEncoder_tACD13BCC8237E0710F82A7703FAF7D09FCDF0C40  : public RuntimeObject
-{
-	TextWriter_tA9E5461506CF806E17B6BBBF2119359DEDA3F0F3* ___textWriter;
-	bool ___inAttribute;
-	Il2CppChar ___quoteChar;
-	StringBuilder_t* ___attrValue;
-	bool ___cacheAttrValue;
-	XmlCharType_t7C471894C8862126737E800F5A14AACBD14FCBC3 ___xmlCharType;
 };
 struct XmlTextReaderImpl_t5F48FDC8E88C9E27593266F6C660B3973AE2167B  : public XmlReader_t4C709DEF5F01606ECB60B638F1BD6F6E0A9116FD
 {
@@ -1513,29 +1617,31 @@ struct XmlUtf8RawTextWriter_t509951DC424E22E80C9848992ACC324E94E264FB  : public 
 	bool ___autoXmlDeclaration;
 	bool ___mergeCDataSections;
 };
-struct AttrInfo_tE531B225E6B37BA755A3F7B0DE8FCC6D3AB453AE 
+struct XmlWriterSettings_t4C33BC8989A2AF592E88EAE69930915E6D960674  : public RuntimeObject
 {
-	QName_tA3E1CB09850DEF9376C068A29697FEDB0F82C156 ___name;
-	String_t* ___val;
-	int32_t ___contentPos;
-	int32_t ___hashCode;
-	int32_t ___prevHash;
-};
-struct AttrInfo_tE531B225E6B37BA755A3F7B0DE8FCC6D3AB453AE_marshaled_pinvoke
-{
-	QName_tA3E1CB09850DEF9376C068A29697FEDB0F82C156_marshaled_pinvoke ___name;
-	char* ___val;
-	int32_t ___contentPos;
-	int32_t ___hashCode;
-	int32_t ___prevHash;
-};
-struct AttrInfo_tE531B225E6B37BA755A3F7B0DE8FCC6D3AB453AE_marshaled_com
-{
-	QName_tA3E1CB09850DEF9376C068A29697FEDB0F82C156_marshaled_com ___name;
-	Il2CppChar* ___val;
-	int32_t ___contentPos;
-	int32_t ___hashCode;
-	int32_t ___prevHash;
+	bool ___useAsync;
+	Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095* ___encoding;
+	bool ___omitXmlDecl;
+	int32_t ___newLineHandling;
+	String_t* ___newLineChars;
+	int32_t ___indent;
+	String_t* ___indentChars;
+	bool ___newLineOnAttributes;
+	bool ___closeOutput;
+	int32_t ___namespaceHandling;
+	int32_t ___conformanceLevel;
+	bool ___checkCharacters;
+	bool ___writeEndDocumentOnClose;
+	int32_t ___outputMethod;
+	List_1_t43EC7C138A17FAAD7120408F039923082A70301A* ___cdataSections;
+	bool ___doNotEscapeUriAttributes;
+	bool ___mergeCDataSections;
+	String_t* ___mediaType;
+	String_t* ___docTypeSystem;
+	String_t* ___docTypePublic;
+	int32_t ___standalone;
+	bool ___autoXmlDecl;
+	bool ___isReadOnly;
 };
 struct ElemInfo_t4643E7FF61D3697F995A85EDF42BF479EA30B235 
 {
@@ -1561,11 +1667,12 @@ struct ElemInfo_t4643E7FF61D3697F995A85EDF42BF479EA30B235_marshaled_com
 	int32_t ___xmlspacePreserve;
 	NamespaceDecl_t0B5D3E28F9E6733D3ADBBE7CAF3FA4DD11787D49* ___nsdecls;
 };
-struct NestedBinXml_tD04A5F6B7E2EC9CEA75A974F184707131FFF6EF8  : public RuntimeObject
+struct ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263  : public SystemException_tCC48D868298F4C0705279823E34B00F4FBDB7295
 {
-	SymbolTables_tBFFFF1A52BAAB8C6D52F8B28AB963DC625ECB177 ___symbolTables;
-	int32_t ___docState;
-	NestedBinXml_tD04A5F6B7E2EC9CEA75A974F184707131FFF6EF8* ___next;
+	String_t* ____paramName;
+};
+struct ArithmeticException_t07E77822D0007642BC8959A671E70D1F33C84FEA  : public SystemException_tCC48D868298F4C0705279823E34B00F4FBDB7295
+{
 };
 struct HtmlEncodedRawTextWriter_t452DCE7E1E6FBDF73AA28D611C4682E50A82E8C2  : public XmlEncodedRawTextWriter_t555452A93F2FEFE35034BD8B5D65E979E729E1D4
 {
@@ -1586,27 +1693,6 @@ struct HtmlUtf8RawTextWriter_tBDA64D6572325D75C2E84DE787BC2D7C9A0AE850  : public
 	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___uriEscapingBuffer;
 	String_t* ___mediaType;
 	bool ___doNotEscapeUriAttributes;
-};
-struct SystemException_tCC48D868298F4C0705279823E34B00F4FBDB7295  : public Exception_t
-{
-};
-struct Type_t  : public MemberInfo_t
-{
-	RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B ____impl;
-};
-struct ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263  : public SystemException_tCC48D868298F4C0705279823E34B00F4FBDB7295
-{
-	String_t* ____paramName;
-};
-struct ArithmeticException_t07E77822D0007642BC8959A671E70D1F33C84FEA  : public SystemException_tCC48D868298F4C0705279823E34B00F4FBDB7295
-{
-};
-struct HtmlEncodedRawTextWriterIndent_t6D9E69A027E84EE9EEDCFFC4021A6FEDA00AAF21  : public HtmlEncodedRawTextWriter_t452DCE7E1E6FBDF73AA28D611C4682E50A82E8C2
-{
-	int32_t ___indentLevel;
-	int32_t ___endBlockPos;
-	String_t* ___indentChars;
-	bool ___newLineOnAttributes;
 };
 struct InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB  : public SystemException_tCC48D868298F4C0705279823E34B00F4FBDB7295
 {
@@ -1629,6 +1715,13 @@ struct ArgumentNullException_t327031E412FAB2351B0022DD5DAD47E67E597129  : public
 struct ArgumentOutOfRangeException_tEA2822DAF62B10EEED00E0E3A341D4BAF78CF85F  : public ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263
 {
 	RuntimeObject* ____actualValue;
+};
+struct HtmlEncodedRawTextWriterIndent_t6D9E69A027E84EE9EEDCFFC4021A6FEDA00AAF21  : public HtmlEncodedRawTextWriter_t452DCE7E1E6FBDF73AA28D611C4682E50A82E8C2
+{
+	int32_t ___indentLevel;
+	int32_t ___endBlockPos;
+	String_t* ___indentChars;
+	bool ___newLineOnAttributes;
 };
 struct OverflowException_t6F6AD8CACE20C37F701C05B373A215C4802FAB0C  : public ArithmeticException_t07E77822D0007642BC8959A671E70D1F33C84FEA
 {
@@ -1731,10 +1824,6 @@ struct XmlReader_t4C709DEF5F01606ECB60B638F1BD6F6E0A9116FD_StaticFields
 	uint32_t ___CanReadContentAsBitmap;
 	uint32_t ___HasValueBitmap;
 };
-struct XmlReaderSettings_t8D51BA3ED2A013EE1F44525C9861326CAFB44AEA_StaticFields
-{
-	Nullable_1_t78F453FADB4A9F50F267A4E349019C34410D1A01 ___s_enableLegacyXmlSettings;
-};
 struct Task_1_t824317F4B958F7512E8F7300511752937A6C6043_StaticFields
 {
 	TaskFactory_1_tFAEAC22A1E986463E6956C344A78A7C7197288E0* ___s_defaultFactory;
@@ -1818,6 +1907,20 @@ struct Exception_t_StaticFields
 {
 	RuntimeObject* ___s_EDILock;
 };
+struct Type_t_StaticFields
+{
+	Binder_t91BFCE95A7057FADF4D8A1A342AFE52872246235* ___s_defaultBinder;
+	Il2CppChar ___Delimiter;
+	TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* ___EmptyTypes;
+	RuntimeObject* ___Missing;
+	MemberFilter_tF644F1AE82F611B677CE1964D5A3277DDA21D553* ___FilterAttribute;
+	MemberFilter_tF644F1AE82F611B677CE1964D5A3277DDA21D553* ___FilterName;
+	MemberFilter_tF644F1AE82F611B677CE1964D5A3277DDA21D553* ___FilterNameIgnoreCase;
+};
+struct XmlReaderSettings_t8D51BA3ED2A013EE1F44525C9861326CAFB44AEA_StaticFields
+{
+	Nullable_1_t78F453FADB4A9F50F267A4E349019C34410D1A01 ___s_enableLegacyXmlSettings;
+};
 struct XmlSqlBinaryReader_tDB2171373279BA92E7F7298C2EFE11B8C11117E8_StaticFields
 {
 	Type_t* ___TypeOfObject;
@@ -1835,16 +1938,6 @@ struct HtmlUtf8RawTextWriter_tBDA64D6572325D75C2E84DE787BC2D7C9A0AE850_StaticFie
 {
 	TernaryTreeReadOnly_tD06A8A7750282A366E59B387CAD80E8C606F0608* ___elementPropertySearch;
 	TernaryTreeReadOnly_tD06A8A7750282A366E59B387CAD80E8C606F0608* ___attributePropertySearch;
-};
-struct Type_t_StaticFields
-{
-	Binder_t91BFCE95A7057FADF4D8A1A342AFE52872246235* ___s_defaultBinder;
-	Il2CppChar ___Delimiter;
-	TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* ___EmptyTypes;
-	RuntimeObject* ___Missing;
-	MemberFilter_tF644F1AE82F611B677CE1964D5A3277DDA21D553* ___FilterAttribute;
-	MemberFilter_tF644F1AE82F611B677CE1964D5A3277DDA21D553* ___FilterName;
-	MemberFilter_tF644F1AE82F611B677CE1964D5A3277DDA21D553* ___FilterNameIgnoreCase;
 };
 #ifdef __clang__
 #pragma clang diagnostic pop
@@ -3986,6 +4079,14 @@ IL_0052:
 		return ((int32_t)il2cpp_codegen_subtract(L_23, L_24));
 	}
 }
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
@@ -17047,6 +17148,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XmlSqlBinaryReader__cctor_mB207DDB8AE552
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 IL2CPP_EXTERN_C void QName_tA3E1CB09850DEF9376C068A29697FEDB0F82C156_marshal_pinvoke(const QName_tA3E1CB09850DEF9376C068A29697FEDB0F82C156& unmarshaled, QName_tA3E1CB09850DEF9376C068A29697FEDB0F82C156_marshaled_pinvoke& marshaled)
 {
 	marshaled.___prefix = il2cpp_codegen_marshal_string(unmarshaled.___prefix);
@@ -18810,6 +18919,30 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CharEntityEncoderFallbackBuffer_Surro
 		return L_2;
 	}
 }
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif

@@ -225,6 +225,8 @@ struct IToken_t620DE9D086BA75DE074EF126922C24743D268A42;
 struct ITokenSource_t7B8A9A88E1B36AA6B44922BBAB5AD6DAF4F22C57;
 struct ITokenStream_tB4C6E28FA049D672D52C8DBD93C0EE8D9015D047;
 struct ITree_t701625166D49E7918A0615A08F20EA8219135176;
+struct ITreeAdaptor_tA358C5DD9D6A502275F3433C64D23440927D167D;
+struct ITreeNodeStream_tB0FD4EC324812953349D1AD7CF57B671FB2F2930;
 struct InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB;
 struct Lexer_t236B54FF12CB8B83D666009EFB5F21A88BED37EE;
 struct MethodInfo_t;
@@ -595,16 +597,6 @@ struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F_marshaled_pinvoke
 struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F_marshaled_com
 {
 };
-struct HashListEnumerator_t9D594A091376FA6DA40B3275EFADACAD5AC2BC7B  : public RuntimeObject
-{
-	HashList_t56D0AB4498A42AABCDBEDC36568089E25F48947E* ____hashList;
-	List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* ____orderList;
-	int32_t ____mode;
-	int32_t ____index;
-	int32_t ____version;
-	RuntimeObject* ____key;
-	RuntimeObject* ____value;
-};
 struct KeyCollection_tE29FEB342FBD7F1063C789EA338953D236D99B64  : public RuntimeObject
 {
 	HashList_t56D0AB4498A42AABCDBEDC36568089E25F48947E* ____hashList;
@@ -646,6 +638,15 @@ struct DictionaryEntry_t171080F37B311C25AA9E75888F9C9D703FA721BB_marshaled_com
 {
 	Il2CppIUnknown* ____key;
 	Il2CppIUnknown* ____value;
+};
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2  : public ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F
+{
+};
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_marshaled_pinvoke
+{
+};
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_marshaled_com
+{
 };
 struct Int16_tB8EF286A9C33492FA6E6D6E67320BE93E794A175 
 {
@@ -804,6 +805,10 @@ struct Exception_t_marshaled_com
 	Il2CppSafeArray* ___native_trace_ips;
 	int32_t ___caught_in_unmanaged;
 };
+struct EnumerationMode_t8931DB78BD8676DA80FB2EC3E369324B8A40D37E 
+{
+	int32_t ___value__;
+};
 struct MulticastDelegate_t  : public Delegate_t
 {
 	DelegateU5BU5D_tC5AB7E8F745616680F337909D3A8E6C722CDF771* ___delegates;
@@ -829,6 +834,16 @@ struct RecognitionException_tFD248374278C5FC10168FCA559E211CB8D688E55  : public 
 };
 struct SystemException_tCC48D868298F4C0705279823E34B00F4FBDB7295  : public Exception_t
 {
+};
+struct HashListEnumerator_t9D594A091376FA6DA40B3275EFADACAD5AC2BC7B  : public RuntimeObject
+{
+	HashList_t56D0AB4498A42AABCDBEDC36568089E25F48947E* ____hashList;
+	List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* ____orderList;
+	int32_t ____mode;
+	int32_t ____index;
+	int32_t ____version;
+	RuntimeObject* ____key;
+	RuntimeObject* ____value;
 };
 struct EarlyExitException_t8FE7CE07A5864E4F31F3383B4ADDF2F9968F9E02  : public RecognitionException_tFD248374278C5FC10168FCA559E211CB8D688E55
 {
@@ -2052,6 +2067,14 @@ IL_006f:
 		return (bool)0;
 	}
 }
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif

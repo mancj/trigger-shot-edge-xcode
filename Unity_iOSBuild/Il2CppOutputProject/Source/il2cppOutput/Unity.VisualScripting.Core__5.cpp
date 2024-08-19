@@ -229,6 +229,7 @@ struct IEnumerable_1_t0E9FFB91C50607934F617D427CE57EF59595D5A1;
 struct IEnumerable_1_t532F5A0B54B7A188CA84ABB3D5024BFA0983C8C2;
 struct IEnumerator_1_tD6A90A7446DA8E6CF865EDFBBF18C1200BB6D452;
 struct IEnumerator_1_t43D2E4BA9246755F293DFA74F001FB1A70A648FD;
+struct IEnumerator_1_t73FD060C436E3C4264A734C8F8DCC01DFF6046B8;
 struct IEnumerator_1_tC1CC9B2B9CB6B62CD0EB0AA0CD638A5414F144E1;
 struct IEqualityComparer_1_t84CD58C3582484C691B22BB0E534C8ADD9B22966;
 struct IEqualityComparer_1_t2CA7720C7ADCCDECD3B02E45878B4478619D5347;
@@ -362,6 +363,8 @@ struct GraphPointer_t01C98F06D1A7635CB867665044B7DC1FE03D1C0B;
 struct Hashtable_tEFC3B6496E6747787D8BB761B51F2AE3A8CFFE2D;
 struct ICloner_t3B6F254ECD633B0790951BBDB817EC0B79AF71A8;
 struct IDictionary_t6D03155AF1FA9083817AA5B6AD7DEEACC26AB220;
+struct IDictionaryEnumerator_tE129D608FCDB7207E0F0ECE33473CC950A83AD16;
+struct IDisposable_t030E0496B4E0E4E4F086825007979AF51F7248C5;
 struct IEnumerable_t6331596D5DD37C462B1B8D49CF6B319B00AB7131;
 struct IEnumerator_t7B609C2FFA6EB5167D9C62A0C32A21DE2F666DAA;
 struct IFormatProvider_tC202922D43BFF3525109ABF3FB79625F5646AB52;
@@ -1799,12 +1802,6 @@ struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F_marshaled_pinvoke
 struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F_marshaled_com
 {
 };
-struct VariableDeclarations_t7701E0B99E3AED5CDC693ABFBDD6D1C73945B405  : public RuntimeObject
-{
-	int32_t ___Kind;
-	VariableDeclarationCollection_tF2FB9698489A7485BE152FDBA89ABFFE7E28C8AC* ___collection;
-	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___OnVariableChanged;
-};
 struct XColor_tB4E93A296A10BD28F40F96075FE7391EAA199E35  : public RuntimeObject
 {
 };
@@ -1817,19 +1814,6 @@ struct fsAotCompilationManager_tA4FA5D7D2FC305EE6984E234196A04392EC1B2EB  : publ
 struct fsBaseConverter_tDF9366828A5B8ADB6D986EB35B320D4DDC81CB04  : public RuntimeObject
 {
 	fsSerializer_t770DD30E2427CF63ECAEF61D7A1D1D178CECB3DC* ___Serializer;
-};
-struct fsConfig_tB8F11CB8B2C89E00C261FD356AD7B68AD0EE0726  : public RuntimeObject
-{
-	TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* ___SerializeAttributes;
-	TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* ___IgnoreSerializeAttributes;
-	int32_t ___DefaultMemberSerialization;
-	Func_3_tBAF9876D881392F517398C8A838D30B270025B3E* ___GetJsonNameFromMemberName;
-	bool ___EnablePropertySerialization;
-	bool ___SerializeNonAutoProperties;
-	bool ___SerializeNonPublicSetProperties;
-	String_t* ___CustomDateTimeFormatString;
-	bool ___Serialize64BitIntegerAsString;
-	bool ___SerializeEnumsAsInteger;
 };
 struct fsContext_t3B227C205D84208E2D8934429C07677542C97B5F  : public RuntimeObject
 {
@@ -1889,11 +1873,6 @@ struct fsSerializer_t770DD30E2427CF63ECAEF61D7A1D1D178CECB3DC  : public RuntimeO
 	Dictionary_2_tE3EF7F86044FEAF4A82EDAA759940ACF6ABF5A04* ____cachedProcessors;
 	fsContext_t3B227C205D84208E2D8934429C07677542C97B5F* ___Context;
 	fsConfig_tB8F11CB8B2C89E00C261FD356AD7B68AD0EE0726* ___Config;
-};
-struct U3CU3Ec__DisplayClass8_0_tB24DE96971BC94388BC29983A0EF95B4C8AA1C35  : public RuntimeObject
-{
-	int32_t ___qualifier;
-	bool ___includeGenericParameters;
 };
 struct U3CU3Ec_t72F0416CFDE9A9F825DF203D11B910AC09560E97  : public RuntimeObject
 {
@@ -2151,10 +2130,6 @@ struct Guid_t
 	uint8_t ____j;
 	uint8_t ____k;
 };
-struct InspectorVariableNameAttribute_tBE604CF96F02C6EB3465F6B91D480412DD7199E5  : public Attribute_tFDA8EFEFB0711976D22474794576DAF28F7440AA
-{
-	int32_t ___U3CdirectionU3Ek__BackingField;
-};
 struct Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C 
 {
 	int32_t ___m_value;
@@ -2261,10 +2236,6 @@ struct UInt64_t8F12534CC8FC4B5860F2A2CD1EE79D322E7A41AF
 struct VariableDeclarationsCloner_t83FEF5B3667398976A332AA0B006D25AF6F7DFC1  : public Cloner_1_tBB14794478777EA3437AB4CF973266609047F680
 {
 };
-struct VariableKindAttribute_tEEA1986DE553A31CCB3A3048D430A0302F044F3F  : public Attribute_tFDA8EFEFB0711976D22474794576DAF28F7440AA
-{
-	int32_t ___U3CkindU3Ek__BackingField;
-};
 struct Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 
 {
 	float ___x;
@@ -2298,14 +2269,6 @@ struct fsForwardAttribute_t1D3D685C440B655326047AF49B02433133B96B05  : public At
 };
 struct fsIgnoreAttribute_tD8AB045AB9EA104390E6ADFCEDCEB8E1A0BF3598  : public Attribute_tFDA8EFEFB0711976D22474794576DAF28F7440AA
 {
-};
-struct fsObjectAttribute_t01E43E525187363F108B146EC18F42D731E84E38  : public Attribute_tFDA8EFEFB0711976D22474794576DAF28F7440AA
-{
-	TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* ___PreviousModels;
-	String_t* ___VersionString;
-	int32_t ___MemberSerialization;
-	Type_t* ___Converter;
-	Type_t* ___Processor;
 };
 struct fsPropertyAttribute_tD332ED5271DAF1CA8779F33711F56DAD20A0A131  : public Attribute_tFDA8EFEFB0711976D22474794576DAF28F7440AA
 {
@@ -2422,6 +2385,10 @@ struct fsOption_1_t5307CE32C845EE97F1173CDBB2385C4B81D2A28A
 	bool ____hasValue;
 	fsVersionedType_tE569BD045F7DEDEC2122CC6CC0023B62B95332E8 ____value;
 };
+struct ActionDirection_t8D0B28D65ACA03B81CE01E60BCC799B5BE2C33FD 
+{
+	int32_t ___value__;
+};
 struct AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354  : public RuntimeObject
 {
 	intptr_t ___m_Ptr;
@@ -2433,6 +2400,10 @@ struct AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354_marshaled_pinvok
 struct AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354_marshaled_com
 {
 	intptr_t ___m_Ptr;
+};
+struct BindingFlags_t5DC2835E4AE9C1862B3AD172EF35B6A5F4F1812C 
+{
+	int32_t ___value__;
 };
 struct Bounds_t367E830C64BBF235ED8C3B2F8CF6254FDCAD39C3 
 {
@@ -2446,6 +2417,10 @@ struct DateTimeOffset_t4EE701FE2F386D6F932FAC9B11E4B74A5B30F0A4
 {
 	DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D ____dateTime;
 	int16_t ____offsetMinutes;
+};
+struct DateTimeStyles_t68D2C41B347837759F064D04F256AC268AF50465 
+{
+	int32_t ___value__;
 };
 struct Delegate_t  : public RuntimeObject
 {
@@ -2552,6 +2527,10 @@ struct Exception_t_marshaled_com
 	Il2CppSafeArray* ___native_trace_ips;
 	int32_t ___caught_in_unmanaged;
 };
+struct FontStyle_tDD46734FA9BCB99FB315CD7CAD1137EE536136D1 
+{
+	int32_t ___value__;
+};
 struct GCHandle_tC44F6F72EE68BD4CFABA24309DA7A179D41127DC 
 {
 	intptr_t ___handle;
@@ -2588,8 +2567,24 @@ struct GradientColorKey_tBD03A613338639E3774A10265CC5F3619C13421A
 	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___color;
 	float ___time;
 };
+struct GradientMode_t135269499DA9DDC9186011F26704EBCEE6E8033C 
+{
+	int32_t ___value__;
+};
+struct ImagePosition_t212A61E2D70E1854E3BAABD91C20A8B71FA28D01 
+{
+	int32_t ___value__;
+};
+struct Int32Enum_tCBAC8BA2BFF3A845FA599F303093BBBA374B6F0C 
+{
+	int32_t ___value__;
+};
 struct MethodInfo_t  : public MethodBase_t
 {
+};
+struct NumberStyles_t567C6CBC2A2B5B5A2C43B2855D158949984A810C 
+{
+	int32_t ___value__;
 };
 struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C  : public RuntimeObject
 {
@@ -2624,20 +2619,9 @@ struct RectOffset_t6358774A0DEEABA4586840CB9BC7DC88B39660B5_marshaled_com
 	intptr_t ___m_Ptr;
 	Il2CppIUnknown* ___m_SourceStyle;
 };
-struct Regex_tE773142C2BE45C5D362B0F815AFF831707A51772  : public RuntimeObject
+struct RegexOptions_tE9DA9C4DF8FB26DD1C7E0F8AA022C1164A423F6B 
 {
-	TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A ___internalMatchTimeout;
-	String_t* ___pattern;
-	int32_t ___roptions;
-	RegexRunnerFactory_t72373B672C7D8785F63516DDD88834F286AF41E7* ___factory;
-	Hashtable_tEFC3B6496E6747787D8BB761B51F2AE3A8CFFE2D* ___caps;
-	Hashtable_tEFC3B6496E6747787D8BB761B51F2AE3A8CFFE2D* ___capnames;
-	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___capslist;
-	int32_t ___capsize;
-	ExclusiveReference_t411F04D4CC440EB7399290027E1BBABEF4C28837* ____runnerref;
-	WeakReference_1_tDC6E83496181D1BAFA3B89CBC00BCD0B64450257* ____replref;
-	RegexCode_tA23175D9DA02AD6A79B073E10EC5D225372ED6C7* ____code;
-	bool ____refsInitialized;
+	int32_t ___value__;
 };
 struct RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B 
 {
@@ -2657,10 +2641,30 @@ struct StreamWriter_t6E7DF7D524AA3C018A65F62EE80779873ED4D1E4  : public TextWrit
 	bool ____closable;
 	Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* ____asyncWriteTask;
 };
+struct StringComparison_tE14A55CCFA001A5AC85D754179BF2888F45CC94D 
+{
+	int32_t ___value__;
+};
+struct StringSplitOptions_t4DD892C76C70DD4800FC1B76054D69826F770062 
+{
+	int32_t ___value__;
+};
 struct StringWriter_tF48052BE4F980E5C85403221E835768E4156267D  : public TextWriter_tA9E5461506CF806E17B6BBBF2119359DEDA3F0F3
 {
 	StringBuilder_t* ____sb;
 	bool ____isOpen;
+};
+struct TextAnchor_tA46E794186AC1CD0F22888652F589EBF7DFDF830 
+{
+	int32_t ___value__;
+};
+struct TextClipping_t1F96F2BE75725AB66B35C56B06F479BCB1C822AD 
+{
+	int32_t ___value__;
+};
+struct TypeQualifier_t20DF07A489BF453C8B42E268161A17BDBAD72122 
+{
+	int32_t ___value__;
 };
 struct VariableDeclaration_t915ABE2E4C37AE20885524D092F99423EBF65CFB  : public RuntimeObject
 {
@@ -2670,6 +2674,14 @@ struct VariableDeclaration_t915ABE2E4C37AE20885524D092F99423EBF65CFB  : public R
 };
 struct VariableDeclarationCollection_tF2FB9698489A7485BE152FDBA89ABFFE7E28C8AC  : public KeyedCollection_2_t765FDF1683A03A9F8E1BF5D050EAB987AA9E0666
 {
+};
+struct VariableKind_t875B5CA208F97FDC4152C1140C48EEA35135232C 
+{
+	int32_t ___value__;
+};
+struct WrapMode_t6C6EABC32662DF078C3C977196618603C2F3A079 
+{
+	int32_t ___value__;
 };
 struct fsArrayConverter_t60FA841192EE7C6A1DB422D4DF78E0F167C41B20  : public fsConverter_tFCDE4B68CAA0B3317FAC29FAAF380AF759141918
 {
@@ -2699,6 +2711,10 @@ struct fsIEnumerableConverter_t4AC8AB5A10A49663004A2B30F19C4978C0CC09E8  : publi
 };
 struct fsKeyValuePairConverter_t992D32F6D5E1466C73750D354613063EAA257D5C  : public fsConverter_tFCDE4B68CAA0B3317FAC29FAAF380AF759141918
 {
+};
+struct fsMemberSerialization_t3F89526001C3843086162E32D48E8377998AB142 
+{
+	int32_t ___value__;
 };
 struct fsMetaType_t8AFD73AF409551D5F98120D64017EF5A6963A743  : public RuntimeObject
 {
@@ -2802,6 +2818,10 @@ struct GameObject_t76FEDD663AB33C991A9C9A23129337651094216F  : public Object_tC1
 struct Gradient_DirectConverter_t799EF9A69947B175D8F8E31F914E1F5367D99817  : public fsDirectConverter_1_t3BBAD119FA2F1F767A39E74A9C7AEE7FBB5C1A53
 {
 };
+struct InspectorVariableNameAttribute_tBE604CF96F02C6EB3465F6B91D480412DD7199E5  : public Attribute_tFDA8EFEFB0711976D22474794576DAF28F7440AA
+{
+	int32_t ___U3CdirectionU3Ek__BackingField;
+};
 struct Keyframe_DirectConverter_tC3164BF708599760C93E4226E4655527EF781703  : public fsDirectConverter_1_t7705783FE5B6390E39DFB3F2457CD37A4912B76C
 {
 };
@@ -2826,6 +2846,21 @@ struct RectOffset_DirectConverter_t86C571FDDFF076E93E48742424B3D40CD1E4FD12  : p
 struct Rect_DirectConverter_tC72EE0E7A976373450CCB61AAFE3F6FEBACB2B58  : public fsDirectConverter_1_t8DF7EDE51D153578D3AC20C59C648308A99EA12A
 {
 };
+struct Regex_tE773142C2BE45C5D362B0F815AFF831707A51772  : public RuntimeObject
+{
+	TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A ___internalMatchTimeout;
+	String_t* ___pattern;
+	int32_t ___roptions;
+	RegexRunnerFactory_t72373B672C7D8785F63516DDD88834F286AF41E7* ___factory;
+	Hashtable_tEFC3B6496E6747787D8BB761B51F2AE3A8CFFE2D* ___caps;
+	Hashtable_tEFC3B6496E6747787D8BB761B51F2AE3A8CFFE2D* ___capnames;
+	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___capslist;
+	int32_t ___capsize;
+	ExclusiveReference_t411F04D4CC440EB7399290027E1BBABEF4C28837* ____runnerref;
+	WeakReference_1_tDC6E83496181D1BAFA3B89CBC00BCD0B64450257* ____replref;
+	RegexCode_tA23175D9DA02AD6A79B073E10EC5D225372ED6C7* ____code;
+	bool ____refsInitialized;
+};
 struct ScriptableObject_tB3BFDB921A1B1795B38A5417D3B97A89A140436A  : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C
 {
 };
@@ -2845,16 +2880,52 @@ struct Type_t  : public MemberInfo_t
 {
 	RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B ____impl;
 };
+struct VariableDeclarations_t7701E0B99E3AED5CDC693ABFBDD6D1C73945B405  : public RuntimeObject
+{
+	int32_t ___Kind;
+	VariableDeclarationCollection_tF2FB9698489A7485BE152FDBA89ABFFE7E28C8AC* ___collection;
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___OnVariableChanged;
+};
+struct VariableKindAttribute_tEEA1986DE553A31CCB3A3048D430A0302F044F3F  : public Attribute_tFDA8EFEFB0711976D22474794576DAF28F7440AA
+{
+	int32_t ___U3CkindU3Ek__BackingField;
+};
 struct WeakReference_tD4B0518CE911FFD9FAAB3FCD492644A354312D8E  : public RuntimeObject
 {
 	bool ___isLongReference;
 	GCHandle_tC44F6F72EE68BD4CFABA24309DA7A179D41127DC ___gcHandle;
+};
+struct fsConfig_tB8F11CB8B2C89E00C261FD356AD7B68AD0EE0726  : public RuntimeObject
+{
+	TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* ___SerializeAttributes;
+	TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* ___IgnoreSerializeAttributes;
+	int32_t ___DefaultMemberSerialization;
+	Func_3_tBAF9876D881392F517398C8A838D30B270025B3E* ___GetJsonNameFromMemberName;
+	bool ___EnablePropertySerialization;
+	bool ___SerializeNonAutoProperties;
+	bool ___SerializeNonPublicSetProperties;
+	String_t* ___CustomDateTimeFormatString;
+	bool ___Serialize64BitIntegerAsString;
+	bool ___SerializeEnumsAsInteger;
 };
 struct fsDuplicateVersionNameException_tAC800EE7692EB781843D91C2158A431897E11640  : public Exception_t
 {
 };
 struct fsMissingVersionConstructorException_tE6DE04E84EDA9AFAB8D627E6BCA19BE39C7235DE  : public Exception_t
 {
+};
+struct fsObjectAttribute_t01E43E525187363F108B146EC18F42D731E84E38  : public Attribute_tFDA8EFEFB0711976D22474794576DAF28F7440AA
+{
+	TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* ___PreviousModels;
+	String_t* ___VersionString;
+	int32_t ___MemberSerialization;
+	Type_t* ___Converter;
+	Type_t* ___Processor;
+};
+struct U3CU3Ec__DisplayClass8_0_tB24DE96971BC94388BC29983A0EF95B4C8AA1C35  : public RuntimeObject
+{
+	int32_t ___qualifier;
+	bool ___includeGenericParameters;
 };
 struct Func_1_t8AF66E7404FF8CD952DAB9A77E838E2755D3ACB3  : public MulticastDelegate_t
 {
@@ -3265,17 +3336,6 @@ struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticFields
 {
 	int32_t ___OffsetOfInstanceIDInCPlusPlusObject;
 };
-struct Regex_tE773142C2BE45C5D362B0F815AFF831707A51772_StaticFields
-{
-	int32_t ___s_cacheSize;
-	Dictionary_2_t5B5B38BB06341F50E1C75FB53208A2A66CAE57F7* ___s_cache;
-	int32_t ___s_cacheCount;
-	CachedCodeEntry_tE201C3AD65C234AD9ED7A78C95025824A7A9FF39* ___s_cacheFirst;
-	CachedCodeEntry_tE201C3AD65C234AD9ED7A78C95025824A7A9FF39* ___s_cacheLast;
-	TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A ___s_maximumMatchTimeout;
-	TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A ___s_defaultMatchTimeout;
-	TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A ___InfiniteMatchTimeout;
-};
 struct StreamWriter_t6E7DF7D524AA3C018A65F62EE80779873ED4D1E4_StaticFields
 {
 	StreamWriter_t6E7DF7D524AA3C018A65F62EE80779873ED4D1E4* ___Null;
@@ -3296,6 +3356,17 @@ struct GUIStyle_t20BA2F9F3FE9D13AAA607EEEBE5547835A6F6580_StaticFields
 {
 	bool ___showKeyboardFocus;
 	GUIStyle_t20BA2F9F3FE9D13AAA607EEEBE5547835A6F6580* ___s_None;
+};
+struct Regex_tE773142C2BE45C5D362B0F815AFF831707A51772_StaticFields
+{
+	int32_t ___s_cacheSize;
+	Dictionary_2_t5B5B38BB06341F50E1C75FB53208A2A66CAE57F7* ___s_cache;
+	int32_t ___s_cacheCount;
+	CachedCodeEntry_tE201C3AD65C234AD9ED7A78C95025824A7A9FF39* ___s_cacheFirst;
+	CachedCodeEntry_tE201C3AD65C234AD9ED7A78C95025824A7A9FF39* ___s_cacheLast;
+	TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A ___s_maximumMatchTimeout;
+	TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A ___s_defaultMatchTimeout;
+	TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A ___InfiniteMatchTimeout;
 };
 struct Type_t_StaticFields
 {
@@ -12420,6 +12491,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VariableDeclarationsCloner__cctor_mA3E82
 		return;
 	}
 }
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
@@ -23508,6 +23587,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void fsConverter__ctor_m3C3DE66DA4A3FA50ED9A7
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* fsData_ToString_mB9B72A2286B2AADA8582221CDE13712F3F3C6C9F (fsData_t6E144EC58C6E449805AB7BF77BCDAB7230BBFA23* __this, const RuntimeMethod* method) 
 {
 	{
@@ -29044,6 +29131,14 @@ IL_005d:
 		return L_16;
 	}
 }
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif

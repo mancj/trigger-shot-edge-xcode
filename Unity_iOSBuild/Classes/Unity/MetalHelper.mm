@@ -19,21 +19,30 @@ extern "C" void InitRenderingMTL()
 
 static MTLPixelFormat GetColorFormatForSurface(const UnityDisplaySurfaceMTL* surface)
 {
-    MTLPixelFormat colorFormat = surface->srgb ? MTLPixelFormatBGRA8Unorm_sRGB : MTLPixelFormatBGRA8Unorm;
-#if PLATFORM_IOS || PLATFORM_TVOS || PLATFORM_VISIONOS
-    if (surface->wideColor && UnityIsWideColorSupported())
-        colorFormat = surface->srgb ? MTLPixelFormatBGR10_XR_sRGB : MTLPixelFormatBGR10_XR;
-#elif PLATFORM_OSX
+    MTLPixelFormat colorFormat = MTLPixelFormatInvalid;
+
+#if PLATFORM_OSX
     if (surface->hdr)
     {
+        // 0 = 10 bit, 1 = 16bit
         if (@available(macOS 10.15, *))
-        {   // 0 = 10bit
             colorFormat = UnityHDRSurfaceDepth() == 0 ? MTLPixelFormatRGB10A2Unorm : MTLPixelFormatRGBA16Float;
-        }
     }
-    else if (surface->wideColor)
-        colorFormat = MTLPixelFormatRGBA16Float;
 #endif
+
+    if(colorFormat == MTLPixelFormatInvalid && surface->wideColor)
+    {
+    #if PLATFORM_OSX || __is_target_environment(simulator)
+        colorFormat = MTLPixelFormatRGBA16Float;
+    #else
+        if(UnityIsWideColorSupported())
+            colorFormat = surface->srgb ? MTLPixelFormatBGR10_XR_sRGB : MTLPixelFormatBGR10_XR;
+    #endif
+    }
+
+    if(colorFormat == MTLPixelFormatInvalid)
+        colorFormat = surface->srgb ? MTLPixelFormatBGRA8Unorm_sRGB : MTLPixelFormatBGRA8Unorm;
+
     return colorFormat;
 }
 
@@ -75,22 +84,28 @@ extern "C" void CreateSystemRenderingSurfaceMTL(UnityDisplaySurfaceMTL* surface)
     MetalUpdateDisplaySync();
 #endif
 
+    CGColorSpaceRef colorSpaceRef = nil;
 
 #if PLATFORM_OSX
-    CGColorSpaceRef colorSpaceRef = nil;
     if (surface->hdr)
+    {
         if (@available(macOS 11.0, *)) // 0 = 10bit
             colorSpaceRef = UnityHDRSurfaceDepth() == 0 ? CGColorSpaceCreateWithName(CFSTR("kCGColorSpaceITUR_2100_PQ")) : CGColorSpaceCreateWithName(CFSTR("kCGColorSpaceExtendedLinearITUR_2020"));
         else
             colorSpaceRef = UnityHDRSurfaceDepth() == 0 ? CGColorSpaceCreateWithName(CFSTR("kCGColorSpaceITUR_2020_PQ_EOTF")) : CGColorSpaceCreateWithName(CFSTR("kCGColorSpaceExtendedLinearITUR_2020"));
-    else if (surface->wideColor)
-        colorSpaceRef = CGColorSpaceCreateWithName(surface->srgb ? kCGColorSpaceExtendedLinearSRGB : kCGColorSpaceExtendedSRGB);
-    else
-        colorSpaceRef = CGColorSpaceCreateWithName(kCGColorSpaceSRGB);
+    }
+#endif
+
+    if(colorSpaceRef == nil)
+    {
+        if (surface->wideColor)
+            colorSpaceRef = CGColorSpaceCreateWithName(surface->srgb ? kCGColorSpaceExtendedLinearSRGB : kCGColorSpaceExtendedSRGB);
+        else
+            colorSpaceRef = CGColorSpaceCreateWithName(kCGColorSpaceSRGB);
+    }
 
     surface->layer.colorspace = colorSpaceRef;
     CGColorSpaceRelease(colorSpaceRef);
-#endif
 
     // Update the native screen resolution
     UnityUpdateDrawableSize(surface);

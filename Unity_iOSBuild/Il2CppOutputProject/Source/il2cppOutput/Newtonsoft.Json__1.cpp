@@ -236,13 +236,21 @@ struct IEnumerable_1_t716934C22E6529DDE8B45F4D07A7CC7E6538FF75;
 struct IEnumerable_1_t349E66EC5F09B881A8E52EE40A1AB9EC60E08E44;
 struct IEnumerable_1_t6686595E4CB7AC210F0EF075F7B1DD4A21D3902B;
 struct IEnumerable_1_t8BB8DBC368DDF76EBAD63F319A22CBB204DD7F97;
+struct IEnumerator_1_t9DFF5CCD2F9C4E5CAEEB028E6189933EE4E77294;
+struct IEnumerator_1_t067D943FA808557FBA1FBED8EA4E9A1BFCB791B8;
+struct IEnumerator_1_tD0054AD8AB0F9468AFC55F5C14F34231B4F68F23;
+struct IEnumerator_1_t17A98E9C91AD59AC8DCA7D9C70E659E9F6583901;
+struct IEnumerator_1_t889CCC5EFE6A6E3DAB66C7475F56D94D53F43D0E;
 struct IEqualityComparer_1_tAE94C8F24AD5B94D4EE85CA9FC59E3409D41CAF7;
 struct IEqualityComparer_1_t0C79004BFE79D9DBCE6C2250109D31D468A9A68E;
+struct IGrouping_2_t67FFAFEEADC6063801C91E5569E355E7B86F337C;
+struct IList_1_tF23041AC58956CDAA98A1DA3D23002DBE4EBE278;
 struct IList_1_tFB8BE2ED9A601C1259EAB8D73D1B3E96EA321FA1;
 struct IList_1_t106D4C1340745E38431865BBEA6AE170A4713431;
 struct IList_1_t9B14A530FBA8ECACC8EB673DB4D93DA765DD8551;
 struct IList_1_t7A435ADE2CFF0B5E61FE0F18231D7FECE59814F0;
 struct IList_1_t6EE90D273EFCF5E7E4C37FAB712E70BB6F1B4BFF;
+struct IList_1_tA9E92116BDDEB68A8527F08BF8D2B70B7A00CA95;
 struct IList_1_tB15DAEB90BDCB6EC5FB36C426C9B01479C29D325;
 struct IList_1_t99C7C916D02D689DC580487372A25B2877AC2B7E;
 struct IList_1_tF7649ED29A5D831B272B7DC5F291E38EEDBC7511;
@@ -289,6 +297,7 @@ struct CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB;
 struct ConstructorInfoU5BU5D_t515A0B944728842263B6033C9A62F6392C3BCD8A;
 struct DelegateU5BU5D_tC5AB7E8F745616680F337909D3A8E6C722CDF771;
 struct DynamicMetaObjectU5BU5D_t3DD53865D0D7B6997BD3523C5F828FA40C419E50;
+struct FieldInfoU5BU5D_t50D47CBECF1AEB152F555803E3329D9E34DBF8D8;
 struct Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C;
 struct Int64U5BU5D_tAEDFCBDB5414E2A140A6F34C0538BF97FCF67A1D;
 struct IntPtrU5BU5D_tFD177F8C806A6921AD7150264CCC62FA00CAD832;
@@ -360,6 +369,7 @@ struct GetMemberBinder_t8D02CC2255370A525D6657487C0A7EB1DDD225B3;
 struct IAttributeProvider_t7A99979C2D7DD703E91285B65728D13FCD3D2E2E;
 struct IContractResolver_t7EC502F5FCA86DD95579A92A1E0116BE32D6340B;
 struct IConvertible_tC7F4E6F8CAA007182834D242AEDB0F0E09C09515;
+struct ICustomAttributeProvider_tC47C1E6A3DC1ADA77819AF705CC1D1175315876D;
 struct IDictionary_t6D03155AF1FA9083817AA5B6AD7DEEACC26AB220;
 struct IDynamicMetaObjectProvider_t4593D4AE2D3360E67AF686D7D889F51FF9BEDC9D;
 struct IEnumerable_t6331596D5DD37C462B1B8D49CF6B319B00AB7131;
@@ -424,6 +434,7 @@ struct SetMemberBinder_t0D70ED9A9888FF8074796DF76600BDBA3104C55F;
 struct String_t;
 struct StringBuilder_t;
 struct StringWriter_tF48052BE4F980E5C85403221E835768E4156267D;
+struct TargetParameterCountException_t06AE62DE58A6F9CAC9E33DBEFA5B224F08293859;
 struct TextInfo_tD3BAFCFD77418851E7D5CB8D2588F47019E414B4;
 struct TextWriter_tA9E5461506CF806E17B6BBBF2119359DEDA3F0F3;
 struct TimeZoneInfo_t30FD24E315EC4F4D942AF797CCD4CC4ED6B5CAD8;
@@ -1419,18 +1430,6 @@ struct DBNull_t33A9BF6787D27894A593CF4A5E58B8DDC63BBEFC  : public RuntimeObject
 struct DateTimeUtils_t08EF5030CF29329A3646A81F48D1F440A6234121  : public RuntimeObject
 {
 };
-struct DefaultContractResolver_t463A02A39C265D7EB415D4CEB2B2E32664A02CAD  : public RuntimeObject
-{
-	DefaultJsonNameTable_t81ABCBAD900C62AEA009A48779C3F3893DBC110D* ____nameTable;
-	ThreadSafeStore_2_tF22121D3E11895CE38FFEE9105F013F4ECC2DFC5* ____contractCache;
-	int32_t ___U3CDefaultMembersSearchFlagsU3Ek__BackingField;
-	bool ___U3CSerializeCompilerGeneratedMembersU3Ek__BackingField;
-	bool ___U3CIgnoreSerializableInterfaceU3Ek__BackingField;
-	bool ___U3CIgnoreSerializableAttributeU3Ek__BackingField;
-	bool ___U3CIgnoreIsSpecifiedMembersU3Ek__BackingField;
-	bool ___U3CIgnoreShouldSerializeMembersU3Ek__BackingField;
-	NamingStrategy_tB85DD4A9F6C33F668AF7273D3B5193ABC4617D50* ___U3CNamingStrategyU3Ek__BackingField;
-};
 struct DynamicMetaObject_tD1405F56818181F9ED29E520D40F2837B73EF825  : public RuntimeObject
 {
 	RuntimeObject* ____value;
@@ -1527,33 +1526,6 @@ struct NamingStrategy_tB85DD4A9F6C33F668AF7273D3B5193ABC4617D50  : public Runtim
 	bool ___U3CProcessExtensionDataNamesU3Ek__BackingField;
 	bool ___U3COverrideSpecifiedNamesU3Ek__BackingField;
 };
-struct ParameterInfo_tBC2D68304851A59EFB2EAE6B168714CD45445F2F  : public RuntimeObject
-{
-	int32_t ___AttrsImpl;
-	Type_t* ___ClassImpl;
-	RuntimeObject* ___DefaultValueImpl;
-	MemberInfo_t* ___MemberImpl;
-	String_t* ___NameImpl;
-	int32_t ___PositionImpl;
-};
-struct ParameterInfo_tBC2D68304851A59EFB2EAE6B168714CD45445F2F_marshaled_pinvoke
-{
-	int32_t ___AttrsImpl;
-	Type_t* ___ClassImpl;
-	Il2CppIUnknown* ___DefaultValueImpl;
-	MemberInfo_t* ___MemberImpl;
-	char* ___NameImpl;
-	int32_t ___PositionImpl;
-};
-struct ParameterInfo_tBC2D68304851A59EFB2EAE6B168714CD45445F2F_marshaled_com
-{
-	int32_t ___AttrsImpl;
-	Type_t* ___ClassImpl;
-	Il2CppIUnknown* ___DefaultValueImpl;
-	MemberInfo_t* ___MemberImpl;
-	Il2CppChar* ___NameImpl;
-	int32_t ___PositionImpl;
-};
 struct ReflectionAttributeProvider_t994FD01B502E0AEF1310FBA341D96F9403D8689B  : public RuntimeObject
 {
 	RuntimeObject* ____attributeProvider;
@@ -1618,21 +1590,6 @@ struct TypeConverter_t5257E1653EB845D0044BBEDEB7B8AED7A061592C  : public Runtime
 };
 struct TypeExtensions_t620D5F82082DAEBCC8029DC9918287B1B8DA30EA  : public RuntimeObject
 {
-};
-struct TypeInformation_tBAA2819DD869179F8DFB0A658547229B4C7D6E15  : public RuntimeObject
-{
-	Type_t* ___U3CTypeU3Ek__BackingField;
-	int32_t ___U3CTypeCodeU3Ek__BackingField;
-};
-struct Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E  : public RuntimeObject
-{
-	String_t* ___m_String;
-	String_t* ___m_originalUnicodeString;
-	UriParser_t920B0868286118827C08B08A15A9456AF6C19D81* ___m_Syntax;
-	String_t* ___m_DnsSafeHost;
-	uint64_t ___m_Flags;
-	UriInfo_t5F91F77A93545DDDA6BB24A609BAF5E232CC1A09* ___m_Info;
-	bool ___m_iriParsing;
 };
 struct ValidationUtils_tE01B2FCD1DE602799D71EE245194CEBAF69C76B2  : public RuntimeObject
 {
@@ -1801,17 +1758,7 @@ struct Nullable_1_tD52F1D0FC7EBB336F119BE953E59F426766032C1
 	bool ___hasValue;
 	Il2CppChar ___value;
 };
-struct Nullable_1_t4DEE77C12DDAF72BAE2A1FA8A8736FC478D721E8 
-{
-	bool ___hasValue;
-	int32_t ___value;
-};
 struct Nullable_1_tCF32C56A2641879C053C86F273C0C6EC1B40BC28 
-{
-	bool ___hasValue;
-	int32_t ___value;
-};
-struct Nullable_1_t163D49A1147F217B7BD43BE8ACC8A5CC6B846D14 
 {
 	bool ___hasValue;
 	int32_t ___value;
@@ -1820,36 +1767,6 @@ struct Nullable_1_t365991B3904FDA7642A788423B28692FDC7CDB17
 {
 	bool ___hasValue;
 	int64_t ___value;
-};
-struct Nullable_1_t776B72BEFF6E3E2D489C4C6D855C89139D6B4CA4 
-{
-	bool ___hasValue;
-	int32_t ___value;
-};
-struct Nullable_1_tA1B6210C1924173AEFE9AF8FBDD3BA856E74A790 
-{
-	bool ___hasValue;
-	int32_t ___value;
-};
-struct Nullable_1_t5ECEC9E2B3F1C050A3E9EC928487DD5C9AB0996D 
-{
-	bool ___hasValue;
-	int32_t ___value;
-};
-struct Nullable_1_t599F8D9D40143BFCB12D7085DFEA8AC7171F5E77 
-{
-	bool ___hasValue;
-	int32_t ___value;
-};
-struct Nullable_1_t0ED183EB9E50B714F9A282F07935579F070B562B 
-{
-	bool ___hasValue;
-	int32_t ___value;
-};
-struct Nullable_1_tB85AB604017196E6A3D3B920121E8C3A255827F0 
-{
-	bool ___hasValue;
-	int32_t ___value;
 };
 struct StructMultiKey_2_tBE8AC1F77387A29245D48FBA8C8C8E1763344DD5 
 {
@@ -1936,51 +1853,6 @@ struct DataTableConverter_t536E81ADD4F3D56FFEA87AACB16274DFDE05000E  : public Js
 struct DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D 
 {
 	uint64_t ____dateData;
-};
-struct DateTimeParser_tBDDA41C4734ACD3EAF17233DBFC7B26E0AAFE246 
-{
-	int32_t ___Year;
-	int32_t ___Month;
-	int32_t ___Day;
-	int32_t ___Hour;
-	int32_t ___Minute;
-	int32_t ___Second;
-	int32_t ___Fraction;
-	int32_t ___ZoneHour;
-	int32_t ___ZoneMinute;
-	int32_t ___Zone;
-	CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* ____text;
-	int32_t ____end;
-};
-struct DateTimeParser_tBDDA41C4734ACD3EAF17233DBFC7B26E0AAFE246_marshaled_pinvoke
-{
-	int32_t ___Year;
-	int32_t ___Month;
-	int32_t ___Day;
-	int32_t ___Hour;
-	int32_t ___Minute;
-	int32_t ___Second;
-	int32_t ___Fraction;
-	int32_t ___ZoneHour;
-	int32_t ___ZoneMinute;
-	int32_t ___Zone;
-	uint8_t* ____text;
-	int32_t ____end;
-};
-struct DateTimeParser_tBDDA41C4734ACD3EAF17233DBFC7B26E0AAFE246_marshaled_com
-{
-	int32_t ___Year;
-	int32_t ___Month;
-	int32_t ___Day;
-	int32_t ___Hour;
-	int32_t ___Minute;
-	int32_t ___Second;
-	int32_t ___Fraction;
-	int32_t ___ZoneHour;
-	int32_t ___ZoneMinute;
-	int32_t ___Zone;
-	uint8_t* ____text;
-	int32_t ____end;
 };
 struct Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F 
 {
@@ -2133,27 +2005,6 @@ struct JsonExtensionDataAttribute_tF492B4EC51E6325C4CA761F373861202B4F9035E  : p
 struct JsonIgnoreAttribute_t9C194C4132F31C3496A2B7C90C9050BA47A34850  : public Attribute_tFDA8EFEFB0711976D22474794576DAF28F7440AA
 {
 };
-struct JsonPosition_t7788656A280615072710710E8C15D23285850E8E 
-{
-	int32_t ___Type;
-	int32_t ___Position;
-	String_t* ___PropertyName;
-	bool ___HasIndex;
-};
-struct JsonPosition_t7788656A280615072710710E8C15D23285850E8E_marshaled_pinvoke
-{
-	int32_t ___Type;
-	int32_t ___Position;
-	char* ___PropertyName;
-	int32_t ___HasIndex;
-};
-struct JsonPosition_t7788656A280615072710710E8C15D23285850E8E_marshaled_com
-{
-	int32_t ___Type;
-	int32_t ___Position;
-	Il2CppChar* ___PropertyName;
-	int32_t ___HasIndex;
-};
 struct JsonRequiredAttribute_t1F633B359DFF6D3F0F45370D6E32B635C424F647  : public Attribute_tFDA8EFEFB0711976D22474794576DAF28F7440AA
 {
 };
@@ -2194,21 +2045,6 @@ struct SByte_tFEFFEF5D2FEBF5207950AE6FAC150FC53B668DB5
 struct Single_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C 
 {
 	float ___m_value;
-};
-struct StreamingContext_t56760522A751890146EE45F82F866B55B7E33677 
-{
-	RuntimeObject* ___m_additionalContext;
-	int32_t ___m_state;
-};
-struct StreamingContext_t56760522A751890146EE45F82F866B55B7E33677_marshaled_pinvoke
-{
-	Il2CppIUnknown* ___m_additionalContext;
-	int32_t ___m_state;
-};
-struct StreamingContext_t56760522A751890146EE45F82F866B55B7E33677_marshaled_com
-{
-	Il2CppIUnknown* ___m_additionalContext;
-	int32_t ___m_state;
 };
 struct StringBuffer_tCDD0DF688243FC93296397311678087BDC2FDEEB 
 {
@@ -2287,13 +2123,41 @@ struct Nullable_1_tE151CE1F6892804B41C4004C95CB57020ABB3272
 	bool ___hasValue;
 	TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A ___value;
 };
+struct BindingFlags_t5DC2835E4AE9C1862B3AD172EF35B6A5F4F1812C 
+{
+	int32_t ___value__;
+};
 struct ConstructorInfo_t1B5967EE7E5554272F79F8880183C70AD240EEEB  : public MethodBase_t
 {
+};
+struct DateFormatHandling_t572F7AE07F2480341B7A6A66E2B76630B513F797 
+{
+	int32_t ___value__;
+};
+struct DateParseHandling_t9C3D12600E1C83D014F016D8B1F88411FF41263C 
+{
+	int32_t ___value__;
+};
+struct DateTimeKind_t3AD6DA06BEF8955A740777163FFB481C19089BBC 
+{
+	int32_t ___value__;
 };
 struct DateTimeOffset_t4EE701FE2F386D6F932FAC9B11E4B74A5B30F0A4 
 {
 	DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D ____dateTime;
 	int16_t ____offsetMinutes;
+};
+struct DateTimeStyles_t68D2C41B347837759F064D04F256AC268AF50465 
+{
+	int32_t ___value__;
+};
+struct DateTimeZoneHandling_tC6052391FA7B95E92AFFABA381532EEFA193FB9F 
+{
+	int32_t ___value__;
+};
+struct DefaultValueHandling_t996735A0C7CC889B941C53B522E62A988B47402A 
+{
+	int32_t ___value__;
 };
 struct Delegate_t  : public RuntimeObject
 {
@@ -2400,22 +2264,298 @@ struct Exception_t_marshaled_com
 	Il2CppSafeArray* ___native_trace_ips;
 	int32_t ___caught_in_unmanaged;
 };
+struct ExpressionType_tAA03F259DBEAA7B62E085C620D7B879FAA696B25 
+{
+	int32_t ___value__;
+};
+struct FloatFormatHandling_t6D69CDEC3FBD6B43B168CFE1033506CE3F50EE8C 
+{
+	int32_t ___value__;
+};
+struct FloatParseHandling_tB923F780A6087CF142D4D00486E840D870ECDA5D 
+{
+	int32_t ___value__;
+};
+struct Formatting_t38B3D1A17CE6825AA2C906374AD2434FD10ED7EC 
+{
+	int32_t ___value__;
+};
 struct GetMemberBinder_t8D02CC2255370A525D6657487C0A7EB1DDD225B3  : public DynamicMetaObjectBinder_tB890C4A527623C1A79882F0343D043461A6207FF
 {
 	String_t* ___U3CNameU3Ek__BackingField;
 	bool ___U3CIgnoreCaseU3Ek__BackingField;
 };
-struct JsonContainerAttribute_t84168DEA2B41EB84D4BF6C3AF04D6075F4CEB1C7  : public Attribute_tFDA8EFEFB0711976D22474794576DAF28F7440AA
+struct Int32Enum_tCBAC8BA2BFF3A845FA599F303093BBBA374B6F0C 
 {
-	Type_t* ___U3CItemConverterTypeU3Ek__BackingField;
-	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___U3CItemConverterParametersU3Ek__BackingField;
-	NamingStrategy_tB85DD4A9F6C33F668AF7273D3B5193ABC4617D50* ___U3CNamingStrategyInstanceU3Ek__BackingField;
-	Nullable_1_t78F453FADB4A9F50F267A4E349019C34410D1A01 ____isReference;
-	Nullable_1_t78F453FADB4A9F50F267A4E349019C34410D1A01 ____itemIsReference;
-	Nullable_1_t599F8D9D40143BFCB12D7085DFEA8AC7171F5E77 ____itemReferenceLoopHandling;
-	Nullable_1_tB85AB604017196E6A3D3B920121E8C3A255827F0 ____itemTypeNameHandling;
-	Type_t* ____namingStrategyType;
-	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ____namingStrategyParameters;
+	int32_t ___value__;
+};
+struct JsonContainerType_t4F8244AEE40CAB63CA2C1E281038F4E2B3E3887E 
+{
+	int32_t ___value__;
+};
+struct JsonContractType_t648DA7254ACAFCDB8C02BA87DF2E55C423ACF27E 
+{
+	int32_t ___value__;
+};
+struct JsonPropertyCollection_t93082116A28103BD144B10160CDC36F9809D48C6  : public KeyedCollection_2_t0E811DBCCCCC9FB99F23525F845D502F0FFF3B0E
+{
+	Type_t* ____type;
+	List_1_t74666FDF65CB5C8F34590E465BD151F8943D32CB* ____list;
+};
+struct JsonToken_t00B2B3F98FB3E9A8DE72409901BED1C7F1670BD5 
+{
+	int32_t ___value__;
+};
+struct MemberSerialization_t257FAC6CFDCFB591C71BFA910013E4CEFB7491DA 
+{
+	int32_t ___value__;
+};
+struct MemberTypes_t26BAB0893BEC9328F2F64E8BACDA967C445632E5 
+{
+	int32_t ___value__;
+};
+struct MetadataPropertyHandling_tA3EC6C7A5429A693E0370D712C7850854F60B6B2 
+{
+	int32_t ___value__;
+};
+struct MethodInfo_t  : public MethodBase_t
+{
+};
+struct MissingMemberHandling_tD1037A7561C66E2015BA288AF16A9F2DC9307FA5 
+{
+	int32_t ___value__;
+};
+struct NullValueHandling_t4BDE6EFA837EAE85524EDF0FE21D0B9668F4FD6A 
+{
+	int32_t ___value__;
+};
+struct ObjectCreationHandling_tA895C8A4A1D7444BBEDD0E29D7490C625BF93131 
+{
+	int32_t ___value__;
+};
+struct ParameterAttributes_tDAEC8B3C5986B042F8F9B0845505D0FC15F92E68 
+{
+	int32_t ___value__;
+};
+struct ParseResult_t4C0931224069A9D603A36C1F6F1100A9C422948D 
+{
+	int32_t ___value__;
+};
+struct ParserTimeZone_t72EA9D750958501966EBD4C79488A8A270D4F108 
+{
+	int32_t ___value__;
+};
+struct PreserveReferencesHandling_t435BCAA15E433D8D2F5DB0D05A41E7E564671737 
+{
+	int32_t ___value__;
+};
+struct PrimitiveTypeCode_t63C3D4F39DC3B6C82690A769515BAA5A0361A573 
+{
+	int32_t ___value__;
+};
+struct ReadType_t493768768508AD7DDF9096F57CF048F2616FDF2C 
+{
+	int32_t ___value__;
+};
+struct ReferenceLoopHandling_t7D243173DF188E0478CF37E7C940CDDCAC1E0D20 
+{
+	int32_t ___value__;
+};
+struct RegexOptions_tE9DA9C4DF8FB26DD1C7E0F8AA022C1164A423F6B 
+{
+	int32_t ___value__;
+};
+struct Required_tE2BADA700C1076BDCC25AAF912F3C76B8BD842A7 
+{
+	int32_t ___value__;
+};
+struct RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 
+{
+	intptr_t ___value;
+};
+struct RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B 
+{
+	intptr_t ___value;
+};
+struct SetMemberBinder_t0D70ED9A9888FF8074796DF76600BDBA3104C55F  : public DynamicMetaObjectBinder_tB890C4A527623C1A79882F0343D043461A6207FF
+{
+	String_t* ___U3CNameU3Ek__BackingField;
+	bool ___U3CIgnoreCaseU3Ek__BackingField;
+};
+struct StreamingContextStates_t5EE358E619B251608A9327618C7BFE8638FC33C1 
+{
+	int32_t ___value__;
+};
+struct StringComparison_tE14A55CCFA001A5AC85D754179BF2888F45CC94D 
+{
+	int32_t ___value__;
+};
+struct StringEscapeHandling_t6C5E715C7EA7676CB7369DBE8EB487724B07F354 
+{
+	int32_t ___value__;
+};
+struct StringWriter_tF48052BE4F980E5C85403221E835768E4156267D  : public TextWriter_tA9E5461506CF806E17B6BBBF2119359DEDA3F0F3
+{
+	StringBuilder_t* ____sb;
+	bool ____isOpen;
+};
+struct TimeZoneInfo_t30FD24E315EC4F4D942AF797CCD4CC4ED6B5CAD8  : public RuntimeObject
+{
+	String_t* ____id;
+	String_t* ____displayName;
+	String_t* ____standardDisplayName;
+	String_t* ____daylightDisplayName;
+	TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A ____baseUtcOffset;
+	bool ____supportsDaylightSavingTime;
+	AdjustmentRuleU5BU5D_tE06E08FC55F09158CD673CE867C3771D92906DFA* ____adjustmentRules;
+};
+struct TypeCode_tBEF9BE86C8BCF5A6B82F3381219738D27804EF79 
+{
+	int32_t ___value__;
+};
+struct TypeNameAssemblyFormatHandling_t9FB27147BC97FE6AB2CC242DA377B594D900491E 
+{
+	int32_t ___value__;
+};
+struct TypeNameHandling_t4D77402771E5E38DE1AE390B60542985276D9D69 
+{
+	int32_t ___value__;
+};
+struct UriIdnScope_t001CC97A6F977E9BB7DB855CC6BA415A7F47491F 
+{
+	int32_t ___value__;
+};
+struct UriKind_t6597BD6BF48C695D63244DF8541B5EA48FF7F9E7 
+{
+	int32_t ___value__;
+};
+struct WriteState_tDC5DB5B03C0907C06F85AAEF32E0A1A0BF1FBC48 
+{
+	int32_t ___value__;
+};
+struct XmlDateTimeSerializationMode_tF35C42BE60C28E33BBEFAC710B67C376A7A33375 
+{
+	int32_t ___value__;
+};
+struct ConvertResult_tD03B70B9DA84341894B50D766A18FC34C5CAF4AB 
+{
+	int32_t ___value__;
+};
+struct State_tFC19CCEAFF8F4E6C73914F3B8850C622CE3490A4 
+{
+	int32_t ___value__;
+};
+struct State_tAE23C0C2937491FB5A76EBB46CC416A10DB1667D 
+{
+	int32_t ___value__;
+};
+struct SeparatedCaseState_tA2D59FC4EA51C5619340E496AB6F8949B0CEB18D 
+{
+	int32_t ___value__;
+};
+struct Flags_t47CF4DB4036A6A539AFA6EE39C75F772E865E897 
+{
+	uint64_t ___value__;
+};
+struct Nullable_1_t4DEE77C12DDAF72BAE2A1FA8A8736FC478D721E8 
+{
+	bool ___hasValue;
+	int32_t ___value;
+};
+struct Nullable_1_t163D49A1147F217B7BD43BE8ACC8A5CC6B846D14 
+{
+	bool ___hasValue;
+	int32_t ___value;
+};
+struct Nullable_1_t776B72BEFF6E3E2D489C4C6D855C89139D6B4CA4 
+{
+	bool ___hasValue;
+	int32_t ___value;
+};
+struct Nullable_1_tA1B6210C1924173AEFE9AF8FBDD3BA856E74A790 
+{
+	bool ___hasValue;
+	int32_t ___value;
+};
+struct Nullable_1_t5ECEC9E2B3F1C050A3E9EC928487DD5C9AB0996D 
+{
+	bool ___hasValue;
+	int32_t ___value;
+};
+struct Nullable_1_t599F8D9D40143BFCB12D7085DFEA8AC7171F5E77 
+{
+	bool ___hasValue;
+	int32_t ___value;
+};
+struct Nullable_1_t0ED183EB9E50B714F9A282F07935579F070B562B 
+{
+	bool ___hasValue;
+	int32_t ___value;
+};
+struct Nullable_1_tB85AB604017196E6A3D3B920121E8C3A255827F0 
+{
+	bool ___hasValue;
+	int32_t ___value;
+};
+struct ApplicationException_tA744BED4E90266BD255285CD4CF909BAB3EE811A  : public Exception_t
+{
+};
+struct DateTimeParser_tBDDA41C4734ACD3EAF17233DBFC7B26E0AAFE246 
+{
+	int32_t ___Year;
+	int32_t ___Month;
+	int32_t ___Day;
+	int32_t ___Hour;
+	int32_t ___Minute;
+	int32_t ___Second;
+	int32_t ___Fraction;
+	int32_t ___ZoneHour;
+	int32_t ___ZoneMinute;
+	int32_t ___Zone;
+	CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* ____text;
+	int32_t ____end;
+};
+struct DateTimeParser_tBDDA41C4734ACD3EAF17233DBFC7B26E0AAFE246_marshaled_pinvoke
+{
+	int32_t ___Year;
+	int32_t ___Month;
+	int32_t ___Day;
+	int32_t ___Hour;
+	int32_t ___Minute;
+	int32_t ___Second;
+	int32_t ___Fraction;
+	int32_t ___ZoneHour;
+	int32_t ___ZoneMinute;
+	int32_t ___Zone;
+	uint8_t* ____text;
+	int32_t ____end;
+};
+struct DateTimeParser_tBDDA41C4734ACD3EAF17233DBFC7B26E0AAFE246_marshaled_com
+{
+	int32_t ___Year;
+	int32_t ___Month;
+	int32_t ___Day;
+	int32_t ___Hour;
+	int32_t ___Minute;
+	int32_t ___Second;
+	int32_t ___Fraction;
+	int32_t ___ZoneHour;
+	int32_t ___ZoneMinute;
+	int32_t ___Zone;
+	uint8_t* ____text;
+	int32_t ____end;
+};
+struct DefaultContractResolver_t463A02A39C265D7EB415D4CEB2B2E32664A02CAD  : public RuntimeObject
+{
+	DefaultJsonNameTable_t81ABCBAD900C62AEA009A48779C3F3893DBC110D* ____nameTable;
+	ThreadSafeStore_2_tF22121D3E11895CE38FFEE9105F013F4ECC2DFC5* ____contractCache;
+	int32_t ___U3CDefaultMembersSearchFlagsU3Ek__BackingField;
+	bool ___U3CSerializeCompilerGeneratedMembersU3Ek__BackingField;
+	bool ___U3CIgnoreSerializableInterfaceU3Ek__BackingField;
+	bool ___U3CIgnoreSerializableAttributeU3Ek__BackingField;
+	bool ___U3CIgnoreIsSpecifiedMembersU3Ek__BackingField;
+	bool ___U3CIgnoreShouldSerializeMembersU3Ek__BackingField;
+	NamingStrategy_tB85DD4A9F6C33F668AF7273D3B5193ABC4617D50* ___U3CNamingStrategyU3Ek__BackingField;
 };
 struct JsonContract_tE6A7D4E99E3396B56718606824E99F870FCCF4BA  : public RuntimeObject
 {
@@ -2441,163 +2581,29 @@ struct JsonContract_tE6A7D4E99E3396B56718606824E99F870FCCF4BA  : public RuntimeO
 	Func_1_tD5C081AE11746B200C711DD48DBEB00E3A9276D4* ___U3CDefaultCreatorU3Ek__BackingField;
 	bool ___U3CDefaultCreatorNonPublicU3Ek__BackingField;
 };
-struct JsonProperty_t8AC6AE6C6E97559E27739FDD2B6A3DA659FF04F3  : public RuntimeObject
-{
-	Nullable_1_t0ED183EB9E50B714F9A282F07935579F070B562B ____required;
-	bool ____hasExplicitDefaultValue;
-	RuntimeObject* ____defaultValue;
-	bool ____hasGeneratedDefaultValue;
-	String_t* ____propertyName;
-	bool ____skipPropertyNameEscape;
-	Type_t* ____propertyType;
-	JsonContract_tE6A7D4E99E3396B56718606824E99F870FCCF4BA* ___U3CPropertyContractU3Ek__BackingField;
-	Type_t* ___U3CDeclaringTypeU3Ek__BackingField;
-	Nullable_1_tCF32C56A2641879C053C86F273C0C6EC1B40BC28 ___U3COrderU3Ek__BackingField;
-	String_t* ___U3CUnderlyingNameU3Ek__BackingField;
-	RuntimeObject* ___U3CValueProviderU3Ek__BackingField;
-	RuntimeObject* ___U3CAttributeProviderU3Ek__BackingField;
-	JsonConverter_tE765D011CD34CDF28759E6D58FDBF05AA5EA0F16* ___U3CConverterU3Ek__BackingField;
-	bool ___U3CIgnoredU3Ek__BackingField;
-	bool ___U3CReadableU3Ek__BackingField;
-	bool ___U3CWritableU3Ek__BackingField;
-	bool ___U3CHasMemberAttributeU3Ek__BackingField;
-	Nullable_1_t78F453FADB4A9F50F267A4E349019C34410D1A01 ___U3CIsReferenceU3Ek__BackingField;
-	Nullable_1_tA1B6210C1924173AEFE9AF8FBDD3BA856E74A790 ___U3CNullValueHandlingU3Ek__BackingField;
-	Nullable_1_t4DEE77C12DDAF72BAE2A1FA8A8736FC478D721E8 ___U3CDefaultValueHandlingU3Ek__BackingField;
-	Nullable_1_t599F8D9D40143BFCB12D7085DFEA8AC7171F5E77 ___U3CReferenceLoopHandlingU3Ek__BackingField;
-	Nullable_1_t5ECEC9E2B3F1C050A3E9EC928487DD5C9AB0996D ___U3CObjectCreationHandlingU3Ek__BackingField;
-	Nullable_1_tB85AB604017196E6A3D3B920121E8C3A255827F0 ___U3CTypeNameHandlingU3Ek__BackingField;
-	Predicate_1_t8342C85FF4E41CD1F7024AC0CDC3E5312A32CB12* ___U3CShouldSerializeU3Ek__BackingField;
-	Predicate_1_t8342C85FF4E41CD1F7024AC0CDC3E5312A32CB12* ___U3CShouldDeserializeU3Ek__BackingField;
-	Predicate_1_t8342C85FF4E41CD1F7024AC0CDC3E5312A32CB12* ___U3CGetIsSpecifiedU3Ek__BackingField;
-	Action_2_t156C43F079E7E68155FCDCD12DC77DD11AEF7E3C* ___U3CSetIsSpecifiedU3Ek__BackingField;
-	JsonConverter_tE765D011CD34CDF28759E6D58FDBF05AA5EA0F16* ___U3CItemConverterU3Ek__BackingField;
-	Nullable_1_t78F453FADB4A9F50F267A4E349019C34410D1A01 ___U3CItemIsReferenceU3Ek__BackingField;
-	Nullable_1_tB85AB604017196E6A3D3B920121E8C3A255827F0 ___U3CItemTypeNameHandlingU3Ek__BackingField;
-	Nullable_1_t599F8D9D40143BFCB12D7085DFEA8AC7171F5E77 ___U3CItemReferenceLoopHandlingU3Ek__BackingField;
-};
-struct JsonPropertyAttribute_t5EC81C65E10178A674A16272B2FF70C7AC200F48  : public Attribute_tFDA8EFEFB0711976D22474794576DAF28F7440AA
-{
-	Nullable_1_tA1B6210C1924173AEFE9AF8FBDD3BA856E74A790 ____nullValueHandling;
-	Nullable_1_t4DEE77C12DDAF72BAE2A1FA8A8736FC478D721E8 ____defaultValueHandling;
-	Nullable_1_t599F8D9D40143BFCB12D7085DFEA8AC7171F5E77 ____referenceLoopHandling;
-	Nullable_1_t5ECEC9E2B3F1C050A3E9EC928487DD5C9AB0996D ____objectCreationHandling;
-	Nullable_1_tB85AB604017196E6A3D3B920121E8C3A255827F0 ____typeNameHandling;
-	Nullable_1_t78F453FADB4A9F50F267A4E349019C34410D1A01 ____isReference;
-	Nullable_1_tCF32C56A2641879C053C86F273C0C6EC1B40BC28 ____order;
-	Nullable_1_t0ED183EB9E50B714F9A282F07935579F070B562B ____required;
-	Nullable_1_t78F453FADB4A9F50F267A4E349019C34410D1A01 ____itemIsReference;
-	Nullable_1_t599F8D9D40143BFCB12D7085DFEA8AC7171F5E77 ____itemReferenceLoopHandling;
-	Nullable_1_tB85AB604017196E6A3D3B920121E8C3A255827F0 ____itemTypeNameHandling;
-	Type_t* ___U3CItemConverterTypeU3Ek__BackingField;
-	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___U3CItemConverterParametersU3Ek__BackingField;
-	Type_t* ___U3CNamingStrategyTypeU3Ek__BackingField;
-	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___U3CNamingStrategyParametersU3Ek__BackingField;
-	String_t* ___U3CPropertyNameU3Ek__BackingField;
-};
-struct JsonPropertyCollection_t93082116A28103BD144B10160CDC36F9809D48C6  : public KeyedCollection_2_t0E811DBCCCCC9FB99F23525F845D502F0FFF3B0E
-{
-	Type_t* ____type;
-	List_1_t74666FDF65CB5C8F34590E465BD151F8943D32CB* ____list;
-};
-struct JsonReader_tB90522FA9D4C1C218A3F2C529A27D95123847765  : public RuntimeObject
-{
-	int32_t ____tokenType;
-	RuntimeObject* ____value;
-	Il2CppChar ____quoteChar;
-	int32_t ____currentState;
-	JsonPosition_t7788656A280615072710710E8C15D23285850E8E ____currentPosition;
-	CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0* ____culture;
-	int32_t ____dateTimeZoneHandling;
-	Nullable_1_tCF32C56A2641879C053C86F273C0C6EC1B40BC28 ____maxDepth;
-	bool ____hasExceededMaxDepth;
-	int32_t ____dateParseHandling;
-	int32_t ____floatParseHandling;
-	String_t* ____dateFormatString;
-	List_1_t53E7DEFF45EC8B1D5AE04D4FC6284E617F0D79CB* ____stack;
-	bool ___U3CCloseInputU3Ek__BackingField;
-	bool ___U3CSupportMultipleContentU3Ek__BackingField;
-};
-struct JsonWriter_t1750495CE81BD2D7BF7335A8468E2F960CA3ABC3  : public RuntimeObject
-{
-	List_1_t53E7DEFF45EC8B1D5AE04D4FC6284E617F0D79CB* ____stack;
-	JsonPosition_t7788656A280615072710710E8C15D23285850E8E ____currentPosition;
-	int32_t ____currentState;
-	int32_t ____formatting;
-	bool ___U3CCloseOutputU3Ek__BackingField;
-	bool ___U3CAutoCompleteOnCloseU3Ek__BackingField;
-	int32_t ____dateFormatHandling;
-	int32_t ____dateTimeZoneHandling;
-	int32_t ____stringEscapeHandling;
-	int32_t ____floatFormatHandling;
-	String_t* ____dateFormatString;
-	CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0* ____culture;
-};
-struct MethodInfo_t  : public MethodBase_t
-{
-};
-struct RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 
-{
-	intptr_t ___value;
-};
-struct RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B 
-{
-	intptr_t ___value;
-};
-struct SetMemberBinder_t0D70ED9A9888FF8074796DF76600BDBA3104C55F  : public DynamicMetaObjectBinder_tB890C4A527623C1A79882F0343D043461A6207FF
-{
-	String_t* ___U3CNameU3Ek__BackingField;
-	bool ___U3CIgnoreCaseU3Ek__BackingField;
-};
-struct StringWriter_tF48052BE4F980E5C85403221E835768E4156267D  : public TextWriter_tA9E5461506CF806E17B6BBBF2119359DEDA3F0F3
-{
-	StringBuilder_t* ____sb;
-	bool ____isOpen;
-};
-struct TimeZoneInfo_t30FD24E315EC4F4D942AF797CCD4CC4ED6B5CAD8  : public RuntimeObject
-{
-	String_t* ____id;
-	String_t* ____displayName;
-	String_t* ____standardDisplayName;
-	String_t* ____daylightDisplayName;
-	TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A ____baseUtcOffset;
-	bool ____supportsDaylightSavingTime;
-	AdjustmentRuleU5BU5D_tE06E08FC55F09158CD673CE867C3771D92906DFA* ____adjustmentRules;
-};
-struct ApplicationException_tA744BED4E90266BD255285CD4CF909BAB3EE811A  : public Exception_t
-{
-};
-struct JsonArrayAttribute_tFD08140E8D9D38970D4A0C824AF300A45FC184C2  : public JsonContainerAttribute_t84168DEA2B41EB84D4BF6C3AF04D6075F4CEB1C7
-{
-};
-struct JsonContainerContract_t047427003C1B86FBD0BD306946E8A38F442B0F0B  : public JsonContract_tE6A7D4E99E3396B56718606824E99F870FCCF4BA
-{
-	JsonContract_tE6A7D4E99E3396B56718606824E99F870FCCF4BA* ____itemContract;
-	JsonContract_tE6A7D4E99E3396B56718606824E99F870FCCF4BA* ____finalItemContract;
-	JsonConverter_tE765D011CD34CDF28759E6D58FDBF05AA5EA0F16* ___U3CItemConverterU3Ek__BackingField;
-	Nullable_1_t78F453FADB4A9F50F267A4E349019C34410D1A01 ___U3CItemIsReferenceU3Ek__BackingField;
-	Nullable_1_t599F8D9D40143BFCB12D7085DFEA8AC7171F5E77 ___U3CItemReferenceLoopHandlingU3Ek__BackingField;
-	Nullable_1_tB85AB604017196E6A3D3B920121E8C3A255827F0 ___U3CItemTypeNameHandlingU3Ek__BackingField;
-};
-struct JsonDictionaryAttribute_t55904FD7C00AA9EF94FAEF553F5595E203DA6E3E  : public JsonContainerAttribute_t84168DEA2B41EB84D4BF6C3AF04D6075F4CEB1C7
-{
-};
 struct JsonException_tFFE4BB54605E1573CD957C3A40BEC5571CC386BD  : public Exception_t
 {
 };
-struct JsonLinqContract_tC18AAA44BFBAFF49E6AEAF55A246EF98E767C7C8  : public JsonContract_tE6A7D4E99E3396B56718606824E99F870FCCF4BA
+struct JsonPosition_t7788656A280615072710710E8C15D23285850E8E 
 {
+	int32_t ___Type;
+	int32_t ___Position;
+	String_t* ___PropertyName;
+	bool ___HasIndex;
 };
-struct JsonObjectAttribute_tF1A0A8D30875A7ECC57B4B2D52C684D61D2038B9  : public JsonContainerAttribute_t84168DEA2B41EB84D4BF6C3AF04D6075F4CEB1C7
+struct JsonPosition_t7788656A280615072710710E8C15D23285850E8E_marshaled_pinvoke
 {
-	int32_t ____memberSerialization;
-	Nullable_1_t776B72BEFF6E3E2D489C4C6D855C89139D6B4CA4 ____missingMemberHandling;
-	Nullable_1_t0ED183EB9E50B714F9A282F07935579F070B562B ____itemRequired;
-	Nullable_1_tA1B6210C1924173AEFE9AF8FBDD3BA856E74A790 ____itemNullValueHandling;
+	int32_t ___Type;
+	int32_t ___Position;
+	char* ___PropertyName;
+	int32_t ___HasIndex;
 };
-struct JsonPrimitiveContract_tB6193D2574BA2547AF433EC7DBA5F1B0D5BBC27E  : public JsonContract_tE6A7D4E99E3396B56718606824E99F870FCCF4BA
+struct JsonPosition_t7788656A280615072710710E8C15D23285850E8E_marshaled_com
 {
-	int32_t ___U3CTypeCodeU3Ek__BackingField;
+	int32_t ___Type;
+	int32_t ___Position;
+	Il2CppChar* ___PropertyName;
+	int32_t ___HasIndex;
 };
 struct MulticastDelegate_t  : public Delegate_t
 {
@@ -2619,12 +2625,69 @@ struct NoThrowSetBinderMember_t2A08A7A6DC7581F640C7AECC9A15D4AC8F9197E2  : publi
 {
 	SetMemberBinder_t0D70ED9A9888FF8074796DF76600BDBA3104C55F* ____innerBinder;
 };
+struct ParameterInfo_tBC2D68304851A59EFB2EAE6B168714CD45445F2F  : public RuntimeObject
+{
+	int32_t ___AttrsImpl;
+	Type_t* ___ClassImpl;
+	RuntimeObject* ___DefaultValueImpl;
+	MemberInfo_t* ___MemberImpl;
+	String_t* ___NameImpl;
+	int32_t ___PositionImpl;
+};
+struct ParameterInfo_tBC2D68304851A59EFB2EAE6B168714CD45445F2F_marshaled_pinvoke
+{
+	int32_t ___AttrsImpl;
+	Type_t* ___ClassImpl;
+	Il2CppIUnknown* ___DefaultValueImpl;
+	MemberInfo_t* ___MemberImpl;
+	char* ___NameImpl;
+	int32_t ___PositionImpl;
+};
+struct ParameterInfo_tBC2D68304851A59EFB2EAE6B168714CD45445F2F_marshaled_com
+{
+	int32_t ___AttrsImpl;
+	Type_t* ___ClassImpl;
+	Il2CppIUnknown* ___DefaultValueImpl;
+	MemberInfo_t* ___MemberImpl;
+	Il2CppChar* ___NameImpl;
+	int32_t ___PositionImpl;
+};
+struct StreamingContext_t56760522A751890146EE45F82F866B55B7E33677 
+{
+	RuntimeObject* ___m_additionalContext;
+	int32_t ___m_state;
+};
+struct StreamingContext_t56760522A751890146EE45F82F866B55B7E33677_marshaled_pinvoke
+{
+	Il2CppIUnknown* ___m_additionalContext;
+	int32_t ___m_state;
+};
+struct StreamingContext_t56760522A751890146EE45F82F866B55B7E33677_marshaled_com
+{
+	Il2CppIUnknown* ___m_additionalContext;
+	int32_t ___m_state;
+};
 struct SystemException_tCC48D868298F4C0705279823E34B00F4FBDB7295  : public Exception_t
 {
 };
 struct Type_t  : public MemberInfo_t
 {
 	RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B ____impl;
+};
+struct TypeInformation_tBAA2819DD869179F8DFB0A658547229B4C7D6E15  : public RuntimeObject
+{
+	Type_t* ___U3CTypeU3Ek__BackingField;
+	int32_t ___U3CTypeCodeU3Ek__BackingField;
+};
+struct Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E  : public RuntimeObject
+{
+	String_t* ___m_String;
+	String_t* ___m_originalUnicodeString;
+	UriParser_t920B0868286118827C08B08A15A9456AF6C19D81* ___m_Syntax;
+	String_t* ___m_DnsSafeHost;
+	uint64_t ___m_Flags;
+	UriInfo_t5F91F77A93545DDDA6BB24A609BAF5E232CC1A09* ___m_Info;
+	bool ___m_iriParsing;
 };
 struct Action_2_t156C43F079E7E68155FCDCD12DC77DD11AEF7E3C  : public MulticastDelegate_t
 {
@@ -2708,6 +2771,150 @@ struct InvalidCastException_t47FC62F21A3937E814D20381DDACEF240E95AC2E  : public 
 struct InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB  : public SystemException_tCC48D868298F4C0705279823E34B00F4FBDB7295
 {
 };
+struct JsonContainerAttribute_t84168DEA2B41EB84D4BF6C3AF04D6075F4CEB1C7  : public Attribute_tFDA8EFEFB0711976D22474794576DAF28F7440AA
+{
+	Type_t* ___U3CItemConverterTypeU3Ek__BackingField;
+	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___U3CItemConverterParametersU3Ek__BackingField;
+	NamingStrategy_tB85DD4A9F6C33F668AF7273D3B5193ABC4617D50* ___U3CNamingStrategyInstanceU3Ek__BackingField;
+	Nullable_1_t78F453FADB4A9F50F267A4E349019C34410D1A01 ____isReference;
+	Nullable_1_t78F453FADB4A9F50F267A4E349019C34410D1A01 ____itemIsReference;
+	Nullable_1_t599F8D9D40143BFCB12D7085DFEA8AC7171F5E77 ____itemReferenceLoopHandling;
+	Nullable_1_tB85AB604017196E6A3D3B920121E8C3A255827F0 ____itemTypeNameHandling;
+	Type_t* ____namingStrategyType;
+	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ____namingStrategyParameters;
+};
+struct JsonContainerContract_t047427003C1B86FBD0BD306946E8A38F442B0F0B  : public JsonContract_tE6A7D4E99E3396B56718606824E99F870FCCF4BA
+{
+	JsonContract_tE6A7D4E99E3396B56718606824E99F870FCCF4BA* ____itemContract;
+	JsonContract_tE6A7D4E99E3396B56718606824E99F870FCCF4BA* ____finalItemContract;
+	JsonConverter_tE765D011CD34CDF28759E6D58FDBF05AA5EA0F16* ___U3CItemConverterU3Ek__BackingField;
+	Nullable_1_t78F453FADB4A9F50F267A4E349019C34410D1A01 ___U3CItemIsReferenceU3Ek__BackingField;
+	Nullable_1_t599F8D9D40143BFCB12D7085DFEA8AC7171F5E77 ___U3CItemReferenceLoopHandlingU3Ek__BackingField;
+	Nullable_1_tB85AB604017196E6A3D3B920121E8C3A255827F0 ___U3CItemTypeNameHandlingU3Ek__BackingField;
+};
+struct JsonLinqContract_tC18AAA44BFBAFF49E6AEAF55A246EF98E767C7C8  : public JsonContract_tE6A7D4E99E3396B56718606824E99F870FCCF4BA
+{
+};
+struct JsonPrimitiveContract_tB6193D2574BA2547AF433EC7DBA5F1B0D5BBC27E  : public JsonContract_tE6A7D4E99E3396B56718606824E99F870FCCF4BA
+{
+	int32_t ___U3CTypeCodeU3Ek__BackingField;
+};
+struct JsonProperty_t8AC6AE6C6E97559E27739FDD2B6A3DA659FF04F3  : public RuntimeObject
+{
+	Nullable_1_t0ED183EB9E50B714F9A282F07935579F070B562B ____required;
+	bool ____hasExplicitDefaultValue;
+	RuntimeObject* ____defaultValue;
+	bool ____hasGeneratedDefaultValue;
+	String_t* ____propertyName;
+	bool ____skipPropertyNameEscape;
+	Type_t* ____propertyType;
+	JsonContract_tE6A7D4E99E3396B56718606824E99F870FCCF4BA* ___U3CPropertyContractU3Ek__BackingField;
+	Type_t* ___U3CDeclaringTypeU3Ek__BackingField;
+	Nullable_1_tCF32C56A2641879C053C86F273C0C6EC1B40BC28 ___U3COrderU3Ek__BackingField;
+	String_t* ___U3CUnderlyingNameU3Ek__BackingField;
+	RuntimeObject* ___U3CValueProviderU3Ek__BackingField;
+	RuntimeObject* ___U3CAttributeProviderU3Ek__BackingField;
+	JsonConverter_tE765D011CD34CDF28759E6D58FDBF05AA5EA0F16* ___U3CConverterU3Ek__BackingField;
+	bool ___U3CIgnoredU3Ek__BackingField;
+	bool ___U3CReadableU3Ek__BackingField;
+	bool ___U3CWritableU3Ek__BackingField;
+	bool ___U3CHasMemberAttributeU3Ek__BackingField;
+	Nullable_1_t78F453FADB4A9F50F267A4E349019C34410D1A01 ___U3CIsReferenceU3Ek__BackingField;
+	Nullable_1_tA1B6210C1924173AEFE9AF8FBDD3BA856E74A790 ___U3CNullValueHandlingU3Ek__BackingField;
+	Nullable_1_t4DEE77C12DDAF72BAE2A1FA8A8736FC478D721E8 ___U3CDefaultValueHandlingU3Ek__BackingField;
+	Nullable_1_t599F8D9D40143BFCB12D7085DFEA8AC7171F5E77 ___U3CReferenceLoopHandlingU3Ek__BackingField;
+	Nullable_1_t5ECEC9E2B3F1C050A3E9EC928487DD5C9AB0996D ___U3CObjectCreationHandlingU3Ek__BackingField;
+	Nullable_1_tB85AB604017196E6A3D3B920121E8C3A255827F0 ___U3CTypeNameHandlingU3Ek__BackingField;
+	Predicate_1_t8342C85FF4E41CD1F7024AC0CDC3E5312A32CB12* ___U3CShouldSerializeU3Ek__BackingField;
+	Predicate_1_t8342C85FF4E41CD1F7024AC0CDC3E5312A32CB12* ___U3CShouldDeserializeU3Ek__BackingField;
+	Predicate_1_t8342C85FF4E41CD1F7024AC0CDC3E5312A32CB12* ___U3CGetIsSpecifiedU3Ek__BackingField;
+	Action_2_t156C43F079E7E68155FCDCD12DC77DD11AEF7E3C* ___U3CSetIsSpecifiedU3Ek__BackingField;
+	JsonConverter_tE765D011CD34CDF28759E6D58FDBF05AA5EA0F16* ___U3CItemConverterU3Ek__BackingField;
+	Nullable_1_t78F453FADB4A9F50F267A4E349019C34410D1A01 ___U3CItemIsReferenceU3Ek__BackingField;
+	Nullable_1_tB85AB604017196E6A3D3B920121E8C3A255827F0 ___U3CItemTypeNameHandlingU3Ek__BackingField;
+	Nullable_1_t599F8D9D40143BFCB12D7085DFEA8AC7171F5E77 ___U3CItemReferenceLoopHandlingU3Ek__BackingField;
+};
+struct JsonPropertyAttribute_t5EC81C65E10178A674A16272B2FF70C7AC200F48  : public Attribute_tFDA8EFEFB0711976D22474794576DAF28F7440AA
+{
+	Nullable_1_tA1B6210C1924173AEFE9AF8FBDD3BA856E74A790 ____nullValueHandling;
+	Nullable_1_t4DEE77C12DDAF72BAE2A1FA8A8736FC478D721E8 ____defaultValueHandling;
+	Nullable_1_t599F8D9D40143BFCB12D7085DFEA8AC7171F5E77 ____referenceLoopHandling;
+	Nullable_1_t5ECEC9E2B3F1C050A3E9EC928487DD5C9AB0996D ____objectCreationHandling;
+	Nullable_1_tB85AB604017196E6A3D3B920121E8C3A255827F0 ____typeNameHandling;
+	Nullable_1_t78F453FADB4A9F50F267A4E349019C34410D1A01 ____isReference;
+	Nullable_1_tCF32C56A2641879C053C86F273C0C6EC1B40BC28 ____order;
+	Nullable_1_t0ED183EB9E50B714F9A282F07935579F070B562B ____required;
+	Nullable_1_t78F453FADB4A9F50F267A4E349019C34410D1A01 ____itemIsReference;
+	Nullable_1_t599F8D9D40143BFCB12D7085DFEA8AC7171F5E77 ____itemReferenceLoopHandling;
+	Nullable_1_tB85AB604017196E6A3D3B920121E8C3A255827F0 ____itemTypeNameHandling;
+	Type_t* ___U3CItemConverterTypeU3Ek__BackingField;
+	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___U3CItemConverterParametersU3Ek__BackingField;
+	Type_t* ___U3CNamingStrategyTypeU3Ek__BackingField;
+	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___U3CNamingStrategyParametersU3Ek__BackingField;
+	String_t* ___U3CPropertyNameU3Ek__BackingField;
+};
+struct JsonReader_tB90522FA9D4C1C218A3F2C529A27D95123847765  : public RuntimeObject
+{
+	int32_t ____tokenType;
+	RuntimeObject* ____value;
+	Il2CppChar ____quoteChar;
+	int32_t ____currentState;
+	JsonPosition_t7788656A280615072710710E8C15D23285850E8E ____currentPosition;
+	CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0* ____culture;
+	int32_t ____dateTimeZoneHandling;
+	Nullable_1_tCF32C56A2641879C053C86F273C0C6EC1B40BC28 ____maxDepth;
+	bool ____hasExceededMaxDepth;
+	int32_t ____dateParseHandling;
+	int32_t ____floatParseHandling;
+	String_t* ____dateFormatString;
+	List_1_t53E7DEFF45EC8B1D5AE04D4FC6284E617F0D79CB* ____stack;
+	bool ___U3CCloseInputU3Ek__BackingField;
+	bool ___U3CSupportMultipleContentU3Ek__BackingField;
+};
+struct JsonSerializationException_t00F36890DFAC04F2FDE779151340B9C5563612EC  : public JsonException_tFFE4BB54605E1573CD957C3A40BEC5571CC386BD
+{
+	int32_t ___U3CLineNumberU3Ek__BackingField;
+	int32_t ___U3CLinePositionU3Ek__BackingField;
+	String_t* ___U3CPathU3Ek__BackingField;
+};
+struct JsonWriter_t1750495CE81BD2D7BF7335A8468E2F960CA3ABC3  : public RuntimeObject
+{
+	List_1_t53E7DEFF45EC8B1D5AE04D4FC6284E617F0D79CB* ____stack;
+	JsonPosition_t7788656A280615072710710E8C15D23285850E8E ____currentPosition;
+	int32_t ____currentState;
+	int32_t ____formatting;
+	bool ___U3CCloseOutputU3Ek__BackingField;
+	bool ___U3CAutoCompleteOnCloseU3Ek__BackingField;
+	int32_t ____dateFormatHandling;
+	int32_t ____dateTimeZoneHandling;
+	int32_t ____stringEscapeHandling;
+	int32_t ____floatFormatHandling;
+	String_t* ____dateFormatString;
+	CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0* ____culture;
+};
+struct JsonWriterException_tF13EC07A2159B2C5951971D4AED5A195DEBE8AAA  : public JsonException_tFFE4BB54605E1573CD957C3A40BEC5571CC386BD
+{
+	String_t* ___U3CPathU3Ek__BackingField;
+};
+struct SerializationCallback_tB35DD9E4F1BA9E38C8F8158442E282EF8D996E13  : public MulticastDelegate_t
+{
+};
+struct SerializationErrorCallback_tA1E984B56F3AA395E20C8DBB2A43D2B20F5B8962  : public MulticastDelegate_t
+{
+};
+struct TargetParameterCountException_t06AE62DE58A6F9CAC9E33DBEFA5B224F08293859  : public ApplicationException_tA744BED4E90266BD255285CD4CF909BAB3EE811A
+{
+};
+struct ArgumentNullException_t327031E412FAB2351B0022DD5DAD47E67E597129  : public ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263
+{
+};
+struct ArgumentOutOfRangeException_tEA2822DAF62B10EEED00E0E3A341D4BAF78CF85F  : public ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263
+{
+	RuntimeObject* ____actualValue;
+};
+struct JsonArrayAttribute_tFD08140E8D9D38970D4A0C824AF300A45FC184C2  : public JsonContainerAttribute_t84168DEA2B41EB84D4BF6C3AF04D6075F4CEB1C7
+{
+};
 struct JsonArrayContract_tC43D0F0F57E8E29E041F9679010D7824E2C3AF90  : public JsonContainerContract_t047427003C1B86FBD0BD306946E8A38F442B0F0B
 {
 	Type_t* ___U3CCollectionItemTypeU3Ek__BackingField;
@@ -2723,6 +2930,9 @@ struct JsonArrayContract_tC43D0F0F57E8E29E041F9679010D7824E2C3AF90  : public Jso
 	ObjectConstructor_1_t6DD3EABA8E230C0DDF3C7DB24966AA8BF2290901* ____parameterizedCreator;
 	ObjectConstructor_1_t6DD3EABA8E230C0DDF3C7DB24966AA8BF2290901* ____overrideCreator;
 	bool ___U3CHasParameterizedCreatorU3Ek__BackingField;
+};
+struct JsonDictionaryAttribute_t55904FD7C00AA9EF94FAEF553F5595E203DA6E3E  : public JsonContainerAttribute_t84168DEA2B41EB84D4BF6C3AF04D6075F4CEB1C7
+{
 };
 struct JsonDictionaryContract_t49C7DBCBDE647BADAD67E786D9EB328F52FF97F1  : public JsonContainerContract_t047427003C1B86FBD0BD306946E8A38F442B0F0B
 {
@@ -2751,6 +2961,13 @@ struct JsonISerializableContract_tF211386C51292464AAB5B3F0B452C58B91CFE247  : pu
 {
 	ObjectConstructor_1_t6DD3EABA8E230C0DDF3C7DB24966AA8BF2290901* ___U3CISerializableCreatorU3Ek__BackingField;
 };
+struct JsonObjectAttribute_tF1A0A8D30875A7ECC57B4B2D52C684D61D2038B9  : public JsonContainerAttribute_t84168DEA2B41EB84D4BF6C3AF04D6075F4CEB1C7
+{
+	int32_t ____memberSerialization;
+	Nullable_1_t776B72BEFF6E3E2D489C4C6D855C89139D6B4CA4 ____missingMemberHandling;
+	Nullable_1_t0ED183EB9E50B714F9A282F07935579F070B562B ____itemRequired;
+	Nullable_1_tA1B6210C1924173AEFE9AF8FBDD3BA856E74A790 ____itemNullValueHandling;
+};
 struct JsonObjectContract_tFB5A615E22891D84348260AE06D7B31D9A4F62D3  : public JsonContainerContract_t047427003C1B86FBD0BD306946E8A38F442B0F0B
 {
 	int32_t ___U3CMemberSerializationU3Ek__BackingField;
@@ -2768,34 +2985,8 @@ struct JsonObjectContract_tFB5A615E22891D84348260AE06D7B31D9A4F62D3  : public Js
 	JsonPropertyCollection_t93082116A28103BD144B10160CDC36F9809D48C6* ____creatorParameters;
 	Type_t* ____extensionDataValueType;
 };
-struct JsonSerializationException_t00F36890DFAC04F2FDE779151340B9C5563612EC  : public JsonException_tFFE4BB54605E1573CD957C3A40BEC5571CC386BD
-{
-	int32_t ___U3CLineNumberU3Ek__BackingField;
-	int32_t ___U3CLinePositionU3Ek__BackingField;
-	String_t* ___U3CPathU3Ek__BackingField;
-};
 struct JsonStringContract_tE5349A44AFD07A3EB6D05DC6F623AEFBA1A37268  : public JsonPrimitiveContract_tB6193D2574BA2547AF433EC7DBA5F1B0D5BBC27E
 {
-};
-struct JsonWriterException_tF13EC07A2159B2C5951971D4AED5A195DEBE8AAA  : public JsonException_tFFE4BB54605E1573CD957C3A40BEC5571CC386BD
-{
-	String_t* ___U3CPathU3Ek__BackingField;
-};
-struct SerializationCallback_tB35DD9E4F1BA9E38C8F8158442E282EF8D996E13  : public MulticastDelegate_t
-{
-};
-struct SerializationErrorCallback_tA1E984B56F3AA395E20C8DBB2A43D2B20F5B8962  : public MulticastDelegate_t
-{
-};
-struct TargetParameterCountException_t06AE62DE58A6F9CAC9E33DBEFA5B224F08293859  : public ApplicationException_tA744BED4E90266BD255285CD4CF909BAB3EE811A
-{
-};
-struct ArgumentNullException_t327031E412FAB2351B0022DD5DAD47E67E597129  : public ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263
-{
-};
-struct ArgumentOutOfRangeException_tEA2822DAF62B10EEED00E0E3A341D4BAF78CF85F  : public ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263
-{
-	RuntimeObject* ____actualValue;
 };
 struct EmptyArrayContainer_1_t45B0A7C4ACB68CC945B605D96658E27CE1A6B5AC_StaticFields
 {
@@ -2919,12 +3110,6 @@ struct DateTimeUtils_t08EF5030CF29329A3646A81F48D1F440A6234121_StaticFields
 	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___DaysToMonth365;
 	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___DaysToMonth366;
 };
-struct DefaultContractResolver_t463A02A39C265D7EB415D4CEB2B2E32664A02CAD_StaticFields
-{
-	RuntimeObject* ____instance;
-	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___BlacklistedTypeNames;
-	JsonConverterU5BU5D_tF69203E66D4FCB82A6F64A24EF7785E26E9E957E* ___BuiltInConverters;
-};
 struct DynamicMetaObject_tD1405F56818181F9ED29E520D40F2837B73EF825_StaticFields
 {
 	DynamicMetaObjectU5BU5D_t3DD53865D0D7B6997BD3523C5F828FA40C419E50* ___EmptyMetaObjects;
@@ -2973,31 +3158,6 @@ struct String_t_StaticFields
 struct TypeConverter_t5257E1653EB845D0044BBEDEB7B8AED7A061592C_StaticFields
 {
 	bool ___useCompatibleTypeConversion;
-};
-struct Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E_StaticFields
-{
-	String_t* ___UriSchemeFile;
-	String_t* ___UriSchemeFtp;
-	String_t* ___UriSchemeGopher;
-	String_t* ___UriSchemeHttp;
-	String_t* ___UriSchemeHttps;
-	String_t* ___UriSchemeWs;
-	String_t* ___UriSchemeWss;
-	String_t* ___UriSchemeMailto;
-	String_t* ___UriSchemeNews;
-	String_t* ___UriSchemeNntp;
-	String_t* ___UriSchemeNetTcp;
-	String_t* ___UriSchemeNetPipe;
-	String_t* ___SchemeDelimiter;
-	bool ___s_ConfigInitialized;
-	bool ___s_ConfigInitializing;
-	int32_t ___s_IdnScope;
-	bool ___s_IriParsing;
-	bool ___useDotNetRelativeOrAbsolute;
-	bool ___IsWindowsFileSystem;
-	RuntimeObject* ___s_initLock;
-	CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* ___HexLowerChars;
-	CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* ____WSchars;
 };
 struct U3CU3Ec_tE4979DEDB48A9817F5ADBA696B9CE0A94FC5E6FA_StaticFields
 {
@@ -3064,23 +3224,6 @@ struct DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D_StaticFields
 	DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D ___MinValue;
 	DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D ___MaxValue;
 	DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D ___UnixEpoch;
-};
-struct DateTimeParser_tBDDA41C4734ACD3EAF17233DBFC7B26E0AAFE246_StaticFields
-{
-	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___Power10;
-	int32_t ___Lzyyyy;
-	int32_t ___Lzyyyy_;
-	int32_t ___Lzyyyy_MM;
-	int32_t ___Lzyyyy_MM_;
-	int32_t ___Lzyyyy_MM_dd;
-	int32_t ___Lzyyyy_MM_ddT;
-	int32_t ___LzHH;
-	int32_t ___LzHH_;
-	int32_t ___LzHH_mm;
-	int32_t ___LzHH_mm_;
-	int32_t ___LzHH_mm_ss;
-	int32_t ___Lz_;
-	int32_t ___Lz_zz;
 };
 struct Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F_StaticFields
 {
@@ -3157,11 +3300,6 @@ struct Exception_t_StaticFields
 {
 	RuntimeObject* ___s_EDILock;
 };
-struct JsonWriter_t1750495CE81BD2D7BF7335A8468E2F960CA3ABC3_StaticFields
-{
-	StateU5BU5DU5BU5D_tA12046738DA5F6289ABA74ED1C079ED07EE202ED* ___StateArray;
-	StateU5BU5DU5BU5D_tA12046738DA5F6289ABA74ED1C079ED07EE202ED* ___StateArrayTemplate;
-};
 struct StringWriter_tF48052BE4F980E5C85403221E835768E4156267D_StaticFields
 {
 	UnicodeEncoding_t2C90D9E1E55C16081FACA57B229053C1EF05DAF0* ___m_encoding;
@@ -3175,9 +3313,28 @@ struct TimeZoneInfo_t30FD24E315EC4F4D942AF797CCD4CC4ED6B5CAD8_StaticFields
 	TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A ___MaxOffset;
 	TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A ___MinOffset;
 };
-struct JsonPrimitiveContract_tB6193D2574BA2547AF433EC7DBA5F1B0D5BBC27E_StaticFields
+struct DateTimeParser_tBDDA41C4734ACD3EAF17233DBFC7B26E0AAFE246_StaticFields
 {
-	Dictionary_2_tFA5E03354423C94DC3899BB6C353B5CBFE767263* ___ReadTypeMap;
+	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___Power10;
+	int32_t ___Lzyyyy;
+	int32_t ___Lzyyyy_;
+	int32_t ___Lzyyyy_MM;
+	int32_t ___Lzyyyy_MM_;
+	int32_t ___Lzyyyy_MM_dd;
+	int32_t ___Lzyyyy_MM_ddT;
+	int32_t ___LzHH;
+	int32_t ___LzHH_;
+	int32_t ___LzHH_mm;
+	int32_t ___LzHH_mm_;
+	int32_t ___LzHH_mm_ss;
+	int32_t ___Lz_;
+	int32_t ___Lz_zz;
+};
+struct DefaultContractResolver_t463A02A39C265D7EB415D4CEB2B2E32664A02CAD_StaticFields
+{
+	RuntimeObject* ____instance;
+	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___BlacklistedTypeNames;
+	JsonConverterU5BU5D_tF69203E66D4FCB82A6F64A24EF7785E26E9E957E* ___BuiltInConverters;
 };
 struct Type_t_StaticFields
 {
@@ -3188,6 +3345,40 @@ struct Type_t_StaticFields
 	MemberFilter_tF644F1AE82F611B677CE1964D5A3277DDA21D553* ___FilterAttribute;
 	MemberFilter_tF644F1AE82F611B677CE1964D5A3277DDA21D553* ___FilterName;
 	MemberFilter_tF644F1AE82F611B677CE1964D5A3277DDA21D553* ___FilterNameIgnoreCase;
+};
+struct Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E_StaticFields
+{
+	String_t* ___UriSchemeFile;
+	String_t* ___UriSchemeFtp;
+	String_t* ___UriSchemeGopher;
+	String_t* ___UriSchemeHttp;
+	String_t* ___UriSchemeHttps;
+	String_t* ___UriSchemeWs;
+	String_t* ___UriSchemeWss;
+	String_t* ___UriSchemeMailto;
+	String_t* ___UriSchemeNews;
+	String_t* ___UriSchemeNntp;
+	String_t* ___UriSchemeNetTcp;
+	String_t* ___UriSchemeNetPipe;
+	String_t* ___SchemeDelimiter;
+	bool ___s_ConfigInitialized;
+	bool ___s_ConfigInitializing;
+	int32_t ___s_IdnScope;
+	bool ___s_IriParsing;
+	bool ___useDotNetRelativeOrAbsolute;
+	bool ___IsWindowsFileSystem;
+	RuntimeObject* ___s_initLock;
+	CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* ___HexLowerChars;
+	CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* ____WSchars;
+};
+struct JsonPrimitiveContract_tB6193D2574BA2547AF433EC7DBA5F1B0D5BBC27E_StaticFields
+{
+	Dictionary_2_tFA5E03354423C94DC3899BB6C353B5CBFE767263* ___ReadTypeMap;
+};
+struct JsonWriter_t1750495CE81BD2D7BF7335A8468E2F960CA3ABC3_StaticFields
+{
+	StateU5BU5DU5BU5D_tA12046738DA5F6289ABA74ED1C079ED07EE202ED* ___StateArray;
+	StateU5BU5DU5BU5D_tA12046738DA5F6289ABA74ED1C079ED07EE202ED* ___StateArrayTemplate;
 };
 #ifdef __clang__
 #pragma clang diagnostic pop
@@ -5205,6 +5396,14 @@ inline void List_1_AddWithResize_mAE92ED7C1F3B1E0BB409F462197C47FD982345E1 (List
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonWriterException__ctor_mBE0249771B368C41A4D6CA26783BEA3B82A61455 (JsonWriterException_tF13EC07A2159B2C5951971D4AED5A195DEBE8AAA* __this, const RuntimeMethod* method) 
 {
 	{
@@ -5271,6 +5470,102 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR JsonWriterException_tF13EC07A2159B2C5951971D4
 		return L_6;
 	}
 }
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
@@ -6883,6 +7178,14 @@ IL_0011:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Type_t* TypeInformation_get_Type_m66CAE341688AA88BD1598BD84C736FC0429619F1 (TypeInformation_tBAA2819DD869179F8DFB0A658547229B4C7D6E15* __this, const RuntimeMethod* method) 
 {
 	{
@@ -6909,6 +7212,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TypeInformation__ctor_mBDA852CD34E205536
 		return;
 	}
 }
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
@@ -11031,6 +11342,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConvertUtils__cctor_mCE736B50121C78004F7
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass8_0__ctor_m7DB75E6B20C696DD77ED6EE409C002FC85E401BB (U3CU3Ec__DisplayClass8_0_tF20B383626D01F8996236F1642B4E5B585C201B3* __this, const RuntimeMethod* method) 
 {
 	{
@@ -11060,6 +11379,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CU3Ec__DisplayClass8_0_U3CCr
 		return L_4;
 	}
 }
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
@@ -28522,6 +28849,14 @@ IL_0070:
 		return L_30;
 	}
 }
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif

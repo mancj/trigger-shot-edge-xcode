@@ -1,6 +1,8 @@
 #include <sys/types.h>
 #include <sys/sysctl.h>
 
+#include "UnityAppController.h"
+#include "UnityView.h"
 #include "DisplayManager.h"
 
 // ad/vendor ids
@@ -178,7 +180,7 @@ extern "C" const char* UnitySystemLanguage()
 
     if (_SystemLanguage == NULL)
     {
-        NSArray* lang = [[NSUserDefaults standardUserDefaults] objectForKey: @"AppleLanguages"];
+        NSArray* lang = [NSLocale preferredLanguages];
         if (lang.count > 0)
             _SystemLanguage = AllocCString(lang[0]);
     }
@@ -248,6 +250,10 @@ DeviceTableEntry DeviceTable[] =
     { iPhone, 14, 8, 8, deviceiPhone14Plus },
     { iPhone, 15, 2, 2, deviceiPhone14Pro },
     { iPhone, 15, 3, 3, deviceiPhone14ProMax },
+    { iPhone, 15, 4, 4, deviceiPhone15 },
+    { iPhone, 15, 5, 5, deviceiPhone15Plus },
+    { iPhone, 16, 1, 1, deviceiPhone15Pro },
+    { iPhone, 16, 2, 2, deviceiPhone15ProMax },
 
     { iPod, 4, 1, 1, deviceiPodTouch4Gen },
     { iPod, 5, 1, 1, deviceiPodTouch5Gen },
@@ -369,6 +375,7 @@ extern "C" int UnityDeviceHasCutout()
         case deviceiPhone12: case deviceiPhone12Mini: case deviceiPhone12Pro: case deviceiPhone12ProMax:
         case deviceiPhone13: case deviceiPhone13Mini: case deviceiPhone13Pro: case deviceiPhone13ProMax:
         case deviceiPhone14: case deviceiPhone14Plus: case deviceiPhone14Pro: case deviceiPhone14ProMax:
+        case deviceiPhone15: case deviceiPhone15Plus: case deviceiPhone15Pro: case deviceiPhone15ProMax:
             return 1;
         default:
             return 0;
@@ -390,6 +397,11 @@ extern "C" int UnityDeviceSupportedOrientations()
     return orientations;
 }
 
+extern "C" int UnityDeviceIsForceTouchSupported()
+{
+    return UnityGetUnityView().traitCollection.forceTouchCapability == UIForceTouchCapabilityAvailable;
+}
+
 extern "C" int UnityDeviceIsStylusTouchSupported()
 {
     const int deviceGen = UnityDeviceGeneration();
@@ -404,11 +416,7 @@ extern "C" int UnityDeviceIsStylusTouchSupported()
 
 extern "C" int UnityDeviceCanShowWideColor()
 {
-#if !PLATFORM_VISIONOS
-    return [UIScreen mainScreen].traitCollection.displayGamut == UIDisplayGamutP3;
-#else
-    return YES;
-#endif
+    return UnityGetUnityView().traitCollection.displayGamut == UIDisplayGamutP3;
 }
 
 extern "C" float UnityDeviceDPI()
@@ -458,6 +466,10 @@ extern "C" float UnityDeviceDPI()
             case deviceiPhone14:
             case deviceiPhone14Pro:
             case deviceiPhone14ProMax:
+            case deviceiPhone15:
+            case deviceiPhone15Plus:
+            case deviceiPhone15Pro:
+            case deviceiPhone15ProMax:
                 _DeviceDPI = 460.0f; break;
             case deviceiPhone12Mini:
             case deviceiPhone13Mini:

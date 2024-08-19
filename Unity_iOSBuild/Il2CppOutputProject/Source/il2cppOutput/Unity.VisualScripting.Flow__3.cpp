@@ -227,12 +227,6 @@ struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F_marshaled_pinvoke
 struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F_marshaled_com
 {
 };
-struct BinaryExpression_tCFC1F7B29A185986E4A41101F75232CFDDA81D2B  : public LogicalExpression_tCA9E3E9B83693197B8F1B3BEE909EEE4BF6FE465
-{
-	LogicalExpression_tCA9E3E9B83693197B8F1B3BEE909EEE4BF6FE465* ___U3CLeftExpressionU3Ek__BackingField;
-	LogicalExpression_tCA9E3E9B83693197B8F1B3BEE909EEE4BF6FE465* ___U3CRightExpressionU3Ek__BackingField;
-	int32_t ___U3CTypeU3Ek__BackingField;
-};
 struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22 
 {
 	bool ___m_value;
@@ -317,6 +311,15 @@ struct Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F
 		};
 	};
 };
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2  : public ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F
+{
+};
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_marshaled_pinvoke
+{
+};
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_marshaled_com
+{
+};
 struct FunctionExpression_t3A53FC78B142456333673341D03D61C3A6216BAD  : public LogicalExpression_tCA9E3E9B83693197B8F1B3BEE909EEE4BF6FE465
 {
 	IdentifierExpression_tC5B02681A1745D0F3ADE0B4FBA62CE3118E850E1* ___U3CIdentifierU3Ek__BackingField;
@@ -363,16 +366,6 @@ struct UInt32_t1833D51FFA667B18A5AA4B8D34DE284F8495D29B
 {
 	uint32_t ___m_value;
 };
-struct UnaryExpression_t7C7A55B898046D406C32F128859B2D1A7C97358E  : public LogicalExpression_tCA9E3E9B83693197B8F1B3BEE909EEE4BF6FE465
-{
-	LogicalExpression_tCA9E3E9B83693197B8F1B3BEE909EEE4BF6FE465* ___U3CExpressionU3Ek__BackingField;
-	int32_t ___U3CTypeU3Ek__BackingField;
-};
-struct ValueExpression_t10CE6DF459173F04F6A5B1F499ACB837E737DBC7  : public LogicalExpression_tCA9E3E9B83693197B8F1B3BEE909EEE4BF6FE465
-{
-	RuntimeObject* ___U3CValueU3Ek__BackingField;
-	int32_t ___U3CTypeU3Ek__BackingField;
-};
 struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915 
 {
 	union
@@ -413,6 +406,10 @@ struct __StaticArrayInitTypeSizeU3D50396_t0474A30EE76073F6DE313294B0C8680BE4B832
 	};
 };
 #pragma pack(pop, tp)
+struct BinaryExpressionType_t5C88EAB828EEECE90F6F0E6955A8FF90F495694F 
+{
+	int32_t ___value__;
+};
 struct Exception_t  : public RuntimeObject
 {
 	String_t* ____className;
@@ -473,6 +470,18 @@ struct Exception_t_marshaled_com
 struct RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B 
 {
 	intptr_t ___value;
+};
+struct TypeCode_tBEF9BE86C8BCF5A6B82F3381219738D27804EF79 
+{
+	int32_t ___value__;
+};
+struct UnaryExpressionType_t829138CDF61258D25BBCA73BDE47A77444E3C0BA 
+{
+	int32_t ___value__;
+};
+struct ValueType_t3A8A944212A8E6FE5F8D48C84370521F50FD68B6 
+{
+	int32_t ___value__;
 };
 struct additiveExpression_return_tB18B0EC332BCD3B19584E9DAFEFE5C3A3AA07AA9  : public ParserRuleReturnScope_t967AE5B151AA6B0C4EB99698FCC6E4DFFCAEE035
 {
@@ -567,9 +576,25 @@ struct value_return_t9454A396BAAADDC799C8683452D54B73FB6AD0CA  : public ParserRu
 struct ApplicationException_tA744BED4E90266BD255285CD4CF909BAB3EE811A  : public Exception_t
 {
 };
+struct BinaryExpression_tCFC1F7B29A185986E4A41101F75232CFDDA81D2B  : public LogicalExpression_tCA9E3E9B83693197B8F1B3BEE909EEE4BF6FE465
+{
+	LogicalExpression_tCA9E3E9B83693197B8F1B3BEE909EEE4BF6FE465* ___U3CLeftExpressionU3Ek__BackingField;
+	LogicalExpression_tCA9E3E9B83693197B8F1B3BEE909EEE4BF6FE465* ___U3CRightExpressionU3Ek__BackingField;
+	int32_t ___U3CTypeU3Ek__BackingField;
+};
 struct Type_t  : public MemberInfo_t
 {
 	RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B ____impl;
+};
+struct UnaryExpression_t7C7A55B898046D406C32F128859B2D1A7C97358E  : public LogicalExpression_tCA9E3E9B83693197B8F1B3BEE909EEE4BF6FE465
+{
+	LogicalExpression_tCA9E3E9B83693197B8F1B3BEE909EEE4BF6FE465* ___U3CExpressionU3Ek__BackingField;
+	int32_t ___U3CTypeU3Ek__BackingField;
+};
+struct ValueExpression_t10CE6DF459173F04F6A5B1F499ACB837E737DBC7  : public LogicalExpression_tCA9E3E9B83693197B8F1B3BEE909EEE4BF6FE465
+{
+	RuntimeObject* ___U3CValueU3Ek__BackingField;
+	int32_t ___U3CTypeU3Ek__BackingField;
 };
 struct EvaluationException_t0C3906BE18D421772799C4E0ACFE5478571FEA4E  : public ApplicationException_tA744BED4E90266BD255285CD4CF909BAB3EE811A
 {
@@ -577,7 +602,7 @@ struct EvaluationException_t0C3906BE18D421772799C4E0ACFE5478571FEA4E  : public A
 struct U3CPrivateImplementationDetailsU3E_t32B9240F30447D9E5C4951749F43B17B2E485B9D_StaticFields
 {
 	__StaticArrayInitTypeSizeU3D18855_tA095A0AC5895D84804638F0605C27375420E94D0 ___31A2C29B2121085465C92727A05A0FDF670C136AD1E6F377057FE3206192D1EB;
-	__StaticArrayInitTypeSizeU3D50396_t0474A30EE76073F6DE313294B0C8680BE4B8320F ___817B5F3CDF14465224E17F4E8DE644F2F907E04A716BBBC353A894FB6E137F15;
+	__StaticArrayInitTypeSizeU3D50396_t0474A30EE76073F6DE313294B0C8680BE4B8320F ___D875AB9069C407F9D4D081453A9442FACF48EBF0A68213556B4E6917F6394D16;
 };
 struct EventArgs_t37273F03EAC87217701DD431B190FBD84AD7C377_StaticFields
 {
@@ -2441,6 +2466,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnaryExpression_Accept_m3A43817A0CF73637
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ValueExpression__ctor_m824D9FF0F53B0C67CA4DF6DA22DC29D1C18A9ECB (ValueExpression_t10CE6DF459173F04F6A5B1F499ACB837E737DBC7* __this, RuntimeObject* ___0_value, int32_t ___1_type, const RuntimeMethod* method) 
 {
 	{
@@ -2742,6 +2775,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ValueExpression_Accept_mE406F7BBE8CCC32F
 		return;
 	}
 }
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif

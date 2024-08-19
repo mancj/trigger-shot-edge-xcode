@@ -19,6 +19,7 @@
 @class UIKeyCommand;
 @class UITouch;
 
+@class UnityView;
 @class UnityViewControllerBase;
 #else
 typedef struct objc_object UIScreen;
@@ -37,6 +38,7 @@ typedef struct objc_object UIKeyCommand;
 typedef struct objc_object UITouch;
 
 typedef struct objc_object UnityViewControllerBase;
+typedef struct objc_object UnityView;
 #endif
 
 // unity internal audio effect definition struct

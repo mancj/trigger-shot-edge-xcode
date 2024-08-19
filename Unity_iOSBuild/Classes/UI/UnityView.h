@@ -17,6 +17,7 @@
 - (id)initWithFrame:(CGRect)frame scaleFactor:(CGFloat)scale;
 - (id)initWithFrame:(CGRect)frame;
 - (id)initFromMainScreen;
+- (void)resumeRendering;
 
 // in here we will go through subviews and call onUnityUpdateViewLayout selector (if present)
 // that allows to handle simple overlay child view layout without doing view controller magic
@@ -27,6 +28,7 @@
 
 // will match script-side Screen.orientation
 @property (nonatomic, readonly) ScreenOrientation contentOrientation;
+@property BOOL skipRendering;
 
 @end
 

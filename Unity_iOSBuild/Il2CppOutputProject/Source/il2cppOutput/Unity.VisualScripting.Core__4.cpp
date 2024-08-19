@@ -370,6 +370,11 @@ struct IEnumerable_1_t6686595E4CB7AC210F0EF075F7B1DD4A21D3902B;
 struct IEnumerator_1_t913F242211877D391217C9D75152235266FDAF10;
 struct IEnumerator_1_tF0CA2A62533B2B34FE6ED0A865FFEAB3166AC173;
 struct IEnumerator_1_tE3FBD2D20AA88C9A0F855ADC37B0F385A3ADC2C1;
+struct IEnumerator_1_t3E91F4BDB2DBF0144404AA172EA8C3ED5246BB2A;
+struct IEnumerator_1_t47EC47357E3DE4BCA693B09760DBC58AE9CD3886;
+struct IEnumerator_1_tFB40902BC099E0FC82E0A079C5BF4029C034A4AC;
+struct IEnumerator_1_t95FC414F5DB538545F625177F0B08F6B73E46080;
+struct IEnumerator_1_t73FD060C436E3C4264A734C8F8DCC01DFF6046B8;
 struct IEnumerator_1_t889CCC5EFE6A6E3DAB66C7475F56D94D53F43D0E;
 struct IEqualityComparer_1_t1A52E202619F4C8AEC77FF6C6696AC56B8A6119A;
 struct IEqualityComparer_1_t5CBBF52F16AC75957FE872CE044806DAA8E8528A;
@@ -452,6 +457,7 @@ struct MemberInfoU5BU5D_t4CB6970BB166E8E1CFB06152B2A2284971873053;
 struct ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918;
 struct ObjectU5BU5D_tD4BF1BEC72A31DF6611C0B8FA3112AF128FC3F8A;
 struct ParameterExpressionU5BU5D_tA217A6969CA4383EF6D3C43B8EB0989358ABE72C;
+struct ParameterInfoU5BU5D_t86995AB4A1693393FE29B058CC3FD727DF0B984C;
 struct StackTraceU5BU5D_t32FBCB20930EAF5BAE3F450FF75228E5450DA0DF;
 struct StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248;
 struct TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB;
@@ -498,6 +504,7 @@ struct ISerializationDependency_t76DC6EDBA74C37AC621EC1DED673EC82AFA5629F;
 struct ISerializationDepender_t89A24FB44C759B66E3E6B812415DF986B586880C;
 struct ISite_t4BB2A7E2B477FC6B1AF9D0554FF8B07204356E93;
 struct ISynchronizeInvoke_t94542FC52B3B1FCA7BC4D8CC518FC2EF9870861F;
+struct IUnityObjectOwnable_t81640A983C5EA2D70DE431F450783E56FC70CA26;
 struct InternalThread_tF40B7BFCBD60C82BD8475A22FF5186CA10293687;
 struct InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB;
 struct InvalidOperatorException_t723AF846E1A320A4A9EAEFFEF9CA02C31D0B2748;
@@ -1825,63 +1832,6 @@ struct Assembly_t_marshaled_pinvoke
 struct Assembly_t_marshaled_com
 {
 };
-struct AssemblyName_t555F1570F523D87D970C6E7F27B1B44C83EADDD2  : public RuntimeObject
-{
-	String_t* ___name;
-	String_t* ___codebase;
-	int32_t ___major;
-	int32_t ___minor;
-	int32_t ___build;
-	int32_t ___revision;
-	CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0* ___cultureinfo;
-	int32_t ___flags;
-	int32_t ___hashalg;
-	StrongNameKeyPair_t0657447B6CFAA8FE880A228AA578EC20BC6AF8F2* ___keypair;
-	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___publicKey;
-	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___keyToken;
-	int32_t ___versioncompat;
-	Version_tE426DB5655D0F22920AE16A2AA9AB7781B8255A7* ___version;
-	int32_t ___processor_architecture;
-	int32_t ___contentType;
-};
-struct AssemblyName_t555F1570F523D87D970C6E7F27B1B44C83EADDD2_marshaled_pinvoke
-{
-	char* ___name;
-	char* ___codebase;
-	int32_t ___major;
-	int32_t ___minor;
-	int32_t ___build;
-	int32_t ___revision;
-	CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0_marshaled_pinvoke* ___cultureinfo;
-	int32_t ___flags;
-	int32_t ___hashalg;
-	StrongNameKeyPair_t0657447B6CFAA8FE880A228AA578EC20BC6AF8F2* ___keypair;
-	Il2CppSafeArray* ___publicKey;
-	Il2CppSafeArray* ___keyToken;
-	int32_t ___versioncompat;
-	Version_tE426DB5655D0F22920AE16A2AA9AB7781B8255A7* ___version;
-	int32_t ___processor_architecture;
-	int32_t ___contentType;
-};
-struct AssemblyName_t555F1570F523D87D970C6E7F27B1B44C83EADDD2_marshaled_com
-{
-	Il2CppChar* ___name;
-	Il2CppChar* ___codebase;
-	int32_t ___major;
-	int32_t ___minor;
-	int32_t ___build;
-	int32_t ___revision;
-	CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0_marshaled_com* ___cultureinfo;
-	int32_t ___flags;
-	int32_t ___hashalg;
-	StrongNameKeyPair_t0657447B6CFAA8FE880A228AA578EC20BC6AF8F2* ___keypair;
-	Il2CppSafeArray* ___publicKey;
-	Il2CppSafeArray* ___keyToken;
-	int32_t ___versioncompat;
-	Version_tE426DB5655D0F22920AE16A2AA9AB7781B8255A7* ___version;
-	int32_t ___processor_architecture;
-	int32_t ___contentType;
-};
 struct Attribute_tFDA8EFEFB0711976D22474794576DAF28F7440AA  : public RuntimeObject
 {
 };
@@ -1936,33 +1886,6 @@ struct OperatorHandler_tF3D07F68319B7937073E8361BABC759CED880F72  : public Runti
 };
 struct OptimizedReflection_t7F2A25A36302950D7E078F447B955296D454A9DF  : public RuntimeObject
 {
-};
-struct ParameterInfo_tBC2D68304851A59EFB2EAE6B168714CD45445F2F  : public RuntimeObject
-{
-	int32_t ___AttrsImpl;
-	Type_t* ___ClassImpl;
-	RuntimeObject* ___DefaultValueImpl;
-	MemberInfo_t* ___MemberImpl;
-	String_t* ___NameImpl;
-	int32_t ___PositionImpl;
-};
-struct ParameterInfo_tBC2D68304851A59EFB2EAE6B168714CD45445F2F_marshaled_pinvoke
-{
-	int32_t ___AttrsImpl;
-	Type_t* ___ClassImpl;
-	Il2CppIUnknown* ___DefaultValueImpl;
-	MemberInfo_t* ___MemberImpl;
-	char* ___NameImpl;
-	int32_t ___PositionImpl;
-};
-struct ParameterInfo_tBC2D68304851A59EFB2EAE6B168714CD45445F2F_marshaled_com
-{
-	int32_t ___AttrsImpl;
-	Type_t* ___ClassImpl;
-	Il2CppIUnknown* ___DefaultValueImpl;
-	MemberInfo_t* ___MemberImpl;
-	Il2CppChar* ___NameImpl;
-	int32_t ___PositionImpl;
 };
 struct PlatformUtility_t1848A281AD2DC3383BDF573753827799C3D87EF6  : public RuntimeObject
 {
@@ -2462,13 +2385,6 @@ struct Single_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C
 {
 	float ___m_value;
 };
-struct SingletonAttribute_t4EBE08E147FC39CAF915B5E6AFCACDEAD99FAD5F  : public Attribute_tFDA8EFEFB0711976D22474794576DAF28F7440AA
-{
-	bool ___U3CPersistentU3Ek__BackingField;
-	bool ___U3CAutomaticU3Ek__BackingField;
-	int32_t ___U3CHideFlagsU3Ek__BackingField;
-	String_t* ___U3CNameU3Ek__BackingField;
-};
 struct StaticInvokerBase_t929FB18B71D904E9557F677D7FFA007CE01BDF4E  : public InvokerBase_t7EAFB932168B4166A9D41BF15E3DF2160743B778
 {
 };
@@ -2488,29 +2404,6 @@ struct Thread_t0A773B9DE873D2DCAA7D229EAB36757B500E207F  : public CriticalFinali
 	bool ___m_ExecutionContextBelongsToOuterScope;
 	RuntimeObject* ___principal;
 	int32_t ___principal_version;
-};
-struct TypeFilter_tECDDDCC463E5FF81530AF9D5B154E5095F16CA80  : public Attribute_tFDA8EFEFB0711976D22474794576DAF28F7440AA
-{
-	HashSet_1_tAE2F12E55878645F5BE7C4D5603228A6FAB429C7* ___types;
-	int32_t ___U3CMatchingU3Ek__BackingField;
-	bool ___U3CValueU3Ek__BackingField;
-	bool ___U3CReferenceU3Ek__BackingField;
-	bool ___U3CClassesU3Ek__BackingField;
-	bool ___U3CInterfacesU3Ek__BackingField;
-	bool ___U3CStructsU3Ek__BackingField;
-	bool ___U3CEnumsU3Ek__BackingField;
-	bool ___U3CPublicU3Ek__BackingField;
-	bool ___U3CNonPublicU3Ek__BackingField;
-	bool ___U3CAbstractU3Ek__BackingField;
-	bool ___U3CGenericU3Ek__BackingField;
-	bool ___U3COpenConstructedGenericU3Ek__BackingField;
-	bool ___U3CStaticU3Ek__BackingField;
-	bool ___U3CSealedU3Ek__BackingField;
-	bool ___U3CNestedU3Ek__BackingField;
-	bool ___U3CPrimitivesU3Ek__BackingField;
-	bool ___U3CObjectU3Ek__BackingField;
-	bool ___U3CNonSerializableU3Ek__BackingField;
-	bool ___U3CObsoleteU3Ek__BackingField;
 };
 struct UInt16_tF4C148C876015C212FD72652D0B6ED8CC247A455 
 {
@@ -2563,14 +2456,6 @@ struct fsConverter_tFCDE4B68CAA0B3317FAC29FAAF380AF759141918  : public fsBaseCon
 };
 struct fsDirectConverter_t9EE506A371C95C62E21CA6586396D7B3BD55F668  : public fsBaseConverter_tDF9366828A5B8ADB6D986EB35B320D4DDC81CB04
 {
-};
-struct fsObjectAttribute_t01E43E525187363F108B146EC18F42D731E84E38  : public Attribute_tFDA8EFEFB0711976D22474794576DAF28F7440AA
-{
-	TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* ___PreviousModels;
-	String_t* ___VersionString;
-	int32_t ___MemberSerialization;
-	Type_t* ___Converter;
-	Type_t* ___Processor;
 };
 struct fsPropertyAttribute_tD332ED5271DAF1CA8779F33711F56DAD20A0A131  : public Attribute_tFDA8EFEFB0711976D22474794576DAF28F7440AA
 {
@@ -2698,6 +2583,30 @@ struct AppDomain_tFF7010567CBABAEEA7BB19835234D6485E16AD5F_marshaled_com : publi
 	Il2CppIUnknown* ____applicationIdentity;
 	List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* ___compatibility_switch;
 };
+struct AssemblyContentType_tE0A2224D247DD97616065CB0ECB16912B756D745 
+{
+	int32_t ___value__;
+};
+struct AssemblyHashAlgorithm_t6202395EA0C9A01D6342348A9535DF4CA47010D1 
+{
+	int32_t ___value__;
+};
+struct AssemblyNameFlags_t48EB44AFB7A3310746DD78ACC3DC5AE6D3D91122 
+{
+	int32_t ___value__;
+};
+struct AssemblyVersionCompatibility_t1E27EE4AB4137C64EE164A25A184E844AC722159 
+{
+	int32_t ___value__;
+};
+struct BindingFlags_t5DC2835E4AE9C1862B3AD172EF35B6A5F4F1812C 
+{
+	int32_t ___value__;
+};
+struct CallingConventions_t48E9B9CD63F22970FCA34375ED6B6102F74CBB89 
+{
+	int32_t ___value__;
+};
 struct ConstructorInfo_t1B5967EE7E5554272F79F8880183C70AD240EEEB  : public MethodBase_t
 {
 };
@@ -2806,6 +2715,18 @@ struct Exception_t_marshaled_com
 	Il2CppSafeArray* ___native_trace_ips;
 	int32_t ___caught_in_unmanaged;
 };
+struct GenericParameterAttributes_tD73CDB8C95D60038AA80DC4557D460B32FB6378F 
+{
+	int32_t ___value__;
+};
+struct HideFlags_tC514182ACEFD3B847988C45D5DB812FF6DB1BF4A 
+{
+	int32_t ___value__;
+};
+struct Int32Enum_tCBAC8BA2BFF3A845FA599F303093BBBA374B6F0C 
+{
+	int32_t ___value__;
+};
 struct LooseAssemblyNameConverter_t1320D9E77B4BB86648EB9C3B351C3EC42D214D7E  : public fsDirectConverter_t9EE506A371C95C62E21CA6586396D7B3BD55F668
 {
 };
@@ -2826,6 +2747,197 @@ struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_marshaled_pinvoke
 struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_marshaled_com
 {
 	intptr_t ___m_CachedPtr;
+};
+struct ParameterAttributes_tDAEC8B3C5986B042F8F9B0845505D0FC15F92E68 
+{
+	int32_t ___value__;
+};
+struct ProcessorArchitecture_t549C86643DDABC4E0C6DC968F0C74A707ADCAD9B 
+{
+	int32_t ___value__;
+};
+struct Ray_t2B1742D7958DC05BDC3EFC7461D3593E1430DC00 
+{
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___m_Origin;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___m_Direction;
+};
+struct Ray2D_t48EB7C703F8A2363D8A8F4A05D58640BD5721C7A 
+{
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___m_Origin;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___m_Direction;
+};
+struct RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B 
+{
+	intptr_t ___value;
+};
+struct SerializeAsAttribute_t2E706360E9E621C3865403E6F8EBE82715C98CD1  : public fsPropertyAttribute_tD332ED5271DAF1CA8779F33711F56DAD20A0A131
+{
+};
+struct StaticActionInvokerBase_t67CBEE4AFFD30B97ADC5B70312536EB5EB5999E5  : public StaticInvokerBase_t929FB18B71D904E9557F677D7FFA007CE01BDF4E
+{
+};
+struct StringComparison_tE14A55CCFA001A5AC85D754179BF2888F45CC94D 
+{
+	int32_t ___value__;
+};
+struct StringSplitOptions_t4DD892C76C70DD4800FC1B76054D69826F770062 
+{
+	int32_t ___value__;
+};
+struct StringWriter_tF48052BE4F980E5C85403221E835768E4156267D  : public TextWriter_tA9E5461506CF806E17B6BBBF2119359DEDA3F0F3
+{
+	StringBuilder_t* ____sb;
+	bool ____isOpen;
+};
+struct SubtractionHandler_t3B0E9DB2C3C0A266EED5E2FDF7DF8F91F2E5108C  : public BinaryOperatorHandler_tF07E986ACE1AEE23032593227517AF252D285866
+{
+};
+struct TypeNameDetail_t63521628C70020D3C395F8BE3D55FA1FE048AF9E 
+{
+	int32_t ___value__;
+};
+struct TypeQualifier_t20DF07A489BF453C8B42E268161A17BDBAD72122 
+{
+	int32_t ___value__;
+};
+struct TypesMatching_tE3E153BAFD2E29F0B3ECD14533CD7C63E499765B 
+{
+	int32_t ___value__;
+};
+struct UnaryOperator_t44DCBF1A40803F62957529DC29F6BFA5B3E13937 
+{
+	int32_t ___value__;
+};
+struct UnityObjectConverter_t138C651EC9ACE9FA7A869C9EB5D4687D59D945EF  : public fsConverter_tFCDE4B68CAA0B3317FAC29FAAF380AF759141918
+{
+};
+struct fsMemberSerialization_t3F89526001C3843086162E32D48E8377998AB142 
+{
+	int32_t ___value__;
+};
+struct StreamReadMode_t9BB209E11ECE790AE4D08C4534C3499DA966B4E2 
+{
+	int32_t ___value__;
+};
+struct ColorEnum_tC68D8AFC52C1BFD072B0A0A8B554F6F9D16C22A1 
+{
+	int32_t ___value__;
+};
+struct ParseState_tA849EEA442C12C401BEFF12E1F9A67F9B4199359 
+{
+	int32_t ___value__;
+};
+struct UnexpectedEnumValueException_1_tC9CE22260532425FC251A16B00D152B97D1E83C6  : public Exception_t
+{
+	int32_t ___U3CValueU3Ek__BackingField;
+};
+struct ApplicationException_tA744BED4E90266BD255285CD4CF909BAB3EE811A  : public Exception_t
+{
+};
+struct AssemblyName_t555F1570F523D87D970C6E7F27B1B44C83EADDD2  : public RuntimeObject
+{
+	String_t* ___name;
+	String_t* ___codebase;
+	int32_t ___major;
+	int32_t ___minor;
+	int32_t ___build;
+	int32_t ___revision;
+	CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0* ___cultureinfo;
+	int32_t ___flags;
+	int32_t ___hashalg;
+	StrongNameKeyPair_t0657447B6CFAA8FE880A228AA578EC20BC6AF8F2* ___keypair;
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___publicKey;
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___keyToken;
+	int32_t ___versioncompat;
+	Version_tE426DB5655D0F22920AE16A2AA9AB7781B8255A7* ___version;
+	int32_t ___processor_architecture;
+	int32_t ___contentType;
+};
+struct AssemblyName_t555F1570F523D87D970C6E7F27B1B44C83EADDD2_marshaled_pinvoke
+{
+	char* ___name;
+	char* ___codebase;
+	int32_t ___major;
+	int32_t ___minor;
+	int32_t ___build;
+	int32_t ___revision;
+	CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0_marshaled_pinvoke* ___cultureinfo;
+	int32_t ___flags;
+	int32_t ___hashalg;
+	StrongNameKeyPair_t0657447B6CFAA8FE880A228AA578EC20BC6AF8F2* ___keypair;
+	Il2CppSafeArray* ___publicKey;
+	Il2CppSafeArray* ___keyToken;
+	int32_t ___versioncompat;
+	Version_tE426DB5655D0F22920AE16A2AA9AB7781B8255A7* ___version;
+	int32_t ___processor_architecture;
+	int32_t ___contentType;
+};
+struct AssemblyName_t555F1570F523D87D970C6E7F27B1B44C83EADDD2_marshaled_com
+{
+	Il2CppChar* ___name;
+	Il2CppChar* ___codebase;
+	int32_t ___major;
+	int32_t ___minor;
+	int32_t ___build;
+	int32_t ___revision;
+	CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0_marshaled_com* ___cultureinfo;
+	int32_t ___flags;
+	int32_t ___hashalg;
+	StrongNameKeyPair_t0657447B6CFAA8FE880A228AA578EC20BC6AF8F2* ___keypair;
+	Il2CppSafeArray* ___publicKey;
+	Il2CppSafeArray* ___keyToken;
+	int32_t ___versioncompat;
+	Version_tE426DB5655D0F22920AE16A2AA9AB7781B8255A7* ___version;
+	int32_t ___processor_architecture;
+	int32_t ___contentType;
+};
+struct Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3  : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C
+{
+};
+struct GameObject_t76FEDD663AB33C991A9C9A23129337651094216F  : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C
+{
+};
+struct GenericClosingException_tDEE793008054268C36C25219DD2DA1B7986DB473  : public Exception_t
+{
+};
+struct MulticastDelegate_t  : public Delegate_t
+{
+	DelegateU5BU5D_tC5AB7E8F745616680F337909D3A8E6C722CDF771* ___delegates;
+};
+struct MulticastDelegate_t_marshaled_pinvoke : public Delegate_t_marshaled_pinvoke
+{
+	Delegate_t_marshaled_pinvoke** ___delegates;
+};
+struct MulticastDelegate_t_marshaled_com : public Delegate_t_marshaled_com
+{
+	Delegate_t_marshaled_com** ___delegates;
+};
+struct ParameterInfo_tBC2D68304851A59EFB2EAE6B168714CD45445F2F  : public RuntimeObject
+{
+	int32_t ___AttrsImpl;
+	Type_t* ___ClassImpl;
+	RuntimeObject* ___DefaultValueImpl;
+	MemberInfo_t* ___MemberImpl;
+	String_t* ___NameImpl;
+	int32_t ___PositionImpl;
+};
+struct ParameterInfo_tBC2D68304851A59EFB2EAE6B168714CD45445F2F_marshaled_pinvoke
+{
+	int32_t ___AttrsImpl;
+	Type_t* ___ClassImpl;
+	Il2CppIUnknown* ___DefaultValueImpl;
+	MemberInfo_t* ___MemberImpl;
+	char* ___NameImpl;
+	int32_t ___PositionImpl;
+};
+struct ParameterInfo_tBC2D68304851A59EFB2EAE6B168714CD45445F2F_marshaled_com
+{
+	int32_t ___AttrsImpl;
+	Type_t* ___ClassImpl;
+	Il2CppIUnknown* ___DefaultValueImpl;
+	MemberInfo_t* ___MemberImpl;
+	Il2CppChar* ___NameImpl;
+	int32_t ___PositionImpl;
 };
 struct Process_tF74794C64BCE464912BF158980B347CE66AF203B  : public Component_t7DA251DAA9E59801CC5FE8E27F37027143BED083
 {
@@ -2863,68 +2975,6 @@ struct Process_tF74794C64BCE464912BF158980B347CE66AF203B  : public Component_t7D
 	AsyncStreamReader_tAC4F4C9FDA0C1A8D21F2B1C838C08C0E83AE871B* ___error;
 	String_t* ___process_name;
 };
-struct Ray_t2B1742D7958DC05BDC3EFC7461D3593E1430DC00 
-{
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___m_Origin;
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___m_Direction;
-};
-struct Ray2D_t48EB7C703F8A2363D8A8F4A05D58640BD5721C7A 
-{
-	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___m_Origin;
-	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___m_Direction;
-};
-struct RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B 
-{
-	intptr_t ___value;
-};
-struct SerializationVersionAttribute_t6D4C4C4554D53AE18E5C85E7FC938FEA5515C77E  : public fsObjectAttribute_t01E43E525187363F108B146EC18F42D731E84E38
-{
-};
-struct SerializeAsAttribute_t2E706360E9E621C3865403E6F8EBE82715C98CD1  : public fsPropertyAttribute_tD332ED5271DAF1CA8779F33711F56DAD20A0A131
-{
-};
-struct StaticActionInvokerBase_t67CBEE4AFFD30B97ADC5B70312536EB5EB5999E5  : public StaticInvokerBase_t929FB18B71D904E9557F677D7FFA007CE01BDF4E
-{
-};
-struct StringWriter_tF48052BE4F980E5C85403221E835768E4156267D  : public TextWriter_tA9E5461506CF806E17B6BBBF2119359DEDA3F0F3
-{
-	StringBuilder_t* ____sb;
-	bool ____isOpen;
-};
-struct SubtractionHandler_t3B0E9DB2C3C0A266EED5E2FDF7DF8F91F2E5108C  : public BinaryOperatorHandler_tF07E986ACE1AEE23032593227517AF252D285866
-{
-};
-struct UnityObjectConverter_t138C651EC9ACE9FA7A869C9EB5D4687D59D945EF  : public fsConverter_tFCDE4B68CAA0B3317FAC29FAAF380AF759141918
-{
-};
-struct UnexpectedEnumValueException_1_tC9CE22260532425FC251A16B00D152B97D1E83C6  : public Exception_t
-{
-	int32_t ___U3CValueU3Ek__BackingField;
-};
-struct ApplicationException_tA744BED4E90266BD255285CD4CF909BAB3EE811A  : public Exception_t
-{
-};
-struct Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3  : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C
-{
-};
-struct GameObject_t76FEDD663AB33C991A9C9A23129337651094216F  : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C
-{
-};
-struct GenericClosingException_tDEE793008054268C36C25219DD2DA1B7986DB473  : public Exception_t
-{
-};
-struct MulticastDelegate_t  : public Delegate_t
-{
-	DelegateU5BU5D_tC5AB7E8F745616680F337909D3A8E6C722CDF771* ___delegates;
-};
-struct MulticastDelegate_t_marshaled_pinvoke : public Delegate_t_marshaled_pinvoke
-{
-	Delegate_t_marshaled_pinvoke** ___delegates;
-};
-struct MulticastDelegate_t_marshaled_com : public Delegate_t_marshaled_com
-{
-	Delegate_t_marshaled_com** ___delegates;
-};
 struct Ray2DConverter_t3ABB92590A254146F95418E10A1425E784323E17  : public fsDirectConverter_1_t8EC81BCA98876AF5AF3271B6086EC66E2CCDC388
 {
 };
@@ -2939,6 +2989,13 @@ struct ScriptableObject_tB3BFDB921A1B1795B38A5417D3B97A89A140436A_marshaled_pinv
 };
 struct ScriptableObject_tB3BFDB921A1B1795B38A5417D3B97A89A140436A_marshaled_com : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_marshaled_com
 {
+};
+struct SingletonAttribute_t4EBE08E147FC39CAF915B5E6AFCACDEAD99FAD5F  : public Attribute_tFDA8EFEFB0711976D22474794576DAF28F7440AA
+{
+	bool ___U3CPersistentU3Ek__BackingField;
+	bool ___U3CAutomaticU3Ek__BackingField;
+	int32_t ___U3CHideFlagsU3Ek__BackingField;
+	String_t* ___U3CNameU3Ek__BackingField;
 };
 struct StaticActionInvoker_tAAA6C762EF41966115780616DC143C15A11DE2F4  : public StaticActionInvokerBase_t67CBEE4AFFD30B97ADC5B70312536EB5EB5999E5
 {
@@ -2957,6 +3014,37 @@ struct SystemException_tCC48D868298F4C0705279823E34B00F4FBDB7295  : public Excep
 struct Type_t  : public MemberInfo_t
 {
 	RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B ____impl;
+};
+struct TypeFilter_tECDDDCC463E5FF81530AF9D5B154E5095F16CA80  : public Attribute_tFDA8EFEFB0711976D22474794576DAF28F7440AA
+{
+	HashSet_1_tAE2F12E55878645F5BE7C4D5603228A6FAB429C7* ___types;
+	int32_t ___U3CMatchingU3Ek__BackingField;
+	bool ___U3CValueU3Ek__BackingField;
+	bool ___U3CReferenceU3Ek__BackingField;
+	bool ___U3CClassesU3Ek__BackingField;
+	bool ___U3CInterfacesU3Ek__BackingField;
+	bool ___U3CStructsU3Ek__BackingField;
+	bool ___U3CEnumsU3Ek__BackingField;
+	bool ___U3CPublicU3Ek__BackingField;
+	bool ___U3CNonPublicU3Ek__BackingField;
+	bool ___U3CAbstractU3Ek__BackingField;
+	bool ___U3CGenericU3Ek__BackingField;
+	bool ___U3COpenConstructedGenericU3Ek__BackingField;
+	bool ___U3CStaticU3Ek__BackingField;
+	bool ___U3CSealedU3Ek__BackingField;
+	bool ___U3CNestedU3Ek__BackingField;
+	bool ___U3CPrimitivesU3Ek__BackingField;
+	bool ___U3CObjectU3Ek__BackingField;
+	bool ___U3CNonSerializableU3Ek__BackingField;
+	bool ___U3CObsoleteU3Ek__BackingField;
+};
+struct fsObjectAttribute_t01E43E525187363F108B146EC18F42D731E84E38  : public Attribute_tFDA8EFEFB0711976D22474794576DAF28F7440AA
+{
+	TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* ___PreviousModels;
+	String_t* ___VersionString;
+	int32_t ___MemberSerialization;
+	Type_t* ___Converter;
+	Type_t* ___Processor;
 };
 struct Action_1_t3137749576010DD307B29662A2E47C43C7F7D04C  : public MulticastDelegate_t
 {
@@ -3354,6 +3442,9 @@ struct ReflectionTypeLoadException_tA59A0D2E1F05C20E7C493630343FBC9B7308C475  : 
 	ExceptionU5BU5D_t99DA4B29FFBFD40F2C926A32586692D433EF291C* ___U3CLoaderExceptionsU3Ek__BackingField;
 };
 struct SerializationException_t09D5CC39CEF9CC37AC9D2E0C6DBE050B4E3F8CA7  : public SystemException_tCC48D868298F4C0705279823E34B00F4FBDB7295
+{
+};
+struct SerializationVersionAttribute_t6D4C4C4554D53AE18E5C85E7FC938FEA5515C77E  : public fsObjectAttribute_t01E43E525187363F108B146EC18F42D731E84E38
 {
 };
 struct TargetException_t0BF701F53560E89407F6DD0DD8D50A5DA882A6B6  : public ApplicationException_tA744BED4E90266BD255285CD4CF909BAB3EE811A
@@ -12391,6 +12482,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CU3Ec_U3C_ctorU3Eb__0_108_m9
 		return L_3;
 	}
 }
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
@@ -23384,6 +23483,14 @@ IL_0037:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__cctor_m20A9DCE1C467E521281D411A17A0C7DD2D8145FD (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -23417,6 +23524,30 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* U3CU3Ec_U3C_ctorU3Eb__35_0_m7515082
 		return L_1;
 	}
 }
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
@@ -31803,6 +31934,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StickyNote__cctor_mE8DE98A0BF4273C39A0F3
 		return;
 	}
 }
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif

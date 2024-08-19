@@ -11,6 +11,9 @@
 #include "UnityAppController+ViewHandling.h"
 #include "Unity/ObjCRuntime.h"
 
+// when orientation changes with animation, pause rendering for this long so resolution change happens during animation with less visual distortion
+const NSTimeInterval REORIENTATION_RENDERING_PAUSE = 0.15;
+
 // when returning from presenting UIViewController we might need to update app orientation to "correct" one, as we wont get rotation notification
 @interface UnityAppController ()
 - (void)updateAppOrientation:(UIInterfaceOrientation)orientation;
@@ -131,6 +134,11 @@ NSUInteger _supportedOrientations;
     const ScreenOrientation curOrient = GetAppController().unityView.contentOrientation;
     const ScreenOrientation newOrient = OrientationAfterTransform(curOrient, [coordinator targetTransform]);
 
+    // delay resolution change, ideally we want it to happen in the middle of rotation animation
+    // we force rendering back upon completion, just in case transition happens sooner
+    GetAppController().unityView.skipRendering = YES;
+    [GetAppController().unityView performSelector: @selector(resumeRendering) withObject: nil afterDelay: REORIENTATION_RENDERING_PAUSE];
+
     // in case of presentation controller it will take control over orientations
     // so to avoid crazy corner cases, make default view controller to ignore "wrong" orientations
     // as they will come only in case of presentation view controller and will be reverted anyway
@@ -149,6 +157,7 @@ NSUInteger _supportedOrientations;
 
             [KeyboardDelegate FinishReorientation];
             [UIView setAnimationsEnabled: YES];
+            GetAppController().unityView.skipRendering = NO;
         }];
     }
     [super viewWillTransitionToSize: size withTransitionCoordinator: coordinator];

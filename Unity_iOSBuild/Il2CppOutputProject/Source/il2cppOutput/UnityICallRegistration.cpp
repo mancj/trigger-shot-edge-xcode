@@ -1034,6 +1034,10 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_CanvasGroup_set_alpha();
 		Register_UnityEngine_CanvasGroup_set_alpha();
 
+		//System.Void UnityEngine.CanvasGroup::set_ignoreParentGroups(System.Boolean)
+		void Register_UnityEngine_CanvasGroup_set_ignoreParentGroups();
+		Register_UnityEngine_CanvasGroup_set_ignoreParentGroups();
+
 	//End Registrations for type : UnityEngine.CanvasGroup
 
 	//Start Registrations for type : UnityEngine.CanvasRenderer
@@ -4730,6 +4734,10 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_Transform_SetParent();
 		Register_UnityEngine_Transform_SetParent();
 
+		//System.Void UnityEngine.Transform::SetPositionAndRotation_Injected(UnityEngine.Vector3&,UnityEngine.Quaternion&)
+		void Register_UnityEngine_Transform_SetPositionAndRotation_Injected();
+		Register_UnityEngine_Transform_SetPositionAndRotation_Injected();
+
 		//System.Void UnityEngine.Transform::TransformDirection_Injected(UnityEngine.Vector3&,UnityEngine.Vector3&)
 		void Register_UnityEngine_Transform_TransformDirection_Injected();
 		Register_UnityEngine_Transform_TransformDirection_Injected();
@@ -4866,7 +4874,7 @@ void RegisterAllStrippedInternalCalls()
 
 	//Start Registrations for type : UnityEngine.UIElements.UIPainter2D
 
-		//System.IntPtr UnityEngine.UIElements.UIPainter2D::Create(System.Single)
+		//System.IntPtr UnityEngine.UIElements.UIPainter2D::Create(System.Boolean)
 		void Register_UnityEngine_UIElements_UIPainter2D_Create();
 		Register_UnityEngine_UIElements_UIPainter2D_Create();
 

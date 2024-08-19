@@ -202,7 +202,9 @@ struct IEnumerable_1_tABF27AED8E88C2557464B0E32EAD36CE8213B1B8;
 struct IEnumerable_1_t3FAF4DDA160BDA875A5DF15C8DDED82D0F0BB19B;
 struct IEnumerable_1_t490607189D1B563A94211CFFE6E7D990C94D3F26;
 struct IEnumerable_1_tCF360FA8155395D7F2E3092E355BE18C4A37F7E0;
+struct IEnumerator_1_t20143ACCC2911665EF1E794A372AB4BCD33B7C80;
 struct IEnumerator_1_t22AE37A791011C389F4D3E3ACD25F7336D5E2D5D;
+struct IEnumerator_1_t9204CA80C36382EFB2750319BA6794C7D011EDE6;
 struct IEnumerator_1_t7C55B8BC383F7FAC09A311AB9528E677C60F1F41;
 struct IEqualityComparer_1_t5B06FE35396C2F1F3416702300EC078E3B8D18FD;
 struct IEqualityComparer_1_t0C79004BFE79D9DBCE6C2250109D31D468A9A68E;
@@ -238,6 +240,7 @@ struct EntryU5BU5D_tA7EF01F753FB33FF4E884CE771FC5918C81B93A9;
 struct AnimationClipU5BU5D_t48CE1A495BA95608745A065C735F2D5BB8DE5A0F;
 struct AnimationTrackU5BU5D_t7C38FD28A84356A203FAE0C850FBA0DD5468B56C;
 struct ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031;
+struct CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB;
 struct DelegateU5BU5D_tC5AB7E8F745616680F337909D3A8E6C722CDF771;
 struct HumanBoneU5BU5D_t443B81D55400778CBB921DF04BE932ABF14BAA52;
 struct IMarkerU5BU5D_tC751DA399E389AFFFF54F50917B8F758717E9144;
@@ -279,11 +282,15 @@ struct GroupTrack_tF8FE0FA9A74536ECFBF0C328194D206A7CAA5A5D;
 struct HideInMenuAttribute_t8F5AEDC2C84031EBD6C3F7A2C2B39DC4115B9DEC;
 struct IDictionary_t6D03155AF1FA9083817AA5B6AD7DEEACC26AB220;
 struct IEnumerator_t7B609C2FFA6EB5167D9C62A0C32A21DE2F666DAA;
+struct ILayerable_t3F7D555AE898B3722D3654E1A996A97B2556BE3B;
 struct IMarker_t56D4AC9FC0C2FA104A18211FF74D707C03FCDB8D;
 struct INotification_tEF630287442F0A66470493068A5D158E3C2D3C6B;
+struct INotificationOptionProvider_tEAC98139C63441F98D2364D85B69C202E9795B0F;
 struct INotificationReceiver_tC9F99214950669266369744A234B75BE82DCE55D;
 struct IPlayableAsset_tA8542A8CC4881398B9C1BA317451DE64A09A849D;
 struct IPropertyCollector_tB7A05EB96DC9D20D8FE2EB89ECD2F7575BEA72BA;
+struct IPropertyPreview_t9DF69B27D94A2BB7D6DB19C64DAA2596F9F72CC7;
+struct ITimelineClipAsset_t90CEEA309B9287475633466FEE5054546ECFB9D0;
 struct ITimelineEvaluateCallback_tADB690E50C4E0CB026317874E965F565226CF085;
 struct IgnoreOnPlayableTrackAttribute_tD17B1A4900010C52505414888355F8BCA3FC6049;
 struct InfiniteRuntimeClip_t4421729DA047CB7D239F88EBD2B8103D06686D79;
@@ -874,32 +881,6 @@ struct String_t  : public RuntimeObject
 struct TimeUtility_t815D4EA395D12E4F662C6AB493F3CE5A0006AD26  : public RuntimeObject
 {
 };
-struct TimelineClip_t003008F08E56A75F3A47FD9ADE7C066988A3371D  : public RuntimeObject
-{
-	int32_t ___m_Version;
-	double ___m_Start;
-	double ___m_ClipIn;
-	Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___m_Asset;
-	double ___m_Duration;
-	double ___m_TimeScale;
-	TrackAsset_t31E19BE900C90F6616C0D337652C8614CD833B96* ___m_ParentTrack;
-	double ___m_EaseInDuration;
-	double ___m_EaseOutDuration;
-	double ___m_BlendInDuration;
-	double ___m_BlendOutDuration;
-	AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354* ___m_MixInCurve;
-	AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354* ___m_MixOutCurve;
-	int32_t ___m_BlendInCurveMode;
-	int32_t ___m_BlendOutCurveMode;
-	List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* ___m_ExposedParameterNames;
-	AnimationClip_t00BD2F131D308A4AD2C6B0BF66644FC25FECE712* ___m_AnimationCurves;
-	bool ___m_Recordable;
-	int32_t ___m_PostExtrapolationMode;
-	int32_t ___m_PreExtrapolationMode;
-	double ___m_PostExtrapolationTime;
-	double ___m_PreExtrapolationTime;
-	String_t* ___m_DisplayName;
-};
 struct TimelineClipCapsExtensions_tE7B52704E1D67E0F7DC021AA8AB9D9B84557A618  : public RuntimeObject
 {
 };
@@ -1007,6 +988,15 @@ struct DiscreteTime_t1598D60B0B2432F702E2A6120D04369EE54600A6
 struct Double_tE150EF3D1D43DEE85D533810AB4C742307EEDE5F 
 {
 	double ___m_value;
+};
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2  : public ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F
+{
+};
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_marshaled_pinvoke
+{
+};
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_marshaled_com
+{
 };
 struct HideInMenuAttribute_t8F5AEDC2C84031EBD6C3F7A2C2B39DC4115B9DEC  : public Attribute_tFDA8EFEFB0711976D22474794576DAF28F7440AA
 {
@@ -1150,11 +1140,6 @@ struct TimelinePlayable_t01A93A4FCD1222A9B8A7BE65E5FEB187D8D99BBD  : public Play
 	List_1_t66D70AC14455298A9DB791AD2621759C701785A9* ___m_EvaluateCallbacks;
 	Dictionary_2_t7F8A452CAC89438BACFC42CC989FA36151E8577E* ___m_PlayableCache;
 };
-struct TrackBindingTypeAttribute_t7A2B3C3F8994B073A3354E00CAEF06FC1D7721E2  : public Attribute_tFDA8EFEFB0711976D22474794576DAF28F7440AA
-{
-	Type_t* ___type;
-	int32_t ___flags;
-};
 struct TrackClipTypeAttribute_tCB240AD2A704583CF65CFEEBC7B9F71A1148B6E7  : public Attribute_tFDA8EFEFB0711976D22474794576DAF28F7440AA
 {
 	Type_t* ___inspectedType;
@@ -1179,27 +1164,6 @@ struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915
 		};
 		uint8_t Void_t4861ACF8F4594C3437BB48B6E56783494B843915__padding[1];
 	};
-};
-struct NotificationEntry_tBBA39A8ACD63E90360DB0FFC4835E8702DFC2E62 
-{
-	double ___time;
-	RuntimeObject* ___payload;
-	bool ___notificationFired;
-	int16_t ___flags;
-};
-struct NotificationEntry_tBBA39A8ACD63E90360DB0FFC4835E8702DFC2E62_marshaled_pinvoke
-{
-	double ___time;
-	RuntimeObject* ___payload;
-	int32_t ___notificationFired;
-	int16_t ___flags;
-};
-struct NotificationEntry_tBBA39A8ACD63E90360DB0FFC4835E8702DFC2E62_marshaled_com
-{
-	double ___time;
-	RuntimeObject* ___payload;
-	int32_t ___notificationFired;
-	int16_t ___flags;
 };
 struct TransientBuildData_t3BE8EF6B5113561AEE7D53FDF3DB331D39BE194F 
 {
@@ -1230,6 +1194,18 @@ struct AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354_marshaled_pinvok
 struct AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354_marshaled_com
 {
 	intptr_t ___m_Ptr;
+};
+struct AppliedOffsetMode_t89609E9C83247037C4D877D2EA4975667932F556 
+{
+	int32_t ___value__;
+};
+struct AvatarMaskBodyPart_t05CFC9378998069AB1DE3FAB4C635A9AE90A440D 
+{
+	int32_t ___value__;
+};
+struct ClipCaps_t5A4215235745856AF28238667B359DD8C4BD76DE 
+{
+	int32_t ___value__;
 };
 struct Delegate_t  : public RuntimeObject
 {
@@ -1278,6 +1254,10 @@ struct Delegate_t_marshaled_com
 	MethodInfo_t* ___original_method_info;
 	DelegateData_t9B286B493293CD2D23A5B2B5EF0E5B1324C2B77E* ___data;
 	int32_t ___method_is_virtual;
+};
+struct DirectorWrapMode_t25EBFAAB0FD6C649DD657C6A0A6EB3FB2ACC1A99 
+{
+	int32_t ___value__;
 };
 struct Exception_t  : public RuntimeObject
 {
@@ -1339,6 +1319,18 @@ struct Exception_t_marshaled_com
 struct FrameRateFieldAttribute_t14E8B29573FB61BADE0F2AE9ED93C60AF16FBC07  : public PropertyAttribute_t5E0CB5A6CDA6E24CBD4FF26DE3B0C29D8BB54BF0
 {
 };
+struct HideFlags_tC514182ACEFD3B847988C45D5DB812FF6DB1BF4A 
+{
+	int32_t ___value__;
+};
+struct MatchTargetFields_t58FDE5D5BCC87F1965956833768CE786A64DA410 
+{
+	int32_t ___value__;
+};
+struct NotificationFlags_tB23F73EAAD5438F9AC46646EAE9BCBEA142ABC1A 
+{
+	int16_t ___value__;
+};
 struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C  : public RuntimeObject
 {
 	intptr_t ___m_CachedPtr;
@@ -1350,6 +1342,10 @@ struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_marshaled_pinvoke
 struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_marshaled_com
 {
 	intptr_t ___m_CachedPtr;
+};
+struct PlayState_tC54D3C31D69D8394457D7EC5712E56B0891A5750 
+{
+	int32_t ___value__;
 };
 struct PlayableGraph_t4A5B0B45343A240F0761574FD7C672E0CFFF7A6E 
 {
@@ -1366,13 +1362,49 @@ struct PlayableOutputHandle_tEB217645A8C0356A3AC6F964F283003B9740E883
 	intptr_t ___m_Handle;
 	uint32_t ___m_Version;
 };
+struct PlayableTraversalMode_tEA0C26488F3B7CBB8D0100CA9808593CFAB4BEF8 
+{
+	int32_t ___value__;
+};
 struct RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B 
 {
 	intptr_t ___value;
 };
+struct TrackBindingFlags_t1672552199A0835319033434AF461C821F979418 
+{
+	int32_t ___value__;
+};
 struct TrackColorAttribute_t7A7D452B7CD382F0F9BE71B0CDECE67BD6BF532C  : public Attribute_tFDA8EFEFB0711976D22474794576DAF28F7440AA
 {
 	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___m_Color;
+};
+struct TrackOffset_tEBE434B1D5239050C371F5D795F45C1B5F6BC7C0 
+{
+	int32_t ___value__;
+};
+struct LoopMode_t04D5D2972876AFDE487016A8FCD0F3262ED7B820 
+{
+	int32_t ___value__;
+};
+struct EvaluationType_t960DA4BAEE036B326EA75453671D64A6CEDF5A47 
+{
+	int32_t ___value__;
+};
+struct Flags_t2C5061856AF2866A2D50CA6D30BF307A12966CFE 
+{
+	int32_t ___value__;
+};
+struct DurationMode_t6088BA687395F5BC722CE0542A183ABF5B8D0012 
+{
+	int32_t ___value__;
+};
+struct BlendCurveMode_t640C5D7BCAF4793D5F3E99C768868B0199A596F8 
+{
+	int32_t ___value__;
+};
+struct ClipExtrapolation_tB0EC49AFBEA6AE69BA93439FE120C01D4BF16ECB 
+{
+	int32_t ___value__;
 };
 struct ScriptPlayable_1_t5E80E6495A91412DAAE85DA280EE5A75E2A89000 
 {
@@ -1490,9 +1522,61 @@ struct ScriptableObject_tB3BFDB921A1B1795B38A5417D3B97A89A140436A_marshaled_com 
 struct SystemException_tCC48D868298F4C0705279823E34B00F4FBDB7295  : public Exception_t
 {
 };
+struct TimelineClip_t003008F08E56A75F3A47FD9ADE7C066988A3371D  : public RuntimeObject
+{
+	int32_t ___m_Version;
+	double ___m_Start;
+	double ___m_ClipIn;
+	Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___m_Asset;
+	double ___m_Duration;
+	double ___m_TimeScale;
+	TrackAsset_t31E19BE900C90F6616C0D337652C8614CD833B96* ___m_ParentTrack;
+	double ___m_EaseInDuration;
+	double ___m_EaseOutDuration;
+	double ___m_BlendInDuration;
+	double ___m_BlendOutDuration;
+	AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354* ___m_MixInCurve;
+	AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354* ___m_MixOutCurve;
+	int32_t ___m_BlendInCurveMode;
+	int32_t ___m_BlendOutCurveMode;
+	List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* ___m_ExposedParameterNames;
+	AnimationClip_t00BD2F131D308A4AD2C6B0BF66644FC25FECE712* ___m_AnimationCurves;
+	bool ___m_Recordable;
+	int32_t ___m_PostExtrapolationMode;
+	int32_t ___m_PreExtrapolationMode;
+	double ___m_PostExtrapolationTime;
+	double ___m_PreExtrapolationTime;
+	String_t* ___m_DisplayName;
+};
+struct TrackBindingTypeAttribute_t7A2B3C3F8994B073A3354E00CAEF06FC1D7721E2  : public Attribute_tFDA8EFEFB0711976D22474794576DAF28F7440AA
+{
+	Type_t* ___type;
+	int32_t ___flags;
+};
 struct Type_t  : public MemberInfo_t
 {
 	RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B ____impl;
+};
+struct NotificationEntry_tBBA39A8ACD63E90360DB0FFC4835E8702DFC2E62 
+{
+	double ___time;
+	RuntimeObject* ___payload;
+	bool ___notificationFired;
+	int16_t ___flags;
+};
+struct NotificationEntry_tBBA39A8ACD63E90360DB0FFC4835E8702DFC2E62_marshaled_pinvoke
+{
+	double ___time;
+	RuntimeObject* ___payload;
+	int32_t ___notificationFired;
+	int16_t ___flags;
+};
+struct NotificationEntry_tBBA39A8ACD63E90360DB0FFC4835E8702DFC2E62_marshaled_com
+{
+	double ___time;
+	RuntimeObject* ___payload;
+	int32_t ___notificationFired;
+	int16_t ___flags;
 };
 struct Action_3_t74AD2E14B4998F7BA2FAEE70509C63F809C6BA48  : public MulticastDelegate_t
 {
@@ -1766,16 +1850,6 @@ struct TimeUtility_t815D4EA395D12E4F662C6AB493F3CE5A0006AD26_StaticFields
 	double ___k_MaxTimelineDurationInSeconds;
 	double ___kFrameRateRounding;
 };
-struct TimelineClip_t003008F08E56A75F3A47FD9ADE7C066988A3371D_StaticFields
-{
-	int32_t ___kDefaultClipCaps;
-	float ___kDefaultClipDurationInSeconds;
-	double ___kTimeScaleMin;
-	double ___kTimeScaleMax;
-	String_t* ___kDefaultCurvesName;
-	double ___kMinDuration;
-	double ___kMaxTimeValue;
-};
 struct U3CU3Ec_tB74E998116FFDE2919C1EF6E8B35AB3798461A28_StaticFields
 {
 	U3CU3Ec_tB74E998116FFDE2919C1EF6E8B35AB3798461A28* ___U3CU3E9;
@@ -1891,6 +1965,16 @@ struct PlayableBinding_tB68B3BAC47F4F4C559640472174D5BEF93CB6AB4_StaticFields
 struct PlayableOutput_t2F7C45A58DA3E788EEDDB439549E21CF3FCF3680_StaticFields
 {
 	PlayableOutput_t2F7C45A58DA3E788EEDDB439549E21CF3FCF3680 ___m_NullPlayableOutput;
+};
+struct TimelineClip_t003008F08E56A75F3A47FD9ADE7C066988A3371D_StaticFields
+{
+	int32_t ___kDefaultClipCaps;
+	float ___kDefaultClipDurationInSeconds;
+	double ___kTimeScaleMin;
+	double ___kTimeScaleMax;
+	String_t* ___kDefaultCurvesName;
+	double ___kMinDuration;
+	double ___kMaxTimeValue;
 };
 struct Type_t_StaticFields
 {
@@ -4535,6 +4619,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AnimationPlayableAsset__cctor_m1748B5EB1
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AnimationPlayableAssetUpgrade_ConvertRotationToEuler_mB851991DE0D6624E9C49487DFA8630FA6AC08491 (AnimationPlayableAsset_t381BF46F8FEBECFD107EC61C257C60D9438FDF33* ___0_asset, const RuntimeMethod* method) 
 {
 	{
@@ -4719,6 +4811,30 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3Cget_outputsU3Ed__45_System_
 		return L_0;
 	}
 }
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
@@ -9877,6 +9993,22 @@ IL_0035:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TimelineAsset_UpgradeToLatestVersion_m34BA46E2D4643EFB179CBFB81706EC27785CBFA0 (TimelineAsset_tE400C944B07CA9D1349BAD84545E24075ADB3496* __this, const RuntimeMethod* method) 
 {
 	{
@@ -12207,6 +12339,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TimelineAsset__ctor_m75D9A08991F60CBFEFD
 		return;
 	}
 }
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
@@ -18261,6 +18401,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackColorAttribute__ctor_mBC50DD796426A
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TimelineClipCapsExtensions_SupportsExtrapolation_m3C0E25676F88C9DEEF4149DC2158A4A18711EE3A (TimelineClip_t003008F08E56A75F3A47FD9ADE7C066988A3371D* ___0_clip, const RuntimeMethod* method) 
 {
 	{
@@ -20147,6 +20295,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GroupTrack__ctor_m2612CD9E072D91E3F5C21F
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TimeNotificationBehaviour_set_timeSource_mD0096011A303EB4C84B3DE3AAE908C51955E2F8E (TimeNotificationBehaviour_tE17AD7EF43D3F48E5BB2C35250F82AB5F9B47535* __this, Playable_t95C6B795846BA0C7D96E4DA14897CCCF2554334F ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -21200,6 +21356,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NotKeyableAttribute__ctor_m11E8B4B00459A
 		return;
 	}
 }
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif

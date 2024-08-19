@@ -177,6 +177,7 @@ struct IEnumerable_1_t49C2F44B68A54E1D7F267F9CC6AEAE8497D42901;
 struct IEnumerable_1_t349E66EC5F09B881A8E52EE40A1AB9EC60E08E44;
 struct IEnumerable_1_t6686595E4CB7AC210F0EF075F7B1DD4A21D3902B;
 struct IEnumerator_1_t913F242211877D391217C9D75152235266FDAF10;
+struct IEnumerator_1_t37447B48573C332019097A069DA0E6306275A3E4;
 struct IEnumerator_1_t73FD060C436E3C4264A734C8F8DCC01DFF6046B8;
 struct IEqualityComparer_1_t68530679EED3DFA5719E3A5A0943770B1C4E5776;
 struct IEqualityComparer_1_tDBFC8496F14612776AF930DBF84AFE7D06D1F0E9;
@@ -311,6 +312,7 @@ struct GetIndexBinder_t1D53762D30B3AF1DABB042424B93BE4726D176E2;
 struct GetMemberBinder_t8D02CC2255370A525D6657487C0A7EB1DDD225B3;
 struct GotoExpression_t5124FE521C74BE1B7F79BA766FA8FCF0771FB36C;
 struct IDictionary_t6D03155AF1FA9083817AA5B6AD7DEEACC26AB220;
+struct IDynamicMetaObjectProvider_t4593D4AE2D3360E67AF686D7D889F51FF9BEDC9D;
 struct IEnumerator_t7B609C2FFA6EB5167D9C62A0C32A21DE2F666DAA;
 struct IFormatProvider_tC202922D43BFF3525109ABF3FB79625F5646AB52;
 struct IRuntimeVariables_t99A40F12C44231C3BD5F42ADE59AC8ACAE3EC12C;
@@ -1514,33 +1516,6 @@ struct LocalVariables_t9858CA0D76DBD77F0D7AA19D5500B40896ECCF44  : public Runtim
 struct MemberInfo_t  : public RuntimeObject
 {
 };
-struct ParameterInfo_tBC2D68304851A59EFB2EAE6B168714CD45445F2F  : public RuntimeObject
-{
-	int32_t ___AttrsImpl;
-	Type_t* ___ClassImpl;
-	RuntimeObject* ___DefaultValueImpl;
-	MemberInfo_t* ___MemberImpl;
-	String_t* ___NameImpl;
-	int32_t ___PositionImpl;
-};
-struct ParameterInfo_tBC2D68304851A59EFB2EAE6B168714CD45445F2F_marshaled_pinvoke
-{
-	int32_t ___AttrsImpl;
-	Type_t* ___ClassImpl;
-	Il2CppIUnknown* ___DefaultValueImpl;
-	MemberInfo_t* ___MemberImpl;
-	char* ___NameImpl;
-	int32_t ___PositionImpl;
-};
-struct ParameterInfo_tBC2D68304851A59EFB2EAE6B168714CD45445F2F_marshaled_com
-{
-	int32_t ___AttrsImpl;
-	Type_t* ___ClassImpl;
-	Il2CppIUnknown* ___DefaultValueImpl;
-	MemberInfo_t* ___MemberImpl;
-	Il2CppChar* ___NameImpl;
-	int32_t ___PositionImpl;
-};
 struct RuntimeOps_t00A409D3C6B7227F49FF9AF10FE4CD0E98ADDFFA  : public RuntimeObject
 {
 };
@@ -1806,13 +1781,6 @@ struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_marshaled_com
 struct FieldInfo_t  : public MemberInfo_t
 {
 };
-struct GotoExpression_t5124FE521C74BE1B7F79BA766FA8FCF0771FB36C  : public Expression_t70AA908ECBD33E94249BF235E4EBB0F831AD8785
-{
-	Type_t* ___U3CTypeU3Ek__BackingField;
-	Expression_t70AA908ECBD33E94249BF235E4EBB0F831AD8785* ___U3CValueU3Ek__BackingField;
-	LabelTarget_t8082D0D35E4D9BE77C683DCDF2AB10DA5C0EB9C5* ___U3CTargetU3Ek__BackingField;
-	int32_t ___U3CKindU3Ek__BackingField;
-};
 struct IndexExpression_t3EE6D9B088DD1886D3206BBB603C988A4B817347  : public Expression_t70AA908ECBD33E94249BF235E4EBB0F831AD8785
 {
 	RuntimeObject* ____arguments;
@@ -1946,12 +1914,6 @@ struct NullCheckInstruction_tCB596858916377B13A48F7F81CA540E378FE1D07  : public 
 struct NullableMethodCallInstruction_tD6CDA07B58E16C5AB3FD2C5421D6FD5C5DE17BA2  : public Instruction_t7ED95EF62BBC5003D30C1CE0FF8B1D79105A8998
 {
 };
-struct NumericConvertInstruction_t76B4E2310498667CBF25B066BD924FC0FF7368B6  : public Instruction_t7ED95EF62BBC5003D30C1CE0FF8B1D79105A8998
-{
-	int32_t ____from;
-	int32_t ____to;
-	bool ____isLiftedToNull;
-};
 struct OrInstruction_t96F6A4DE7932A49337D130C54AD74550103F3C61  : public Instruction_t7ED95EF62BBC5003D30C1CE0FF8B1D79105A8998
 {
 };
@@ -2011,12 +1973,6 @@ struct TypeAsInstruction_t916C0B99E3CD5FDCA7C224AC11BC824A3495850D  : public Ins
 {
 	Type_t* ____type;
 };
-struct TypeBinaryExpression_t81E55BA04133E3F10863D4D0CDADAC82AEAB98BF  : public Expression_t70AA908ECBD33E94249BF235E4EBB0F831AD8785
-{
-	int32_t ___U3CNodeTypeU3Ek__BackingField;
-	Expression_t70AA908ECBD33E94249BF235E4EBB0F831AD8785* ___U3CExpressionU3Ek__BackingField;
-	Type_t* ___U3CTypeOperandU3Ek__BackingField;
-};
 struct TypeEqualsInstruction_t70F87810D9CA6BC0C5916EFF4BB7F67F7888F065  : public Instruction_t7ED95EF62BBC5003D30C1CE0FF8B1D79105A8998
 {
 };
@@ -2035,13 +1991,6 @@ struct UInt32_t1833D51FFA667B18A5AA4B8D34DE284F8495D29B
 struct UInt64_t8F12534CC8FC4B5860F2A2CD1EE79D322E7A41AF 
 {
 	uint64_t ___m_value;
-};
-struct UnaryExpression_tFB4F40A211A2FF9B58F1A86E0EDB474121867B96  : public Expression_t70AA908ECBD33E94249BF235E4EBB0F831AD8785
-{
-	Type_t* ___U3CTypeU3Ek__BackingField;
-	int32_t ___U3CNodeTypeU3Ek__BackingField;
-	Expression_t70AA908ECBD33E94249BF235E4EBB0F831AD8785* ___U3COperandU3Ek__BackingField;
-	MethodInfo_t* ___U3CMethodU3Ek__BackingField;
 };
 struct ValueTypeCopyInstruction_t5CA0414FF8C86A78FE5093D4F0B178A580FF4F87  : public Instruction_t7ED95EF62BBC5003D30C1CE0FF8B1D79105A8998
 {
@@ -2192,9 +2141,9 @@ struct AssignLocalInstruction_tC6C78BD960A22EA015AD75AA404E42D5265E97CE  : publi
 struct AssignLocalToClosureInstruction_tEC80AB7FCED9EB59FFE301461B9202AD7150E192  : public LocalAccessInstruction_t58026C8DAD787415440A65845A950F0E558BC9E9
 {
 };
-struct BinaryOperationBinder_tE42809ADF29616BE196ADCAF20EA4D75D8FC0307  : public DynamicMetaObjectBinder_tB890C4A527623C1A79882F0343D043461A6207FF
+struct BindingFlags_t5DC2835E4AE9C1862B3AD172EF35B6A5F4F1812C 
 {
-	int32_t ___U3COperationU3Ek__BackingField;
+	int32_t ___value__;
 };
 struct ByRefNewInstruction_tC8C2A260C37BCC67319D5823C6675C9495CBE69E  : public NewInstruction_tD445874C16E5BC5C3AAFE5313027B85479920196
 {
@@ -2340,6 +2289,10 @@ struct Exception_t_marshaled_com
 	Il2CppSafeArray* ___native_trace_ips;
 	int32_t ___caught_in_unmanaged;
 };
+struct ExpressionType_tAA03F259DBEAA7B62E085C620D7B879FAA696B25 
+{
+	int32_t ___value__;
+};
 struct GCHandle_tC44F6F72EE68BD4CFABA24309DA7A179D41127DC 
 {
 	intptr_t ___handle;
@@ -2351,6 +2304,10 @@ struct GetMemberBinder_t8D02CC2255370A525D6657487C0A7EB1DDD225B3  : public Dynam
 {
 	String_t* ___U3CNameU3Ek__BackingField;
 	bool ___U3CIgnoreCaseU3Ek__BackingField;
+};
+struct GotoExpressionKind_tEFFA4D1B24E2D422A1FF7BC5D0E686A6B05A8948 
+{
+	int32_t ___value__;
 };
 struct InitializeLocalInstruction_t43FFB443CD385ADDA7FC024CDB215348752EEF64  : public LocalAccessInstruction_t58026C8DAD787415440A65845A950F0E558BC9E9
 {
@@ -2388,6 +2345,10 @@ struct LoadLocalInstruction_t40776BD93317E9FF63040C901EFDD02088D471ED  : public 
 struct MethodInfo_t  : public MethodBase_t
 {
 };
+struct ParameterAttributes_tDAEC8B3C5986B042F8F9B0845505D0FC15F92E68 
+{
+	int32_t ___value__;
+};
 struct RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B 
 {
 	intptr_t ___value;
@@ -2405,6 +2366,14 @@ struct StoreLocalBoxedInstruction_tC94812D0458B9D1D366499C8610B1D79C9722BBA  : p
 };
 struct StoreLocalInstruction_t90D68BD357BBD648259E113AB965800C645E32D9  : public LocalAccessInstruction_t58026C8DAD787415440A65845A950F0E558BC9E9
 {
+};
+struct StringComparison_tE14A55CCFA001A5AC85D754179BF2888F45CC94D 
+{
+	int32_t ___value__;
+};
+struct TypeCode_tBEF9BE86C8BCF5A6B82F3381219738D27804EF79 
+{
+	int32_t ___value__;
 };
 struct UnaryOperationBinder_t701A726B3ED70005D3C18637A7AE5AA96D8FABCE  : public DynamicMetaObjectBinder_tB890C4A527623C1A79882F0343D043461A6207FF
 {
@@ -2637,15 +2606,6 @@ struct HasValue_t077D00092529033596F7AFA264F6CDC42C363D52  : public NullableMeth
 struct ToStringClass_t6B72AB03C8B716FE45A78CCE06765AC28AD62302  : public NullableMethodCallInstruction_tD6CDA07B58E16C5AB3FD2C5421D6FD5C5DE17BA2
 {
 };
-struct Checked_t4F755616030BC94F9BCCA80FD5C82125A31FE468  : public NumericConvertInstruction_t76B4E2310498667CBF25B066BD924FC0FF7368B6
-{
-};
-struct ToUnderlying_tBE7476E08603F3C1F8D9A5A882A3AFC6E4852F74  : public NumericConvertInstruction_t76B4E2310498667CBF25B066BD924FC0FF7368B6
-{
-};
-struct Unchecked_t3315F5EB5F426B142CE33FF447D8E0755F08E69B  : public NumericConvertInstruction_t76B4E2310498667CBF25B066BD924FC0FF7368B6
-{
-};
 struct OrBoolean_t95780DA7516BB8BE2FC4149FCEECE09EB6395A15  : public OrInstruction_t96F6A4DE7932A49337D130C54AD74550103F3C61
 {
 };
@@ -2742,10 +2702,21 @@ struct SubOvfUInt64_t74BCE9D28306123871C806A42D7C5B6E2114A4EC  : public SubOvfIn
 struct ApplicationException_tA744BED4E90266BD255285CD4CF909BAB3EE811A  : public Exception_t
 {
 };
+struct BinaryOperationBinder_tE42809ADF29616BE196ADCAF20EA4D75D8FC0307  : public DynamicMetaObjectBinder_tB890C4A527623C1A79882F0343D043461A6207FF
+{
+	int32_t ___U3COperationU3Ek__BackingField;
+};
 struct FieldByRefUpdater_tC20D76F9FEADC13395438150C10C96974D9D4603  : public ByRefUpdater_t75FD5742B2BCA6799D260F02FA6A21BE313FEE17
 {
 	Nullable_1_t8E699A6C21FC31A12A10C20E4F9A9DA84BABD9B2 ____object;
 	FieldInfo_t* ____field;
+};
+struct GotoExpression_t5124FE521C74BE1B7F79BA766FA8FCF0771FB36C  : public Expression_t70AA908ECBD33E94249BF235E4EBB0F831AD8785
+{
+	Type_t* ___U3CTypeU3Ek__BackingField;
+	Expression_t70AA908ECBD33E94249BF235E4EBB0F831AD8785* ___U3CValueU3Ek__BackingField;
+	LabelTarget_t8082D0D35E4D9BE77C683DCDF2AB10DA5C0EB9C5* ___U3CTargetU3Ek__BackingField;
+	int32_t ___U3CKindU3Ek__BackingField;
 };
 struct IndexMethodByRefUpdater_t83E4AE3E4B0E84AB435FD4D3D63CFDE6BC71E049  : public ByRefUpdater_t75FD5742B2BCA6799D260F02FA6A21BE313FEE17
 {
@@ -2765,6 +2736,39 @@ struct MulticastDelegate_t_marshaled_com : public Delegate_t_marshaled_com
 {
 	Delegate_t_marshaled_com** ___delegates;
 };
+struct NumericConvertInstruction_t76B4E2310498667CBF25B066BD924FC0FF7368B6  : public Instruction_t7ED95EF62BBC5003D30C1CE0FF8B1D79105A8998
+{
+	int32_t ____from;
+	int32_t ____to;
+	bool ____isLiftedToNull;
+};
+struct ParameterInfo_tBC2D68304851A59EFB2EAE6B168714CD45445F2F  : public RuntimeObject
+{
+	int32_t ___AttrsImpl;
+	Type_t* ___ClassImpl;
+	RuntimeObject* ___DefaultValueImpl;
+	MemberInfo_t* ___MemberImpl;
+	String_t* ___NameImpl;
+	int32_t ___PositionImpl;
+};
+struct ParameterInfo_tBC2D68304851A59EFB2EAE6B168714CD45445F2F_marshaled_pinvoke
+{
+	int32_t ___AttrsImpl;
+	Type_t* ___ClassImpl;
+	Il2CppIUnknown* ___DefaultValueImpl;
+	MemberInfo_t* ___MemberImpl;
+	char* ___NameImpl;
+	int32_t ___PositionImpl;
+};
+struct ParameterInfo_tBC2D68304851A59EFB2EAE6B168714CD45445F2F_marshaled_com
+{
+	int32_t ___AttrsImpl;
+	Type_t* ___ClassImpl;
+	Il2CppIUnknown* ___DefaultValueImpl;
+	MemberInfo_t* ___MemberImpl;
+	Il2CppChar* ___NameImpl;
+	int32_t ___PositionImpl;
+};
 struct PropertyByRefUpdater_tF73C9E17AD2738CE0D42AD61A15B318928EF83F6  : public ByRefUpdater_t75FD5742B2BCA6799D260F02FA6A21BE313FEE17
 {
 	Nullable_1_t8E699A6C21FC31A12A10C20E4F9A9DA84BABD9B2 ____object;
@@ -2776,6 +2780,19 @@ struct SystemException_tCC48D868298F4C0705279823E34B00F4FBDB7295  : public Excep
 struct Type_t  : public MemberInfo_t
 {
 	RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B ____impl;
+};
+struct TypeBinaryExpression_t81E55BA04133E3F10863D4D0CDADAC82AEAB98BF  : public Expression_t70AA908ECBD33E94249BF235E4EBB0F831AD8785
+{
+	int32_t ___U3CNodeTypeU3Ek__BackingField;
+	Expression_t70AA908ECBD33E94249BF235E4EBB0F831AD8785* ___U3CExpressionU3Ek__BackingField;
+	Type_t* ___U3CTypeOperandU3Ek__BackingField;
+};
+struct UnaryExpression_tFB4F40A211A2FF9B58F1A86E0EDB474121867B96  : public Expression_t70AA908ECBD33E94249BF235E4EBB0F831AD8785
+{
+	Type_t* ___U3CTypeU3Ek__BackingField;
+	int32_t ___U3CNodeTypeU3Ek__BackingField;
+	Expression_t70AA908ECBD33E94249BF235E4EBB0F831AD8785* ___U3COperandU3Ek__BackingField;
+	MethodInfo_t* ___U3CMethodU3Ek__BackingField;
 };
 struct WeakReference_tD4B0518CE911FFD9FAAB3FCD492644A354312D8E  : public RuntimeObject
 {
@@ -2854,6 +2871,15 @@ struct PropertyChangedEventHandler_tF1250C146BE6FB43477D29C5D18A10B6329419DA  : 
 {
 };
 struct TargetInvocationException_t46C470A37ED9947AFD45BD814387DF64665B69F2  : public ApplicationException_tA744BED4E90266BD255285CD4CF909BAB3EE811A
+{
+};
+struct Checked_t4F755616030BC94F9BCCA80FD5C82125A31FE468  : public NumericConvertInstruction_t76B4E2310498667CBF25B066BD924FC0FF7368B6
+{
+};
+struct ToUnderlying_tBE7476E08603F3C1F8D9A5A882A3AFC6E4852F74  : public NumericConvertInstruction_t76B4E2310498667CBF25B066BD924FC0FF7368B6
+{
+};
+struct Unchecked_t3315F5EB5F426B142CE33FF447D8E0755F08E69B  : public NumericConvertInstruction_t76B4E2310498667CBF25B066BD924FC0FF7368B6
 {
 };
 struct ArgumentOutOfRangeException_tEA2822DAF62B10EEED00E0E3A341D4BAF78CF85F  : public ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263

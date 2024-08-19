@@ -422,14 +422,49 @@ static NSMutableArray<CameraCaptureDevice*> *videoCaptureDevices = nil;
 
 - (WebCamKind)getKind
 {
-    if ([self->_device.localizedName containsString: @"Telephoto"])
+    if ([self isColorAndDepthCaptureDevice])
+        return kWebCamColorAndDepth;
+    AVCaptureDeviceType type = _device.deviceType;
+    if ([type isEqualToString: AVCaptureDeviceTypeBuiltInWideAngleCamera])
+        return kWebCamWideAngle;
+    if ([type isEqualToString: AVCaptureDeviceTypeBuiltInTelephotoCamera])
         return kWebCamTelephoto;
-    if ([self->_device.localizedName containsString: @"Ultra Wide"])
-        return kWebCamUltraWideAngle;
-    if ([self->_device.localizedName containsString: @"Dual"] && [self isColorAndDepthCaptureDevice])
+    if ([type isEqualToString: AVCaptureDeviceTypeBuiltInDualCamera])
+        return kWebCamTelephoto;
+    if (@available(iOS 13, *))
+    {
+        if ([type isEqualToString: AVCaptureDeviceTypeBuiltInUltraWideCamera])
+            return kWebCamUltraWideAngle;
+        if ([type isEqualToString: AVCaptureDeviceTypeBuiltInDualWideCamera])
+            return kWebCamWideAngle;
+        if ([type isEqualToString: AVCaptureDeviceTypeBuiltInTripleCamera])
+            return kWebCamUltraWideAngle;
+    }
+    else
+    {
+        // Only works if device language is English; this was original impl, keeping to not regress
+        if ([self->_device.localizedName containsString: @"Ultra Wide"])
+            return kWebCamUltraWideAngle;
+    }
+#if defined(__IPHONE_17_0) || defined(__TVOS_17_0)
+    if (@available(iOS 17.0, *))
+    {
+        if ([type isEqualToString: AVCaptureDeviceTypeContinuityCamera])
+            return kWebCamWideAngle;
+    }
+#endif
+#if PLATFORM_IOS
+#ifdef __IPHONE_15_4
+    if (@available(iOS 15.4, *))
+    {
+        if ([type isEqualToString: AVCaptureDeviceTypeBuiltInLiDARDepthCamera])
+            return kWebCamColorAndDepth;
+    }
+#endif
+    if ([type isEqualToString: AVCaptureDeviceTypeBuiltInTrueDepthCamera])
         return kWebCamColorAndDepth;
-    if ([self->_device.localizedName containsString: @"TrueDepth"] && [self isColorAndDepthCaptureDevice])
-        return kWebCamColorAndDepth;
+#endif
+
     return kWebCamWideAngle;
 }
 

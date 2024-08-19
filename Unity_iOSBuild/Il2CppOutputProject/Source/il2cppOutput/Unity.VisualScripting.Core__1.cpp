@@ -322,6 +322,7 @@ struct IntPtrU5BU5D_tFD177F8C806A6921AD7150264CCC62FA00CAD832;
 struct MemberInfoU5BU5D_t4CB6970BB166E8E1CFB06152B2A2284971873053;
 struct MethodInfoU5BU5D_tDF3670604A0AECF814A0B0BA09B91FBF0D6A3265;
 struct ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918;
+struct ParameterInfoU5BU5D_t86995AB4A1693393FE29B058CC3FD727DF0B984C;
 struct ParameterModifierU5BU5D_t685261AD991B1E6582A0E53243DEE3B745E13364;
 struct StackTraceU5BU5D_t32FBCB20930EAF5BAE3F450FF75228E5450DA0DF;
 struct StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248;
@@ -1487,24 +1488,6 @@ struct ExtensionMethodCache_t4D2C260009066EB013B1465893D081AD0FA3F89A  : public 
 {
 	MethodInfoU5BU5D_tDF3670604A0AECF814A0B0BA09B91FBF0D6A3265* ___Cache;
 };
-struct Member_tC451ED4AC43F0B8B413D36E5A0D96FFA9B8B48F5  : public RuntimeObject
-{
-	String_t* ____name;
-	TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* ____parameterTypes;
-	Type_t* ____targetType;
-	String_t* ____targetTypeName;
-	int32_t ____source;
-	FieldInfo_t* ____fieldInfo;
-	PropertyInfo_t* ____propertyInfo;
-	MethodInfo_t* ____methodInfo;
-	ConstructorInfo_t1B5967EE7E5554272F79F8880183C70AD240EEEB* ____constructorInfo;
-	bool ____isExtension;
-	bool ____isInvokedAsExtension;
-	RuntimeObject* ___fieldAccessor;
-	RuntimeObject* ___propertyAccessor;
-	RuntimeObject* ___methodInvoker;
-	bool ___U3CisReflectedU3Ek__BackingField;
-};
 struct MemberInfo_t  : public RuntimeObject
 {
 };
@@ -1529,33 +1512,6 @@ struct OperatorHandler_tF3D07F68319B7937073E8361BABC759CED880F72  : public Runti
 };
 struct OperatorUtility_t5E88B472611A65FADBB80BACACBC500A7FF7EF7D  : public RuntimeObject
 {
-};
-struct ParameterInfo_tBC2D68304851A59EFB2EAE6B168714CD45445F2F  : public RuntimeObject
-{
-	int32_t ___AttrsImpl;
-	Type_t* ___ClassImpl;
-	RuntimeObject* ___DefaultValueImpl;
-	MemberInfo_t* ___MemberImpl;
-	String_t* ___NameImpl;
-	int32_t ___PositionImpl;
-};
-struct ParameterInfo_tBC2D68304851A59EFB2EAE6B168714CD45445F2F_marshaled_pinvoke
-{
-	int32_t ___AttrsImpl;
-	Type_t* ___ClassImpl;
-	Il2CppIUnknown* ___DefaultValueImpl;
-	MemberInfo_t* ___MemberImpl;
-	char* ___NameImpl;
-	int32_t ___PositionImpl;
-};
-struct ParameterInfo_tBC2D68304851A59EFB2EAE6B168714CD45445F2F_marshaled_com
-{
-	int32_t ___AttrsImpl;
-	Type_t* ___ClassImpl;
-	Il2CppIUnknown* ___DefaultValueImpl;
-	MemberInfo_t* ___MemberImpl;
-	Il2CppChar* ___NameImpl;
-	int32_t ___PositionImpl;
 };
 struct RuntimeCodebase_t18E8E0360E531C409CBDFCC0EF4600A44CFE871F  : public RuntimeObject
 {
@@ -1854,29 +1810,6 @@ struct Single_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C
 {
 	float ___m_value;
 };
-struct TypeFilter_tECDDDCC463E5FF81530AF9D5B154E5095F16CA80  : public Attribute_tFDA8EFEFB0711976D22474794576DAF28F7440AA
-{
-	HashSet_1_tAE2F12E55878645F5BE7C4D5603228A6FAB429C7* ___types;
-	int32_t ___U3CMatchingU3Ek__BackingField;
-	bool ___U3CValueU3Ek__BackingField;
-	bool ___U3CReferenceU3Ek__BackingField;
-	bool ___U3CClassesU3Ek__BackingField;
-	bool ___U3CInterfacesU3Ek__BackingField;
-	bool ___U3CStructsU3Ek__BackingField;
-	bool ___U3CEnumsU3Ek__BackingField;
-	bool ___U3CPublicU3Ek__BackingField;
-	bool ___U3CNonPublicU3Ek__BackingField;
-	bool ___U3CAbstractU3Ek__BackingField;
-	bool ___U3CGenericU3Ek__BackingField;
-	bool ___U3COpenConstructedGenericU3Ek__BackingField;
-	bool ___U3CStaticU3Ek__BackingField;
-	bool ___U3CSealedU3Ek__BackingField;
-	bool ___U3CNestedU3Ek__BackingField;
-	bool ___U3CPrimitivesU3Ek__BackingField;
-	bool ___U3CObjectU3Ek__BackingField;
-	bool ___U3CNonSerializableU3Ek__BackingField;
-	bool ___U3CObsoleteU3Ek__BackingField;
-};
 struct UInt16_tF4C148C876015C212FD72652D0B6ED8CC247A455 
 {
 	uint16_t ___m_value;
@@ -1925,6 +1858,14 @@ struct AdditionHandler_t38EB6CE788C529DF700BEFEB933775B3AFDFE6FB  : public Binar
 };
 struct AndHandler_tB29192B4E7B6AF6FEBF17E0E3F6DC572E99880C5  : public BinaryOperatorHandler_tF07E986ACE1AEE23032593227517AF252D285866
 {
+};
+struct BinaryOperator_t885706FF07D332C1C4969759188986DDDD885AAC 
+{
+	int32_t ___value__;
+};
+struct BindingFlags_t5DC2835E4AE9C1862B3AD172EF35B6A5F4F1812C 
+{
+	int32_t ___value__;
 };
 struct ConstructorInfo_t1B5967EE7E5554272F79F8880183C70AD240EEEB  : public MethodBase_t
 {
@@ -2043,15 +1984,53 @@ struct Exception_t_marshaled_com
 	Il2CppSafeArray* ___native_trace_ips;
 	int32_t ___caught_in_unmanaged;
 };
+struct MemberTypes_t26BAB0893BEC9328F2F64E8BACDA967C445632E5 
+{
+	int32_t ___value__;
+};
 struct MethodInfo_t  : public MethodBase_t
 {
+};
+struct ParameterAttributes_tDAEC8B3C5986B042F8F9B0845505D0FC15F92E68 
+{
+	int32_t ___value__;
 };
 struct RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B 
 {
 	intptr_t ___value;
 };
+struct StringSplitOptions_t4DD892C76C70DD4800FC1B76054D69826F770062 
+{
+	int32_t ___value__;
+};
+struct TypesMatching_tE3E153BAFD2E29F0B3ECD14533CD7C63E499765B 
+{
+	int32_t ___value__;
+};
+struct Source_t2086FE87EC4CC7556694833EB21AC29B4F5DA9D3 
+{
+	int32_t ___value__;
+};
 struct Collection_t5803C7F2B62E7A86E5C5B102A38072927F0AD107  : public KeyedCollection_2_tE2C9536CAA866DE025EFE8138A23306B2C7EE439
 {
+};
+struct Member_tC451ED4AC43F0B8B413D36E5A0D96FFA9B8B48F5  : public RuntimeObject
+{
+	String_t* ____name;
+	TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* ____parameterTypes;
+	Type_t* ____targetType;
+	String_t* ____targetTypeName;
+	int32_t ____source;
+	FieldInfo_t* ____fieldInfo;
+	PropertyInfo_t* ____propertyInfo;
+	MethodInfo_t* ____methodInfo;
+	ConstructorInfo_t1B5967EE7E5554272F79F8880183C70AD240EEEB* ____constructorInfo;
+	bool ____isExtension;
+	bool ____isInvokedAsExtension;
+	RuntimeObject* ___fieldAccessor;
+	RuntimeObject* ___propertyAccessor;
+	RuntimeObject* ___methodInvoker;
+	bool ___U3CisReflectedU3Ek__BackingField;
 };
 struct MulticastDelegate_t  : public Delegate_t
 {
@@ -2065,12 +2044,62 @@ struct MulticastDelegate_t_marshaled_com : public Delegate_t_marshaled_com
 {
 	Delegate_t_marshaled_com** ___delegates;
 };
+struct ParameterInfo_tBC2D68304851A59EFB2EAE6B168714CD45445F2F  : public RuntimeObject
+{
+	int32_t ___AttrsImpl;
+	Type_t* ___ClassImpl;
+	RuntimeObject* ___DefaultValueImpl;
+	MemberInfo_t* ___MemberImpl;
+	String_t* ___NameImpl;
+	int32_t ___PositionImpl;
+};
+struct ParameterInfo_tBC2D68304851A59EFB2EAE6B168714CD45445F2F_marshaled_pinvoke
+{
+	int32_t ___AttrsImpl;
+	Type_t* ___ClassImpl;
+	Il2CppIUnknown* ___DefaultValueImpl;
+	MemberInfo_t* ___MemberImpl;
+	char* ___NameImpl;
+	int32_t ___PositionImpl;
+};
+struct ParameterInfo_tBC2D68304851A59EFB2EAE6B168714CD45445F2F_marshaled_com
+{
+	int32_t ___AttrsImpl;
+	Type_t* ___ClassImpl;
+	Il2CppIUnknown* ___DefaultValueImpl;
+	MemberInfo_t* ___MemberImpl;
+	Il2CppChar* ___NameImpl;
+	int32_t ___PositionImpl;
+};
 struct SystemException_tCC48D868298F4C0705279823E34B00F4FBDB7295  : public Exception_t
 {
 };
 struct Type_t  : public MemberInfo_t
 {
 	RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B ____impl;
+};
+struct TypeFilter_tECDDDCC463E5FF81530AF9D5B154E5095F16CA80  : public Attribute_tFDA8EFEFB0711976D22474794576DAF28F7440AA
+{
+	HashSet_1_tAE2F12E55878645F5BE7C4D5603228A6FAB429C7* ___types;
+	int32_t ___U3CMatchingU3Ek__BackingField;
+	bool ___U3CValueU3Ek__BackingField;
+	bool ___U3CReferenceU3Ek__BackingField;
+	bool ___U3CClassesU3Ek__BackingField;
+	bool ___U3CInterfacesU3Ek__BackingField;
+	bool ___U3CStructsU3Ek__BackingField;
+	bool ___U3CEnumsU3Ek__BackingField;
+	bool ___U3CPublicU3Ek__BackingField;
+	bool ___U3CNonPublicU3Ek__BackingField;
+	bool ___U3CAbstractU3Ek__BackingField;
+	bool ___U3CGenericU3Ek__BackingField;
+	bool ___U3COpenConstructedGenericU3Ek__BackingField;
+	bool ___U3CStaticU3Ek__BackingField;
+	bool ___U3CSealedU3Ek__BackingField;
+	bool ___U3CNestedU3Ek__BackingField;
+	bool ___U3CPrimitivesU3Ek__BackingField;
+	bool ___U3CObjectU3Ek__BackingField;
+	bool ___U3CNonSerializableU3Ek__BackingField;
+	bool ___U3CObsoleteU3Ek__BackingField;
 };
 struct Func_1_tAED7F6697DCF919DBB67755012F99FCA387558E2  : public MulticastDelegate_t
 {
@@ -2506,10 +2535,6 @@ struct List_1_t269913CE854C1793B808480C94E04A8DB19CD0A4_StaticFields
 struct List_1_t4B77DB8D00EC6CC4705EB5F2FCC506472734EA72_StaticFields
 {
 	TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* ___s_emptyArray;
-};
-struct Member_tC451ED4AC43F0B8B413D36E5A0D96FFA9B8B48F5_StaticFields
-{
-	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___EmptyObjects;
 };
 struct MemberUtility_t504048F94C6B7999AC58DF9426BEF52003E9C79E_StaticFields
 {
@@ -3033,6 +3058,10 @@ struct ConstructorInfo_t1B5967EE7E5554272F79F8880183C70AD240EEEB_StaticFields
 {
 	String_t* ___ConstructorName;
 	String_t* ___TypeConstructorName;
+};
+struct Member_tC451ED4AC43F0B8B413D36E5A0D96FFA9B8B48F5_StaticFields
+{
+	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___EmptyObjects;
 };
 struct Type_t_StaticFields
 {
@@ -5121,6 +5150,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Decimal_tDA6C877282B2D789CF97C0949661CC11D643
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__ctor_m4101893830C5D3B86E14F5F8100EEE56CFD62654 (U3CU3Ec_t060F9643B3FB4E81FD03F4FF2DD555ED901BF0B0* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F Decimal_op_Division_mA0BD25988CA8010A3F8EA2F6A534F9F2D812D2AC (Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F ___0_d1, Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F ___1_d2, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Object_Equals_m434DF93FDA204D5C06E889A9CB53BC2E5D39ABF7 (RuntimeObject* ___0_objA, RuntimeObject* ___1_objB, const RuntimeMethod* method) ;
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
@@ -21693,6 +21730,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CU3Ec_U3C_ctorU3Eb__0_56_mC8
 		return L_3;
 	}
 }
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif

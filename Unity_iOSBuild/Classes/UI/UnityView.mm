@@ -40,6 +40,7 @@ extern bool _skipPresent;
     self.contentScaleFactor     = scale;
     self.isAccessibilityElement = TRUE;
     self.accessibilityTraits    = UIAccessibilityTraitAllowsDirectInteraction;
+    self.skipRendering          = NO;
 
 #if UNITY_TVOS
     _curOrientation = UNITY_TVOS_ORIENTATION;
@@ -75,6 +76,11 @@ extern bool _skipPresent;
     if ((self = [super initWithFrame: frame]))
         [self initImpl: frame scaleFactor: scale];
     return self;
+}
+
+- (void)resumeRendering
+{
+    self.skipRendering = NO;
 }
 
 - (void)layoutSubviews
@@ -315,8 +321,12 @@ CGSize GetCutoutToScreenRatio()
         case deviceiPhone14Plus:
             return CGSizeMake(0.377, 0.036);
         case deviceiPhone14Pro:
-            return CGSizeMake(0.318, 0.062);
+        case deviceiPhone15:
+        case deviceiPhone15Pro:
+            return CGSizeMake(0.318, 0.057);
         case deviceiPhone14ProMax:
+        case deviceiPhone15ProMax:
+        case deviceiPhone15Plus:
             return CGSizeMake(0.292, 0.052);
         case deviceiPhone13ProMax:
             return CGSizeMake(0.373, 0.036);

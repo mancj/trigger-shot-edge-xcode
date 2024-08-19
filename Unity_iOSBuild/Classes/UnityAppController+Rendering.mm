@@ -46,6 +46,9 @@ static bool _enableRunLoopAcceptInput = false;
 
 - (void)repaint
 {
+    if (_unityView.skipRendering)
+        return;
+
 #if UNITY_SUPPORT_ROTATION
     [self checkOrientationRequest];
 #endif

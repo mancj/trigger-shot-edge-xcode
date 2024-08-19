@@ -697,7 +697,6 @@ static NSString* FormatJoystickIdentifier(int idx, const char* typeString, const
 
 NSString* GetJoystickName(GCController* controller, int idx)
 {
-    NSString* joystickName;
     if (controller != nil)
     {
         // iOS 8 has bug, which is encountered when controller is being attached
@@ -710,19 +709,10 @@ NSString* GetJoystickName(GCController* controller, int idx)
             attached = (controller.attachedToDevice ? "wired" : "wireless");
 
         const char* typeString = [controller extendedGamepad] != nil ? "extended" : "basic";
-        joystickName = FormatJoystickIdentifier(idx, typeString, attached, [[controller vendorName] UTF8String]);
+        return FormatJoystickIdentifier(idx, typeString, attached, [[controller vendorName] UTF8String]);
     }
-    else
-    {
-#if UNITY_TVOS_SIMULATOR_FAKE_REMOTE
-        if (idx == [QueryControllerCollection() count])
-        {
-            joystickName = FormatJoystickIdentifier(idx, "basic", "wireless", "Unity");
-        }
-#endif
-        joystickName = @"unknown";
-    }
-    return joystickName;
+    
+    return @"unknown";
 }
 
 extern "C" NSArray* UnityGetJoystickNames()
@@ -730,16 +720,17 @@ extern "C" NSArray* UnityGetJoystickNames()
     NSArray* joysticks = QueryControllerCollection();
     int count = joysticks != nil ? (int)[joysticks count] : 0;
 
-    #if UNITY_TVOS_SIMULATOR_FAKE_REMOTE
-    count++;
-    #endif
-
     NSMutableArray * joystickNames = [NSMutableArray arrayWithCapacity: count];
 
     for (int i = 0; i < count; i++)
     {
         [joystickNames addObject: GetJoystickName(joysticks[i], i)];
     }
+    
+#if UNITY_TVOS_SIMULATOR_FAKE_REMOTE
+    [joystickNames addObject: FormatJoystickIdentifier(count, "basic", "wireless", "Unity")];
+#endif
+    
     return joystickNames;
 }
 

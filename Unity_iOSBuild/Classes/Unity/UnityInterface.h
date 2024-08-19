@@ -231,6 +231,7 @@ extern "C" {
 // UnityAppController.mm
 UIViewController*       UnityGetGLViewController(void);
 UIView*                 UnityGetGLView(void);
+UnityView*              UnityGetUnityView(void);
 UIWindow*               UnityGetMainWindow(void);
 enum ScreenOrientation  UnityCurrentOrientation(void);
 

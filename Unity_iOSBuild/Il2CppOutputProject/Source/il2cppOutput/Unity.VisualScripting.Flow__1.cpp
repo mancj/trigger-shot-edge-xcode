@@ -236,8 +236,15 @@ struct IEnumerable_1_t3980DB2EB374D180CB3B57B91D8F4F1F701BE0D9;
 struct IEnumerable_1_t6C47A8FE62321E6AD75C312B8549AFD2B13F0591;
 struct IEnumerable_1_t5C1E5CDFEA99062D152E83B174072FEDB9763788;
 struct IEnumerable_1_tD5C0FD17E45BB16A64310D831E29C350A184590F;
+struct IEnumerator_1_t06DDAA018B06DD24D3EBE851E0DF9241B5D7EC46;
+struct IEnumerator_1_tD33467D943F944209DB0DF71A3C973D7ACEF75B2;
 struct IEnumerator_1_t43D2E4BA9246755F293DFA74F001FB1A70A648FD;
 struct IEnumerator_1_t154184C6F7B3234EDD6DB28CF65D27D28B231E18;
+struct IEnumerator_1_tD2E02E58255D6405C9D672B4128BE15BC37027FD;
+struct IEnumerator_1_t54B242E3EA19AD6A2B5B9034370304D4FE155EED;
+struct IEnumerator_1_tC0C08C9659581E6A592DEEC8CEE4A412A400B773;
+struct IEnumerator_1_tD1458B7D83AB52223A503862617A8A15E008EE1E;
+struct IEnumerator_1_t1DC9BF0C441509977AE52846CAE10D10A21C5FE0;
 struct IEqualityComparer_1_tAE94C8F24AD5B94D4EE85CA9FC59E3409D41CAF7;
 struct IEqualityComparer_1_t0C79004BFE79D9DBCE6C2250109D31D468A9A68E;
 struct IList_1_t947B283AA401760B69BC0F30C7F77DCC83A4B1B4;
@@ -347,6 +354,7 @@ struct EntryU5BU5D_t233BB24ED01E2D8D65B0651D54B8E3AD125CAF96;
 struct SlotU5BU5D_t0FD57ECF60D6ADD2A7050D7198C4DF420FEE1D88;
 struct BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4;
 struct ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031;
+struct CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB;
 struct ContactPointU5BU5D_t3570603E8D0685B71B3D8BA07031674B00C5E411;
 struct ContactPoint2DU5BU5D_t427621BF8902AE33C86E7BF384D9B2B5B781F949;
 struct ControlInputU5BU5D_t6002FE42668CAFCAD2E46CF0277C97FC17389550;
@@ -611,6 +619,7 @@ struct UnitPortDefinition_t2CA48539D90233EF5CBA33E87376C4E5EAE2DCAF;
 struct Update_t2C5E06570884EB1CF9496257D318CD9821457D35;
 struct ValueConnection_t4F26188BCD3A63C79EA3F437764AB10038A747B1;
 struct ValueInput_t2F9A2AA29F683A1C27C273BF8AABA4C2D9851392;
+struct ValueInputDefinition_tA59456956EC99251C3838E84A6708E6A775E222E;
 struct ValueOutput_tADDC9DBF6515A1572E876C3881B5F110DC5EBE1B;
 struct VariableDeclarationCollection_tF2FB9698489A7485BE152FDBA89ABFFE7E28C8AC;
 struct VariableDeclarations_t7701E0B99E3AED5CDC693ABFBDD6D1C73945B405;
@@ -1619,17 +1628,6 @@ struct EnsureThat_tCC49E8B65851E70C9534A68EB657B6227F0549FC  : public RuntimeObj
 struct EventArgs_t37273F03EAC87217701DD431B190FBD84AD7C377  : public RuntimeObject
 {
 };
-struct Expression_t86F5B08B34E5A22548AA4EE878BFF1B79BED9DF2  : public RuntimeObject
-{
-	EvaluateFunctionHandler_t59671FDA4EF19C9CCD0D4C22D2B28AC3F451A8B9* ___EvaluateFunction;
-	EvaluateParameterHandler_tD8C167EC3626981A9F4467387838CE9648FE7BAF* ___EvaluateParameter;
-	String_t* ___OriginalExpression;
-	Dictionary_2_t199B89E88610A05AB33655B2712F15837300CDAA* ___ParameterEnumerators;
-	Dictionary_2_tA348003A3C1CEFB3096E9D2A0BC7F1AC8EC4F710* ____parameters;
-	int32_t ___U3COptionsU3Ek__BackingField;
-	String_t* ___U3CErrorU3Ek__BackingField;
-	LogicalExpression_tCA9E3E9B83693197B8F1B3BEE909EEE4BF6FE465* ___U3CParsedExpressionU3Ek__BackingField;
-};
 struct Flow_tC370BDFF173D53E274F883ED6ADAFE29B049C582  : public RuntimeObject
 {
 	GraphStack_tD9049F5FB5F8D9E9CD80764D18067D0F87343E7C* ___U3CstackU3Ek__BackingField;
@@ -1657,24 +1655,6 @@ struct GraphPointer_t01C98F06D1A7635CB867665044B7DC1FE03D1C0B  : public RuntimeO
 	List_1_tF1785B2080B8536D64E747DAE8C2DE0D44A75E27* ___dataStack;
 	List_1_t1715D0D9950CCCC39A77E9597CA69B346CD7E3E5* ___debugDataStack;
 };
-struct Member_tC451ED4AC43F0B8B413D36E5A0D96FFA9B8B48F5  : public RuntimeObject
-{
-	String_t* ____name;
-	TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* ____parameterTypes;
-	Type_t* ____targetType;
-	String_t* ____targetTypeName;
-	int32_t ____source;
-	FieldInfo_t* ____fieldInfo;
-	PropertyInfo_t* ____propertyInfo;
-	MethodInfo_t* ____methodInfo;
-	ConstructorInfo_t1B5967EE7E5554272F79F8880183C70AD240EEEB* ____constructorInfo;
-	bool ____isExtension;
-	bool ____isInvokedAsExtension;
-	RuntimeObject* ___fieldAccessor;
-	RuntimeObject* ___propertyAccessor;
-	RuntimeObject* ___methodInvoker;
-	bool ___U3CisReflectedU3Ek__BackingField;
-};
 struct MemberInfo_t  : public RuntimeObject
 {
 };
@@ -1701,12 +1681,6 @@ struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F_marshaled_pinvoke
 };
 struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F_marshaled_com
 {
-};
-struct VariableDeclarations_t7701E0B99E3AED5CDC693ABFBDD6D1C73945B405  : public RuntimeObject
-{
-	int32_t ___Kind;
-	VariableDeclarationCollection_tF2FB9698489A7485BE152FDBA89ABFFE7E28C8AC* ___collection;
-	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___OnVariableChanged;
 };
 struct XUnit_t7FD607C608798306164113DE02D172F1A7B9C4E1  : public RuntimeObject
 {
@@ -1944,6 +1918,15 @@ struct EmptyEventArgs_t2EF153F78311F355E9AE7BAE748576515674476F
 		uint8_t EmptyEventArgs_t2EF153F78311F355E9AE7BAE748576515674476F__padding[1];
 	};
 };
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2  : public ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F
+{
+};
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_marshaled_pinvoke
+{
+};
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_marshaled_com
+{
+};
 struct EventHook_t1C9E2570B55940C342214BACB5E9EC889A113157 
 {
 	String_t* ___name;
@@ -2012,33 +1995,6 @@ struct Mathf_tE284D016E3B297B72311AAD9EB8F0E643F6A4682
 		};
 		uint8_t Mathf_tE284D016E3B297B72311AAD9EB8F0E643F6A4682__padding[1];
 	};
-};
-struct Navigation_t4D2E201D65749CF4E104E8AC1232CF1D6F14795C 
-{
-	int32_t ___m_Mode;
-	bool ___m_WrapAround;
-	Selectable_t3251808068A17B8E92FB33590A4C2FA66D456712* ___m_SelectOnUp;
-	Selectable_t3251808068A17B8E92FB33590A4C2FA66D456712* ___m_SelectOnDown;
-	Selectable_t3251808068A17B8E92FB33590A4C2FA66D456712* ___m_SelectOnLeft;
-	Selectable_t3251808068A17B8E92FB33590A4C2FA66D456712* ___m_SelectOnRight;
-};
-struct Navigation_t4D2E201D65749CF4E104E8AC1232CF1D6F14795C_marshaled_pinvoke
-{
-	int32_t ___m_Mode;
-	int32_t ___m_WrapAround;
-	Selectable_t3251808068A17B8E92FB33590A4C2FA66D456712* ___m_SelectOnUp;
-	Selectable_t3251808068A17B8E92FB33590A4C2FA66D456712* ___m_SelectOnDown;
-	Selectable_t3251808068A17B8E92FB33590A4C2FA66D456712* ___m_SelectOnLeft;
-	Selectable_t3251808068A17B8E92FB33590A4C2FA66D456712* ___m_SelectOnRight;
-};
-struct Navigation_t4D2E201D65749CF4E104E8AC1232CF1D6F14795C_marshaled_com
-{
-	int32_t ___m_Mode;
-	int32_t ___m_WrapAround;
-	Selectable_t3251808068A17B8E92FB33590A4C2FA66D456712* ___m_SelectOnUp;
-	Selectable_t3251808068A17B8E92FB33590A4C2FA66D456712* ___m_SelectOnDown;
-	Selectable_t3251808068A17B8E92FB33590A4C2FA66D456712* ___m_SelectOnLeft;
-	Selectable_t3251808068A17B8E92FB33590A4C2FA66D456712* ___m_SelectOnRight;
 };
 struct ParameterArgs_t6F99757E4429D71D057F5A21D287F4F0E57D7957  : public EventArgs_t37273F03EAC87217701DD431B190FBD84AD7C377
 {
@@ -2178,10 +2134,21 @@ struct Nullable_1_t35D38572B3DB18451A850AC761A7BD362FFDDE30
 	bool ___hasValue;
 	Scene_tA1DC762B79745EB5140F054C884855B922318356 ___value;
 };
-struct AxisEventData_t4AA742BC101B1AA300B16EE7F19E31B91F37A938  : public BaseEventData_tE03A848325C0AE8E76C6CA15FD86395EBF83364F
+struct Rounding_t4CCB44160525DA34B85E098AF21812406255250A 
 {
-	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___U3CmoveVectorU3Ek__BackingField;
-	int32_t ___U3CmoveDirU3Ek__BackingField;
+	int32_t ___value__;
+};
+struct Rounding_t6C197D0482C9520CBE957B173E1B590ADDB8B0B5 
+{
+	int32_t ___value__;
+};
+struct Rounding_t2DC2F1B58B3E2159244ECB587C247037A5C6D740 
+{
+	int32_t ___value__;
+};
+struct Rounding_t7936EA558773D7E0A67BCFADF8094DAD22D393F9 
+{
+	int32_t ___value__;
 };
 struct Collision2D_t81E83212C969FDDE2AB84EBCA31502818EEAB85B  : public RuntimeObject
 {
@@ -2219,6 +2186,18 @@ struct Collision2D_t81E83212C969FDDE2AB84EBCA31502818EEAB85B_marshaled_com
 	ContactPoint2D_t16A7EE2DDFB4FA3A09C6554E11F30CEDAEBFA801* ___m_ReusedContacts;
 	ContactPoint2D_t16A7EE2DDFB4FA3A09C6554E11F30CEDAEBFA801* ___m_LegacyContacts;
 };
+struct CollisionPairEventFlags_t9DAB7B8F199928220E6ACA8E669F3B644650FBE6 
+{
+	uint16_t ___value__;
+};
+struct CollisionPairFlags_tD05FDF8CD2FA43B2AAC0078E19DB27DF01B2BA98 
+{
+	uint16_t ___value__;
+};
+struct CollisionPairHeaderFlags_tBA40F470BC1564B84C3093CEA5761804FA0650C3 
+{
+	uint16_t ___value__;
+};
 struct ColorBlock_tDD7C62E7AFE442652FC98F8D058CE8AE6BFD7C11 
 {
 	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___m_NormalColor;
@@ -2228,25 +2207,6 @@ struct ColorBlock_tDD7C62E7AFE442652FC98F8D058CE8AE6BFD7C11
 	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___m_DisabledColor;
 	float ___m_ColorMultiplier;
 	float ___m_FadeDuration;
-};
-struct ContactPair_t096319945A27108A2DA384393A9ED390BE4356FD 
-{
-	int32_t ___m_ColliderID;
-	int32_t ___m_OtherColliderID;
-	intptr_t ___m_StartPtr;
-	uint32_t ___m_NbPoints;
-	uint16_t ___m_Flags;
-	uint16_t ___m_Events;
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___m_ImpulseSum;
-};
-struct ContactPairHeader_tA8C64AAEEF017149E77A6600B10A10F1A1C5648B 
-{
-	int32_t ___m_BodyID;
-	int32_t ___m_OtherBodyID;
-	intptr_t ___m_StartPtr;
-	uint32_t ___m_NbPairs;
-	uint16_t ___m_Flags;
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___m_RelativeVelocity;
 };
 struct ContactPoint_t241857959C0D517C21F541BB04B63FA6C1EAB3F9 
 {
@@ -2355,6 +2315,10 @@ struct Delegate_t_marshaled_com
 	DelegateData_t9B286B493293CD2D23A5B2B5EF0E5B1324C2B77E* ___data;
 	int32_t ___method_is_virtual;
 };
+struct EvaluateOptions_tC2F85ECDCF3582467ED413AB910FA8403E3D0227 
+{
+	int32_t ___value__;
+};
 struct Exception_t  : public RuntimeObject
 {
 	String_t* ____className;
@@ -2422,6 +2386,26 @@ struct Graph_tD3F160E11AE372F4006562E44A04A934679A72CA  : public RuntimeObject
 	float ___U3CzoomU3Ek__BackingField;
 	bool ___prewarmed;
 };
+struct Int32Enum_tCBAC8BA2BFF3A845FA599F303093BBBA374B6F0C 
+{
+	int32_t ___value__;
+};
+struct KeyCode_t75B9ECCC26D858F55040DDFF9523681E996D17E9 
+{
+	int32_t ___value__;
+};
+struct MouseButton_tE11395A8A027C46C68B2821B551EADC44A3C0330 
+{
+	int32_t ___value__;
+};
+struct MoveDirection_t0981B415CB2BEB70F14E647EDE5DE29F52DEC5E6 
+{
+	int32_t ___value__;
+};
+struct NavMeshPathStatus_t1BCDA84284F9D364B8BB3BDF741D50D38932B205 
+{
+	int32_t ___value__;
+};
 struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C  : public RuntimeObject
 {
 	intptr_t ___m_CachedPtr;
@@ -2433,6 +2417,14 @@ struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_marshaled_pinvoke
 struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_marshaled_com
 {
 	intptr_t ___m_CachedPtr;
+};
+struct PenStatus_tCAD6543115EF443E17410B52D37EC67BCC88ABB8 
+{
+	int32_t ___value__;
+};
+struct PressState_tE9BE3B5543589361AEEDCC2788EF97DD99EDF6F8 
+{
+	int32_t ___value__;
 };
 struct RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023 
 {
@@ -2486,6 +2478,14 @@ struct RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B
 {
 	intptr_t ___value;
 };
+struct ScriptGraphContainerType_t1430BD481892788BD0049F7C5E887E47CFF16716 
+{
+	int32_t ___value__;
+};
+struct StringSplitOptions_t4DD892C76C70DD4800FC1B76054D69826F770062 
+{
+	int32_t ___value__;
+};
 struct ValueInputDefinition_tA59456956EC99251C3838E84A6708E6A775E222E  : public ValuePortDefinition_tEF6390870319951F5C74CEA7796E8ED31B0354A0
 {
 	RuntimeObject* ____defaultvalue;
@@ -2493,6 +2493,26 @@ struct ValueInputDefinition_tA59456956EC99251C3838E84A6708E6A775E222E  : public 
 };
 struct ValueOutputDefinition_tEA7666333F1A46F5306B97C5608C1DEE70D5189C  : public ValuePortDefinition_tEF6390870319951F5C74CEA7796E8ED31B0354A0
 {
+};
+struct VariableKind_t875B5CA208F97FDC4152C1140C48EEA35135232C 
+{
+	int32_t ___value__;
+};
+struct Source_t2086FE87EC4CC7556694833EB21AC29B4F5DA9D3 
+{
+	int32_t ___value__;
+};
+struct Mode_t2D49D0E10E2FDA0026278C2400C16033888D0542 
+{
+	int32_t ___value__;
+};
+struct InputButton_t7F40241CC7C406EBD574D426F736CB744DE86CDA 
+{
+	int32_t ___value__;
+};
+struct Transition_tF856A77C9FAC6D26EA3CA158CF68B739D35397B3 
+{
+	int32_t ___value__;
 };
 struct Data_tE839C8791DFA9C8AF0680D979B5DC3C032AA4A1F  : public Data_tE6B8DA280B1DED7FE19DFC768353D5D79027D3A1
 {
@@ -2527,15 +2547,43 @@ struct UnitConnection_2_t0120A7D5DD792930712735C6C3BA3A486DBF4B2E  : public Grap
 	RuntimeObject* ___U3CdestinationUnitU3Ek__BackingField;
 	String_t* ___U3CdestinationKeyU3Ek__BackingField;
 };
-struct Collision_tBCC6AEBD9A63E6DA2E50660DAC03CDCB1FF7A9B0  : public RuntimeObject
+struct AxisEventData_t4AA742BC101B1AA300B16EE7F19E31B91F37A938  : public BaseEventData_tE03A848325C0AE8E76C6CA15FD86395EBF83364F
 {
-	ContactPairHeader_tA8C64AAEEF017149E77A6600B10A10F1A1C5648B ___m_Header;
-	ContactPair_t096319945A27108A2DA384393A9ED390BE4356FD ___m_Pair;
-	bool ___m_Flipped;
-	ContactPointU5BU5D_t3570603E8D0685B71B3D8BA07031674B00C5E411* ___m_LegacyContacts;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___U3CmoveVectorU3Ek__BackingField;
+	int32_t ___U3CmoveDirU3Ek__BackingField;
 };
 struct Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3  : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C
 {
+};
+struct ContactPair_t096319945A27108A2DA384393A9ED390BE4356FD 
+{
+	int32_t ___m_ColliderID;
+	int32_t ___m_OtherColliderID;
+	intptr_t ___m_StartPtr;
+	uint32_t ___m_NbPoints;
+	uint16_t ___m_Flags;
+	uint16_t ___m_Events;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___m_ImpulseSum;
+};
+struct ContactPairHeader_tA8C64AAEEF017149E77A6600B10A10F1A1C5648B 
+{
+	int32_t ___m_BodyID;
+	int32_t ___m_OtherBodyID;
+	intptr_t ___m_StartPtr;
+	uint32_t ___m_NbPairs;
+	uint16_t ___m_Flags;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___m_RelativeVelocity;
+};
+struct Expression_t86F5B08B34E5A22548AA4EE878BFF1B79BED9DF2  : public RuntimeObject
+{
+	EvaluateFunctionHandler_t59671FDA4EF19C9CCD0D4C22D2B28AC3F451A8B9* ___EvaluateFunction;
+	EvaluateParameterHandler_tD8C167EC3626981A9F4467387838CE9648FE7BAF* ___EvaluateParameter;
+	String_t* ___OriginalExpression;
+	Dictionary_2_t199B89E88610A05AB33655B2712F15837300CDAA* ___ParameterEnumerators;
+	Dictionary_2_tA348003A3C1CEFB3096E9D2A0BC7F1AC8EC4F710* ____parameters;
+	int32_t ___U3COptionsU3Ek__BackingField;
+	String_t* ___U3CErrorU3Ek__BackingField;
+	LogicalExpression_tCA9E3E9B83693197B8F1B3BEE909EEE4BF6FE465* ___U3CParsedExpressionU3Ek__BackingField;
 };
 struct FlowGraph_tF9E42FECF535CD5BAB10F75672B5BCE285627A45  : public Graph_tD3F160E11AE372F4006562E44A04A934679A72CA
 {
@@ -2555,6 +2603,24 @@ struct FlowGraph_tF9E42FECF535CD5BAB10F75672B5BCE285627A45  : public Graph_tD3F1
 struct GameObject_t76FEDD663AB33C991A9C9A23129337651094216F  : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C
 {
 };
+struct Member_tC451ED4AC43F0B8B413D36E5A0D96FFA9B8B48F5  : public RuntimeObject
+{
+	String_t* ____name;
+	TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* ____parameterTypes;
+	Type_t* ____targetType;
+	String_t* ____targetTypeName;
+	int32_t ____source;
+	FieldInfo_t* ____fieldInfo;
+	PropertyInfo_t* ____propertyInfo;
+	MethodInfo_t* ____methodInfo;
+	ConstructorInfo_t1B5967EE7E5554272F79F8880183C70AD240EEEB* ____constructorInfo;
+	bool ____isExtension;
+	bool ____isInvokedAsExtension;
+	RuntimeObject* ___fieldAccessor;
+	RuntimeObject* ___propertyAccessor;
+	RuntimeObject* ___methodInvoker;
+	bool ___U3CisReflectedU3Ek__BackingField;
+};
 struct MissingValuePortInputException_tBD0780B77E62866969F0F658A38CCD00FE8A9D76  : public Exception_t
 {
 };
@@ -2569,6 +2635,33 @@ struct MulticastDelegate_t_marshaled_pinvoke : public Delegate_t_marshaled_pinvo
 struct MulticastDelegate_t_marshaled_com : public Delegate_t_marshaled_com
 {
 	Delegate_t_marshaled_com** ___delegates;
+};
+struct Navigation_t4D2E201D65749CF4E104E8AC1232CF1D6F14795C 
+{
+	int32_t ___m_Mode;
+	bool ___m_WrapAround;
+	Selectable_t3251808068A17B8E92FB33590A4C2FA66D456712* ___m_SelectOnUp;
+	Selectable_t3251808068A17B8E92FB33590A4C2FA66D456712* ___m_SelectOnDown;
+	Selectable_t3251808068A17B8E92FB33590A4C2FA66D456712* ___m_SelectOnLeft;
+	Selectable_t3251808068A17B8E92FB33590A4C2FA66D456712* ___m_SelectOnRight;
+};
+struct Navigation_t4D2E201D65749CF4E104E8AC1232CF1D6F14795C_marshaled_pinvoke
+{
+	int32_t ___m_Mode;
+	int32_t ___m_WrapAround;
+	Selectable_t3251808068A17B8E92FB33590A4C2FA66D456712* ___m_SelectOnUp;
+	Selectable_t3251808068A17B8E92FB33590A4C2FA66D456712* ___m_SelectOnDown;
+	Selectable_t3251808068A17B8E92FB33590A4C2FA66D456712* ___m_SelectOnLeft;
+	Selectable_t3251808068A17B8E92FB33590A4C2FA66D456712* ___m_SelectOnRight;
+};
+struct Navigation_t4D2E201D65749CF4E104E8AC1232CF1D6F14795C_marshaled_com
+{
+	int32_t ___m_Mode;
+	int32_t ___m_WrapAround;
+	Selectable_t3251808068A17B8E92FB33590A4C2FA66D456712* ___m_SelectOnUp;
+	Selectable_t3251808068A17B8E92FB33590A4C2FA66D456712* ___m_SelectOnDown;
+	Selectable_t3251808068A17B8E92FB33590A4C2FA66D456712* ___m_SelectOnLeft;
+	Selectable_t3251808068A17B8E92FB33590A4C2FA66D456712* ___m_SelectOnRight;
 };
 struct PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB  : public BaseEventData_tE03A848325C0AE8E76C6CA15FD86395EBF83364F
 {
@@ -2629,6 +2722,12 @@ struct Unit_tEFDDF0DAD2C72D6F68E357D3530E23599F7D8191  : public GraphElement_1_t
 	bool ___U3CisControlRootU3Ek__BackingField;
 	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___U3CpositionU3Ek__BackingField;
 	Exception_t* ___U3CdefinitionExceptionU3Ek__BackingField;
+};
+struct VariableDeclarations_t7701E0B99E3AED5CDC693ABFBDD6D1C73945B405  : public RuntimeObject
+{
+	int32_t ___Kind;
+	VariableDeclarationCollection_tF2FB9698489A7485BE152FDBA89ABFFE7E28C8AC* ___collection;
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___OnVariableChanged;
 };
 struct Data_t0ECA07B591824D246428EECEB6483D266D7A9ED2  : public Data_t60E6DA443F2BE9F79617BCDF59C58926457CF611
 {
@@ -3227,6 +3326,13 @@ struct BinaryComparisonUnit_tB930B1B0182B1C47FC0C315C97917746706F1F5B  : public 
 };
 struct Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76  : public Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3
 {
+};
+struct Collision_tBCC6AEBD9A63E6DA2E50660DAC03CDCB1FF7A9B0  : public RuntimeObject
+{
+	ContactPairHeader_tA8C64AAEEF017149E77A6600B10A10F1A1C5648B ___m_Header;
+	ContactPair_t096319945A27108A2DA384393A9ED390BE4356FD ___m_Pair;
+	bool ___m_Flipped;
+	ContactPointU5BU5D_t3570603E8D0685B71B3D8BA07031674B00C5E411* ___m_LegacyContacts;
 };
 struct Comparison_tCF503661B675952ACA62E335D5BAA095392F3B66  : public Unit_tEFDDF0DAD2C72D6F68E357D3530E23599F7D8191
 {
@@ -4279,12 +4385,6 @@ struct List_1_tCEC1993B65ACD0529D8C0BB5006274E22D7D8A55_StaticFields
 {
 	OptionDataU5BU5D_tF56CF744A9E6A0DBB0AC2072BE52F7C8D2E1947F* ___s_emptyArray;
 };
-struct Expression_t86F5B08B34E5A22548AA4EE878BFF1B79BED9DF2_StaticFields
-{
-	bool ____cacheEnabled;
-	Dictionary_2_tD32FCA243D8628B9421B262DE8EDCC31B7ED11FD* ____compiledExpressions;
-	ReaderWriterLock_tBA6D275E19444C911C8681A576EB0CBB12B16B5B* ___Rwl;
-};
 struct Flow_tC370BDFF173D53E274F883ED6ADAFE29B049C582_StaticFields
 {
 	Func_2_tAF4123F8D69F1A665BBB864E1C97131C05AEBBEB* ___U3CisInspectedBindingU3Ek__BackingField;
@@ -4293,10 +4393,6 @@ struct GraphPointer_t01C98F06D1A7635CB867665044B7DC1FE03D1C0B_StaticFields
 {
 	Func_2_tC5B959A6DD6FDE84607DD9ECC529B9BE485C63C5* ___U3CfetchRootDebugDataBindingU3Ek__BackingField;
 	Action_1_tB4285954D4854A1287BC3C7667C0DFC4D3A5F9A1* ___releaseDebugDataBinding;
-};
-struct Member_tC451ED4AC43F0B8B413D36E5A0D96FFA9B8B48F5_StaticFields
-{
-	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___EmptyObjects;
 };
 struct SavedVariables_tC1AD3CB738F4018E6942B657EB5D73F08391FDC9_StaticFields
 {
@@ -4415,6 +4511,16 @@ struct Exception_t_StaticFields
 struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticFields
 {
 	int32_t ___OffsetOfInstanceIDInCPlusPlusObject;
+};
+struct Expression_t86F5B08B34E5A22548AA4EE878BFF1B79BED9DF2_StaticFields
+{
+	bool ____cacheEnabled;
+	Dictionary_2_tD32FCA243D8628B9421B262DE8EDCC31B7ED11FD* ____compiledExpressions;
+	ReaderWriterLock_tBA6D275E19444C911C8681A576EB0CBB12B16B5B* ___Rwl;
+};
+struct Member_tC451ED4AC43F0B8B413D36E5A0D96FFA9B8B48F5_StaticFields
+{
+	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___EmptyObjects;
 };
 struct Type_t_StaticFields
 {
@@ -13588,6 +13694,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HasScriptGraph__ctor_m050ADA350358A127F3
 		return;
 	}
 }
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif

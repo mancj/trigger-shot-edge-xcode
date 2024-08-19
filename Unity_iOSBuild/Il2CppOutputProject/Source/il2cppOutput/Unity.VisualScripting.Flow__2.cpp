@@ -246,6 +246,10 @@ struct IEnumerable_1_tF95C9E01A913DD50575531C8305932628663D9E9;
 struct IEnumerable_1_t4AF70810123D57D0579CF7EA1198EC6DEBFAA802;
 struct IEnumerable_1_t5FC0684345009A3ABE0429C5F4CB80C71BA225B6;
 struct IEnumerable_1_tE358DC946BA72354C4905C9036C90AE414732E22;
+struct IEnumerator_1_t7142D7C5722E371B714C2F1F5A179E47CA2F5B4B;
+struct IEnumerator_1_tDA786CB630171E4C45DCA83A3099BDAA0B0576A7;
+struct IEnumerator_1_tF04ED3B8C457EA731515D4D0023EB3082B5B0153;
+struct IEnumerator_1_t86B7F34067F3776CDCB23BA2BCBD48DD2EE80CE5;
 struct IEnumerator_1_t4C2AC155A122A9D6EF0096D04084AFD8C07BEBF2;
 struct IEqualityComparer_1_t0706C8CEAD5235F761D9A8DB3AC57BA61E96F1C9;
 struct IEqualityComparer_1_tAE94C8F24AD5B94D4EE85CA9FC59E3409D41CAF7;
@@ -352,6 +356,7 @@ struct CommonTree_t3BD1CA810EEB23860077704FB2963AFE6B9C69B1;
 struct CommonTreeAdaptor_tE15F8C7E207F6816A6F49224C98D40FB330AB20F;
 struct CompareInfo_t1B1A6AC3486B570C76ABA52149C9BD4CD82F9E57;
 struct ControlInput_t1AD434958538C865F55A62C66B9C24DA82AD31FE;
+struct ControlInputDefinition_t910A04C5ED30333C1E73D42F96C96FA307ECB91E;
 struct ControlOutput_t478B71A736EFBCE24B532F0279A9E701C9CDD8B9;
 struct CultureData_tEEFDCF4ECA1BBF6C0C8C94EB3541657245598F9D;
 struct CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0;
@@ -376,6 +381,7 @@ struct FlowGraph_tF9E42FECF535CD5BAB10F75672B5BCE285627A45;
 struct FunctionArgs_t43FEB586BCBF9C695081C41A2A3F134F1B689D0B;
 struct FunctionExpression_t3A53FC78B142456333673341D03D61C3A6216BAD;
 struct GameObject_t76FEDD663AB33C991A9C9A23129337651094216F;
+struct GraphOutput_t1F4073A1E6EF057A34FD953ECA3C7583CC594032;
 struct GraphPointer_t01C98F06D1A7635CB867665044B7DC1FE03D1C0B;
 struct GraphReference_t721C982B418EEAA6BE9FA2BFB6A047A8E9362DA9;
 struct GraphStack_tD9049F5FB5F8D9E9CD80764D18067D0F87343E7C;
@@ -384,6 +390,7 @@ struct Hashtable_tEFC3B6496E6747787D8BB761B51F2AE3A8CFFE2D;
 struct IAsyncResult_t7B9B5A0ECB35DCEC31B8A8122C37D687369253B5;
 struct ICharStream_tEE477BBD87D8E66B57909DDE3EBCA406431F031D;
 struct IDictionary_t6D03155AF1FA9083817AA5B6AD7DEEACC26AB220;
+struct IDisposable_t030E0496B4E0E4E4F086825007979AF51F7248C5;
 struct IEnumerable_t6331596D5DD37C462B1B8D49CF6B319B00AB7131;
 struct IEnumerator_t7B609C2FFA6EB5167D9C62A0C32A21DE2F666DAA;
 struct IFormatProvider_tC202922D43BFF3525109ABF3FB79625F5646AB52;
@@ -406,6 +413,7 @@ struct IUnit_tDD8B7D0F06EA3DB55DEBE4DF3CC85F4A63FBB98E;
 struct IUnitInputPort_t1117B5D10635626F6D340CA0F32DE61DF0016908;
 struct IUnitOutputPort_tB8E91E1CE3E878CDBC0794E1BC393CE667D5FC56;
 struct IUnitPort_t57EEC6D0F0CF09E5D6B071A1C3AD68EB8FEEF1CE;
+struct IUnitPortDefinition_t7F2CC110DAAEE5A436414B71A158F2239FDD58C6;
 struct IdentifierExpression_tC5B02681A1745D0F3ADE0B4FBA62CE3118E850E1;
 struct InvalidConnection_tDEA5FDFF9467A688035DA16576C70AB28D3C84FD;
 struct InvalidInput_tBFC7C66AC9D46FFFE1FE392204CF9C3B28E09B17;
@@ -1197,24 +1205,6 @@ struct Dictionary_2_tD32FCA243D8628B9421B262DE8EDCC31B7ED11FD  : public RuntimeO
 struct EmptyEnumerable_1_t8C8873EF4F89FB0F86D91BA5B4D640E3A23AD28E  : public RuntimeObject
 {
 };
-struct GraphNest_2_tDE7A508253945CE7ED5EF46C78913E049858DD49  : public RuntimeObject
-{
-	RuntimeObject* ___U3CnesterU3Ek__BackingField;
-	int32_t ____source;
-	ScriptGraphAsset_t3A899A232ABBF913A5E29152AC28920AED4B0F8C* ____macro;
-	FlowGraph_tF9E42FECF535CD5BAB10F75672B5BCE285627A45* ____embed;
-	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___beforeGraphChange;
-	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___afterGraphChange;
-};
-struct GraphNest_2_t809972B852D228243FC0FF238384E13D4D3924F5  : public RuntimeObject
-{
-	RuntimeObject* ___U3CnesterU3Ek__BackingField;
-	int32_t ____source;
-	RuntimeObject* ____macro;
-	RuntimeObject* ____embed;
-	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___beforeGraphChange;
-	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___afterGraphChange;
-};
 struct KeyCollection_t2BDF282353235A2DD49035C7057F1CD1E82B7203  : public RuntimeObject
 {
 	Dictionary_2_t199B89E88610A05AB33655B2712F15837300CDAA* ____dictionary;
@@ -1458,17 +1448,6 @@ struct EnsureThat_tCC49E8B65851E70C9534A68EB657B6227F0549FC  : public RuntimeObj
 };
 struct EventArgs_t37273F03EAC87217701DD431B190FBD84AD7C377  : public RuntimeObject
 {
-};
-struct Expression_t86F5B08B34E5A22548AA4EE878BFF1B79BED9DF2  : public RuntimeObject
-{
-	EvaluateFunctionHandler_t59671FDA4EF19C9CCD0D4C22D2B28AC3F451A8B9* ___EvaluateFunction;
-	EvaluateParameterHandler_tD8C167EC3626981A9F4467387838CE9648FE7BAF* ___EvaluateParameter;
-	String_t* ___OriginalExpression;
-	Dictionary_2_t199B89E88610A05AB33655B2712F15837300CDAA* ___ParameterEnumerators;
-	Dictionary_2_tA348003A3C1CEFB3096E9D2A0BC7F1AC8EC4F710* ____parameters;
-	int32_t ___U3COptionsU3Ek__BackingField;
-	String_t* ___U3CErrorU3Ek__BackingField;
-	LogicalExpression_tCA9E3E9B83693197B8F1B3BEE909EEE4BF6FE465* ___U3CParsedExpressionU3Ek__BackingField;
 };
 struct Flow_tC370BDFF173D53E274F883ED6ADAFE29B049C582  : public RuntimeObject
 {
@@ -1825,12 +1804,6 @@ struct NoAllocEnumerator_1_t815E50CBB8BFB9B54F9277B0B4DAADA111A979C4
 	RuntimeObject* ___current;
 	bool ___exceeded;
 };
-struct BinaryExpression_tCFC1F7B29A185986E4A41101F75232CFDDA81D2B  : public LogicalExpression_tCA9E3E9B83693197B8F1B3BEE909EEE4BF6FE465
-{
-	LogicalExpression_tCA9E3E9B83693197B8F1B3BEE909EEE4BF6FE465* ___U3CLeftExpressionU3Ek__BackingField;
-	LogicalExpression_tCA9E3E9B83693197B8F1B3BEE909EEE4BF6FE465* ___U3CRightExpressionU3Ek__BackingField;
-	int32_t ___U3CTypeU3Ek__BackingField;
-};
 struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22 
 {
 	bool ___m_value;
@@ -1881,15 +1854,6 @@ struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_marshaled_pinvoke
 };
 struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_marshaled_com
 {
-};
-struct EvaluationVisitor_t64810FCFB861539411E2C1324FEDD87DFE6C2816  : public LogicalExpressionVisitor_t7CEF3C71E05242B458501BB2898642F4F9C01AE2
-{
-	EvaluateFunctionHandler_t59671FDA4EF19C9CCD0D4C22D2B28AC3F451A8B9* ___EvaluateFunction;
-	EvaluateParameterHandler_tD8C167EC3626981A9F4467387838CE9648FE7BAF* ___EvaluateParameter;
-	Flow_tC370BDFF173D53E274F883ED6ADAFE29B049C582* ___flow;
-	int32_t ___options;
-	RuntimeObject* ___U3CResultU3Ek__BackingField;
-	Dictionary_2_tA348003A3C1CEFB3096E9D2A0BC7F1AC8EC4F710* ___U3CParametersU3Ek__BackingField;
 };
 struct FunctionArgs_t43FEB586BCBF9C695081C41A2A3F134F1B689D0B  : public EventArgs_t37273F03EAC87217701DD431B190FBD84AD7C377
 {
@@ -2014,11 +1978,6 @@ struct UInt64_t8F12534CC8FC4B5860F2A2CD1EE79D322E7A41AF
 {
 	uint64_t ___m_value;
 };
-struct UnaryExpression_t7C7A55B898046D406C32F128859B2D1A7C97358E  : public LogicalExpression_tCA9E3E9B83693197B8F1B3BEE909EEE4BF6FE465
-{
-	LogicalExpression_tCA9E3E9B83693197B8F1B3BEE909EEE4BF6FE465* ___U3CExpressionU3Ek__BackingField;
-	int32_t ___U3CTypeU3Ek__BackingField;
-};
 struct UnitCategory_t9C6A3835257BFF5E9153C86419B9B7B8C5CED27C  : public Attribute_tFDA8EFEFB0711976D22474794576DAF28F7440AA
 {
 	UnitCategory_t9C6A3835257BFF5E9153C86419B9B7B8C5CED27C* ___U3CrootU3Ek__BackingField;
@@ -2026,11 +1985,6 @@ struct UnitCategory_t9C6A3835257BFF5E9153C86419B9B7B8C5CED27C  : public Attribut
 	String_t* ___U3CfullNameU3Ek__BackingField;
 	String_t* ___U3CnameU3Ek__BackingField;
 	bool ___U3CisRootU3Ek__BackingField;
-};
-struct ValueExpression_t10CE6DF459173F04F6A5B1F499ACB837E737DBC7  : public LogicalExpression_tCA9E3E9B83693197B8F1B3BEE909EEE4BF6FE465
-{
-	RuntimeObject* ___U3CValueU3Ek__BackingField;
-	int32_t ___U3CTypeU3Ek__BackingField;
 };
 struct ValueInput_t2F9A2AA29F683A1C27C273BF8AABA4C2D9851392  : public UnitPort_3_t3BDB6AF6AAF9927A0C940F08CFD19E645813CFB0
 {
@@ -2178,6 +2132,10 @@ struct UnitPortCollection_1_tFA08FCFD954EF748C43301674A76EB613B1E71CB  : public 
 {
 	RuntimeObject* ___U3CunitU3Ek__BackingField;
 };
+struct BinaryExpressionType_t5C88EAB828EEECE90F6F0E6955A8FF90F495694F 
+{
+	int32_t ___value__;
+};
 struct ControlInputDefinition_t910A04C5ED30333C1E73D42F96C96FA307ECB91E  : public ControlPortDefinition_t9901850F1BE294EE749D88CC36AB53E9BE414AF8
 {
 };
@@ -2231,6 +2189,10 @@ struct Delegate_t_marshaled_com
 	MethodInfo_t* ___original_method_info;
 	DelegateData_t9B286B493293CD2D23A5B2B5EF0E5B1324C2B77E* ___data;
 	int32_t ___method_is_virtual;
+};
+struct EvaluateOptions_tC2F85ECDCF3582467ED413AB910FA8403E3D0227 
+{
+	int32_t ___value__;
 };
 struct Exception_t  : public RuntimeObject
 {
@@ -2303,6 +2265,10 @@ struct Graph_tD3F160E11AE372F4006562E44A04A934679A72CA  : public RuntimeObject
 	float ___U3CzoomU3Ek__BackingField;
 	bool ___prewarmed;
 };
+struct GraphSource_t8C1348A60D5A56AED66854349F7831A81EA0FF49 
+{
+	int32_t ___value__;
+};
 struct NCalcLexer_tFB9E3745705062F3EDA0B81F6292A59560AC77D5  : public Lexer_t236B54FF12CB8B83D666009EFB5F21A88BED37EE
 {
 	DFA7_t48436D7F9C5212F53AFF4FE9B76204B5E5AE74AB* ___dfa7;
@@ -2312,6 +2278,10 @@ struct NCalcParser_tF9BBD0EBBDC2CC789FE5A5F0651952F654B2BFA0  : public Parser_t9
 {
 	RuntimeObject* ___adaptor;
 	List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* ___U3CErrorsU3Ek__BackingField;
+};
+struct NumberStyles_t567C6CBC2A2B5B5A2C43B2855D158949984A810C 
+{
+	int32_t ___value__;
 };
 struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C  : public RuntimeObject
 {
@@ -2329,6 +2299,18 @@ struct RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B
 {
 	intptr_t ___value;
 };
+struct StringComparison_tE14A55CCFA001A5AC85D754179BF2888F45CC94D 
+{
+	int32_t ___value__;
+};
+struct StringSplitOptions_t4DD892C76C70DD4800FC1B76054D69826F770062 
+{
+	int32_t ___value__;
+};
+struct UnaryExpressionType_t829138CDF61258D25BBCA73BDE47A77444E3C0BA 
+{
+	int32_t ___value__;
+};
 struct UnitCategoryConverter_tF8C14125C026D0BA257B615B958064AD87DDD34A  : public fsDirectConverter_t9EE506A371C95C62E21CA6586396D7B3BD55F668
 {
 };
@@ -2339,6 +2321,10 @@ struct ValueInputDefinition_tA59456956EC99251C3838E84A6708E6A775E222E  : public 
 };
 struct ValueOutputDefinition_tEA7666333F1A46F5306B97C5608C1DEE70D5189C  : public ValuePortDefinition_tEF6390870319951F5C74CEA7796E8ED31B0354A0
 {
+};
+struct ValueType_t3A8A944212A8E6FE5F8D48C84370521F50FD68B6 
+{
+	int32_t ___value__;
 };
 struct additiveExpression_return_tB18B0EC332BCD3B19584E9DAFEFE5C3A3AA07AA9  : public ParserRuleReturnScope_t967AE5B151AA6B0C4EB99698FCC6E4DFFCAEE035
 {
@@ -2438,6 +2424,24 @@ struct GraphElementCollection_1_t0165568BAE7EF8D2CD1E954F9F5CB8527EDEC824  : pub
 	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___CollectionChanged;
 	bool ___U3CProxyCollectionChangeU3Ek__BackingField;
 };
+struct GraphNest_2_tDE7A508253945CE7ED5EF46C78913E049858DD49  : public RuntimeObject
+{
+	RuntimeObject* ___U3CnesterU3Ek__BackingField;
+	int32_t ____source;
+	ScriptGraphAsset_t3A899A232ABBF913A5E29152AC28920AED4B0F8C* ____macro;
+	FlowGraph_tF9E42FECF535CD5BAB10F75672B5BCE285627A45* ____embed;
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___beforeGraphChange;
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___afterGraphChange;
+};
+struct GraphNest_2_t809972B852D228243FC0FF238384E13D4D3924F5  : public RuntimeObject
+{
+	RuntimeObject* ___U3CnesterU3Ek__BackingField;
+	int32_t ____source;
+	RuntimeObject* ____macro;
+	RuntimeObject* ____embed;
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___beforeGraphChange;
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___afterGraphChange;
+};
 struct UnitConnection_2_t2044001D10B79674C2498A9621210AA06DB3F72F  : public GraphElement_1_t3220EDD6251B31FC22A192EC12682C1D8B28F16D
 {
 	RuntimeObject* ___U3CsourceUnitU3Ek__BackingField;
@@ -2455,8 +2459,34 @@ struct UnitConnection_2_t0120A7D5DD792930712735C6C3BA3A486DBF4B2E  : public Grap
 struct ApplicationException_tA744BED4E90266BD255285CD4CF909BAB3EE811A  : public Exception_t
 {
 };
+struct BinaryExpression_tCFC1F7B29A185986E4A41101F75232CFDDA81D2B  : public LogicalExpression_tCA9E3E9B83693197B8F1B3BEE909EEE4BF6FE465
+{
+	LogicalExpression_tCA9E3E9B83693197B8F1B3BEE909EEE4BF6FE465* ___U3CLeftExpressionU3Ek__BackingField;
+	LogicalExpression_tCA9E3E9B83693197B8F1B3BEE909EEE4BF6FE465* ___U3CRightExpressionU3Ek__BackingField;
+	int32_t ___U3CTypeU3Ek__BackingField;
+};
 struct Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3  : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C
 {
+};
+struct EvaluationVisitor_t64810FCFB861539411E2C1324FEDD87DFE6C2816  : public LogicalExpressionVisitor_t7CEF3C71E05242B458501BB2898642F4F9C01AE2
+{
+	EvaluateFunctionHandler_t59671FDA4EF19C9CCD0D4C22D2B28AC3F451A8B9* ___EvaluateFunction;
+	EvaluateParameterHandler_tD8C167EC3626981A9F4467387838CE9648FE7BAF* ___EvaluateParameter;
+	Flow_tC370BDFF173D53E274F883ED6ADAFE29B049C582* ___flow;
+	int32_t ___options;
+	RuntimeObject* ___U3CResultU3Ek__BackingField;
+	Dictionary_2_tA348003A3C1CEFB3096E9D2A0BC7F1AC8EC4F710* ___U3CParametersU3Ek__BackingField;
+};
+struct Expression_t86F5B08B34E5A22548AA4EE878BFF1B79BED9DF2  : public RuntimeObject
+{
+	EvaluateFunctionHandler_t59671FDA4EF19C9CCD0D4C22D2B28AC3F451A8B9* ___EvaluateFunction;
+	EvaluateParameterHandler_tD8C167EC3626981A9F4467387838CE9648FE7BAF* ___EvaluateParameter;
+	String_t* ___OriginalExpression;
+	Dictionary_2_t199B89E88610A05AB33655B2712F15837300CDAA* ___ParameterEnumerators;
+	Dictionary_2_tA348003A3C1CEFB3096E9D2A0BC7F1AC8EC4F710* ____parameters;
+	int32_t ___U3COptionsU3Ek__BackingField;
+	String_t* ___U3CErrorU3Ek__BackingField;
+	LogicalExpression_tCA9E3E9B83693197B8F1B3BEE909EEE4BF6FE465* ___U3CParsedExpressionU3Ek__BackingField;
 };
 struct FlowGraph_tF9E42FECF535CD5BAB10F75672B5BCE285627A45  : public Graph_tD3F160E11AE372F4006562E44A04A934679A72CA
 {
@@ -2512,6 +2542,11 @@ struct Type_t  : public MemberInfo_t
 {
 	RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B ____impl;
 };
+struct UnaryExpression_t7C7A55B898046D406C32F128859B2D1A7C97358E  : public LogicalExpression_tCA9E3E9B83693197B8F1B3BEE909EEE4BF6FE465
+{
+	LogicalExpression_tCA9E3E9B83693197B8F1B3BEE909EEE4BF6FE465* ___U3CExpressionU3Ek__BackingField;
+	int32_t ___U3CTypeU3Ek__BackingField;
+};
 struct Unit_tEFDDF0DAD2C72D6F68E357D3530E23599F7D8191  : public GraphElement_1_t3220EDD6251B31FC22A192EC12682C1D8B28F16D
 {
 	bool ___U3CisDefinedU3Ek__BackingField;
@@ -2527,6 +2562,11 @@ struct Unit_tEFDDF0DAD2C72D6F68E357D3530E23599F7D8191  : public GraphElement_1_t
 	bool ___U3CisControlRootU3Ek__BackingField;
 	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___U3CpositionU3Ek__BackingField;
 	Exception_t* ___U3CdefinitionExceptionU3Ek__BackingField;
+};
+struct ValueExpression_t10CE6DF459173F04F6A5B1F499ACB837E737DBC7  : public LogicalExpression_tCA9E3E9B83693197B8F1B3BEE909EEE4BF6FE465
+{
+	RuntimeObject* ___U3CValueU3Ek__BackingField;
+	int32_t ___U3CTypeU3Ek__BackingField;
 };
 struct WeakReference_tD4B0518CE911FFD9FAAB3FCD492644A354312D8E  : public RuntimeObject
 {
@@ -2754,12 +2794,6 @@ struct EventArgs_t37273F03EAC87217701DD431B190FBD84AD7C377_StaticFields
 {
 	EventArgs_t37273F03EAC87217701DD431B190FBD84AD7C377* ___Empty;
 };
-struct Expression_t86F5B08B34E5A22548AA4EE878BFF1B79BED9DF2_StaticFields
-{
-	bool ____cacheEnabled;
-	Dictionary_2_tD32FCA243D8628B9421B262DE8EDCC31B7ED11FD* ____compiledExpressions;
-	ReaderWriterLock_tBA6D275E19444C911C8681A576EB0CBB12B16B5B* ___Rwl;
-};
 struct Flow_tC370BDFF173D53E274F883ED6ADAFE29B049C582_StaticFields
 {
 	Func_2_tAF4123F8D69F1A665BBB864E1C97131C05AEBBEB* ___U3CisInspectedBindingU3Ek__BackingField;
@@ -2958,6 +2992,12 @@ struct NCalcParser_tF9BBD0EBBDC2CC789FE5A5F0651952F654B2BFA0_StaticFields
 	BitSet_t042D0F1F2274F6B495A8EDF84DB4C9F2FA3BCCC6* ___FOLLOW_46_in_arguments1006;
 	BitSet_t042D0F1F2274F6B495A8EDF84DB4C9F2FA3BCCC6* ___FOLLOW_expressionList_in_arguments1010;
 	BitSet_t042D0F1F2274F6B495A8EDF84DB4C9F2FA3BCCC6* ___FOLLOW_47_in_arguments1017;
+};
+struct Expression_t86F5B08B34E5A22548AA4EE878BFF1B79BED9DF2_StaticFields
+{
+	bool ____cacheEnabled;
+	Dictionary_2_tD32FCA243D8628B9421B262DE8EDCC31B7ED11FD* ____compiledExpressions;
+	ReaderWriterLock_tBA6D275E19444C911C8681A576EB0CBB12B16B5B* ___Rwl;
 };
 struct Type_t_StaticFields
 {
@@ -11068,6 +11108,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BinaryExpression_Accept_m8DFAE687187E95B
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 void EvaluateFunctionHandler_Invoke_m33DD845F86502F84B5A5E76F3E5C216C673C61A4_Multicast(EvaluateFunctionHandler_t59671FDA4EF19C9CCD0D4C22D2B28AC3F451A8B9* __this, Flow_tC370BDFF173D53E274F883ED6ADAFE29B049C582* ___0_flow, String_t* ___1_name, FunctionArgs_t43FEB586BCBF9C695081C41A2A3F134F1B689D0B* ___2_args, const RuntimeMethod* method)
 {
 	il2cpp_array_size_t length = __this->___delegates->max_length;
@@ -11251,6 +11299,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EvaluationException__ctor_m9478BE037F5A7
 		return;
 	}
 }
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif

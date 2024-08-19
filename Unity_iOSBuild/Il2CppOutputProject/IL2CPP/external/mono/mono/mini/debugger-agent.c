@@ -99,6 +99,8 @@
 typedef struct _MonoProfiler MonoProfiler;
 typedef struct _MonoProfilerDesc *MonoProfilerHandle;
 gboolean g_unity_pause_point_active;
+guint32 g_unity_method_enter_event_active;
+guint32 g_unity_method_exit_event_active;
 #undef MONO_ENTER_GC_SAFE
 #define MONO_ENTER_GC_SAFE
 #undef MONO_EXIT_GC_SAFE
@@ -6987,6 +6989,14 @@ clear_event_request (int req_id, int etype)
 				mono_de_clear_breakpoint ((MonoBreakpoint *)req->info);
 			if (req->event_kind == EVENT_KIND_METHOD_EXIT)
 				mono_de_clear_breakpoint ((MonoBreakpoint *)req->info);
+
+			#if RUNTIME_IL2CPP
+			if (req->event_kind == EVENT_KIND_METHOD_ENTRY)
+				mono_atomic_dec_i32(&g_unity_method_enter_event_active);
+			if (req->event_kind == EVENT_KIND_METHOD_EXIT)
+				mono_atomic_dec_i32(&g_unity_method_exit_event_active);
+			#endif
+
 			g_ptr_array_remove_index_fast (event_requests, i);
 			g_free (req);
 			break;
@@ -8453,8 +8463,14 @@ event_commands (int command, guint8 *p, guint8 *end, Buffer *buf)
 			}
 		} else if (req->event_kind == EVENT_KIND_METHOD_ENTRY) {
 			req->info = mono_de_set_breakpoint (NULL, METHOD_ENTRY_IL_OFFSET, req, NULL);
+			#if RUNTIME_IL2CPP
+			mono_atomic_inc_i32(&g_unity_method_enter_event_active);
+			#endif	
 		} else if (req->event_kind == EVENT_KIND_METHOD_EXIT) {
 			req->info = mono_de_set_breakpoint (NULL, METHOD_EXIT_IL_OFFSET, req, NULL);
+			#if RUNTIME_IL2CPP
+			mono_atomic_inc_i32(&g_unity_method_exit_event_active);
+			#endif	
 		} else if (req->event_kind == EVENT_KIND_EXCEPTION) {
 		} else if (req->event_kind == EVENT_KIND_TYPE_LOAD) {
 		} else {
@@ -11560,17 +11576,9 @@ gboolean unity_pause_point_active()
 
 gboolean unity_sequence_point_active_entry(Il2CppSequencePoint *seqPoint)
 {
-	int i = 0;
-	while (i < event_requests->len)
+	if (g_unity_method_enter_event_active)
 	{
-		EventRequest *req = (EventRequest *)g_ptr_array_index (event_requests, i);
-
-		if (req->event_kind == EVENT_KIND_METHOD_ENTRY)
-		{
-			return mono_atomic_cas_i32(&seqPoint->isActive, seqPoint->isActive, -1) || g_unity_pause_point_active;
-		}
-
-		++i;
+		return mono_atomic_cas_i32(&seqPoint->isActive, seqPoint->isActive, -1) || g_unity_pause_point_active;
 	}
 
 	return FALSE;
@@ -11578,17 +11586,9 @@ gboolean unity_sequence_point_active_entry(Il2CppSequencePoint *seqPoint)
 
 gboolean unity_sequence_point_active_exit(Il2CppSequencePoint *seqPoint)
 {
-	int i = 0;
-	while (i < event_requests->len)
+	if (g_unity_method_exit_event_active)
 	{
-		EventRequest *req = (EventRequest *)g_ptr_array_index (event_requests, i);
-
-		if (req->event_kind == EVENT_KIND_METHOD_EXIT)
-		{
-			return mono_atomic_cas_i32(&seqPoint->isActive, seqPoint->isActive, -1) || g_unity_pause_point_active;
-		}
-
-		++i;
+		return mono_atomic_cas_i32(&seqPoint->isActive, seqPoint->isActive, -1) || g_unity_pause_point_active;
 	}
 
 	return FALSE;
